@@ -1,0 +1,343 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32718 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2020.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61295
+Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 63.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Vendor:   
+    VRAM:     4043 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56944
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002702 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 69.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (892ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (216ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (22ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008207 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 61.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.688 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1689ms)
+		BeginReloadAssembly (277ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1334ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (499ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2225 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.6 MB.
+System memory in use after: 97.6 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 4.700700 ms (FindLiveObjects: 0.231600 ms CreateObjectMapping: 0.266700 ms MarkObjects: 3.946000 ms  DeleteObjects: 0.255300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/LegendsOfLearning-Example/Scenes/example-cooking-game.unity
+  artifactKey: Guid(eb024880d96b0471bac73eaa3f1fdbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Scenes/example-cooking-game.unity using Guid(eb024880d96b0471bac73eaa3f1fdbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c083e1b76ad56ff49038c09f99a7fd9') in 0.009981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/LegendsOfLearning-Example/Scenes
+  artifactKey: Guid(520c535f813db49baac2041a0d7d132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Scenes using Guid(520c535f813db49baac2041a0d7d132f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c1d663d6e3fe8df1a77610ba7fbfb') in 0.006910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 82.001835 seconds.
+  path: Assets/LegendsOfLearning-Example/Scripts/Helper.cs
+  artifactKey: Guid(ec803ec9c60fb4ee887fe2cc5f0ecdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Scripts/Helper.cs using Guid(ec803ec9c60fb4ee887fe2cc5f0ecdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60425a184d48f1e9deea039ac0348794') in 0.072771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.204965 seconds.
+  path: Assets/Scenes/Opening.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Opening.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2206309bf8bc630eceb00c744aeb54c') in 0.008999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.117282 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures
+  artifactKey: Guid(c085661fcaac546d0962bea42314caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures using Guid(c085661fcaac546d0962bea42314caa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91bbbd7a749459a35cef73edb0be4002') in 0.007609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.194409 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples
+  artifactKey: Guid(5f273790464ea4424bfd8fe7bcca4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples using Guid(5f273790464ea4424bfd8fe7bcca4a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266c315ed07303bb54cd19693ceb4115') in 0.008788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.064813 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/coins_reward.png
+  artifactKey: Guid(29c4d9e08e9354345a623c4968940c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/coins_reward.png using Guid(29c4d9e08e9354345a623c4968940c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f7b7bccc3d3547610afd29c83cd18c') in 0.139121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_pan.png
+  artifactKey: Guid(fd61e2a684eef43b78b281ba1adbcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_pan.png using Guid(fd61e2a684eef43b78b281ba1adbcf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27ca8c645a5991f5c7f9ecfc5fd1238') in 0.025100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_cooktop.png
+  artifactKey: Guid(d84e67b53289f41de8930e77e13e1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_cooktop.png using Guid(d84e67b53289f41de8930e77e13e1ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05eaba01822184f8179e417276b54b09') in 0.033438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_broccoli.png
+  artifactKey: Guid(50b2db736066b4b73bb26548fde47ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_broccoli.png using Guid(50b2db736066b4b73bb26548fde47ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1700739c179c44adfbc72e0a4d0760b5') in 0.025584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_steak.png
+  artifactKey: Guid(dba05161ab9ed4ba2808705631d0fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_steak.png using Guid(dba05161ab9ed4ba2808705631d0fe12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4458e21cbac18760f8271327386d05') in 0.024014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_sliced_onions.png
+  artifactKey: Guid(36d74feeb0f1b4b548c04d08dee3ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/example_sliced_onions.png using Guid(36d74feeb0f1b4b548c04d08dee3ee10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f182e0e7345db8b78316943eb55c1ddb') in 0.023840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.350169 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons
+  artifactKey: Guid(665344aff1d3c4201807f442f35cf57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons using Guid(665344aff1d3c4201807f442f35cf57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4f88746f8bea6ed5a4b43b5a13abdaf') in 0.009751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069774 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue.png
+  artifactKey: Guid(8bb78350741699549a3954b7e903cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue.png using Guid(8bb78350741699549a3954b7e903cc44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7ffb9f3d5b9c7135dfac7eafa085c7') in 0.017748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_red.png
+  artifactKey: Guid(2e55a1f24bfc5f44e9ac565df66a4374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_red.png using Guid(2e55a1f24bfc5f44e9ac565df66a4374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22fdbc787c7136ab88ec4ff08d042c03') in 0.017871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_green.png
+  artifactKey: Guid(744784abbe2062d4b875e593ca27e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_green.png using Guid(744784abbe2062d4b875e593ca27e3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd504b94e830e24b95ff4218a5960bf58') in 0.020843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue_over.png
+  artifactKey: Guid(f3d49f05b3414fd4397d7a333e18d7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue_over.png using Guid(f3d49f05b3414fd4397d7a333e18d7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48b4c55a6283cc5446acee884d0141a') in 0.017844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue_press.png
+  artifactKey: Guid(df57c429c6fbe4a509fae803a7742358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LegendsOfLearning-Example/Art/Textures/Examples/Buttons/btn_Blue_press.png using Guid(df57c429c6fbe4a509fae803a7742358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12cc5764f6bcf769f6eae209726e7e51') in 0.022238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.379432 seconds.
+  path: Assets/WebGLTemplates/lol-template
+  artifactKey: Guid(aaad80085f8eb4312a075f99490a6e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLTemplates/lol-template using Guid(aaad80085f8eb4312a075f99490a6e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b22e042f68f3957c88d70da56c1795dc') in 0.010833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.520825 seconds.
+  path: Assets/WebGLLoLDemo/Scripts
+  artifactKey: Guid(45d123072bbce48f3946f7f0359b4667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLLoLDemo/Scripts using Guid(45d123072bbce48f3946f7f0359b4667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d24385829d86bb1b587453ce8481913') in 0.010737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.766161 seconds.
+  path: Assets/WebGLLoLDemo/Scripts/Cube.cs
+  artifactKey: Guid(b9f4a77d93dec413a8d0c9c894feb07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLLoLDemo/Scripts/Cube.cs using Guid(b9f4a77d93dec413a8d0c9c894feb07a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43235179ababb3e70bc63b81d4b832a1') in 0.011299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547752 seconds.
+  path: Assets/WebGLLoLDemo/Scripts/DDOL.cs
+  artifactKey: Guid(aa00d53a9165446128f5a63f11ec4ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLLoLDemo/Scripts/DDOL.cs using Guid(aa00d53a9165446128f5a63f11ec4ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0eb4b3392c15da4601e2fc3a5452fd') in 0.008782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.540796 seconds.
+  path: Assets/WebGLLoLDemo/Scripts/Loader.cs
+  artifactKey: Guid(ffa30c67495ac406aa3a8efd10c35d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLLoLDemo/Scripts/Loader.cs using Guid(ffa30c67495ac406aa3a8efd10c35d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cac86136d4ee72c718ea486bf0f196') in 0.008548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.687134 seconds.
+  path: Assets/WebGLLoLDemo/Scripts/SharedState.cs
+  artifactKey: Guid(b87e270dacd604c29a40305a74fedd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WebGLLoLDemo/Scripts/SharedState.cs using Guid(b87e270dacd604c29a40305a74fedd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413ace40d2c7f91012adca74528042ed') in 0.010060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.988790 seconds.
+  path: Assets/Plugins/LoLWebGL.cs
+  artifactKey: Guid(befaf45bf42454186ae13c4edd251559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/LoLWebGL.cs using Guid(befaf45bf42454186ae13c4edd251559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54211f89338481403607e8532392bf73') in 0.009891 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006129 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.271 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1271ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1018ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (359ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (372ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2220 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2673.
+Total: 3.944500 ms (FindLiveObjects: 0.214900 ms CreateObjectMapping: 0.162300 ms MarkObjects: 3.371500 ms  DeleteObjects: 0.194700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
