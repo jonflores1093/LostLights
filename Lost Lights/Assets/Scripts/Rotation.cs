@@ -33,7 +33,7 @@ public class Rotation : MonoBehaviour
         }
      
         var angle = Mathf.Atan2(target_rot.y - transform.position.y, target_rot.x - transform.position.x) * Mathf.Rad2Deg;
-        transform.rotation = Quaternion.Euler(0, 0, angle + 90);
+        transform.rotation = Quaternion.Euler(0, 0, angle + 15);
     }
 
 
