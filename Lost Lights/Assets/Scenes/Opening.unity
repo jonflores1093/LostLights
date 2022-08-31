@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 196103653}
   - component: {fileID: 196103652}
-  - component: {fileID: 196103651}
   - component: {fileID: 196103654}
   m_Layer: 0
   m_Name: 9-Sliced
@@ -142,19 +141,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &196103651
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 196103650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2d276e2f9b06314cbc8dd94e82f719c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1.5
 --- !u!212 &196103652
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -672,6 +658,7 @@ GameObject:
   - component: {fileID: 1189664938}
   - component: {fileID: 1189664937}
   - component: {fileID: 1189664936}
+  - component: {fileID: 1189664939}
   m_Layer: 5
   m_Name: ArrowRight
   m_TagString: Untagged
@@ -781,6 +768,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1189664934}
   m_CullTransparentMesh: 1
+--- !u!114 &1189664939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189664934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4324f57f93826f4bb274a4bf49aaff5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotatedObject: {fileID: 196103650}
+  rot_Speed: 20
 --- !u!1 &1355136339
 GameObject:
   m_ObjectHideFlags: 0
@@ -875,6 +876,7 @@ GameObject:
   - component: {fileID: 1516303800}
   - component: {fileID: 1516303799}
   - component: {fileID: 1516303798}
+  - component: {fileID: 1516303801}
   m_Layer: 5
   m_Name: ArrowLeft
   m_TagString: Untagged
@@ -984,6 +986,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516303796}
   m_CullTransparentMesh: 1
+--- !u!114 &1516303801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1516303796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2d276e2f9b06314cbc8dd94e82f719c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotatedObject: {fileID: 196103650}
+  rot_Speed: 20
 --- !u!1 &1785504446
 GameObject:
   m_ObjectHideFlags: 0
