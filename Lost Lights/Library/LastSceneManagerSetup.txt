@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/LegendsOfLearning-Example/Scenes/example-cooking-game.unity
+- path: Assets/Scenes/OpeningTest.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

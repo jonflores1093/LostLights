@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 
 public class RotationRight : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
 {
-    public GameObject rotatedObject;
+    public GameObject rotatedObject, rotationlightButton;
     public float rot_Speed = 50;
     bool rotate = false;
 
@@ -14,7 +14,7 @@ public class RotationRight : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         if (rotate == false)
             return;
         rotatedObject.transform.Rotate(Vector3.back * rot_Speed * Time.deltaTime);
-
+        rotationlightButton.transform.Rotate(Vector3.up * rot_Speed * Time.deltaTime);
 
     }
 
