@@ -20,8 +20,17 @@ namespace InsertStudioLostLights
 
         public void Btn_Count()
         {
-            num--;
-            counter.text = "Starites remaining: " + num;
+            
+            if(Gameplay.correctAnswer == true)
+            {
+                num--;
+                counter.text = "Starites remaining: " + num;
+                
+
+            }
+            
         }
     }
+
+
 }
