@@ -15,11 +15,11 @@ D:/COLUMBIA/Spring2022/Dimensions/Github/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61305
+57883
 Successfully changed project path to: D:/COLUMBIA/Spring2022/Dimensions/Github/LostLights/Lost Lights
 D:/COLUMBIA/Spring2022/Dimensions/Github/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 49.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 67.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,90 +35,90 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001806 seconds.
+Registered in 0.002336 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.30 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.93 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.599 seconds
+- Completed reload, in  0.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (599ms)
-		BeginReloadAssembly (68ms)
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (77ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (459ms)
-			LoadAssemblies (66ms)
+		EndReloadAssembly (577ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (149ms)
+			SetupTypeCache (185ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (176ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (208ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
-				BeforeProcessingInitializeOnLoad (16ms)
-				ProcessInitializeOnLoadAttributes (81ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004354 seconds.
+Registered in 0.005135 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\COLUMBIA\Spring2022\Dimensions\Github\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.100 seconds
+- Completed reload, in  1.442 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1101ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1444ms)
+		BeginReloadAssembly (201ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (894ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1172ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (340ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (465ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (267ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2246 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
 System memory in use after: 100.1 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2681.
-Total: 4.335900 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.161900 ms MarkObjects: 3.779700 ms  DeleteObjects: 0.188400 ms)
+Total: 3.695100 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.174600 ms MarkObjects: 3.047700 ms  DeleteObjects: 0.148900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,331 +132,109 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_LightGreen.png
-  artifactKey: Guid(da8fe5a71dbb14d44a1ac43964ec71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_LightGreen.png using Guid(da8fe5a71dbb14d44a1ac43964ec71bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698f2b23974ebd663c15a3200d116ef5') in 0.149022 seconds 
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png using Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d72ec904d0708031e1cf583e7eb72d') in 0.243269 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png using Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7449e3d913580103e35ca20753bb288b') in 0.019982 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000227 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Yellow.png
-  artifactKey: Guid(1fb8b5cbb78ab9745b9188c61bb24f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Yellow.png using Guid(1fb8b5cbb78ab9745b9188c61bb24f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c5cacee9ec5067fb2a725b76cee414') in 0.027460 seconds 
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png using Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b245e11ece2db085e055063845bb9975') in 0.020661 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Red.png
-  artifactKey: Guid(1779fd5ba9faf2242a2683ef0982c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Red.png using Guid(1779fd5ba9faf2242a2683ef0982c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e81d8064f28ec9baa96786322c5d4b00') in 0.019608 seconds 
+  Time since last request: 0.000197 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png
+  artifactKey: Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png using Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b90832a0836c1e7e6c5754d1e8b6d5') in 0.022403 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Red.png
-  artifactKey: Guid(ffe5583d2bb44dd4daf1557ce2e39d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Red.png using Guid(ffe5583d2bb44dd4daf1557ce2e39d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3776892d7df42e9bef2f5ee19d6c05a') in 0.020001 seconds 
+  Time since last request: 0.000247 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png
+  artifactKey: Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png using Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc89632aa69f7c1ab3e83d48772ee7cf') in 0.020604 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Pink.png
-  artifactKey: Guid(170550350cfa7ef4b8c9af4fdca261c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Pink.png using Guid(170550350cfa7ef4b8c9af4fdca261c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6f0ddda11983ab1b4f5520089d9f65') in 0.018095 seconds 
+  Time since last request: 0.000292 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png using Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49aaca62a7f11587ca7475800c78b5ee') in 0.023942 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Brown.png
-  artifactKey: Guid(326e7ab5fbb3e564789e6e95bcd38da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Brown.png using Guid(326e7ab5fbb3e564789e6e95bcd38da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2e722e59e81765e0267cb437153f78') in 0.024220 seconds 
+  Time since last request: 0.000196 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png using Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0eb26b30344ca000d85db9b6430ea6c') in 0.021655 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Green.png
-  artifactKey: Guid(8d7611e904f0c774aba6c3944ee216dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Green.png using Guid(8d7611e904f0c774aba6c3944ee216dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26971c534d6b1145e0e33fc371dc4703') in 0.020545 seconds 
+  Time since last request: 0.000310 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png using Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa8f25f037b65eaf7b877b716c7fa27d') in 0.024300 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_DarkOrange.png
-  artifactKey: Guid(8a1df3b8af16c12489bca19554b7cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_DarkOrange.png using Guid(8a1df3b8af16c12489bca19554b7cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e63a70a0480b8148785552ed3b3cc6') in 0.016023 seconds 
+  Time since last request: 0.000234 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png using Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86715669f42bd54e213a597f6e5cbef1') in 0.022472 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png
-  artifactKey: Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png using Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d1f5a2cab3706b61c2f0b870f8d192') in 0.022821 seconds 
+  Time since last request: 1.569712 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png using Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba79bc5bc3814d8a537c2bb4f63f7867') in 0.024102 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Orange.png
-  artifactKey: Guid(34d963213ff334c49ba712c1e01d4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Orange.png using Guid(34d963213ff334c49ba712c1e01d4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7123cfb4605412536d599a4c13e46c8') in 0.019320 seconds 
+  Time since last request: 3.217799 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png using Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521a57520f8811b52052308f5415340') in 0.019319 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Blue.png
-  artifactKey: Guid(c4f4404fc7e115545a49a9df21f24143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Blue.png using Guid(c4f4404fc7e115545a49a9df21f24143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0533704c041cacfa665e635064e272') in 0.038649 seconds 
+  Time since last request: 4.253283 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png using Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50972eceeb147270b32b6d1231bb0bc') in 0.045954 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Cyan.png
-  artifactKey: Guid(e7af4a0481a75be448d6a6b7ebbfeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Cyan.png using Guid(e7af4a0481a75be448d6a6b7ebbfeeaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c110ef234926a01264e5015ef3fea3') in 0.021108 seconds 
+  Time since last request: 4.159219 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png using Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cebfbcd0b205957657627fe011809777') in 0.023445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Aquamarine.png
-  artifactKey: Guid(1bddecddc88ef5e4f8ae30a85428669a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Aquamarine.png using Guid(1bddecddc88ef5e4f8ae30a85428669a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f813028ebb70c50f0af757883e2a8bb9') in 0.014524 seconds 
+  Time since last request: 3.188388 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png using Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e9b34777878b765d58e910f2f7a5f6') in 0.024494 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall
-  artifactKey: Guid(a251a50427a1fcd42af7422079a53f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall using Guid(a251a50427a1fcd42af7422079a53f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8268d619b81fa4a10b17cd6c87cc1c80') in 0.005701 seconds 
+  Time since last request: 3.599470 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png using Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc944a1bf80c0b84949c0c5c80dfd3af') in 0.030084 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Gold.png
-  artifactKey: Guid(4a93f8bbe4181f44ea4eddb843f288e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Gold.png using Guid(4a93f8bbe4181f44ea4eddb843f288e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663e95c98e988862c53d4b8b33553682') in 0.019482 seconds 
+  Time since last request: 4.007083 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png
+  artifactKey: Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png using Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d45a2e316669d1628401ecd505f253') in 0.019009 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Orange.png
-  artifactKey: Guid(6ca9997198ac8fd4e8fe1e08645ca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Orange.png using Guid(6ca9997198ac8fd4e8fe1e08645ca88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b84ed1c9e68a32066bed111fb60354') in 0.021893 seconds 
+  Time since last request: 4.342700 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png using Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb043bbae53617b712cfa00040ea7a99') in 0.024287 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Purple.png
-  artifactKey: Guid(1724a4fd16c3ed94ea02b9a292b427d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/SL_Purple.png using Guid(1724a4fd16c3ed94ea02b9a292b427d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98023f93fc33dd8a2abaeff8972db6a4') in 0.025232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 191.797473 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter
-  artifactKey: Guid(0f6274d80d169544b9d5979baffb30ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter using Guid(0f6274d80d169544b9d5979baffb30ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa66bead1565ae1c0323402d34d9d16') in 0.006027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.911053 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png
-  artifactKey: Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png using Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2952377e1e927e78827a70425ee2567') in 0.027620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_LightBlue.png
-  artifactKey: Guid(adb311f71f3ecc14198625b495919def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_LightBlue.png using Guid(adb311f71f3ecc14198625b495919def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817fd2df9c5b5651f4eb80f739779db1') in 0.019188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png
-  artifactKey: Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png using Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e59d88321bff9ba39f5f83fc64fcfd3') in 0.018165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png
-  artifactKey: Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png using Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529ab6b23ed67b15d7ee4569f839743d') in 0.020955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png
-  artifactKey: Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png using Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efb876262934f609a36f18b4ed9f3d3') in 0.020185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.981030 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png
-  artifactKey: Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png using Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d243c80f03edc8f19cdbed94bc0483') in 0.015515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.826780 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png
-  artifactKey: Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png using Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9212cdebc4d4c1101185059e01945384') in 0.015518 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.167605 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png
-  artifactKey: Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png using Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04733748bfb2390bb8661aed2161e5fb') in 0.021829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.041385 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png
-  artifactKey: Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png using Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e64ac108f16b51160261c47e96acc2c') in 0.022392 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.329602 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer
-  artifactKey: Guid(24232efdab26298438ec5f4a234cccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer using Guid(24232efdab26298438ec5f4a234cccb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f12cf7d0c6b4559b3bd338f41a42ab') in 0.006853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.052263 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png
-  artifactKey: Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png using Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9a92797bb7a67fd3056d6b0e9bc988') in 0.015910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png
-  artifactKey: Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png using Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12563832c03f28ecc37fcafc133fc7d1') in 0.022081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png
-  artifactKey: Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png using Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73728788e7a81f3d418e0bc0f7bab4e7') in 0.020545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png
-  artifactKey: Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png using Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0ce54edfee8e153c601e4aa65ac2af') in 0.023120 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png
-  artifactKey: Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png using Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c145e2a5b6e61482f9ec51a5246bc6') in 0.016851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.960175 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png
-  artifactKey: Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png using Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cae7afa16a2a5724f3bc523ed5ce2b') in 0.018840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.547930 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png
-  artifactKey: Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png using Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef790298f40dddddadeea461ec79f81') in 0.023794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.996917 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png
-  artifactKey: Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png using Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b449444f7b1c5915e7632323ff96a31b') in 0.020842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.321494 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png
-  artifactKey: Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png using Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195f276c575bf7cf49f7a180f9bcbbc4') in 0.020723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.091045 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png
-  artifactKey: Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png using Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ade484e9100004f35486af9f8f45a') in 0.032121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.061924 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring
-  artifactKey: Guid(7b7e5da4a5ebde349876fa1f35a94d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring using Guid(7b7e5da4a5ebde349876fa1f35a94d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe60cc24e8f09682e2c6c3a0ffeb18f5') in 0.024542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018529 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Cyan.png
-  artifactKey: Guid(0bda2e74276bda842bfed77a9df1537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Cyan.png using Guid(0bda2e74276bda842bfed77a9df1537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7c8066dd8404909ed8a7c1cc20d492') in 0.020098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png
-  artifactKey: Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png using Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9c83bf50c162d40ecef6617946fd00') in 0.023213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000348 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png
-  artifactKey: Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png using Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e26671577640a0fef66de8b37ee79bb0') in 0.021599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png
-  artifactKey: Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png using Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b636638e04300e90e11883fc803ccc') in 0.017123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png
-  artifactKey: Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png using Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978e1cabc6146e1a1567ff077bb0cf15') in 0.018663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.497128 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Cyan.png
-  artifactKey: Guid(0bda2e74276bda842bfed77a9df1537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Cyan.png using Guid(0bda2e74276bda842bfed77a9df1537c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47c1d6035e0712fb49849712fe003568') in 0.017563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.312046 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png
-  artifactKey: Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png using Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a88e7b6cf0749322590175285ace775') in 0.032671 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.035840 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png
-  artifactKey: Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png using Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a06ca7ad664203dc151f8dc21502bc7') in 0.020612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.880374 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png
-  artifactKey: Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png using Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8473a34030ac5b376d0cfeec6edc225a') in 0.028539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.232100 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png
-  artifactKey: Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png using Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad395aede03690ef76027fd00aa669f') in 0.013765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.987438 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png
-  artifactKey: Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png using Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6296f47b1d08a7e7ae65bf06c377e0b') in 0.018216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.162121 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png
-  artifactKey: Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Brown.png using Guid(f07434d21ef53fc4eb5fb3a7a98bf2e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06770fe282ed572a18d3030cf27aaac5') in 0.030226 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.833249 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_DarkOrange.png
-  artifactKey: Guid(8a1df3b8af16c12489bca19554b7cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_DarkOrange.png using Guid(8a1df3b8af16c12489bca19554b7cde0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0759b3c403482ef85335d429b7e83db6') in 0.024668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.892071 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Orange.png
-  artifactKey: Guid(34d963213ff334c49ba712c1e01d4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Orange.png using Guid(34d963213ff334c49ba712c1e01d4491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518a49eb873e1f698865dde754ad4931') in 0.017045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.961966 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Red.png
-  artifactKey: Guid(1779fd5ba9faf2242a2683ef0982c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Red.png using Guid(1779fd5ba9faf2242a2683ef0982c42c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc45d9671b67434dcb2711f6b86a70a0') in 0.018364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.112989 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Yellow.png
-  artifactKey: Guid(1fb8b5cbb78ab9745b9188c61bb24f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Fall/SL_F_Yellow.png using Guid(1fb8b5cbb78ab9745b9188c61bb24f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc394f26b738aa1bd82afcc94a62069') in 0.013377 seconds 
+  Time since last request: 3.732569 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png
+  artifactKey: Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png using Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461c7dab6e76f85474b7598af39597a0') in 0.026820 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
