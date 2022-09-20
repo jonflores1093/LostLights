@@ -883,6 +883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   submitButton: {fileID: 1530400860}
+  counter: {fileID: 0}
+  num: 8
 --- !u!50 &487982547
 Rigidbody2D:
   serializedVersion: 4
@@ -1426,9 +1428,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 919364271}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5e46ab275cf544da7374d956af6301, type: 3}
+  m_Script: {fileID: 11500000, guid: da0f7756cad55bc45ae5b3f283e2dbdc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  submitButton: {fileID: 1530400860}
   counter: {fileID: 919364274}
   num: 8
 --- !u!114 &919364274
@@ -2571,6 +2574,7 @@ GameObject:
   - component: {fileID: 1530400862}
   - component: {fileID: 1530400861}
   - component: {fileID: 1530400860}
+  - component: {fileID: 1530400863}
   m_Layer: 5
   m_Name: SubmitButton
   m_TagString: Untagged
@@ -2641,19 +2645,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1530400861}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 919364273}
-        m_TargetAssemblyTypeName: Counter, Assembly-CSharp
-        m_MethodName: Btn_Count
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1530400861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2692,6 +2684,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1530400858}
   m_CullTransparentMesh: 1
+--- !u!114 &1530400863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530400858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da0f7756cad55bc45ae5b3f283e2dbdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  submitButton: {fileID: 1530400860}
+  counter: {fileID: 919364274}
+  num: 8
 --- !u!1 &1572177810
 GameObject:
   m_ObjectHideFlags: 0
