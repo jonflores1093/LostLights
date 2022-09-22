@@ -16,7 +16,7 @@ public class SubmitMarker : MonoBehaviour
 
     void Start()
     {
-            //counter.text = "Starites remaining: " + num;
+            counter = GetComponent<TMP_Text>();
     }
 
 
