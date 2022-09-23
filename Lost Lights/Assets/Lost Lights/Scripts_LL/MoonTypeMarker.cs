@@ -4,6 +4,6 @@ using UnityEngine;
 
 public class MoonTypeMarker : MonoBehaviour
 {
-    public int moonNumberMarker = 0;
+    public int moonNumberMarker;
 
 }

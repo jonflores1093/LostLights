@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - TriggerMarker
+  - Moon
   layers:
   - Default
   - TransparentFX

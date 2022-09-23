@@ -5,50 +5,89 @@ using UnityEngine.UI;
 using TMPro;
 
 namespace InsertStudioLostLights
-{ 
-
-public class SubmitMarker : MonoBehaviour
 {
 
-    public Button submitButton;
-    public TMP_Text counter;
-    public float num = 8;
-
-    void Start()
-    {
-            counter = GetComponent<TMP_Text>();
-    }
-
-
-    public void Btn_Count()
+    public class SubmitMarker : MonoBehaviour
     {
 
-        if (Gameplay.correctAnswer == true)
+        public Button submitButton;
+        public TMP_Text counter;
+        public float num = 8;
+        
+        public int markerNumber;
+        public bool correctAnswer;
+        public GameObject moon;
+        public int moonNumber;
+
+        void Start()
         {
-            num--;
+            Button btn = submitButton.GetComponent<Button>();
+            btn.onClick.AddListener(TaskOnClick);
+
             counter.text = "Starites remaining: " + num;
 
+            if(moon == null)
+            {
+                moon = GameObject.FindWithTag("Moon");
+                moonNumber = moon.GetComponent<MoonType>().moonNumber;
+            }
+            
 
         }
 
-    }
-
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "TriggerMarker")
+        void TaskOnClick()
         {
-            submitButton.interactable = true;
-            //Debug.Log("true");
+            MatchMoon();
+
+            if (correctAnswer == true)
+            {
+                num--;
+                counter.text = "Starites remaining: " + num;
+
+                
+            }
         }
 
-    }
-    public void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "TriggerMarker")
+       
+        public void OnTriggerEnter2D(Collider2D other)
         {
-            submitButton.interactable = false;
-            //Debug.Log("false");
+            if (other.gameObject.tag == "TriggerMarker")
+            {
+                submitButton.interactable = true;
+                //Debug.Log("true");
+                // Get component on collision to get the number.
+                MoonTypeMarker number = other.GetComponent<MoonTypeMarker>();
+                markerNumber = number.moonNumberMarker;
+                
+            }
+
+        }
+        public void OnTriggerExit2D(Collider2D other)
+        {
+            if (other.gameObject.tag == "TriggerMarker")
+            {
+                submitButton.interactable = false;
+                //Debug.Log("false");
+            }
+        }
+
+        public void MatchMoon()
+        {
+            Debug.Log("Matching");
+            if (markerNumber == moonNumber)
+            {
+                Debug.Log("correctanswer");
+                correctAnswer = true;
+
+            }
+            else
+            {
+                Debug.Log("wronganswer");
+                correctAnswer = false;
+
+            }
         }
     }
+
 }
-}
+
