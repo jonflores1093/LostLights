@@ -52,6 +52,12 @@ namespace InsertStudioLostLights
                 DisableButton();
                 Invoke("EnableButton", 1.5f);
                 
+                // Add animation or good job box
+
+            }
+            else
+            {
+                // Try again screen.
             }
         }
 
@@ -101,14 +107,14 @@ namespace InsertStudioLostLights
             if (markerNumber == moonNumber)
             {
                 Debug.Log("correctanswer");
-                correctAnswer = true;
+                //correctAnswer = true;
                 
 
             }
             else
             {
                 Debug.Log("wronganswer");
-                correctAnswer = false;
+                //correctAnswer = false;
 
             }
         }
