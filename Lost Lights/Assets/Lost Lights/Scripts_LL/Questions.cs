@@ -5,23 +5,30 @@ using UnityEngine;
 public class Questions : MonoBehaviour
 {
     public GameObject[] moonTypes;
+    public int randomQuestion;
+
+
+    //static public List<Questions> moonList;
 
     private void Awake()
     {
         RandomQuestion();
     }
-    private void Start()
-    {
-        
-       
-    }
+
+    //private void Start()
+    //{
+    //    moonList = new List<Questions>();
+    //}
+
 
     public void RandomQuestion()
     {
-        int randomQuestion;
-        randomQuestion = (int)Random.Range(0, moonTypes.Length);
+        randomQuestion = (int)Random.Range(0, moonTypes.Length);      
         Instantiate(moonTypes[randomQuestion], transform.position, transform.rotation);
     }
+
+    
+
 
     
 }

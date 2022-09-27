@@ -4,7 +4,5 @@ using UnityEngine;
 
 public class MoonType : MonoBehaviour
 {
-    
-    public int moonNumber;
-    
+    public int moonNumber;  
 }

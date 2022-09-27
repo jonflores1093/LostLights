@@ -19,6 +19,8 @@ namespace InsertStudioLostLights
         public GameObject moon;
         public int moonNumber;
 
+        Questions changeQuestion;
+
         void Start()
         {
             Button btn = submitButton.GetComponent<Button>();
@@ -31,7 +33,8 @@ namespace InsertStudioLostLights
                 moon = GameObject.FindWithTag("Moon");
                 moonNumber = moon.GetComponent<MoonType>().moonNumber;
             }
-            
+
+            changeQuestion = FindObjectOfType<Questions>();
 
         }
 
@@ -43,12 +46,33 @@ namespace InsertStudioLostLights
             {
                 num--;
                 counter.text = "Starites remaining: " + num;
-
+                Object.Destroy(moon);
+                changeQuestion.RandomQuestion();
+                Invoke("UpdateMoon", .05f);
+                DisableButton();
+                Invoke("EnableButton", 1.5f);
                 
             }
         }
 
-       
+        void UpdateMoon()
+        {
+            moon = GameObject.FindWithTag("Moon");
+            moonNumber = moon.GetComponent<MoonType>().moonNumber;    
+        }
+
+        void EnableButton()
+        {
+            submitButton.interactable = true;
+
+        }
+        void DisableButton()
+        {
+            submitButton.interactable = false;
+            
+        }
+
+
         public void OnTriggerEnter2D(Collider2D other)
         {
             if (other.gameObject.tag == "TriggerMarker")
@@ -78,6 +102,7 @@ namespace InsertStudioLostLights
             {
                 Debug.Log("correctanswer");
                 correctAnswer = true;
+                
 
             }
             else
