@@ -8,7 +8,7 @@ namespace InsertStudioLostLights
 {
     public class RotationRight : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
-        public GameObject rotatedObject, rotationlightButton;
+        public GameObject rotatedObject, rotationlightButton, bgMovement;
         public float rot_Speed = 50;
         bool rotate = false;
 
@@ -18,6 +18,7 @@ namespace InsertStudioLostLights
                 return;
             rotatedObject.transform.Rotate(Vector3.back * rot_Speed * Time.deltaTime);
             rotationlightButton.transform.Rotate(Vector3.up * rot_Speed * Time.deltaTime);
+            bgMovement.transform.Translate(Vector3.right * rot_Speed * Time.deltaTime);
 
         }
 
