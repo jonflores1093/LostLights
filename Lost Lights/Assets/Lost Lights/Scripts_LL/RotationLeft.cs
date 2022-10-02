@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 
 namespace InsertStudioLostLights
@@ -9,7 +10,9 @@ namespace InsertStudioLostLights
     public class RotationLeft : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
     {
 
-        public GameObject rotatedObject, rotationlightButton, bgMovement;
+        public GameObject rotatedObject, rotationlightButton;
+        public RawImage bgMovement;
+        public float xbg;
 
         public float rot_Speed = 50;
         bool rotate = false;
@@ -20,7 +23,7 @@ namespace InsertStudioLostLights
                 return;
             rotatedObject.transform.Rotate(Vector3.forward * rot_Speed * Time.deltaTime);
             rotationlightButton.transform.Rotate(Vector3.down * rot_Speed * Time.deltaTime);
-            bgMovement.transform.Translate(Vector3.left * rot_Speed * Time.deltaTime);
+            bgMovement.uvRect = new Rect(bgMovement.uvRect.position + new Vector2(xbg,0) * Time.deltaTime, bgMovement.uvRect.size);
 
 
 
