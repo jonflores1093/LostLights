@@ -11,9 +11,9 @@ namespace InsertStudioLostLights
     {
 
         public Button submitButton;
-        public TMP_Text counter;
+        public TMP_Text counter, correct, tryagain;
         public float num = 8;
-        
+      
         public int markerNumber;
         public bool correctAnswer;
         public GameObject moon;
@@ -28,7 +28,7 @@ namespace InsertStudioLostLights
 
             counter.text = "Starites remaining: " + num;
 
-            if(moon == null)
+            if (moon == null)
             {
                 moon = GameObject.FindWithTag("Moon");
                 moonNumber = moon.GetComponent<MoonType>().moonNumber;
@@ -38,6 +38,7 @@ namespace InsertStudioLostLights
 
         }
 
+         
         void TaskOnClick()
         {
             MatchMoon();
@@ -51,13 +52,15 @@ namespace InsertStudioLostLights
                 Invoke("UpdateMoon", .05f);
                 DisableButton();
                 Invoke("EnableButton", 1.5f);
-                
+
+
                 // Add animation or good job box
 
             }
-            else
+            else 
             {
-                // Try again screen.
+                //tryagain.text = "Try Again!";
+
             }
         }
 
@@ -107,14 +110,14 @@ namespace InsertStudioLostLights
             if (markerNumber == moonNumber)
             {
                 Debug.Log("correctanswer");
-                //correctAnswer = true;
-                
+                correct.text = "Correct!";
+
 
             }
             else
             {
                 Debug.Log("wronganswer");
-                //correctAnswer = false;
+                tryagain.text = "Try Again!";
 
             }
         }
