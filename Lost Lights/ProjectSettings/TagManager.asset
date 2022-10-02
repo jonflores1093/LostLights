@@ -6,6 +6,7 @@ TagManager:
   tags:
   - TriggerMarker
   - Moon
+  - background
   layers:
   - Default
   - TransparentFX
