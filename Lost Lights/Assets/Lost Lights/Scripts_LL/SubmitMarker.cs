@@ -111,6 +111,7 @@ namespace InsertStudioLostLights
             {
                 Debug.Log("correctanswer");
                 correct.text = "Correct!";
+                correctAnswer = true;
 
 
             }
@@ -118,7 +119,7 @@ namespace InsertStudioLostLights
             {
                 Debug.Log("wronganswer");
                 tryagain.text = "Try Again!";
-
+                correctAnswer = false;
             }
         }
     }
