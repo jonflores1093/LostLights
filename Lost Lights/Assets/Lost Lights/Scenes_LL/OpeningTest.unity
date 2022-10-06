@@ -1132,8 +1132,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 18
+  m_fontSizeBase: 18
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1368,7 +1368,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 028360e2e2cc365478ebd12ea390c2ef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff82b5019d732f34dbf0d66d4635868a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3391,7 +3391,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mechanic: {fileID: 506073604}
-  disableBtn: {fileID: 1806075844}
+  demoBtn: {fileID: 1806075844}
 --- !u!1 &1861149839
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ namespace InsertStudioLostLights
     public class MechanicScreen : MonoBehaviour
     {
         public TMP_Text mechanic;
-        public Button disableBtn;
+        public Button demoBtn;
 
         void Start()
         {
@@ -22,20 +22,31 @@ namespace InsertStudioLostLights
         {
 
             DisableButton();
-            DestroyBtn();
+            //DestroyBtn();
 
 
         }
         void DisableButton()
         {
-            disableBtn.interactable = false;
+            demoBtn.interactable = false;
+            demoBtn.gameObject.SetActive(false);
+
+
+           
 
         }
 
-        void DestroyBtn() 
+        public void EnableButton()
         {
-            Destroy(gameObject);
+            demoBtn.interactable = true;
+            demoBtn.gameObject.SetActive(true);
 
         }
+
+        //void DestroyBtn() 
+        //{
+        //    Destroy(gameObject);
+
+        //}
     }
 }

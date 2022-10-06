@@ -20,6 +20,7 @@ namespace InsertStudioLostLights
         public int moonNumber;
 
         Questions changeQuestion;
+        MechanicScreen demoChange;
 
         void Start()
         {
@@ -57,11 +58,12 @@ namespace InsertStudioLostLights
                 // Add animation or good job box
 
             }
-            else 
+            if (num == 0) 
             {
-                //tryagain.text = "Try Again!";
-
+                //demoChange.EnableButton();
+                Debug.Log("Game Over!");
             }
+           
         }
 
         void UpdateMoon()
@@ -110,16 +112,16 @@ namespace InsertStudioLostLights
             if (markerNumber == moonNumber)
             {
                 Debug.Log("correctanswer");
-                correct.text = "Correct!";
                 correctAnswer = true;
+                correct.text = "Correct!";
 
 
             }
             else
             {
                 Debug.Log("wronganswer");
-                tryagain.text = "Try Again!";
                 correctAnswer = false;
+                tryagain.text = "Try Again!";
             }
         }
     }
