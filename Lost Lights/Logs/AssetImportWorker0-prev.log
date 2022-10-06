@@ -1,197 +1,127 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16308 MB
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32718 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-F:\Unity\2020.3.33f1\Editor\Unity.exe
+E:\Unity\2020.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
+E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49595
-Successfully changed project path to: C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
-C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
+62910
+Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
-[Subsystems] Discovering subsystems at path F:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights/Assets
+[Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     10077 MB
-    Driver:   31.0.15.1748
+    VRAM:     4043 MB
+    Driver:   30.0.15.1215
 Initialize mono
-Mono path[0] = 'F:/Unity/2020.3.33f1/Editor/Data/Managed'
-Mono path[1] = 'F:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'F:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: F:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001091 seconds.
+Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002313 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 45.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 92.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.495 seconds
+- Completed reload, in  0.876 seconds
 Domain Reload Profiling:
-	ReloadAssembly (495ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (877ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (389ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (637ms)
+			LoadAssemblies (123ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (223ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (158ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (45ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003044 seconds.
+Registered in 0.006679 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027BF387D560 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1E60010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BED8F82D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF325FFC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDC9B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1E84C20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE29F250 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE22D050 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF24709A0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1E98030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF23C2230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF287A020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE262060 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF325FFC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE22D050 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF24709A0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE29F250 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE1D68C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF24709A0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1F59010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDEF5020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1F6AC20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE4A9AC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF325FFC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDEF5020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE4A9AC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF25B8020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE46EA60 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE4A9AC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF23C2230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE1CD560 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF32B3FD0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1F98830 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1FA0240 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF23C2230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 43.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 61.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.918 seconds
+- Completed reload, in  1.742 seconds
 Domain Reload Profiling:
-	ReloadAssembly (919ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1743ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (744ms)
-			LoadAssemblies (81ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1415ms)
+			LoadAssemblies (261ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
+			SetupTypeCache (481ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (502ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
 System memory in use after: 100.1 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2682.
-Total: 4.450400 ms (FindLiveObjects: 0.298400 ms CreateObjectMapping: 0.065700 ms MarkObjects: 3.868500 ms  DeleteObjects: 0.215900 ms)
+Total: 4.208300 ms (FindLiveObjects: 0.197700 ms CreateObjectMapping: 0.112000 ms MarkObjects: 3.699000 ms  DeleteObjects: 0.198300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -205,138 +135,158 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lost Lights/Scenes_LL/OpeningTest.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/OpeningTest.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9543524562759a432d277a8eaea48db1') in 0.009537 seconds 
+  path: Assets/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowLeft.png using Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '875a7b73f452111642e9782fb0fd9402') in 0.220957 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.099326 seconds.
-  path: Assets/Lost Lights/Scripts_LL/SubmitMarker.cs
-  artifactKey: Guid(da0f7756cad55bc45ae5b3f283e2dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scripts_LL/SubmitMarker.cs using Guid(da0f7756cad55bc45ae5b3f283e2dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f895975fcbd607be714c91b17b07da14') in 0.055225 seconds 
+  Time since last request: 0.000276 seconds.
+  path: Assets/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SpeechBubble.png using Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f745fcd1303ebca6d2baa9b7c75d5828') in 0.023519 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.474158 seconds.
-  path: Assets/Lost Lights/Scripts_LL/SubmitMarker.cs
-  artifactKey: Guid(da0f7756cad55bc45ae5b3f283e2dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scripts_LL/SubmitMarker.cs using Guid(da0f7756cad55bc45ae5b3f283e2dbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1da2d6e228eaf2e1d1ab9f8845839a5d') in 0.002659 seconds 
+  Time since last request: 0.000265 seconds.
+  path: Assets/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowRight.png using Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afed8c2e86b19c2db0bbe06826113f35') in 0.025466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/UI_LL/UI_TallBox.png
+  artifactKey: Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_TallBox.png using Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be62b05a4ec79de08203a7026a7d7f06') in 0.027663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowLeft.png using Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a16111b361d2769161794b70fd2ac2d') in 0.034584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowLeft.png using Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c8ffe0d11753d3b17229444c7a08a3') in 0.023979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowRight.png using Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07722fdc38a0215cc54d48573b404b08') in 0.064999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowRight.png using Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9382aefbb544a774dcd30d61466a9b1') in 0.023551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/UI_LL/UI_SideBox.png
+  artifactKey: Guid(028360e2e2cc365478ebd12ea390c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SideBox.png using Guid(028360e2e2cc365478ebd12ea390c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612735dcb88ae8939a5211a6479b3874') in 0.026521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 284.522699 seconds.
+  path: Assets/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowRight.png using Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a0f7a24f0f9acfcb17e1f0dd95a023') in 0.037868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.892618 seconds.
+  path: Assets/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowLeft.png using Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e2e41fc0e6d55691f032dc321e513') in 0.020868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.265967 seconds.
+  path: Assets/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowLeft.png using Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80b287ec1a369597c468d9612ac16d97') in 0.019624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.497161 seconds.
+  path: Assets/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowRight.png using Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e505a8720d3d6190d4bc03727e910bab') in 0.024271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.207244 seconds.
+  path: Assets/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowLeft.png using Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb2255cae8bf76c740e8deb9fa5591f') in 0.017798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.356870 seconds.
+  path: Assets/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowRight.png using Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b196119d815ba4be1cbb89c968403d0') in 0.025566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.971645 seconds.
+  path: Assets/UI_LL/UI_SideBox.png
+  artifactKey: Guid(028360e2e2cc365478ebd12ea390c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SideBox.png using Guid(028360e2e2cc365478ebd12ea390c2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34447b6f746163af67a077ce14e694f') in 0.020075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.887378 seconds.
+  path: Assets/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SpeechBubble.png using Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9de8ab35be3b8ca1c1453a2ebd5421') in 0.026410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.932074 seconds.
+  path: Assets/UI_LL/UI_TallBox.png
+  artifactKey: Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_TallBox.png using Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3e98c694a0efb4f9bd8e227e8df0de') in 0.020884 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003205 seconds.
+Registered in 0.005569 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027BF387B5B0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE325CB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF7A8FE60 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6C19EF0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE1D5AB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE2A8BB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE5C31C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE001010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE2A8BB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE2A8BB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2DFD010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF3C55430 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF26FE040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE35ED20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE5C31C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE5C31C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF315F860 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE5C31C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2658010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDEF4F00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1E87220 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1F59010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF26FE040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDEF4F00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1E87220 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BED99B450 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF62BB830 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDC12020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE35ED20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDE7F010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF32B3E00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE3522D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1D68010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE35ED20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (834ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (1359ms)
+		BeginReloadAssembly (197ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (688ms)
-			LoadAssemblies (80ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1085ms)
+			LoadAssemblies (189ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (382ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (250ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (391ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 98.9 MB.
+System memory in use before: 102.0 MB.
+System memory in use after: 102.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2685.
-Total: 3.311000 ms (FindLiveObjects: 0.191600 ms CreateObjectMapping: 0.048400 ms MarkObjects: 2.934600 ms  DeleteObjects: 0.135400 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2691.
+Total: 3.900000 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.316700 ms  DeleteObjects: 0.228600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -351,120 +301,672 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002957 seconds.
+Registered in 0.011626 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0000027BF5C17580 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE325CB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF7A91120 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF37D32A0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE40DB40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF26F2020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDC9FD60 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF7C03020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF5B4E030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1D6A830 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6BDE020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2951020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2951020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF6B91D00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2951020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEDC66020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF211CA30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF5667020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2FF5010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2546460 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF211CA30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF5667020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF8371FE0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF5E9A3F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2658010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF696A030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BEE40DB40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF32B4370 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF2951020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF1D6A830 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0000027BF3C8C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.847 seconds
+- Completed reload, in  1.933 seconds
 Domain Reload Profiling:
-	ReloadAssembly (848ms)
-		BeginReloadAssembly (93ms)
+	ReloadAssembly (1933ms)
+		BeginReloadAssembly (235ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (705ms)
-			LoadAssemblies (78ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1597ms)
+			LoadAssemblies (229ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (276ms)
+			SetupTypeCache (616ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (531ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.0 MB.
+System memory in use before: 102.0 MB.
+System memory in use after: 102.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2688.
-Total: 2.998200 ms (FindLiveObjects: 0.186400 ms CreateObjectMapping: 0.048200 ms MarkObjects: 2.635100 ms  DeleteObjects: 0.127200 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2694.
+Total: 3.560900 ms (FindLiveObjects: 0.182500 ms CreateObjectMapping: 0.088900 ms MarkObjects: 3.135200 ms  DeleteObjects: 0.153100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 889.132374 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72d24e83a1d60425e260561fe0374bed') in 0.034641 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005763 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.710 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1710ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1379ms)
+			LoadAssemblies (271ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (492ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (488ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.1 MB.
+System memory in use after: 102.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2697.
+Total: 3.790600 ms (FindLiveObjects: 0.307500 ms CreateObjectMapping: 0.105300 ms MarkObjects: 3.223800 ms  DeleteObjects: 0.152700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 399.751518 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ae5c7fc3d18fd7c7dc5dd37e78ce261') in 0.026175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.114605 seconds.
+  path: Assets/Lost Lights/Prefabs/First Quarter.prefab
+  artifactKey: Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/First Quarter.prefab using Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df482f434c3258a84c4a3c9946acc22') in 0.080089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Lost Lights/Prefabs/Last Quarter.prefab
+  artifactKey: Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Last Quarter.prefab using Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed659b12623c9fa9194c6d44cf91d718') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Lost Lights/Prefabs/New Moon.prefab
+  artifactKey: Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/New Moon.prefab using Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2305461bdc4e6a86f6939074ba5aa094') in 0.036912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Gibbous.prefab
+  artifactKey: Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Gibbous.prefab using Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbcfee406cb452edd78bcf995b66907c') in 0.018544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
+  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad145523c8e61a585033ef86c462b26a') in 0.016850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Crescent.prefab
+  artifactKey: Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Crescent.prefab using Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd71df119df0a62ebb3cc311f56c1d01a') in 0.015231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000809 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
+  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6cb05f0f0778e25162bf0260dd5743') in 0.018404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Crescent.prefab
+  artifactKey: Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Crescent.prefab using Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fb47cea23f7ec731610ef9502459fb') in 0.015895 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006048 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.348 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1349ms)
+		BeginReloadAssembly (194ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (205ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (398ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (368ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (242ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 3.264600 ms (FindLiveObjects: 0.239400 ms CreateObjectMapping: 0.088700 ms MarkObjects: 2.782500 ms  DeleteObjects: 0.152900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8.056414 seconds.
+  path: Assets/Lost Lights/Prefabs/First Quarter.prefab
+  artifactKey: Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/First Quarter.prefab using Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '266f902ef270bebe09c73d05744ffe03') in 0.063714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.236399 seconds.
+  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
+  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ac96cc04a3783756314d016fef47e6') in 0.014042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.708087 seconds.
+  path: Assets/Lost Lights/Prefabs/Last Quarter.prefab
+  artifactKey: Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Last Quarter.prefab using Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8333066a285724ade4433ad7a570e8be') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.108754 seconds.
+  path: Assets/Lost Lights/Prefabs/New Moon.prefab
+  artifactKey: Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/New Moon.prefab using Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a94d76da168d3907b0051e49783c32b') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.271525 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Crescent.prefab
+  artifactKey: Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Crescent.prefab using Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eeeb1e130a8cce993df40abe067d964') in 0.011692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.190346 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Gibbous.prefab
+  artifactKey: Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Gibbous.prefab using Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0c428bd314956d8431e0bb36d74d1a') in 0.014149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.145576 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Crescent.prefab
+  artifactKey: Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Crescent.prefab using Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ce44ac822c4972a4954c5a036c756f') in 0.013669 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.004030 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
+  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b8406330c74ea7fb06227aa97cc2c8') in 0.013012 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005830 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.354 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1354ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1111ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (362ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (378ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.2 MB.
+System memory in use after: 102.1 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2708.
+Total: 5.352400 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.087900 ms MarkObjects: 4.748500 ms  DeleteObjects: 0.299300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 46.921558 seconds.
+  path: Assets/Lost Lights/Prefabs/First Quarter.prefab
+  artifactKey: Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/First Quarter.prefab using Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4732ef29f41002e1210f27b201a08974') in 0.083002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.491191 seconds.
+  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
+  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea8b19a88e3a518ba5cb453efd20eea') in 0.015523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.204462 seconds.
+  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
+  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c75d2c2cb21f25fe5e9242a8c08c8e') in 0.015662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.297480 seconds.
+  path: Assets/Lost Lights/Prefabs/Last Quarter.prefab
+  artifactKey: Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Last Quarter.prefab using Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665ba22fa926a1f0f20d6357c0d83ebb') in 0.015689 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.126221 seconds.
+  path: Assets/Lost Lights/Prefabs/New Moon.prefab
+  artifactKey: Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/New Moon.prefab using Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267f6e6c876fbf2d6943119b3c3958f') in 0.017215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.396764 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Crescent.prefab
+  artifactKey: Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Crescent.prefab using Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '288cd0e791208326996c40ecefde6f89') in 0.016204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.972581 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Gibbous.prefab
+  artifactKey: Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Gibbous.prefab using Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '553318666e325cf9f0ef8fda27bb3364') in 0.015840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.702305 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Crescent.prefab
+  artifactKey: Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Crescent.prefab using Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074763340f0b3f0864f5fd33fa7539d1') in 0.016100 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.572935 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
+  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621080c8f9ca17e1254e0c68cc9e8797') in 0.018227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005724 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1256ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1015ms)
+			LoadAssemblies (179ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (364ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (351ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (229ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.3 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2712.
+Total: 3.438300 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.096000 ms MarkObjects: 2.969300 ms  DeleteObjects: 0.182700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.327250 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
+  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61ad149cfb1f607e4595356a8deafb6') in 0.069369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.303571 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
+  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3e6ea1001b76c61423cde0299ab897') in 0.016774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.477879 seconds.
+  path: Assets/Lost Lights/Prefabs/Waxing Crescent.prefab
+  artifactKey: Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waxing Crescent.prefab using Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5f2b00d11e6a9b15ce6376b605513a') in 0.014835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.889931 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Gibbous.prefab
+  artifactKey: Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Gibbous.prefab using Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fae207b439053139671959d4f9db55c') in 0.017446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.775594 seconds.
+  path: Assets/Lost Lights/Prefabs/Waning Crescent.prefab
+  artifactKey: Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Waning Crescent.prefab using Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cd0a5ee009bc36c0058b536b80dccb') in 0.015330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.228462 seconds.
+  path: Assets/Lost Lights/Prefabs/New Moon.prefab
+  artifactKey: Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/New Moon.prefab using Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cd2266956a6e9cc5d970df2d02ffab') in 0.016904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.444063 seconds.
+  path: Assets/Lost Lights/Prefabs/Last Quarter.prefab
+  artifactKey: Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Last Quarter.prefab using Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564835a327be0d0ed978d0c57a367f3c') in 0.014131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.056878 seconds.
+  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
+  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300e7695c5e62fa5a101eba80463c48e') in 0.015862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.354957 seconds.
+  path: Assets/Lost Lights/Prefabs/First Quarter.prefab
+  artifactKey: Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/First Quarter.prefab using Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aac4259258521f1d1258bd2426174df') in 0.015735 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006523 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1299ms)
+		BeginReloadAssembly (198ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1027ms)
+			LoadAssemblies (183ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (365ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (96ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2716.
+Total: 3.312400 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.093800 ms MarkObjects: 2.887200 ms  DeleteObjects: 0.140800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005470 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1454ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1206ms)
+			LoadAssemblies (185ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (430ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (419ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (273ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 4.085100 ms (FindLiveObjects: 0.202500 ms CreateObjectMapping: 0.113600 ms MarkObjects: 3.595200 ms  DeleteObjects: 0.172700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007576 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.295 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1296ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (1056ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2722.
+Total: 4.109000 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.193800 ms MarkObjects: 3.466100 ms  DeleteObjects: 0.207000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
