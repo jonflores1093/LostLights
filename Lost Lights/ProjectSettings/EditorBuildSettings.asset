@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Lost Lights/Scenes_LL/Tutorial Stage.unity
     guid: acb6f9cc3a53c0a49a84b0003579fc45
   - enabled: 1
-    path: Assets/Lost Lights/Scenes_LL/Lunar Stage.unity
-    guid: a73f925748304db4cbe335f649534d3d
-  - enabled: 1
     path: Assets/Lost Lights/Scenes_LL/Solar Stage.unity
     guid: ed62f1ee18782ca43993352dfaa3c91a
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/EndDemo.unity
+    guid: 06f89db37906de24fb8ce58c20486122
   m_configObjects: {}

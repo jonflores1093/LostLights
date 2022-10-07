@@ -20,7 +20,11 @@ namespace InsertStudioLostLights
         public int moonNumber;
 
         Questions changeQuestion;
-        MechanicScreen demoChange;
+
+        //Canvas Mechanics
+        public MechanicScreen endScreen;
+
+
 
         void Start()
         {
@@ -36,7 +40,6 @@ namespace InsertStudioLostLights
             }
 
             changeQuestion = FindObjectOfType<Questions>();
-
         }
 
          
@@ -60,7 +63,7 @@ namespace InsertStudioLostLights
             }
             if (num == 0) 
             {
-                demoChange.EnableButton();
+                endScreen.gameObject.SetActive(true);
                 Debug.Log("Game Over!");
             }
            
