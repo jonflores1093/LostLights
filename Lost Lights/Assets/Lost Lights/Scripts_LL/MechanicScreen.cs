@@ -13,7 +13,7 @@ namespace InsertStudioLostLights
     {
         public TMP_Text mechanic;
         public Button demoBtn;
-        //public GameObject canvas;
+        
         
 
         void Start()
