@@ -60,7 +60,7 @@ namespace InsertStudioLostLights
             }
             if (num == 0) 
             {
-                //demoChange.EnableButton();
+                demoChange.EnableButton();
                 Debug.Log("Game Over!");
             }
            

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace InsertStudioLostLights
 {
@@ -41,6 +42,11 @@ namespace InsertStudioLostLights
             demoBtn.interactable = true;
             demoBtn.gameObject.SetActive(true);
 
+        }
+
+        public void ThankScreen() 
+        {
+            SceneManager.LoadScene("EndDemo");
         }
 
         //void DestroyBtn() 
