@@ -3,15 +3,18 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - TriggerMarker
+  - Moon
+  - background
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Question
   - Water
   - UI
-  - 
+  - Mechanics
   - 
   - 
   - 
@@ -43,4 +46,13 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bubble
+    uniqueID: 10893055
+    locked: 0
+  - name: Question
+    uniqueID: 3787716167
+    locked: 0
+  - name: Mechanics
+    uniqueID: 2989067817
     locked: 0
