@@ -15,11 +15,11 @@ E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55961
+55647
 Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 74.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,93 +35,95 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56556
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002285 seconds.
+Registered in 0.002396 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 56.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.834 seconds
+- Completed reload, in  0.734 seconds
 Domain Reload Profiling:
-	ReloadAssembly (835ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (734ms)
+		BeginReloadAssembly (122ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (126ms)
+		EndReloadAssembly (534ms)
+			LoadAssemblies (122ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (212ms)
+			SetupTypeCache (182ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (236ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (202ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (22ms)
-				ProcessInitializeOnLoadAttributes (111ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007571 seconds.
+Registered in 0.006183 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file data-000001877F7FBC40 doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 67.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 58.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.715 seconds
+- Completed reload, in  1.352 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1716ms)
-		BeginReloadAssembly (278ms)
+	ReloadAssembly (1353ms)
+		BeginReloadAssembly (205ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1356ms)
-			LoadAssemblies (247ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1086ms)
+			LoadAssemblies (165ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (416ms)
+			SetupTypeCache (328ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (545ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (443ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (323ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
-System memory in use after: 100.1 MB.
+System memory in use after: 100.2 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2683.
-Total: 6.948600 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.216700 ms MarkObjects: 6.292000 ms  DeleteObjects: 0.190200 ms)
+Total: 4.361500 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.100000 ms MarkObjects: 3.769900 ms  DeleteObjects: 0.201200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,654 +137,67 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lost Lights/Scripts_LL/MechanicScreen.cs
-  artifactKey: Guid(57266122324325b4cb275ff638de72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scripts_LL/MechanicScreen.cs using Guid(57266122324325b4cb275ff638de72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5af6529c8e48af5589f583f3cb4bcc3') in 0.107321 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 54.8 MB.
-System memory in use after: 54.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2683.
-Total: 3.865400 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.097400 ms MarkObjects: 3.345400 ms  DeleteObjects: 0.163500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  path: Assets/Lost Lights/Fonts_LL/neuropolitical rg SDF.asset
+  artifactKey: Guid(de6d5837790a2c0469210808561f1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Fonts_LL/neuropolitical rg SDF.asset using Guid(de6d5837790a2c0469210808561f1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f9dd04da61df7ed64cea9ec6709ac5') in 0.163902 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.582010 seconds.
-  path: Assets/Lost Lights/Scripts_LL/MechanicScreen.cs
-  artifactKey: Guid(57266122324325b4cb275ff638de72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scripts_LL/MechanicScreen.cs using Guid(57266122324325b4cb275ff638de72df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cac8c30be63858e1652c5e09c0604f') in 0.003007 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005367 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.099 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3101ms)
-		BeginReloadAssembly (479ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (30ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (145ms)
-		EndReloadAssembly (2108ms)
-			LoadAssemblies (393ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (783ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (800ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (227ms)
-				ProcessInitializeOnLoadAttributes (538ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 98.9 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 3.469300 ms (FindLiveObjects: 0.180800 ms CreateObjectMapping: 0.087200 ms MarkObjects: 3.001100 ms  DeleteObjects: 0.198900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005581 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.498 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1498ms)
-		BeginReloadAssembly (189ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1227ms)
-			LoadAssemblies (195ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (466ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (404ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (120ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2689.
-Total: 4.137300 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.183400 ms MarkObjects: 3.531200 ms  DeleteObjects: 0.176600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006709 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.392 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1393ms)
-		BeginReloadAssembly (195ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (370ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (240ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.0 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2692.
-Total: 3.763300 ms (FindLiveObjects: 0.259400 ms CreateObjectMapping: 0.192600 ms MarkObjects: 3.146000 ms  DeleteObjects: 0.164500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005856 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.356 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1357ms)
-		BeginReloadAssembly (196ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1083ms)
-			LoadAssemblies (202ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.1 MB.
-System memory in use after: 99.0 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2695.
-Total: 3.870900 ms (FindLiveObjects: 0.268500 ms CreateObjectMapping: 0.170900 ms MarkObjects: 3.192700 ms  DeleteObjects: 0.237700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 9539.427373 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png using Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c853c93af5cc764b800ebc49e18e25') in 0.124790 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 466.416811 seconds.
-  path: Assets/Lost Lights/Prefabs/First Quarter.prefab
-  artifactKey: Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/First Quarter.prefab using Guid(b9d757a1076cabd44b9e0ab62ad19f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd29384be120bf824ed0e374ef574f1') in 0.118932 seconds 
+  Time since last request: 0.000312 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png using Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441613e341469e2012ef5798e0e23940') in 0.082834 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Lost Lights/Prefabs/Last Quarter.prefab
-  artifactKey: Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Last Quarter.prefab using Guid(a63f1f508ecda224788a7bf2488a2449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487e10042ee77e27078e58e4fba79f50') in 0.019315 seconds 
+  Time since last request: 0.000320 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png using Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a801a116536f1e8064bf417466b7048') in 0.068244 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Lost Lights/Prefabs/New Moon.prefab
-  artifactKey: Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/New Moon.prefab using Guid(2a83fccfcd255ac4295edee2671f11f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af16fa67628a7d60c05f621356ada402') in 0.019832 seconds 
+  Time since last request: 0.000299 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png using Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fcf0de0c9dcccce4914800de311826') in 0.055460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Lost Lights/Prefabs/Waning Gibbous.prefab
-  artifactKey: Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Waning Gibbous.prefab using Guid(b17f0d6609f7a554eb720e0a671da1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16d9fa36512f7350725f4a5827fb29d') in 0.019334 seconds 
+  Time since last request: 0.000286 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png
+  artifactKey: Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png using Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f977c5ae6869aea8bdda158816a3ee32') in 0.057222 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000359 seconds.
-  path: Assets/Lost Lights/Prefabs/Full Moon.prefab
-  artifactKey: Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Full Moon.prefab using Guid(d1c9443bb1c95be4f8e3d15da61fcf63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c409f0513ec58db30f951b43223e133') in 0.019976 seconds 
+  Time since last request: 0.000289 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png
+  artifactKey: Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png using Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983c52802697a7a1e39ec8f4a8524137') in 0.131931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Lost Lights/Prefabs/Waxing Crescent.prefab
-  artifactKey: Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Waxing Crescent.prefab using Guid(602b86e225870764cb047ebcd9478878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcd5ba20fc6a4c9576d4ae620ac9471') in 0.022263 seconds 
+  Time since last request: 0.000246 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_Star.png
+  artifactKey: Guid(45f50b1270f20d4438dd47d69b5f62d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_Star.png using Guid(45f50b1270f20d4438dd47d69b5f62d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb36652cdec228ad2e38dd9605d3bec') in 0.097713 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab
-  artifactKey: Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Waxing Gibbous.prefab using Guid(522aea44338ae5d40ae157f462930e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d8fb8e89873037dc664bfb177215d6') in 0.026604 seconds 
+  Time since last request: 0.000316 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png using Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233b15c4cabf942ef13c58bb23dd9865') in 0.052336 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Lost Lights/Prefabs/Waning Crescent.prefab
-  artifactKey: Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Prefabs/Waning Crescent.prefab using Guid(03e7e186616fc8d4b8892e28af5bca9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727feeca54a9642858c4c58e47ffbcf4') in 0.021136 seconds 
+  Time since last request: 0.000219 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png using Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b1ddc9ed4fab3e552122db426803e') in 0.067580 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 41.795390 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1615d532dab169fd406a25610c85d83') in 0.010793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.380033 seconds.
-  path: Assets/Lost Lights/Fonts
-  artifactKey: Guid(3ee2d616ec9925c4d97912044288bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Fonts using Guid(3ee2d616ec9925c4d97912044288bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb9043dfa3fecc954d5a00c5853bcdd') in 0.003026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.894302 seconds.
-  path: Assets/Lost Lights/Fonts_LL
-  artifactKey: Guid(3ee2d616ec9925c4d97912044288bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Fonts_LL using Guid(3ee2d616ec9925c4d97912044288bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc094a838722efd32e8e16487290453c') in 0.009663 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 249.208990 seconds.
-  path: Assets/Lost Lights/Fonts_LL/neuropolitical rg.ttf
-  artifactKey: Guid(afe5aaf6d07acdd4e8a8a0453dc8a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Fonts_LL/neuropolitical rg.ttf using Guid(afe5aaf6d07acdd4e8a8a0453dc8a7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037a11b122d87c64fb4e897f35fd4315') in 0.076165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 351.210723 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes
-  artifactKey: Guid(538e2a1ebf629874e9f4ea118461e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes using Guid(538e2a1ebf629874e9f4ea118461e4ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed28f291c348b7cb7c673a58b8225e7c') in 0.010927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.074760 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Scarf.png
-  artifactKey: Guid(c0132886c72810e468ef8ee341c62072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Scarf.png using Guid(c0132886c72810e468ef8ee341c62072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb71fa22b1631baf829199aa4f04e5c') in 0.118288 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Snow.png
-  artifactKey: Guid(e559118aa6d74d341a3f06e2c380aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Snow.png using Guid(e559118aa6d74d341a3f06e2c380aa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cb39d7139534e7ad7b5ab91d462e62') in 0.041814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Spring.png
-  artifactKey: Guid(ceb612ea8e753a14fb450dce5e3caf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_Spring.png using Guid(ceb612ea8e753a14fb450dce5e3caf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c85c2af194de56db9012f928e942d47') in 0.037877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_SunSpots.png
-  artifactKey: Guid(dec197714a3bf214d942811402750d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_SunSpots.png using Guid(dec197714a3bf214d942811402750d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c547656df1593b16d8b4d8a635c1a111') in 0.039762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_SunGlow.png
-  artifactKey: Guid(787dd0acfdf36bf438e618e3108d2f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Costumes/C_SunGlow.png using Guid(787dd0acfdf36bf438e618e3108d2f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ed235382838afad934d8a26df45dbf') in 0.038977 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.334230 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png
-  artifactKey: Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Green.png using Guid(a8d55be6b10fc7a40a954fbc4da1a1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ff344d682c660a7d37f7f583e76784') in 0.031078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png
-  artifactKey: Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Purple.png using Guid(b0d8415c8fb9ec24a90d4f88a92ee3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb89b5325e63e8a66bc66fc218b7efc') in 0.025213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.581060 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png
-  artifactKey: Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Blue.png using Guid(e23875d79b382f1409009f88fee04fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1cb6f7c8f55757331f689b0628cec2') in 0.064067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_LightBlue.png
-  artifactKey: Guid(adb311f71f3ecc14198625b495919def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_LightBlue.png using Guid(adb311f71f3ecc14198625b495919def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3b2af14352a21d80c63eaf7ebba4a9') in 0.041874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png
-  artifactKey: Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Purple.png using Guid(6b2711c2eba7b254bb607c570111dc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741ccbf0a35cec8cdc0ff65ed19d1438') in 0.048892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png
-  artifactKey: Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_Grey.png using Guid(b8d312322905d32448ac395606368734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb08884ce0ebd7e1688a8c3fc87d1648') in 0.042884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png
-  artifactKey: Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Winter/SL_W_MidnightBlue.png using Guid(22fea13e3b867f744acf707625fdf7db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c6a6caa22169410fa25a64b7c9e43') in 0.052726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 86.410262 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png
-  artifactKey: Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Pink.png using Guid(8d179af15b71a6f4685342d09a4944bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29be90e8b52b2edfb1d825fd239fdba') in 0.024254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.380244 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png
-  artifactKey: Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Spring/SL_Sp_Yellow.png using Guid(5ed1ae0fa65fecc43bda32f5be18596f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f196c978c0b5d4156921dccca7d4b') in 0.023685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.959969 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png
-  artifactKey: Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png using Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bf85cd26886a550bf3b148267b6043') in 0.022903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.507444 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png
-  artifactKey: Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png using Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dfd84f61ed4f23ac1a8d24a16401623') in 0.030461 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005274 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.256 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1256ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1002ms)
-			LoadAssemblies (185ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (356ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (353ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2230 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 102.6 MB.
-System memory in use after: 102.6 MB.
-
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2744.
-Total: 4.012700 ms (FindLiveObjects: 0.286400 ms CreateObjectMapping: 0.254600 ms MarkObjects: 3.281800 ms  DeleteObjects: 0.188700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.7 MB.
-System memory in use after: 58.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2744.
-Total: 4.078600 ms (FindLiveObjects: 0.421800 ms CreateObjectMapping: 0.227600 ms MarkObjects: 3.281500 ms  DeleteObjects: 0.146600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.7 MB.
-System memory in use after: 58.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2744.
-Total: 4.469700 ms (FindLiveObjects: 0.277800 ms CreateObjectMapping: 0.226500 ms MarkObjects: 3.784400 ms  DeleteObjects: 0.180100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 342.161974 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png
-  artifactKey: Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Blue.png using Guid(c63e1a5e2f8bbc64a99f812454b31f98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da41bbca2883f0dd8a69d6142c730ac') in 0.070119 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png
-  artifactKey: Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Green.png using Guid(116e0048b88719749a35d2a0ca0576f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1193af6c6fbd2be9aa1e80b9739e1eff') in 0.021389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png
-  artifactKey: Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Orange.png using Guid(034c076bad6b7a747a893d99b01d3ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd377c3200b3480f8825b423275eb06') in 0.022981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png
-  artifactKey: Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Pink.png using Guid(eaa0376d9b1399646bdffdd135560f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33411ffb7f9b453e3b08a8beb23abd6') in 0.023868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png
-  artifactKey: Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/Characters_LL/Stars/Summer/SL_Su_Yellow.png using Guid(d28969db6ac1d284596c11756710b3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959c3710d93659741fe9777a894bd581') in 0.020225 seconds 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2745.
-Total: 5.714500 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.226900 ms MarkObjects: 5.046200 ms  DeleteObjects: 0.157400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2745.
-Total: 7.055600 ms (FindLiveObjects: 0.463200 ms CreateObjectMapping: 0.432900 ms MarkObjects: 5.968400 ms  DeleteObjects: 0.189700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 10.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2745.
-Total: 6.376100 ms (FindLiveObjects: 0.355000 ms CreateObjectMapping: 0.163900 ms MarkObjects: 5.665500 ms  DeleteObjects: 0.189000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 5.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.8 MB.
-System memory in use after: 58.9 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2745.
-Total: 8.210900 ms (FindLiveObjects: 0.410200 ms CreateObjectMapping: 0.272800 ms MarkObjects: 7.297600 ms  DeleteObjects: 0.228800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.000248 seconds.
+  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png using Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8b0aa5557da3ffbdae5590ac3987ca') in 0.077692 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
