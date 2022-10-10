@@ -15,11 +15,11 @@ E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55647
+63140
 Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 83.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,95 +35,95 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002396 seconds.
+Registered in 0.002331 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 68.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  0.984 seconds
 Domain Reload Profiling:
-	ReloadAssembly (734ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (985ms)
+		BeginReloadAssembly (153ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (534ms)
-			LoadAssemblies (122ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (153ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (182ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (202ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (253ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (56ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (89ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (69ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (115ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006183 seconds.
+Registered in 0.006863 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001877F7FBC40 doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-00000205EFAB9020 doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 58.22 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 62.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.352 seconds
+- Completed reload, in  1.690 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1353ms)
-		BeginReloadAssembly (205ms)
+	ReloadAssembly (1692ms)
+		BeginReloadAssembly (268ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1086ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1334ms)
+			LoadAssemblies (211ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
+			SetupTypeCache (442ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (443ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (484ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (261ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (62ms)
+				BeforeProcessingInitializeOnLoad (108ms)
+				ProcessInitializeOnLoadAttributes (276ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.2 MB.
 System memory in use after: 100.2 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2683.
-Total: 4.361500 ms (FindLiveObjects: 0.288900 ms CreateObjectMapping: 0.100000 ms MarkObjects: 3.769900 ms  DeleteObjects: 0.201200 ms)
+Total: 4.109700 ms (FindLiveObjects: 0.191200 ms CreateObjectMapping: 0.091900 ms MarkObjects: 3.634000 ms  DeleteObjects: 0.191800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -137,67 +137,277 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lost Lights/Fonts_LL/neuropolitical rg SDF.asset
-  artifactKey: Guid(de6d5837790a2c0469210808561f1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Fonts_LL/neuropolitical rg SDF.asset using Guid(de6d5837790a2c0469210808561f1f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f9dd04da61df7ed64cea9ec6709ac5') in 0.163902 seconds 
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Total COMPLETE.png
+  artifactKey: Guid(385f97acf2b2f0a42bc2206d7216e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Total COMPLETE.png using Guid(385f97acf2b2f0a42bc2206d7216e21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6304b16f45b9a3ffa06c35d54833fb56') in 0.341975 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9539.427373 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png
-  artifactKey: Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowLeft.png using Guid(db38585b650582d4ca10d645b6982da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c853c93af5cc764b800ebc49e18e25') in 0.124790 seconds 
+  Time since last request: 0.000275 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/3DMoon Substance.fbx
+  artifactKey: Guid(fb67aee34d2d3e44694971f35a94323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/3DMoon Substance.fbx using Guid(fb67aee34d2d3e44694971f35a94323f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dea6e3e8640b4c20dfd97b20365d621') in 0.350095 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png
-  artifactKey: Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowRight.png using Guid(931c805593a2d274c8aaeb50cbcff890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441613e341469e2012ef5798e0e23940') in 0.082834 seconds 
+  Time since last request: 0.000243 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Ambient_occlusion.png
+  artifactKey: Guid(6a6d771577809e84890c9ec95790abfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Ambient_occlusion.png using Guid(6a6d771577809e84890c9ec95790abfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9d7a13c982890c160c02dfaa58d05b') in 0.141619 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png
-  artifactKey: Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_ArrowRight.png using Guid(2481eb7f6b037fe41801596bfacccc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a801a116536f1e8064bf417466b7048') in 0.068244 seconds 
+  Time since last request: 0.000233 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Metallic.png
+  artifactKey: Guid(98032bb7f500c2a4f8e1505a2b3d1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Metallic.png using Guid(98032bb7f500c2a4f8e1505a2b3d1d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33baaac282e9eb5923ed64e72ce336ff') in 0.046920 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png
-  artifactKey: Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SpeechBubble.png using Guid(279fd32936dde4345835b4947f32535d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fcf0de0c9dcccce4914800de311826') in 0.055460 seconds 
+  Time since last request: 0.000156 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 1.jpg
+  artifactKey: Guid(40f39249f68cf65438f70c3a0a66444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 1.jpg using Guid(40f39249f68cf65438f70c3a0a66444f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ea96b98cdbba2e5f37616e6d90de70') in 0.177684 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png
-  artifactKey: Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_SideBox.png using Guid(ff82b5019d732f34dbf0d66d4635868a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f977c5ae6869aea8bdda158816a3ee32') in 0.057222 seconds 
+  Time since last request: 0.000342 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Normal_DirectX.png
+  artifactKey: Guid(492cca451b96c5d468a8cda8790419c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Normal_DirectX.png using Guid(492cca451b96c5d468a8cda8790419c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccc2ea006c55cc876b652ee03be9bca') in 0.114327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Scattering.png
+  artifactKey: Guid(6c1a05e90ae5a944aa4fa5a44d4b9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Scattering.png using Guid(6c1a05e90ae5a944aa4fa5a44d4b9eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352cac073f652362bdc8f40999075d50') in 0.106273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/HP_Moon.fbx
+  artifactKey: Guid(b06c38310db0937459570583b9ca26fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/HP_Moon.fbx using Guid(b06c38310db0937459570583b9ca26fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692ddbd703887a4d8e9051a6a4fbe675') in 0.072350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png
+  artifactKey: Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png using Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e06fc1e3689ccce937e3132f678c678') in 0.061619 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000289 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png
-  artifactKey: Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_TallBox.png using Guid(bc2543e1d329db64eb4649288c650824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '983c52802697a7a1e39ec8f4a8524137') in 0.131931 seconds 
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Height.png
+  artifactKey: Guid(c464894a85efbb546bed194e80169051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Height.png using Guid(c464894a85efbb546bed194e80169051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48ff94323b138aaea6534768e30494b') in 0.083066 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_Star.png
-  artifactKey: Guid(45f50b1270f20d4438dd47d69b5f62d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_Star.png using Guid(45f50b1270f20d4438dd47d69b5f62d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb36652cdec228ad2e38dd9605d3bec') in 0.097713 seconds 
+  Time since last request: 0.000184 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Emissive.png
+  artifactKey: Guid(80fe0952e3c492746b3853d79c2d8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Emissive.png using Guid(80fe0952e3c492746b3853d79c2d8bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81bd33c98f4e110584fea08fe5826473') in 0.040328 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png
-  artifactKey: Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowRight.png using Guid(f6be804d17785be41af476bbb3670fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233b15c4cabf942ef13c58bb23dd9865') in 0.052336 seconds 
+  Time since last request: 0.001200 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Displacement.png
+  artifactKey: Guid(001ec815379d90846ad4678fb056cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Displacement.png using Guid(001ec815379d90846ad4678fb056cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc16375f3fcad120b2f951ba8120ebf') in 0.066940 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png
-  artifactKey: Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CurveArrowLeft.png using Guid(5d0670de613fbfe44aff25a4641620cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b1ddc9ed4fab3e552122db426803e') in 0.067580 seconds 
+  Time since last request: 0.000497 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penumbral and Backgrounds.png
+  artifactKey: Guid(bf4372d4760d2d748ab4e83056d0a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penumbral and Backgrounds.png using Guid(bf4372d4760d2d748ab4e83056d0a71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85130e5880157fe94324f45443b4c347') in 0.060963 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png
-  artifactKey: Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Art_LL/UI_LL/UI_CutArrowLeft.png using Guid(556da3d9de257f84f85eca114bdebeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8b0aa5557da3ffbdae5590ac3987ca') in 0.077692 seconds 
+  Time since last request: 0.000452 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Mixed_AO.png
+  artifactKey: Guid(87f2d3af2b61c8f40bede2131eaa1225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Mixed_AO.png using Guid(87f2d3af2b61c8f40bede2131eaa1225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67f94751f9636b6c1a621ef282ccc4b') in 0.038522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 2.jpg
+  artifactKey: Guid(c348ecc8bd8c3634fb694314d50d493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 2.jpg using Guid(c348ecc8bd8c3634fb694314d50d493f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f2f5f243592ff9f7f62b11875ce1bd') in 0.093051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penumbral COMPLETE.png
+  artifactKey: Guid(08a8091bad21fee4e9c1fc81943ea798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penumbral COMPLETE.png using Guid(08a8091bad21fee4e9c1fc81943ea798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd731cdca8d6a6052a51b2d2539954bf5') in 0.048064 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 3.jpg
+  artifactKey: Guid(982458b8077bacf4fb7c79e9e1c8b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/Render Test 3.jpg using Guid(982458b8077bacf4fb7c79e9e1c8b09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1055befecc1d8f9bf563e9ffd6335d71') in 0.112576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Base_color.png
+  artifactKey: Guid(69e8c698bc55ad44c84ab0d09fb771e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Base_color.png using Guid(69e8c698bc55ad44c84ab0d09fb771e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21bf794a31af0be4e1f79fbc25cf95c4') in 0.090992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Roughness.png
+  artifactKey: Guid(509cff1b46a7a6840bf064e1ac241d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Roughness.png using Guid(509cff1b46a7a6840bf064e1ac241d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3231d6c6df636978f0e6622539d0d59f') in 0.301877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D_Moon/3D_Moon_textures
+  artifactKey: Guid(57bdb81c631579d45afb26e2e4682230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D_Moon/3D_Moon_textures using Guid(57bdb81c631579d45afb26e2e4682230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3968b05e11f5796b91dd91d8846c07') in 0.008612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Normal.png
+  artifactKey: Guid(22f182e71e52cda429de5b3e0e1efcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/3D Moon/COMPLETE/lambert1_Normal.png using Guid(22f182e71e52cda429de5b3e0e1efcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '174eb0dd753b4e03309d3cc406df6911') in 0.336787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.976654 seconds.
+  path: Assets/Celestial_Bodies_LL/OLD_3D Moon
+  artifactKey: Guid(1379a0ba428e70d4290e8a54413504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Celestial_Bodies_LL/OLD_3D Moon using Guid(1379a0ba428e70d4290e8a54413504f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923e4f97e3cd453e8513e244f200ccb5') in 0.014781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.899629 seconds.
+  path: Assets/Celestial_Bodies_LL/OLD_3D Moon/COMPLETE
+  artifactKey: Guid(6aa81cc6c1df5e34cb38f5ed338b2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Celestial_Bodies_LL/OLD_3D Moon/COMPLETE using Guid(6aa81cc6c1df5e34cb38f5ed338b2d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5444b26b2eafb92ea6349a4c6855dcd2') in 0.018795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.403260 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/First Quarter.png
+  artifactKey: Guid(9a87ac90c97991e499ac0472dd297949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/First Quarter.png using Guid(9a87ac90c97991e499ac0472dd297949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695da953aba2aa8d300d80303621013b') in 0.071176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waning Crescent.png
+  artifactKey: Guid(a8beece36d0e21f46833077d03c3d0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waning Crescent.png using Guid(a8beece36d0e21f46833077d03c3d0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2947dc93ffac25ed2feb93422c48ca96') in 0.063732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/New Moon.png
+  artifactKey: Guid(fe983a4c3265f1c4b85f95922c6ed5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/New Moon.png using Guid(fe983a4c3265f1c4b85f95922c6ed5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f121327ef562d49cb680fd3960cc8be') in 0.047419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waning Gibbous.png
+  artifactKey: Guid(d43a6805392d59f4b8c784d84a99b6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waning Gibbous.png using Guid(d43a6805392d59f4b8c784d84a99b6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321d5cba42dc1de20f6fecfb8459c033') in 0.044629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Last Quarter.png
+  artifactKey: Guid(80b835c934858b64384ecf95f6739e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Last Quarter.png using Guid(80b835c934858b64384ecf95f6739e6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67df0f064ecdcefae23e5e10835897e') in 0.057699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waxing Crescent.png
+  artifactKey: Guid(d8bd87c6c729c5a42a392358bc1a7772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waxing Crescent.png using Guid(d8bd87c6c729c5a42a392358bc1a7772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f510f1330722554eeb15f7127492ee2') in 0.127263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Full Moon.png
+  artifactKey: Guid(99612a3b85653114195d4deede2a7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Full Moon.png using Guid(99612a3b85653114195d4deede2a7e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62ce4ed502497fe09ad2dc2e76b91718') in 0.074078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/UPDATE_New Moon.png
+  artifactKey: Guid(42a9ee40a02c9a0479e4b62121f6df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/UPDATE_New Moon.png using Guid(42a9ee40a02c9a0479e4b62121f6df73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830d0c4c2e912d892b71a54b0124d69f') in 0.128718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waxing Gibbous.png
+  artifactKey: Guid(a42fcb494bd02084aa6f2afffb0a0f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Moon Phases/Waxing Gibbous.png using Guid(a42fcb494bd02084aa6f2afffb0a0f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dded5c4808848dbf5898c9cdc8059841') in 0.046585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.384713 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Earth-Complete.png
+  artifactKey: Guid(dad3d08ef36af764a9f5e4fe58537ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Earth-Complete.png using Guid(dad3d08ef36af764a9f5e4fe58537ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3359e4d2609ccbb2f81374ceee93df') in 0.068374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Sun Complete No Glow.png
+  artifactKey: Guid(8e6d1b93ec6fcae42a26af2cc1c44675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Sun Complete No Glow.png using Guid(8e6d1b93ec6fcae42a26af2cc1c44675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5f24b6c03e31b70b402d0a537875c2') in 0.062713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Moon Complete.png
+  artifactKey: Guid(269555ecdd17d994dad7d86bcb055cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Moon Complete.png using Guid(269555ecdd17d994dad7d86bcb055cf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acca2ded255595201a195917633ac412') in 0.073422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Sun Complete.png
+  artifactKey: Guid(c0236cff5bb9ac64387606f210732b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Sun-Moon-Earth/Sun Complete.png using Guid(c0236cff5bb9ac64387606f210732b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9d2f1457d124dacbcda244d297468c') in 0.074105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.987827 seconds.
+  path: Assets/UI_LL/UI_ArrowLeft.png
+  artifactKey: Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowLeft.png using Guid(b3995087471d75e48a8c33907f314cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ab71073430df35cf630c953aa5de1c') in 0.064608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/UI_LL/UI_Star.png
+  artifactKey: Guid(dec850b1c23b47f4a8b3805ab7f6b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_Star.png using Guid(dec850b1c23b47f4a8b3805ab7f6b106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f95d19476715d792e25ba764e8e096') in 0.050426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001375 seconds.
+  path: Assets/UI_LL/UI_SideBox.png
+  artifactKey: Guid(9619e5188bddc2641a1b1aa14c4f4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SideBox.png using Guid(9619e5188bddc2641a1b1aa14c4f4a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1469f12f3c447057b509ebacdf64aa4') in 0.120552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/UI_LL/UI_SpeechBubble.png
+  artifactKey: Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_SpeechBubble.png using Guid(4440c47756d76064a80ef8d0b58bf453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e009b2418d3957aa62296b149707f71') in 0.076476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/UI_LL/UI_CurveArrowRight.png
+  artifactKey: Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowRight.png using Guid(2c619c1a69839394a89129e5bf92adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5444df91d69c181beb02937a7708867') in 0.051204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/UI_LL/UI_TallBox.png
+  artifactKey: Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_TallBox.png using Guid(1607aeebe90faf248a9db77daae4a049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf08988e5383598a9e5f2e2ad002d27') in 0.041854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/UI_LL/UI_CurveArrowLeft.png
+  artifactKey: Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CurveArrowLeft.png using Guid(1b50ad523065299428e5e7fc7ae137ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30b40dd75c25cb11cddc703514bc956') in 0.049842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/UI_LL/UI_CutArrowLeft.png
+  artifactKey: Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowLeft.png using Guid(2a9d9baebeaba1e4fa014ea86bc929bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081a64af4190780f4ad85b2012433aff') in 0.041144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/UI_LL/UI_CutArrowRight.png
+  artifactKey: Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_CutArrowRight.png using Guid(c99350c1241818f4792ff1b88302f319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547f79ad8e09a5bf3524f2349f995548') in 0.056903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/UI_LL/UI_ArrowRight.png
+  artifactKey: Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI_LL/UI_ArrowRight.png using Guid(ef54c141785e3014aa7d76761d79989e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7114082a5db530d300dcd7a470c11cdf') in 0.046325 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
