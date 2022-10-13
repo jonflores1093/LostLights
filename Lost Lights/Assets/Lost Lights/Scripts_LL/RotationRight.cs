@@ -32,6 +32,7 @@ namespace InsertStudioLostLights
         {
             rotate = true;
             earthMove.Play();
+
         }
 
         public void OnPointerUp(PointerEventData pointerEventData)

@@ -7,43 +7,81 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    public class Clock
-    {
-        private System.DateTime now;
-        private System.TimeSpan timeNow;
-        private System.TimeSpan gameTime;
-        private int minutesPerDay; //Realtime minutes per game-day (1440 would be realtime)
-        public TMP_Text TimeDay;
+    TMP_Text clocktxt;
+    private float RawTime = 0.0F;
+    private float ClockHR = 0.0F;
+    private float ClockMN = 0.0F;
+    private string ClockAMPM = "AM";
+    private int ClockSpeedMultiplier = 1;
 
-        public Clock(int minPerDay)
-        {
-            minutesPerDay = minPerDay;
-        }
 
-        public System.TimeSpan GetTime()
-        {
-            now = System.DateTime.Now;
-            timeNow = now.TimeOfDay;
-            double hours = timeNow.TotalMinutes % minutesPerDay;
-            double minutes = (hours % 1) * 60;
-            double seconds = (minutes % 1) * 60;
-            gameTime = new System.TimeSpan((int)hours, (int)minutes, (int)seconds);
 
-            return gameTime;
-        }
-    }
-
-    Clock clock;
 
     void Start()
     {
-        clock = new Clock(24);
+        clocktxt = gameObject.GetComponent<TMP_Text>();
     }
 
-    void FixedUpdate()
+
+
+    public void IncreaseTime() 
     {
-        Debug.Log(clock.GetTime().ToString());
+        RawTime += Time.deltaTime * ClockSpeedMultiplier;
+        ClockHR = (int)RawTime / 60;
+        ClockMN = (int)RawTime - (int)ClockHR * 60;
+
+        if (RawTime >= 1440)
+        {
+            RawTime = 0;
+        }
+
+        if (RawTime >= 720)
+        {
+            ClockAMPM = "PM";
+            ClockHR -= 12;
+        }
+        else
+        {
+            ClockAMPM = "AM";
+        }
+
+        if (ClockHR < 1)
+        {
+            ClockHR = 12;
+        }
+
+        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
     }
+
+    public void DecreaseTime() 
+    {
+        RawTime -= Time.deltaTime * ClockSpeedMultiplier;
+        ClockHR = (int)RawTime / 60;
+        ClockMN = (int)RawTime - (int)ClockHR * 60;
+
+        if (RawTime >= 1440)
+        {
+            RawTime = 0;
+        }
+
+        if (RawTime >= 720)
+        {
+            ClockAMPM = "PM";
+            ClockHR -= 12;
+        }
+        else
+        {
+            ClockAMPM = "AM";
+        }
+
+        if (ClockHR < 1)
+        {
+            ClockHR = 12;
+        }
+
+        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
+    }
+
 }
 
 
