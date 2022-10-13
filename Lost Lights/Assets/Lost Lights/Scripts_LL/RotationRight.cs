@@ -16,7 +16,8 @@ namespace InsertStudioLostLights
         public float rot_Speed = 50;
         bool rotate = false;
 
-        
+        public AudioSource earthMove;
+
         void FixedUpdate()
         {
             if (rotate == false)
@@ -30,11 +31,13 @@ namespace InsertStudioLostLights
         public void OnPointerDown(PointerEventData pointerEventData)
         {
             rotate = true;
+            earthMove.Play();
         }
 
         public void OnPointerUp(PointerEventData pointerEventData)
         {
             rotate = false;
+            earthMove.Stop();
         }
     }
 }

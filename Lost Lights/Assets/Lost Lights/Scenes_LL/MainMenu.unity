@@ -1701,6 +1701,7 @@ GameObject:
   - component: {fileID: 2042679028}
   - component: {fileID: 2042679027}
   - component: {fileID: 2042679030}
+  - component: {fileID: 2042679031}
   m_Layer: 5
   m_Name: New Game
   m_TagString: Untagged
@@ -1835,3 +1836,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tempText: {fileID: 544502298}
+--- !u!114 &2042679031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042679025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a7c55078482ac8449cff1bdabf4ee33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioClip: {fileID: 8300000, guid: 398a0a27f97734446a6300f36af85497, type: 3}
+  _volume: 0.7

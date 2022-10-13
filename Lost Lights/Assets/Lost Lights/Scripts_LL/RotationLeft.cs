@@ -14,6 +14,9 @@ namespace InsertStudioLostLights
         public RawImage bgMovement;
         public float xbg;
 
+        public AudioSource earthMove;
+
+
         public float rot_Speed = 50;
         bool rotate = false;
 
@@ -33,11 +36,14 @@ namespace InsertStudioLostLights
         public void OnPointerDown(PointerEventData pointerEventData)
         {
             rotate = true;
+            earthMove.Play();
+
         }
 
         public void OnPointerUp(PointerEventData pointerEventData)
         {
             rotate = false;
+            earthMove.Stop();
         }
 
 
