@@ -5,17 +5,17 @@ using UnityEngine.UI;
 
 public class AudioButton : MonoBehaviour
 {
-    [SerializeField] AudioClip _audioClip;
+    [SerializeField] AudioClip audioClip;
     [SerializeField] [Range(0.0f, 1.0f)] float _volume = 1;
-    AudioSource _audioSource;
+    AudioSource audioSource;
 
     void Awake()
     {
-        _audioSource = gameObject.AddComponent<AudioSource>();
-        if (_audioClip != null)
-            _audioSource.clip = _audioClip;
-        _audioSource.playOnAwake = false;
-        _audioSource.volume = _volume;
-        GetComponent<Button>().onClick.AddListener(() => _audioSource.Play());
+        audioSource = gameObject.AddComponent<AudioSource>();
+        if (audioClip != null)
+            audioSource.clip = audioClip;
+        audioSource.playOnAwake = false;
+        audioSource.volume = _volume;
+        GetComponent<Button>().onClick.AddListener(() => audioSource.Play());
     }
 }

@@ -19,13 +19,31 @@ namespace InsertStudioLostLights
         public GameObject moon;
         public int moonNumber;
 
-        Questions changeQuestion;
+        NewQuestions changeQuestion;
+
+        [SerializeField] AudioClip audioCorrect;
+        [SerializeField] AudioClip audioWrong;
+        AudioSource audioSourceCorrect;
+        AudioSource audioSourceWrong;
 
         //Canvas Mechanics
         public MechanicScreen endScreen;
 
 
+        private void Awake()
+        {
+            // AUDIO
+            audioSourceCorrect = gameObject.AddComponent<AudioSource>();
+            if (audioCorrect != null)
+                audioSourceCorrect.clip = audioCorrect;
+            audioSourceCorrect.playOnAwake = false;
 
+            audioSourceWrong = gameObject.AddComponent<AudioSource>();
+            if (audioWrong != null)
+                audioSourceWrong.clip = audioWrong;
+            audioSourceWrong.playOnAwake = false;
+
+        }
         void Start()
         {
             Button btn = submitButton.GetComponent<Button>();
@@ -38,8 +56,11 @@ namespace InsertStudioLostLights
                 moon = GameObject.FindWithTag("Moon");
                 moonNumber = moon.GetComponent<MoonType>().moonNumber;
             }
+            
+            changeQuestion = FindObjectOfType<NewQuestions>();
 
-            changeQuestion = FindObjectOfType<Questions>();
+
+            
         }
 
          
@@ -117,14 +138,14 @@ namespace InsertStudioLostLights
                 Debug.Log("correctanswer");
                 correctAnswer = true;
                 correct.text = "Correct!";
-
-
+               audioSourceCorrect.Play();
             }
             else
             {
                 Debug.Log("wronganswer");
                 correctAnswer = false;
                 tryagain.text = "Try Again!";
+                audioSourceWrong.Play();
             }
         }
     }
