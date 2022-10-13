@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Lost Lights/Scenes_LL/OpeningTest.unity
-=======
 - path: Assets/Lost Lights/Scenes_LL/Level 1.unity
->>>>>>> main
   isLoaded: 1
   isActive: 1
   isSubScene: 0
