@@ -1173,8 +1173,8 @@ MonoBehaviour:
   correctAnswer: 0
   moon: {fileID: 0}
   moonNumber: 0
-  audioCorrect: {fileID: 8300000, guid: 4eaae202e0387a74587f06edeccec81f, type: 3}
-  audioWrong: {fileID: 8300000, guid: 4eaae202e0387a74587f06edeccec81f, type: 3}
+  audioCorrect: {fileID: 0}
+  audioWrong: {fileID: 0}
   endScreen: {fileID: 1616967999}
 --- !u!50 &487982547
 Rigidbody2D:
