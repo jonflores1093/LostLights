@@ -14,7 +14,7 @@ namespace InsertStudioLostLights
         //Button Transitions
         public void New_Game()
         {
-            SceneManager.LoadScene("OpeningTest");
+            SceneManager.LoadScene("Level 1");
         }
 
         public void Continue()
