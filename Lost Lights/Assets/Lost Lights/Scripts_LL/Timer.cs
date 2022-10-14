@@ -13,8 +13,7 @@ public class Timer : MonoBehaviour
     private float ClockMN = 0.0F;
     private string ClockAMPM = "AM";
     private int ClockSpeedMultiplier = 1;
-
-
+    bool isTimeOn = false;
 
 
     void Start()
@@ -23,9 +22,10 @@ public class Timer : MonoBehaviour
     }
 
 
-
-    public void IncreaseTime() 
+    void FixedUpdate() 
     {
+
+       
         RawTime += Time.deltaTime * ClockSpeedMultiplier;
         ClockHR = (int)RawTime / 60;
         ClockMN = (int)RawTime - (int)ClockHR * 60;
@@ -53,34 +53,34 @@ public class Timer : MonoBehaviour
         clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
     }
 
-    public void DecreaseTime() 
-    {
-        RawTime -= Time.deltaTime * ClockSpeedMultiplier;
-        ClockHR = (int)RawTime / 60;
-        ClockMN = (int)RawTime - (int)ClockHR * 60;
+    //public void IncreaseTime()
+    //{
+    //    RawTime -= Time.deltaTime * ClockSpeedMultiplier;
+    //    ClockHR = (int)RawTime / 60;
+    //    ClockMN = (int)RawTime - (int)ClockHR * 60;
 
-        if (RawTime >= 1440)
-        {
-            RawTime = 0;
-        }
+    //    if (RawTime >= 1440)
+    //    {
+    //        RawTime = 0;
+    //    }
 
-        if (RawTime >= 720)
-        {
-            ClockAMPM = "PM";
-            ClockHR -= 12;
-        }
-        else
-        {
-            ClockAMPM = "AM";
-        }
+    //    if (RawTime >= 720)
+    //    {
+    //        ClockAMPM = "PM";
+    //        ClockHR -= 12;
+    //    }
+    //    else
+    //    {
+    //        ClockAMPM = "AM";
+    //    }
 
-        if (ClockHR < 1)
-        {
-            ClockHR = 12;
-        }
+    //    if (ClockHR < 1)
+    //    {
+    //        ClockHR = 12;
+    //    }
 
-        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
-    }
+    //    clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
+    //}
 
 }
 

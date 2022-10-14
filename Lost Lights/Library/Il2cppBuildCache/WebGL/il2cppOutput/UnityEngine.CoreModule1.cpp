@@ -15105,8 +15105,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_Normalize_m7C9B0E84BCB84D54A16D1212F3DE5AB2A386FCD9 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  ___value0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_normalized()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  Vector3_get_normalized_m2FA6DF38F97BDA4CCBDAE12B9FE913A241DAC8D5 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, const RuntimeMethod* method);
-// System.Single UnityEngine.Vector3::get_magnitude()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mDDD40612220D8104E77E993E18A101A69A944991 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, const RuntimeMethod* method);
 // System.Single UnityEngine.Vector3::get_sqrMagnitude()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_mC567EE6DF411501A8FE1F23A0038862630B88249 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, const RuntimeMethod* method);
 // System.Single UnityEngine.Mathf::Min(System.Single,System.Single)
@@ -29749,44 +29747,6 @@ IL_0034:
 		float L_13 = V_0;
 		return L_13;
 	}
-}
-// System.Single UnityEngine.Vector3::get_magnitude()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mDDD40612220D8104E77E993E18A101A69A944991 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	float V_0 = 0.0f;
-	{
-		float L_0 = __this->get_x_2();
-		float L_1 = __this->get_x_2();
-		float L_2 = __this->get_y_3();
-		float L_3 = __this->get_y_3();
-		float L_4 = __this->get_z_4();
-		float L_5 = __this->get_z_4();
-		IL2CPP_RUNTIME_CLASS_INIT(Math_tA269614262430118C9FC5C4D9EF4F61C812568F0_il2cpp_TypeInfo_var);
-		double L_6;
-		L_6 = sqrt(((double)((double)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_add((float)((float)il2cpp_codegen_multiply((float)L_0, (float)L_1)), (float)((float)il2cpp_codegen_multiply((float)L_2, (float)L_3)))), (float)((float)il2cpp_codegen_multiply((float)L_4, (float)L_5)))))));
-		V_0 = ((float)((float)L_6));
-		goto IL_0034;
-	}
-
-IL_0034:
-	{
-		float L_7 = V_0;
-		return L_7;
-	}
-}
-IL2CPP_EXTERN_C  float Vector3_get_magnitude_mDDD40612220D8104E77E993E18A101A69A944991_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
-{
-	int32_t _offset = 1;
-	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * _thisAdjusted = reinterpret_cast<Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *>(__this + _offset);
-	float _returnValue;
-	_returnValue = Vector3_get_magnitude_mDDD40612220D8104E77E993E18A101A69A944991(_thisAdjusted, method);
-	return _returnValue;
 }
 // System.Single UnityEngine.Vector3::get_sqrMagnitude()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Vector3_get_sqrMagnitude_mC567EE6DF411501A8FE1F23A0038862630B88249 (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * __this, const RuntimeMethod* method)
