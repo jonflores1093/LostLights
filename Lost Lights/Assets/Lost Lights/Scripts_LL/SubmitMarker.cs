@@ -29,6 +29,8 @@ namespace InsertStudioLostLights
         //Canvas Mechanics
         public MechanicScreen endScreen;
 
+        public GameObject answerText;
+
 
         private void Awake()
         {
@@ -135,18 +137,34 @@ namespace InsertStudioLostLights
             Debug.Log("Matching");
             if (markerNumber == moonNumber)
             {
+                setTextActive();
                 Debug.Log("correctanswer");
                 correctAnswer = true;
                 correct.text = "Correct!";
-               audioSourceCorrect.Play();
+                Invoke("setTextInactive", 3);
+                audioSourceCorrect.Play();
             }
             else
             {
+                setTextActive();
                 Debug.Log("wronganswer");
                 correctAnswer = false;
                 tryagain.text = "Try Again!";
+                Invoke("setTextInactive", 3);
                 audioSourceWrong.Play();
+
             }
+        }
+
+        void setTextActive()
+        {
+            answerText.gameObject.SetActive(true);
+        }
+
+
+        void setTextInactive()
+        {
+            answerText.gameObject.SetActive(false);
         }
     }
 

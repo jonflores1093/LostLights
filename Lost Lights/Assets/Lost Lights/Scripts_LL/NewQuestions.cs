@@ -8,19 +8,11 @@ public class NewQuestions : MonoBehaviour
      
     public int randomQuestion;
 
-
-    //static public List<Questions> moonList;
-
     private void Awake()
     {
         RandomQuestion();
 
     }
-
-    //private void Start()
-    //{
-    //    moonList = new List<Questions>();
-    //}
 
 
     public void RandomQuestion()
