@@ -12,8 +12,8 @@ public class Timer : MonoBehaviour
     private float ClockHR = 0.0F;
     private float ClockMN = 0.0F;
     private string ClockAMPM = "AM";
-    private int ClockSpeedMultiplier = 1;
-    bool isTimeOn = false;
+    private int ClockSpeedMultiplier = 162;
+    
 
 
     void Start()
@@ -22,13 +22,13 @@ public class Timer : MonoBehaviour
     }
 
 
-    void FixedUpdate() 
+    public void IncreaseTime()
     {
 
-       
         RawTime += Time.deltaTime * ClockSpeedMultiplier;
-        ClockHR = (int)RawTime / 60;
-        ClockMN = (int)RawTime - (int)ClockHR * 60;
+
+        ClockHR = Mathf.Abs((int)RawTime / 60);
+        ClockMN = Mathf.Abs((int)RawTime - (int)ClockHR * 60);
 
         if (RawTime >= 1440)
         {
@@ -53,35 +53,38 @@ public class Timer : MonoBehaviour
         clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
     }
 
-    //public void IncreaseTime()
-    //{
-    //    RawTime -= Time.deltaTime * ClockSpeedMultiplier;
-    //    ClockHR = (int)RawTime / 60;
-    //    ClockMN = (int)RawTime - (int)ClockHR * 60;
+    public void DecreaseTime() 
+    {
 
-    //    if (RawTime >= 1440)
-    //    {
-    //        RawTime = 0;
-    //    }
 
-    //    if (RawTime >= 720)
-    //    {
-    //        ClockAMPM = "PM";
-    //        ClockHR -= 12;
-    //    }
-    //    else
-    //    {
-    //        ClockAMPM = "AM";
-    //    }
+        RawTime -= Time.deltaTime * ClockSpeedMultiplier;
+        ClockHR = Mathf.Abs((int)RawTime / 60);
+        ClockMN = Mathf.Abs(-(int)RawTime - (int)ClockHR * 60);
 
-    //    if (ClockHR < 1)
-    //    {
-    //        ClockHR = 12;
-    //    }
+        if (RawTime >= 1440)
+        {
+            RawTime = 0;
+        }
 
-    //    clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
-    //}
+        if (RawTime >= 720)
+        {
+            ClockAMPM = "PM";
+            ClockHR -= 12;
+        }
+        else
+        {
+            ClockAMPM = "AM";
+        }
 
+        if (ClockHR < 1)
+        {
+            ClockHR = 12;
+        }
+
+      
+
+        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
+    }
 }
 
 

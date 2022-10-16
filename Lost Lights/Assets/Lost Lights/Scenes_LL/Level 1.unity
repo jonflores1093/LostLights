@@ -2580,8 +2580,9 @@ MonoBehaviour:
   rotationlightButton: {fileID: 962476898}
   bgMovement: {fileID: 1040614084}
   xbg: 0.01
-  rot_Speed: 40
+  clock: {fileID: 1189524155}
   earthMove: {fileID: 347291928}
+  rot_Speed: 40
 --- !u!1 &1255462656
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3093,7 @@ MonoBehaviour:
   rotationlightButton: {fileID: 962476898}
   bgMovement: {fileID: 1040614084}
   xbg: -0.01
+  clock: {fileID: 1189524155}
   earthMove: {fileID: 347291928}
   rot_Speed: 40
 --- !u!1 &1530400858
