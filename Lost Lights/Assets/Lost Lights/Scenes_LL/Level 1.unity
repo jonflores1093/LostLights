@@ -2443,6 +2443,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d89d231267065cd4bb2c8ba416064e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clocktxt: {fileID: 0}
+  time: 0
+  isClock: 0
+  ClockSpeedMultiplier: 62
+  ClockAMPM: AM
 --- !u!1 &1189664934
 GameObject:
   m_ObjectHideFlags: 0

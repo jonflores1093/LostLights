@@ -7,84 +7,93 @@ using TMPro;
 
 public class Timer : MonoBehaviour
 {
-    TMP_Text clocktxt;
-    private float RawTime = 0.0F;
-    private float ClockHR = 0.0F;
-    private float ClockMN = 0.0F;
-    private string ClockAMPM = "AM";
-    private int ClockSpeedMultiplier = 162;
-    
+    public TMP_Text clocktxt;
+    public float time = 0.0f;
+    public bool isClock = false;
+    public int ClockSpeedMultiplier = 162;
+    public string ClockAMPM = "AM";
 
+
+    //public float RawTime = 0.0F;
+    //public float ClockHR = 12f;
+    //public float ClockMN = 59f;
 
     void Start()
     {
-        clocktxt = gameObject.GetComponent<TMP_Text>();
+        clocktxt = GetComponent<TMP_Text>();
     }
-
-
-    public void IncreaseTime()
+    public void DisplayTimeForward()
     {
-
-        RawTime += Time.deltaTime * ClockSpeedMultiplier;
-
-        ClockHR = Mathf.Abs((int)RawTime / 60);
-        ClockMN = Mathf.Abs((int)RawTime - (int)ClockHR * 60);
-
-        if (RawTime >= 1440)
+        float hours = Mathf.FloorToInt(time / 60);
+        float minutes = Mathf.FloorToInt((int)time - (int)hours * 60);
+        if (time >= 1440)
         {
-            RawTime = 0;
+            time = 0;
         }
-
-        if (RawTime >= 720)
+        if (time >= 720)
         {
             ClockAMPM = "PM";
-            ClockHR -= 12;
+            hours -= 12;
+
         }
         else
         {
             ClockAMPM = "AM";
         }
 
-        if (ClockHR < 1)
+        if (hours < 1)
         {
-            ClockHR = 12;
+            hours = 12;
         }
 
-        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
+        clocktxt.text = hours.ToString("00") + ":" + minutes.ToString("00") + ClockAMPM;
+    }
+
+    public void DisplayTimeBackwards() 
+    {
+        float hours = Mathf.FloorToInt(time / 60);
+        float minutes = Mathf.FloorToInt((int)time - (int)hours * 60);
+        if (time >= 1440)
+        {
+            time = 0;
+        }
+        if (time >= 720)
+        {
+            ClockAMPM = "PM";
+            hours -= 12;
+
+        }
+        else
+        {
+            ClockAMPM = "AM";
+        }
+
+        if (hours < 1)
+        {
+            hours = 12;
+        }
+
+        clocktxt.text = hours.ToString("00") + ":" + minutes.ToString("00") + ClockAMPM;
+    }
+
+    public void IncreaseTime() 
+    {
+        isClock = true;
+    }
+
+    public void PauseTime() 
+    {
+        isClock = false;
     }
 
     public void DecreaseTime() 
     {
-
-
-        RawTime -= Time.deltaTime * ClockSpeedMultiplier;
-        ClockHR = Mathf.Abs((int)RawTime / 60);
-        ClockMN = Mathf.Abs(-(int)RawTime - (int)ClockHR * 60);
-
-        if (RawTime >= 1440)
-        {
-            RawTime = 0;
-        }
-
-        if (RawTime >= 720)
-        {
-            ClockAMPM = "PM";
-            ClockHR -= 12;
-        }
-        else
-        {
-            ClockAMPM = "AM";
-        }
-
-        if (ClockHR < 1)
-        {
-            ClockHR = 12;
-        }
-
-      
-
-        clocktxt.text = ClockHR.ToString("00") + ":" + ClockMN.ToString("00") + ClockAMPM;
+        isClock = true;
     }
+
+  
+
+    
 }
 
 

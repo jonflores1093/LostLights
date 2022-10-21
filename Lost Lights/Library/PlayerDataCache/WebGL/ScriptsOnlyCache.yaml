@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -424,7 +423,7 @@ ScriptsOnlyBuild:
     className: SpriteSkinUpdateHelper
   - hash:
       serializedVersion: 2
-      Hash: d48927b586cd91960f09bc879b748cfa
+      Hash: 585188e940aa433c8fefccbd0f76282a
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: RotationLeft
@@ -490,7 +489,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: 5ef77ef8bcae37dc5eed11d27143b991
+      Hash: 585188e940aa433c8fefccbd0f76282a
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: RotationRight
@@ -580,7 +579,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: e3ff9c88e6fa12c8657cccc7281af8fd
+      Hash: 2e65456f86d5a9e36542ff5ae860036a
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: SubmitMarker

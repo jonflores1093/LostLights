@@ -28,8 +28,12 @@ namespace InsertStudioLostLights
             rotatedObject.transform.Rotate(Vector3.forward * rot_Speed * Time.deltaTime);
             rotationlightButton.transform.Rotate(Vector3.down * rot_Speed * Time.deltaTime);
             bgMovement.uvRect = new Rect(bgMovement.uvRect.position + new Vector2(xbg,0) * Time.deltaTime, bgMovement.uvRect.size);
-            clock.DecreaseTime();
 
+            if (clock.isClock)
+            {
+                clock.time += Time.deltaTime * clock.ClockSpeedMultiplier;
+                clock.DisplayTimeBackwards();
+            }
 
 
         }
@@ -39,13 +43,15 @@ namespace InsertStudioLostLights
         {
             rotate = true;
             earthMove.Play();
-
+            clock.DecreaseTime();
         }
 
         public void OnPointerUp(PointerEventData pointerEventData)
         {
             rotate = false;
             earthMove.Stop();
+            clock.PauseTime();
+
         }
 
 
