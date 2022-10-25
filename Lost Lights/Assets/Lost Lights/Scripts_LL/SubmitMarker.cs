@@ -17,6 +17,7 @@ namespace InsertStudioLostLights
         public int markerNumber;
         public bool correctAnswer;
         public GameObject moon;
+        public GameObject starrite;
         public int moonNumber;
 
         NewQuestions changeQuestion;
@@ -25,6 +26,8 @@ namespace InsertStudioLostLights
         [SerializeField] AudioClip audioWrong;
         AudioSource audioSourceCorrect;
         AudioSource audioSourceWrong;
+        [SerializeField] [Range(0.0f, 1.0f)] float audioCorrectVolume = 1;
+        [SerializeField] [Range(0.0f, 1.0f)] float audioWrongVolume = 1;
 
         //Canvas Mechanics
         public MechanicScreen endScreen;
@@ -38,11 +41,13 @@ namespace InsertStudioLostLights
             audioSourceCorrect = gameObject.AddComponent<AudioSource>();
             if (audioCorrect != null)
                 audioSourceCorrect.clip = audioCorrect;
+            audioSourceCorrect.volume = audioCorrectVolume;
             audioSourceCorrect.playOnAwake = false;
 
             audioSourceWrong = gameObject.AddComponent<AudioSource>();
             if (audioWrong != null)
                 audioSourceWrong.clip = audioWrong;
+            audioSourceWrong.volume = audioWrongVolume;
             audioSourceWrong.playOnAwake = false;
 
         }
@@ -58,9 +63,12 @@ namespace InsertStudioLostLights
                 moon = GameObject.FindWithTag("Moon");
                 moonNumber = moon.GetComponent<MoonType>().moonNumber;
             }
-            
-            changeQuestion = FindObjectOfType<NewQuestions>();
+            if (starrite == null)
+            {
+                starrite = GameObject.FindWithTag("Starrite");
+            }
 
+                changeQuestion = FindObjectOfType<NewQuestions>();
 
             
         }
@@ -75,6 +83,7 @@ namespace InsertStudioLostLights
                 num--;
                 counter.text = "Starites remaining: " + num;
                 Object.Destroy(moon);
+                Object.Destroy(starrite);
                 changeQuestion.RandomQuestion();
                 Invoke("UpdateMoon", .05f);
                 DisableButton();
@@ -95,6 +104,7 @@ namespace InsertStudioLostLights
         void UpdateMoon()
         {
             moon = GameObject.FindWithTag("Moon");
+            starrite = GameObject.FindWithTag("Starrite");
             moonNumber = moon.GetComponent<MoonType>().moonNumber;    
         }
 
