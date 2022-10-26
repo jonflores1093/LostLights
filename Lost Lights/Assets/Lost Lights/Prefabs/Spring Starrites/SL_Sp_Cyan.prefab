@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2073562528612406276}
   - component: {fileID: 2073562528612406277}
+  - component: {fileID: 1413040011}
   m_Layer: 0
   m_Name: SL_Sp_Cyan
   m_TagString: Starrite
@@ -24,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2073562528612406274}
-  m_LocalRotation: {x: -0, y: -0, z: 0.0041368795, w: 0.9999915}
+  m_LocalRotation: {x: 0, y: 0, z: 0.0041364175, w: 0.9999914}
   m_LocalPosition: {x: -21.8, y: -4.1, z: 0}
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_Children: []
@@ -82,3 +83,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1413040011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2073562528612406274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7840d3bd0b185194baf4316d1d64be44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  altitude: 0.3
+  frequency: 3
