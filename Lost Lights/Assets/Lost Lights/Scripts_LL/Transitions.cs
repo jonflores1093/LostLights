@@ -13,7 +13,16 @@ namespace InsertStudioLostLights
     public class Transitions : MonoBehaviour
     {
         public TMP_Text tempText;
+        public Button nextScene;
         //Button Transitions
+
+        void Start()
+        {
+            DisableButton();
+            Invoke("EnableButton", 5f);
+
+
+        }
         public void New_Game()
         {
             SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
@@ -28,7 +37,24 @@ namespace InsertStudioLostLights
         {
             tempText.text = "Coming Soon!";
         }
-    public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
+
+        public void Next_Scene() 
+        {
+            SceneManager.LoadScene("");
+        }
+
+        void EnableButton()
+        {
+            nextScene.interactable = true;
+
+        }
+        void DisableButton()
+        {
+            nextScene.interactable = false;
+
+        }
+
+        public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
             where T : class
     {
         // Invoke callback with null to use the default serialized values of the state data from the editor.
