@@ -15,11 +15,19 @@ E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 61370
 Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 68.87 ms, found 3 plugins.
+=======
+65492
+Successfully changed project path to: E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+E:/Unity/Unity_Projects/Lost Lights/LostLights/Lost Lights
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 65.91 ms, found 3 plugins.
+>>>>>>> Jon
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,11 +43,16 @@ Initialize mono
 Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
+>>>>>>> Jon
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.002698 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -50,11 +63,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (861ms)
 		BeginReloadAssembly (127ms)
+=======
+Registered in 0.002731 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 55.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1036ms)
+		BeginReloadAssembly (189ms)
+>>>>>>> Jon
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (648ms)
 			LoadAssemblies (127ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -69,17 +95,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (25ms)
 				ProcessInitializeOnLoadAttributes (125ms)
 				ProcessInitializeOnLoadMethodAttributes (34ms)
+=======
+		EndReloadAssembly (764ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (217ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (56ms)
+				BeforeProcessingInitializeOnLoad (19ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+>>>>>>> Jon
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006592 seconds.
+=======
+Registered in 0.005669 seconds.
+>>>>>>> Jon
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 69.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -99,9 +146,31 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (64ms)
 			SetupLoadedEditorAssemblies (478ms)
+=======
+Refreshing native plugins compatible for Editor in 60.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1501ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (441ms)
+>>>>>>> Jon
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
+<<<<<<< HEAD
 				RefreshPlugins (70ms)
 				BeforeProcessingInitializeOnLoad (103ms)
 				ProcessInitializeOnLoadAttributes (270ms)
@@ -122,6 +191,28 @@ System memory in use after: 100.4 MB.
 
 Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2685.
 Total: 4.235100 ms (FindLiveObjects: 0.181500 ms CreateObjectMapping: 0.092200 ms MarkObjects: 3.773700 ms  DeleteObjects: 0.187000 ms)
+=======
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2250 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.4 MB.
+System memory in use after: 100.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 2685.
+Total: 3.662800 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.180900 ms MarkObjects: 3.065600 ms  DeleteObjects: 0.174100 ms)
+>>>>>>> Jon
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,6 +226,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/Lost Lights/Scenes_LL/testScene.unity
   artifactKey: Guid(730fe1511fd65544dbbbf3ffed0eaf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Lost Lights/Scenes_LL/testScene.unity using Guid(730fe1511fd65544dbbbf3ffed0eaf19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd230406979044725d568137a2afd5172') in 0.010793 seconds 
@@ -428,4 +520,135 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Green.prefab
+  artifactKey: Guid(72d1698e0b841574186c4ada1eca6a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Green.prefab using Guid(72d1698e0b841574186c4ada1eca6a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd100acdcebf6450f55eb7df8e82f50f6') in 0.151444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Pink.prefab
+  artifactKey: Guid(3962be5582046b349b4abdbf6610e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Pink.prefab using Guid(3962be5582046b349b4abdbf6610e4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9233b3043d1c4f845e4246cdac64fb5e') in 0.018709 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Purple_Costume.prefab
+  artifactKey: Guid(bd9373f9b11e77d46adf2f2ee7cc97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Purple_Costume.prefab using Guid(bd9373f9b11e77d46adf2f2ee7cc97ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5656c27bf2037df1ff999e00038314b8') in 0.021652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Cyan.prefab
+  artifactKey: Guid(f4c71066a424f7b439d3724926ee62d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Cyan.prefab using Guid(f4c71066a424f7b439d3724926ee62d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857b73fdb2bc8edbe7d2c3926fc7e1d7') in 0.019986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Green_Costume.prefab
+  artifactKey: Guid(49b97ed3cf5912a4896eb579316739a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Green_Costume.prefab using Guid(49b97ed3cf5912a4896eb579316739a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab6374241d0f12ebea67b4e20ee9519') in 0.016812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Yellow.prefab
+  artifactKey: Guid(82f0849eac866c942b4a886f61a0187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Yellow.prefab using Guid(82f0849eac866c942b4a886f61a0187e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570cb0b7e6e3c2605dc952c460c17dff') in 0.018302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Yellow_Costume.prefab
+  artifactKey: Guid(a923784c0be22cb4ea791f4dc9b0c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Yellow_Costume.prefab using Guid(a923784c0be22cb4ea791f4dc9b0c1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d24663562fcce9e88d37fb171a9bffe') in 0.017331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Purple.prefab
+  artifactKey: Guid(62a9c98f966d45e40b857b61c1d6fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Spring Starrites/SL_Sp_Purple.prefab using Guid(62a9c98f966d45e40b857b61c1d6fde9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6247e97210c30d394bd53773de554f65') in 0.018261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 74.423422 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab
+  artifactKey: Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab using Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da07b8483440bd2fe2b97dec4c086f5e') in 0.013174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.194834 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab
+  artifactKey: Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab using Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de91a1ceb91d4e61df4570781b145467') in 0.005350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.012341 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab
+  artifactKey: Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab using Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec041aae5916fe4ea386fd4a3f58d49b') in 0.024346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.961110 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png
+  artifactKey: Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png using Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ff765b85335e85fc2de6fec3791db9') in 0.120933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.006973 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab
+  artifactKey: Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab using Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd580a864b432db062a903727d9edca43') in 0.020762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.365018 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab
+  artifactKey: Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial Exit.prefab using Guid(15e56b7aa8a77a54b992229dcf6b2393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac75ec82995da97920315a1ccdacaab') in 0.018086 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.789186 seconds.
+  path: Assets/Lost Lights/Prefabs/Eclipses
+  artifactKey: Guid(aa889b5e05a6caf4f92fe5f297ac716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Prefabs/Eclipses using Guid(aa889b5e05a6caf4f92fe5f297ac716a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed87700c5ea8fa776c2fc93cb05d2dbb') in 0.010433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.845403 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png
+  artifactKey: Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png using Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31432fe8a61d6a604efd8263ffaf8ae9') in 0.027290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.043483 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab
+  artifactKey: Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab using Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d83351f5694d275a947b654e5b528db') in 0.013041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 184.702529 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab
+  artifactKey: Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab using Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47aaceb10f7ab48cb24f3b45f55c28f5') in 0.010781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.967945 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab
+  artifactKey: Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial.prefab using Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd41b3d1b721115ca0f7e626f6ffb21') in 0.024166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.485038 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png
+  artifactKey: Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Partial COMPLETE.png using Guid(7171ebf820fd241488b3fff411249ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35abdd10ca414f4fa7aed36d4a479b0a') in 0.037408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.485361 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penubral.prefab
+  artifactKey: Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penubral.prefab using Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef25d1efac3e728054734c6659e0e050') in 0.030755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.514824 seconds.
+  path: Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penubral.prefab
+  artifactKey: Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Art_LL/Celestial_Bodies_LL/Eclipses/Penubral.prefab using Guid(869195052a33fd7448cf4db5b5c1e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a4663362d287632ea465779cf713df') in 0.024091 seconds 
+>>>>>>> Jon
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
