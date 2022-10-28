@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace InsertStudioLostLights
 {
@@ -95,7 +96,8 @@ namespace InsertStudioLostLights
             }
             if (staritesRemaining == 0) 
             {
-                endScreen.gameObject.SetActive(true);
+                //endScreen.gameObject.SetActive(true);
+                SceneManager.LoadScene("Stage Select",LoadSceneMode.Single);
                 Debug.Log("Game Over!");
             }
            

@@ -12,7 +12,7 @@ namespace InsertStudioLostLights
 {
     public class Transitions : MonoBehaviour
     {
-        public TMP_Text tempText;
+        //public TMP_Text tempText;
         //Button Transitions
         public Button nextScene;
 
@@ -25,18 +25,18 @@ namespace InsertStudioLostLights
 
         public void New_Game()
         {
-            SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
+            SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
         }
 
         public void Continue()
         {
-            tempText.text = "Coming Soon!";
+            //tempText.text = "Coming Soon!";
         }
 
-        public void Options()
-        {
-            tempText.text = "Coming Soon!";
-        }
+        //public void Options()
+        //{
+        //    tempText.text = "Coming Soon!";
+        //}
 
         public void StageSelect()
         {

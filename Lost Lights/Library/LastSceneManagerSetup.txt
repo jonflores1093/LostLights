@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
+- path: Assets/Lost Lights/Scenes_LL/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
