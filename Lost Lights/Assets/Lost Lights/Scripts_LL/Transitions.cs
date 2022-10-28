@@ -28,7 +28,51 @@ namespace InsertStudioLostLights
         {
             tempText.text = "Coming Soon!";
         }
-    public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
+
+        public void StageSelect()
+        {
+            SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+        }
+
+        public void MainMenu()
+        {
+            SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        }
+
+
+
+        public void StageLunar1()
+        {
+            SceneManager.LoadScene("Lunar Level 1", LoadSceneMode.Single);
+        }
+
+        public void StageLunar2()
+        {
+            SceneManager.LoadScene("Lunar Level 2", LoadSceneMode.Single);
+        }
+
+        public void StageLunar3()
+        {
+            SceneManager.LoadScene("Lunar Level 3", LoadSceneMode.Single);
+        }
+
+        public void StageSolar1()
+        {
+            SceneManager.LoadScene("Solar Level 1", LoadSceneMode.Single);
+        }
+
+        public void StageSolar2()
+        {
+            SceneManager.LoadScene("Solar Level 2", LoadSceneMode.Single);
+        }
+
+        public void StageSolar3()
+        {
+            SceneManager.LoadScene("Solar Level 3", LoadSceneMode.Single);
+        }
+
+
+        public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
             where T : class
     {
         // Invoke callback with null to use the default serialized values of the state data from the editor.

@@ -12,7 +12,7 @@ namespace InsertStudioLostLights
 
         public Button submitButton;
         public TMP_Text counter, correct, tryagain;
-        public float num = 8;
+        public float staritesRemaining = 8;
       
         public int markerNumber;
         public bool correctAnswer;
@@ -56,7 +56,7 @@ namespace InsertStudioLostLights
             Button btn = submitButton.GetComponent<Button>();
             btn.onClick.AddListener(TaskOnClick);
 
-            counter.text = "Starites remaining: " + num;
+            counter.text = "Starites remaining: " + staritesRemaining;
 
             if (moon == null)
             {
@@ -80,8 +80,8 @@ namespace InsertStudioLostLights
 
             if (correctAnswer == true)
             {
-                num--;
-                counter.text = "Starites remaining: " + num;
+                staritesRemaining--;
+                counter.text = "Starites remaining: " + staritesRemaining;
                 Object.Destroy(moon);
                 Object.Destroy(starrite);
                 changeQuestion.RandomQuestion();
@@ -93,7 +93,7 @@ namespace InsertStudioLostLights
                 // Add animation or good job box
 
             }
-            if (num == 0) 
+            if (staritesRemaining == 0) 
             {
                 endScreen.gameObject.SetActive(true);
                 Debug.Log("Game Over!");

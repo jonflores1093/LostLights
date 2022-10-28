@@ -14,4 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lost Lights/Scenes_LL/EndDemo.unity
     guid: 06f89db37906de24fb8ce58c20486122
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Stage Select.unity
+    guid: aac7c46db6d8a724383de6d3d2acd179
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Solar Level 1.unity
+    guid: ca48014d2d9b8534ca552531fffc8a45
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Solar Level 2.unity
+    guid: c1b5ba91f204c5d4baeee2cc33abd748
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Solar Level 3.unity
+    guid: 6e8eb3c254ee0c748b00baa97d59e638
   m_configObjects: {}
