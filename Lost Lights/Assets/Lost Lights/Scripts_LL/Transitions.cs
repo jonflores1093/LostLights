@@ -14,6 +14,15 @@ namespace InsertStudioLostLights
     {
         public TMP_Text tempText;
         //Button Transitions
+        public Button nextScene;
+
+        void Start()
+        {
+            DisableButton();
+            Invoke("EnableButton", 5f);
+
+        }
+
         public void New_Game()
         {
             SceneManager.LoadScene("Level 1", LoadSceneMode.Single);
@@ -39,36 +48,55 @@ namespace InsertStudioLostLights
             SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
         }
 
-
+        public void TutorialLevel()
+        {
+            SceneManager.LoadScene("Star falls?", LoadSceneMode.Single);
+        }
 
         public void StageLunar1()
         {
-            SceneManager.LoadScene("Lunar Level 1", LoadSceneMode.Single);
+            SceneManager.LoadScene("Lunar Landing Level 1", LoadSceneMode.Single);
         }
 
         public void StageLunar2()
         {
-            SceneManager.LoadScene("Lunar Level 2", LoadSceneMode.Single);
+            SceneManager.LoadScene("Lunar Landing Level 2", LoadSceneMode.Single);
         }
 
         public void StageLunar3()
         {
-            SceneManager.LoadScene("Lunar Level 3", LoadSceneMode.Single);
+            SceneManager.LoadScene("Lunar Landing Level 3", LoadSceneMode.Single);
         }
 
         public void StageSolar1()
         {
-            SceneManager.LoadScene("Solar Level 1", LoadSceneMode.Single);
+            SceneManager.LoadScene("Solar Salute 1", LoadSceneMode.Single);
         }
 
         public void StageSolar2()
         {
-            SceneManager.LoadScene("Solar Level 2", LoadSceneMode.Single);
+            SceneManager.LoadScene("Solar Salute 2", LoadSceneMode.Single);
         }
 
         public void StageSolar3()
         {
-            SceneManager.LoadScene("Solar Level 3", LoadSceneMode.Single);
+            SceneManager.LoadScene("Solar Salute 3", LoadSceneMode.Single);
+        }
+
+        public void Next_Scene()
+        {
+            SceneManager.LoadScene("");
+        }
+
+        void EnableButton()
+        {
+            nextScene.interactable = true;
+
+        }
+        void DisableButton()
+        {
+            nextScene.interactable = false;
+
         }
 
 
