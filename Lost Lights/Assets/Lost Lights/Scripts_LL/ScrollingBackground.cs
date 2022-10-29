@@ -5,13 +5,17 @@ using UnityEngine.UI;
 
 namespace InsertStudioLostLights
 {
+
     public class ScrollingBackground : MonoBehaviour
     {
         [SerializeField] private RawImage bg;
         [SerializeField] private float _x, _y;
 
-        
-        
+
+        public string SaveToString()
+        {
+            return JsonUtility.ToJson(this);
+        }
 
         void Update()
         {

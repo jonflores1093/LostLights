@@ -1587,18 +1587,18 @@ static const Il2CppTokenRangePair s_rgctxIndices[4] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
 {
-	{ (Il2CppRGCTXDataType)2, 1533 },
-	{ (Il2CppRGCTXDataType)2, 253 },
-	{ (Il2CppRGCTXDataType)1, 253 },
-	{ (Il2CppRGCTXDataType)3, 8820 },
-	{ (Il2CppRGCTXDataType)2, 1562 },
-	{ (Il2CppRGCTXDataType)3, 6629 },
-	{ (Il2CppRGCTXDataType)2, 422 },
-	{ (Il2CppRGCTXDataType)3, 29 },
-	{ (Il2CppRGCTXDataType)3, 30 },
-	{ (Il2CppRGCTXDataType)1, 1565 },
-	{ (Il2CppRGCTXDataType)2, 1565 },
-	{ (Il2CppRGCTXDataType)3, 76 },
+	{ (Il2CppRGCTXDataType)2, 1542 },
+	{ (Il2CppRGCTXDataType)2, 254 },
+	{ (Il2CppRGCTXDataType)1, 254 },
+	{ (Il2CppRGCTXDataType)3, 8833 },
+	{ (Il2CppRGCTXDataType)2, 1571 },
+	{ (Il2CppRGCTXDataType)3, 6642 },
+	{ (Il2CppRGCTXDataType)2, 428 },
+	{ (Il2CppRGCTXDataType)3, 39 },
+	{ (Il2CppRGCTXDataType)3, 40 },
+	{ (Il2CppRGCTXDataType)1, 1575 },
+	{ (Il2CppRGCTXDataType)2, 1575 },
+	{ (Il2CppRGCTXDataType)3, 89 },
 };
 extern const CustomAttributesCacheGenerator g_LoLSDKCrossPlatform_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_LoLSDKCrossPlatform_CodeGenModule;

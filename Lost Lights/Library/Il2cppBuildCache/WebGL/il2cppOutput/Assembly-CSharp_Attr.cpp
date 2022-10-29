@@ -786,6 +786,42 @@ static void SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttribu
 		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 }
+static void SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioCorrectVolume(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+	{
+		RangeAttribute_t14A6532D68168764C15E7CF1FDABCD99CB32D0C5 * tmp = (RangeAttribute_t14A6532D68168764C15E7CF1FDABCD99CB32D0C5 *)cache->attributes[1];
+		RangeAttribute__ctor_mC74D39A9F20DD2A0D4174F05785ABE4F0DAEF000(tmp, 0.0f, 1.0f, NULL);
+	}
+}
+static void SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioWrongVolume(CustomAttributesCache* cache)
+{
+	{
+		RangeAttribute_t14A6532D68168764C15E7CF1FDABCD99CB32D0C5 * tmp = (RangeAttribute_t14A6532D68168764C15E7CF1FDABCD99CB32D0C5 *)cache->attributes[0];
+		RangeAttribute__ctor_mC74D39A9F20DD2A0D4174F05785ABE4F0DAEF000(tmp, 0.0f, 1.0f, NULL);
+	}
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void U3CU3Ec__DisplayClass17_0_1_tBCCF5944A11D3C82FBC06C17A0BBF5783BEAFDFB_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+}
+static void U3CU3Ec__DisplayClass17_1_1_t88A57E53BB01420EA3D95AB094C9EFFCB537140F_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
+{
+	{
+		CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C * tmp = (CompilerGeneratedAttribute_t39106AB982658D7A94C27DEF3C48DB2F5F7CD75C *)cache->attributes[0];
+		CompilerGeneratedAttribute__ctor_m9DC3E4E2DA76FE93948D44199213E2E924DCBE35(tmp, NULL);
+	}
+}
 static void U3CU3Ec__DisplayClass0_0_1_t59D596CF0F2EBE0502B7BE1970ED6287FEA78237_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
@@ -915,12 +951,12 @@ static void ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomA
 static void ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomAttributesCacheGenerator_cookingData(CustomAttributesCache* cache)
 {
 	{
-		HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB * tmp = (HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB *)cache->attributes[0];
-		HeaderAttribute__ctor_m601319E0BCE8C44A9E79B2C0ABAAD0FEF46A9F1E(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x69\x74\x69\x61\x6C\x20\x53\x74\x61\x74\x65\x20\x44\x61\x74\x61"), NULL);
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
 	}
 	{
-		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[1];
-		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+		HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB * tmp = (HeaderAttribute_t9B431E6BA0524D46406D9C413D6A71CB5F2DD1AB *)cache->attributes[1];
+		HeaderAttribute__ctor_m601319E0BCE8C44A9E79B2C0ABAAD0FEF46A9F1E(tmp, il2cpp_codegen_string_new_wrapper("\x49\x6E\x69\x74\x69\x61\x6C\x20\x53\x74\x61\x74\x65\x20\x44\x61\x74\x61"), NULL);
 	}
 }
 static void ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomAttributesCacheGenerator_ExampleCookingGame__Feedback_mA1932A7C5E64F406CA2185961D04CD066542A8EC(CustomAttributesCache* cache)
@@ -1000,10 +1036,12 @@ static void U3C_FeedbackU3Ed__39_t0BFDD392A6E38C79D582CD2CCFFB4EA63D34E44E_Custo
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[46] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[50] = 
 {
 	SpeakQuestion_tB773BB03DA71FADA55056886866653DC5237B719_CustomAttributesCacheGenerator,
 	U3CSetImageU3Ed__11_tB0583F3F6794F4EED986543A9CF1805C5F2F5291_CustomAttributesCacheGenerator,
+	U3CU3Ec__DisplayClass17_0_1_tBCCF5944A11D3C82FBC06C17A0BBF5783BEAFDFB_CustomAttributesCacheGenerator,
+	U3CU3Ec__DisplayClass17_1_1_t88A57E53BB01420EA3D95AB094C9EFFCB537140F_CustomAttributesCacheGenerator,
 	U3CU3Ec__DisplayClass0_0_1_t59D596CF0F2EBE0502B7BE1970ED6287FEA78237_CustomAttributesCacheGenerator,
 	U3CU3Ec__DisplayClass0_1_1_t2C3ABCD80972F11199F305C0A876287177648CC5_CustomAttributesCacheGenerator,
 	U3CU3Ec_t8887617EB9C8E3D3288C1FD2B4A05354748C3D48_CustomAttributesCacheGenerator,
@@ -1017,6 +1055,8 @@ const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[46]
 	ScrollingBackground_t7697335F81009D50753B6F2186A95FFFABC8972C_CustomAttributesCacheGenerator__y,
 	SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioCorrect,
 	SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioWrong,
+	SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioCorrectVolume,
+	SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5_CustomAttributesCacheGenerator_audioWrongVolume,
 	ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomAttributesCacheGenerator_panPrefab,
 	ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomAttributesCacheGenerator_foodPrefab,
 	ExampleCookingGame_tFDC2E8CF1E928564FE921E78EE83797D37658742_CustomAttributesCacheGenerator_purchasePanButton,

@@ -35,7 +35,10 @@ namespace InsertStudioLostLights
 
         public GameObject answerText;
 
-
+        public string SaveToString()
+        {
+            return JsonUtility.ToJson(this);
+        }
         private void Awake()
         {
             // AUDIO

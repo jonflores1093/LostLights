@@ -17,7 +17,10 @@ public class Timer : MonoBehaviour
     //public float RawTime = 0.0F;
     //public float ClockHR = 12f;
     //public float ClockMN = 59f;
-
+    public string SaveToString()
+    {
+        return JsonUtility.ToJson(this);
+    }
     void Start()
     {
         clocktxt = GetComponent<TMP_Text>();

@@ -14,12 +14,19 @@ namespace InsertStudioLostLights
     {
         //public TMP_Text tempText;
         //Button Transitions
-        public Button nextScene;
 
+
+        public Button nextScene;
+        public string SaveToString()
+        {
+            return JsonUtility.ToJson(this);
+        }
         void Start()
         {
             DisableButton();
             Invoke("EnableButton", 5f);
+
+          
 
         }
 
