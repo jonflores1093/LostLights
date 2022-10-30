@@ -4,5 +4,9 @@ using UnityEngine;
 
 public class MoonType : MonoBehaviour
 {
-    public int moonNumber;  
+    public int moonNumber;
+    public string SaveToString()
+    {
+        return JsonUtility.ToJson(this);
+    }
 }

@@ -1,8 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioButton
+    - EarthAutoMove
     - InsertStudioLostLights.MechanicScreen
-    - InsertStudioLostLights.Questions
     - InsertStudioLostLights.RotationLeft
     - InsertStudioLostLights.RotationRight
     - InsertStudioLostLights.ScrollingBackground
@@ -10,6 +11,9 @@ ScriptsOnlyBuild:
     - InsertStudioLostLights.Transitions
     - MoonType
     - MoonTypeMarker
+    - NewQuestions
+    - Starite
+    - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -30,6 +34,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshPro
     - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -45,7 +50,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Lost Lights/Scenes_LL/EndDemo.unity:
+    Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -54,34 +59,250 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 1880}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2250}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 3564}
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1788}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2190}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2334}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1788}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2190}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2334}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -117,38 +338,46 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1904}
+      Script: {instanceID: 1880}
     - Class: 114
-      Script: {instanceID: 2332}
+      Script: {instanceID: 2098}
     - Class: 114
-      Script: {instanceID: 2340}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 2438}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 3130}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3564}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 4976}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 5376}
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 4956}
+    - Class: 114
+      Script: {instanceID: 5356}
+    - Class: 114
+      Script: {instanceID: 5630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -167,7 +396,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Lost Lights/Scenes_LL/OpeningTest.unity:
+    Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -192,47 +421,365 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1578}
+      Script: {instanceID: 1554}
     - Class: 114
-      Script: {instanceID: 1812}
+      Script: {instanceID: 1788}
     - Class: 114
-      Script: {instanceID: 1904}
+      Script: {instanceID: 1880}
     - Class: 114
-      Script: {instanceID: 2212}
+      Script: {instanceID: 2190}
     - Class: 114
-      Script: {instanceID: 2274}
+      Script: {instanceID: 2250}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 2292}
     - Class: 114
-      Script: {instanceID: 2600}
+      Script: {instanceID: 2334}
     - Class: 114
-      Script: {instanceID: 2778}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 2952}
+      Script: {instanceID: 2580}
     - Class: 114
-      Script: {instanceID: 3002}
+      Script: {instanceID: 2758}
     - Class: 114
-      Script: {instanceID: 3190}
+      Script: {instanceID: 2932}
     - Class: 114
-      Script: {instanceID: 3286}
+      Script: {instanceID: 2982}
     - Class: 114
-      Script: {instanceID: 3442}
+      Script: {instanceID: 3170}
     - Class: 114
-      Script: {instanceID: 3564}
+      Script: {instanceID: 3266}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 5104}
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
-    - Class: 135
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1788}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2190}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2334}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1788}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2190}
+    - Class: 114
+      Script: {instanceID: 2250}
+    - Class: 114
+      Script: {instanceID: 2292}
+    - Class: 114
+      Script: {instanceID: 2334}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2580}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3266}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4130}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5084}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Stage Select.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2098}
+    - Class: 114
+      Script: {instanceID: 2318}
+    - Class: 114
+      Script: {instanceID: 2438}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 114
+      Script: {instanceID: 4768}
+    - Class: 114
+      Script: {instanceID: 5630}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/StoryScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1554}
+    - Class: 114
+      Script: {instanceID: 1880}
+    - Class: 114
+      Script: {instanceID: 2438}
+    - Class: 114
+      Script: {instanceID: 2500}
+    - Class: 114
+      Script: {instanceID: 2758}
+    - Class: 114
+      Script: {instanceID: 2932}
+    - Class: 114
+      Script: {instanceID: 2982}
+    - Class: 114
+      Script: {instanceID: 3130}
+    - Class: 114
+      Script: {instanceID: 3170}
+    - Class: 114
+      Script: {instanceID: 3422}
+    - Class: 114
+      Script: {instanceID: 3544}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -383,16 +930,16 @@ ScriptsOnlyBuild:
     className: LOLSDKInit
   - hash:
       serializedVersion: 2
+      Hash: 2da73018bdd7f5d8335c04da6c504daf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EarthAutoMove
+  - hash:
+      serializedVersion: 2
       Hash: a77efe9793f40ff697fd7c78655e3d3a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MoonTypeMarker
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: InsertStudioLostLights
-    className: Counter
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -413,10 +960,16 @@ ScriptsOnlyBuild:
     className: SpriteSkinUpdateHelper
   - hash:
       serializedVersion: 2
-      Hash: e7df6977041ce378894117dc04ecb406
+      Hash: 585188e940aa433c8fefccbd0f76282a
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: RotationLeft
+  - hash:
+      serializedVersion: 2
+      Hash: 586c853ee3223b12adf7e1db44476872
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Timer
   - hash:
       serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
@@ -429,6 +982,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 2cdfb05f53b9a53bcd2a46f9b8c695d1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewQuestions
   - hash:
       serializedVersion: 2
       Hash: 4605cf6647fa6928dd1faf1910930699
@@ -467,7 +1026,7 @@ ScriptsOnlyBuild:
     className: IKManager2D
   - hash:
       serializedVersion: 2
-      Hash: e7df6977041ce378894117dc04ecb406
+      Hash: 585188e940aa433c8fefccbd0f76282a
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: RotationRight
@@ -515,7 +1074,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 8d33ea5207fecec9946a98abd87466ed
+      Hash: af9741b1794fa53a1f6fd2fc5be99ea2
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: Transitions
@@ -557,7 +1116,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 96f89de8ab3950ceb9df916a14ab3b58
+      Hash: d6aa33018bb9e82cdb6c2471034c7656
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: SubmitMarker
@@ -683,12 +1242,6 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: aaf308ffd4e4e066c54461f62067bda0
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: InsertStudioLostLights
-    className: Questions
-  - hash:
-      serializedVersion: 2
       Hash: da4cc51a02ce84afe2cecd27cfe6997a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -789,6 +1342,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: QuestionsController
+  - hash:
+      serializedVersion: 2
+      Hash: b3b356b0bff89420f5eda1d94dfe9c93
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AudioButton
   - hash:
       serializedVersion: 2
       Hash: 3165968ba45c74472d279ba04455fccb
@@ -899,6 +1458,12 @@ ScriptsOnlyBuild:
     className: SpeechSceneManager
   - hash:
       serializedVersion: 2
+      Hash: 66653749758cd90ce0d34929c5d8d251
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Starite
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
@@ -936,6 +1501,12 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Lost Lights/Scenes_LL/MainMenu.unity
-  - Assets/Lost Lights/Scenes_LL/OpeningTest.unity
-  - Assets/Lost Lights/Scenes_LL/EndDemo.unity
+  - Assets/Lost Lights/Scenes_LL/StoryScene.unity
+  - Assets/Lost Lights/Scenes_LL/Stage Select.unity
+  - Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
+  - Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity
+  - Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity
+  - Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity
+  - Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
+  - Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
   playerPath: E:/Unity/Unity_Projects/TestBuildsLoL

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 namespace InsertStudioLostLights
 {
@@ -12,34 +13,68 @@ namespace InsertStudioLostLights
 
         public Button submitButton;
         public TMP_Text counter, correct, tryagain;
-        public float num = 8;
+        public float staritesRemaining = 8;
       
         public int markerNumber;
         public bool correctAnswer;
         public GameObject moon;
+        public GameObject starrite;
         public int moonNumber;
 
-        Questions changeQuestion;
+        NewQuestions changeQuestion;
+
+        [SerializeField] AudioClip audioCorrect;
+        [SerializeField] AudioClip audioWrong;
+        AudioSource audioSourceCorrect;
+        AudioSource audioSourceWrong;
+        [SerializeField] [Range(0.0f, 1.0f)] float audioCorrectVolume = 1;
+        [SerializeField] [Range(0.0f, 1.0f)] float audioWrongVolume = 1;
 
         //Canvas Mechanics
         public MechanicScreen endScreen;
 
+        public GameObject answerText;
 
+        public string SaveToString()
+        {
+            return JsonUtility.ToJson(this);
+        }
+        private void Awake()
+        {
+            // AUDIO
+            audioSourceCorrect = gameObject.AddComponent<AudioSource>();
+            if (audioCorrect != null)
+                audioSourceCorrect.clip = audioCorrect;
+            audioSourceCorrect.volume = audioCorrectVolume;
+            audioSourceCorrect.playOnAwake = false;
 
+            audioSourceWrong = gameObject.AddComponent<AudioSource>();
+            if (audioWrong != null)
+                audioSourceWrong.clip = audioWrong;
+            audioSourceWrong.volume = audioWrongVolume;
+            audioSourceWrong.playOnAwake = false;
+
+        }
         void Start()
         {
             Button btn = submitButton.GetComponent<Button>();
             btn.onClick.AddListener(TaskOnClick);
 
-            counter.text = "Starites remaining: " + num;
+            counter.text = "Starites remaining: " + staritesRemaining;
 
             if (moon == null)
             {
                 moon = GameObject.FindWithTag("Moon");
                 moonNumber = moon.GetComponent<MoonType>().moonNumber;
             }
+            if (starrite == null)
+            {
+                starrite = GameObject.FindWithTag("Starrite");
+            }
 
-            changeQuestion = FindObjectOfType<Questions>();
+                changeQuestion = FindObjectOfType<NewQuestions>();
+
+            
         }
 
          
@@ -49,9 +84,10 @@ namespace InsertStudioLostLights
 
             if (correctAnswer == true)
             {
-                num--;
-                counter.text = "Starites remaining: " + num;
+                staritesRemaining--;
+                counter.text = "Starites remaining: " + staritesRemaining;
                 Object.Destroy(moon);
+                Object.Destroy(starrite);
                 changeQuestion.RandomQuestion();
                 Invoke("UpdateMoon", .05f);
                 DisableButton();
@@ -61,9 +97,10 @@ namespace InsertStudioLostLights
                 // Add animation or good job box
 
             }
-            if (num == 0) 
+            if (staritesRemaining == 0) 
             {
-                endScreen.gameObject.SetActive(true);
+                //endScreen.gameObject.SetActive(true);
+                SceneManager.LoadScene("Stage Select",LoadSceneMode.Single);
                 Debug.Log("Game Over!");
             }
            
@@ -72,6 +109,7 @@ namespace InsertStudioLostLights
         void UpdateMoon()
         {
             moon = GameObject.FindWithTag("Moon");
+            starrite = GameObject.FindWithTag("Starrite");
             moonNumber = moon.GetComponent<MoonType>().moonNumber;    
         }
 
@@ -114,18 +152,34 @@ namespace InsertStudioLostLights
             Debug.Log("Matching");
             if (markerNumber == moonNumber)
             {
+                setTextActive();
                 Debug.Log("correctanswer");
                 correctAnswer = true;
                 correct.text = "Correct!";
-
-
+                Invoke("setTextInactive", 3);
+                audioSourceCorrect.Play();
             }
             else
             {
+                setTextActive();
                 Debug.Log("wronganswer");
                 correctAnswer = false;
                 tryagain.text = "Try Again!";
+                Invoke("setTextInactive", 3);
+                audioSourceWrong.Play();
+
             }
+        }
+
+        void setTextActive()
+        {
+            answerText.gameObject.SetActive(true);
+        }
+
+
+        void setTextInactive()
+        {
+            answerText.gameObject.SetActive(false);
         }
     }
 
