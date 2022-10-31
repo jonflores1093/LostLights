@@ -14746,12 +14746,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_add_AnswerResultReceived_m296486A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_ShowQuestion_mAA2CB8DFD40F0E4001A0BABFACCCCFE8C56690A4 (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, const RuntimeMethod* method);
 // System.Boolean SimpleJSON.JSONNode::op_Implicit(SimpleJSON.JSONNode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool JSONNode_op_Implicit_mCD8EB8D715859730CB78CAA25CC87E4A0E31A486 (JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * ___d0, const RuntimeMethod* method);
-// System.String UnityEngine.JsonUtility::ToJson(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C (RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.MechanicScreen::DisableButton()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MechanicScreen_DisableButton_m25EF100853A7A3F0CD51BA8E9FB874EA078E7380 (MechanicScreen_t8F4209CF5BD516BCCAFABD0F6BF7B0C4BC0F572D * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.SceneManagement.SceneManager::LoadScene(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092 (String_t* ___sceneName0, const RuntimeMethod* method);
+// System.String UnityEngine.JsonUtility::ToJson(System.Object)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C (RuntimeObject * ___obj0, const RuntimeMethod* method);
 // System.Void NewQuestions::RandomQuestion()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NewQuestions_RandomQuestion_m8F4F3904152D9643B0F07FE685E6E89D02F63BDE (NewQuestions_t81124704BCB5A193586F5C0EB62D76F84EFCF290 * __this, const RuntimeMethod* method);
 // System.Int32 System.Collections.Generic.List`1<UnityEngine.GameObject>::get_Count()
@@ -17044,16 +17044,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MainMenuManager__ctor_m39846598ADB888902
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.MechanicScreen::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MechanicScreen_SaveToString_m6294019661C59E52B25672735E384309DD97FFF9 (MechanicScreen_t8F4209CF5BD516BCCAFABD0F6BF7B0C4BC0F572D * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.MechanicScreen::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MechanicScreen_Start_m67CF2AF1348EB0A57B8EC304F3D468991D482095 (MechanicScreen_t8F4209CF5BD516BCCAFABD0F6BF7B0C4BC0F572D * __this, const RuntimeMethod* method)
 {
@@ -17153,16 +17143,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoonType__ctor_mA4600EB3799F0881081F84EA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String MoonTypeMarker::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* MoonTypeMarker_SaveToString_mAED2602AAB5F487816961B8C02D66ABEEA6C42DC (MoonTypeMarker_t990B1086C7264E68CD2CCF6780035AC31C6A769E * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void MoonTypeMarker::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoonTypeMarker__ctor_m396FE1357D7C39B0602F6F858B706FC5ED72560E (MoonTypeMarker_t990B1086C7264E68CD2CCF6780035AC31C6A769E * __this, const RuntimeMethod* method)
 {
@@ -17179,16 +17159,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MoonTypeMarker__ctor_m396FE1357D7C39B060
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String NewQuestions::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* NewQuestions_SaveToString_m735F68C8AF3FAF49F43A97059CC660EAFC303E26 (NewQuestions_t81124704BCB5A193586F5C0EB62D76F84EFCF290 * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void NewQuestions::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NewQuestions_Awake_m44726CF23D3BE4E544C10C9817D0F87EEF92FD66 (NewQuestions_t81124704BCB5A193586F5C0EB62D76F84EFCF290 * __this, const RuntimeMethod* method)
 {
@@ -17745,16 +17715,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuestionsController__ctor_mDE98BB03903CA
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.RotationLeft::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RotationLeft_SaveToString_mFB61B30F31917ABBD92199DB415F93E0DE1C8B9A (RotationLeft_tF4FED6C5FEE98567D6639373330B14CCD640E30F * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.RotationLeft::FixedUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationLeft_FixedUpdate_mBDB6777F075840085D537CD6B12046434B816A6D (RotationLeft_tF4FED6C5FEE98567D6639373330B14CCD640E30F * __this, const RuntimeMethod* method)
 {
@@ -17910,16 +17870,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationLeft__ctor_m38763BC232CCE2F77782
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.RotationRight::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RotationRight_SaveToString_m2529F6B9F8BA110D6A7D31A178B5DDD2BB37F1B6 (RotationRight_tA4482BAF4367A49AC35537C21DF0DC9BC2F232F2 * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.RotationRight::FixedUpdate()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationRight_FixedUpdate_m8F43BE61ED7812608CDB6E032A050657C01D3B79 (RotationRight_tA4482BAF4367A49AC35537C21DF0DC9BC2F232F2 * __this, const RuntimeMethod* method)
 {
@@ -18075,16 +18025,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RotationRight__ctor_m4C55717432D3692DF65
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.ScrollingBackground::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ScrollingBackground_SaveToString_m0E861C0B57E750BDBAB6D509CC78FF0123727241 (ScrollingBackground_t7697335F81009D50753B6F2186A95FFFABC8972C * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.ScrollingBackground::Update()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ScrollingBackground_Update_m64BD732A2712A8D1DE505040F3CE2FA9EEC505C6 (ScrollingBackground_t7697335F81009D50753B6F2186A95FFFABC8972C * __this, const RuntimeMethod* method)
 {
@@ -18912,16 +18852,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpeechSceneManager__ctor_m938B0D247ABB57
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String Starite::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Starite_SaveToString_mBD3E7302A95D6522399D657401D4B54B0A8E06EA (Starite_t7659C04DCA04A4488A0EC01C0722A05F1995BCDA * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void Starite::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Starite_Start_m54F9CB2FC52D9883D5FCC7252F1B12296D03AB1E (Starite_t7659C04DCA04A4488A0EC01C0722A05F1995BCDA * __this, const RuntimeMethod* method)
 {
@@ -19059,16 +18989,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubmitAnswer__ctor_mA7136555824CC8A05DFD
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.SubmitMarker::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* SubmitMarker_SaveToString_m7DA739DC591290778388C06ADFE36C481B218D02 (SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5 * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.SubmitMarker::Awake()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubmitMarker_Awake_m8D0A33B34CF75FE1EC36D355912851AC0066F987 (SubmitMarker_t8521D9BF85AF65395FE3A388943B3D2C46E452B5 * __this, const RuntimeMethod* method)
 {
@@ -19644,16 +19564,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SubmitProgress__ctor_m0E89D60018957F8B9C
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String Timer::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Timer_SaveToString_m053C4A323AEABF7647D25B70AA14D785F8D8794B (Timer_t32ADF3155A88C37628B80D227C821651666DD405 * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void Timer::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timer_Start_mF356578A412E0D4BE318BC567718C7DBD90E05F0 (Timer_t32ADF3155A88C37628B80D227C821651666DD405 * __this, const RuntimeMethod* method)
 {
@@ -19914,16 +19824,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Timer__ctor_m74709038BC88FE71F7D6C06D0FF
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.String InsertStudioLostLights.Transitions::SaveToString()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Transitions_SaveToString_mFB53F8365A83F47F4B7265F0A6FE15324331C1AC (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
-{
-	{
-		// return JsonUtility.ToJson(this);
-		String_t* L_0;
-		L_0 = JsonUtility_ToJson_mF4F097C9AEC7699970E3E7E99EF8FF2F44DA1B5C(__this, /*hidden argument*/NULL);
-		return L_0;
-	}
-}
 // System.Void InsertStudioLostLights.Transitions::Start()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Start_mFCB4B565207854F3D0514AB98DA43D2DD7ACE281 (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
 {

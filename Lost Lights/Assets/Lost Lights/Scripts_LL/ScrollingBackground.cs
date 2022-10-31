@@ -12,10 +12,10 @@ namespace InsertStudioLostLights
         [SerializeField] private float _x, _y;
 
 
-        public string SaveToString()
-        {
-            return JsonUtility.ToJson(this);
-        }
+        //public string SaveToString()
+        //{
+        //    return JsonUtility.ToJson(this);
+        //}
 
         void Update()
         {

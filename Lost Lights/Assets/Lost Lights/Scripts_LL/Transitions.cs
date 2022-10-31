@@ -17,27 +17,27 @@ namespace InsertStudioLostLights
 
 
         public Button nextScene;
-        public string SaveToString()
-        {
-            return JsonUtility.ToJson(this);
-        }
+        //public string SaveToString()
+        //{
+        //    return JsonUtility.ToJson(this);
+        //}
         void Start()
         {
             DisableButton();
             Invoke("EnableButton", 5f);
 
-          
+
 
         }
 
-        public void New_Game()
-        {
-            SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
-        }
 
         public void Continue()
         {
             //tempText.text = "Coming Soon!";
+        }
+        public void New_Game()
+        {
+            SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
         }
 
         //public void Options()
@@ -92,7 +92,7 @@ namespace InsertStudioLostLights
 
         public void Next_Scene()
         {
-            SceneManager.LoadScene("");
+            SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
         }
 
         void EnableButton()
