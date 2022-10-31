@@ -5,8 +5,8 @@ using UnityEngine;
 public class MoonTypeMarker : MonoBehaviour
 {
     public int moonNumberMarker;
-    public string SaveToString()
-    {
-        return JsonUtility.ToJson(this);
-    }
+    //public string SaveToString()
+    //{
+    //    return JsonUtility.ToJson(this);
+    //}
 }

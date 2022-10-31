@@ -21,10 +21,10 @@ namespace InsertStudioLostLights
         public float rot_Speed = 50;
         bool rotate = false;
 
-        public string SaveToString()
-        {
-            return JsonUtility.ToJson(this);
-        }
+        //public string SaveToString()
+        //{
+        //    return JsonUtility.ToJson(this);
+        //}
 
         void FixedUpdate()
         {
