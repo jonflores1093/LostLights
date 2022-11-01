@@ -6,28 +6,31 @@ using UnityEngine.UI;
 using TMPro;
 using LoLSDK;
 using SimpleJSON;
-
+using System.IO;
 
 
 namespace InsertStudioLostLights
 {
     public class Transitions : MonoBehaviour
     {
-        //public TMP_Text tempText;
-        //Button Transitions
-
 
         public Button nextScene;
         JSONNode _langNode;
         string _langCode = "en";
 
+        [SerializeField] TextMeshProUGUI newGameText, continueText, stageSelectText;
+
         void Start()
         {
             DisableButton();
             Invoke("EnableButton", 2.5f);
+            LoadData();
+
+            LOLSDK.Instance.LanguageDefsReceived += new LanguageDefsReceivedHandler(LanguageUpdate);
 
 
-
+            //Dont know if we need this one
+            TextDisplayUpdate();
         }
        
 
@@ -51,12 +54,9 @@ namespace InsertStudioLostLights
                 return;
 
             _langNode = JSON.Parse(langJSON);
-
+            TextDisplayUpdate();
         }
-        //public void Options()
-        //{
-        //    tempText.text = "Coming Soon!";
-        //}
+       
 
         public void StageSelect()
         {
@@ -118,6 +118,38 @@ namespace InsertStudioLostLights
             nextScene.interactable = false;
 
         }
+        string GetText(string key)
+        {
+            string value = _langNode?[key];
+            return value ?? "--missing--";
+        }
+        void TextDisplayUpdate()
+        {
+            stageSelectText.text = GetText("stageSelect");
+            newGameText.text = GetText("newGame");
+            continueText.text = GetText("continue");
+            
+        }
+
+        private void LoadData()
+        {
+
+            string startDataFilePath = Path.Combine(Application.streamingAssetsPath, "startGame.json");
+
+            if (File.Exists(startDataFilePath))
+            {
+                string startDataAsJSON = File.ReadAllText(startDataFilePath);
+                New_Game(startDataAsJSON);
+            }
+
+            string langFilePath = Path.Combine(Application.streamingAssetsPath, "language.json");
+            if (File.Exists(langFilePath))
+            {
+                string langDataAsJson = File.ReadAllText(langFilePath);
+                var lang = JSON.Parse(langDataAsJson)[_langCode];
+                LanguageUpdate(lang.ToString());
+            }
+        }
 
 
         public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
@@ -154,6 +186,8 @@ namespace InsertStudioLostLights
 
             New_Game.gameObject.SetActive(true);
         });
+
+
     }
     }
 
