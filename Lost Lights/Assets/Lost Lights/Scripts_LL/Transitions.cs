@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 using LoLSDK;
+using SimpleJSON;
 
 
 
@@ -17,29 +18,41 @@ namespace InsertStudioLostLights
 
 
         public Button nextScene;
-        //public string SaveToString()
-        //{
-        //    return JsonUtility.ToJson(this);
-        //}
+        JSONNode _langNode;
+        string _langCode = "en";
+
         void Start()
         {
             DisableButton();
-            Invoke("EnableButton", 5f);
+            Invoke("EnableButton", 2.5f);
 
 
 
         }
-
+       
 
         public void Continue()
         {
             //tempText.text = "Coming Soon!";
         }
-        public void New_Game()
+        public void New_Game(string startGameJSON)
         {
+            if (string.IsNullOrEmpty(startGameJSON))
+                return;
+
+            JSONNode startGamePayload = JSON.Parse(startGameJSON);
+            _langCode = startGamePayload["languageCode"];
+
             SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
         }
+        void LanguageUpdate(string langJSON)
+        {
+            if (string.IsNullOrEmpty(langJSON))
+                return;
 
+            _langNode = JSON.Parse(langJSON);
+
+        }
         //public void Options()
         //{
         //    tempText.text = "Coming Soon!";

@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using LoLSDK;
+using SimpleJSON;
 
 namespace InsertStudioLostLights
 {
@@ -11,11 +13,6 @@ namespace InsertStudioLostLights
         [SerializeField] private RawImage bg;
         [SerializeField] private float _x, _y;
 
-
-        //public string SaveToString()
-        //{
-        //    return JsonUtility.ToJson(this);
-        //}
 
         void Update()
         {

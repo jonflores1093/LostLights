@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using LoLSDK;
+using SimpleJSON;
 
 public class Starite : MonoBehaviour
 {
     public float altitude;
     public float frequency;
     Vector3 startPos;
-    //public string SaveToString()
-    //{
-    //    return JsonUtility.ToJson(this);
-    //}
+    
     void Start()
     {
         startPos = transform.position;

@@ -523,7 +523,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralD2BCDAE2F2EA125663DE2FE26950D0A00766B2D3
 IL2CPP_EXTERN_C String_t* _stringLiteralD5E9CE6314DC53A3591AD529AEDB4A65D21BD667;
 IL2CPP_EXTERN_C String_t* _stringLiteralD826305E747E57DA86165421089F9BC37B3F5BA8;
 IL2CPP_EXTERN_C String_t* _stringLiteralD9B5B6D920C167477DC04CD269446B14AB6E8115;
-IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC12DF72856CE95BD36AAE4CBBB503D6A5550851;
 IL2CPP_EXTERN_C String_t* _stringLiteralDE8090827BE7FEDD53F134610D2BEBDCDF8080E4;
 IL2CPP_EXTERN_C String_t* _stringLiteralE5C37D372367C69DCD30FE688631A1B0CE49EA73;
@@ -9391,6 +9390,10 @@ struct Transitions_t220327C1F7303A932745B68472D05D4C506AC82F  : public MonoBehav
 public:
 	// UnityEngine.UI.Button InsertStudioLostLights.Transitions::nextScene
 	Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * ___nextScene_4;
+	// SimpleJSON.JSONNode InsertStudioLostLights.Transitions::_langNode
+	JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * ____langNode_5;
+	// System.String InsertStudioLostLights.Transitions::_langCode
+	String_t* ____langCode_6;
 
 public:
 	inline static int32_t get_offset_of_nextScene_4() { return static_cast<int32_t>(offsetof(Transitions_t220327C1F7303A932745B68472D05D4C506AC82F, ___nextScene_4)); }
@@ -9400,6 +9403,24 @@ public:
 	{
 		___nextScene_4 = value;
 		Il2CppCodeGenWriteBarrier((void**)(&___nextScene_4), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__langNode_5() { return static_cast<int32_t>(offsetof(Transitions_t220327C1F7303A932745B68472D05D4C506AC82F, ____langNode_5)); }
+	inline JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * get__langNode_5() const { return ____langNode_5; }
+	inline JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD ** get_address_of__langNode_5() { return &____langNode_5; }
+	inline void set__langNode_5(JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * value)
+	{
+		____langNode_5 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____langNode_5), (void*)value);
+	}
+
+	inline static int32_t get_offset_of__langCode_6() { return static_cast<int32_t>(offsetof(Transitions_t220327C1F7303A932745B68472D05D4C506AC82F, ____langCode_6)); }
+	inline String_t* get__langCode_6() const { return ____langCode_6; }
+	inline String_t** get_address_of__langCode_6() { return &____langCode_6; }
+	inline void set__langCode_6(String_t* value)
+	{
+		____langCode_6 = value;
+		Il2CppCodeGenWriteBarrier((void**)(&____langCode_6), (void*)value);
 	}
 };
 
@@ -19836,26 +19857,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Start_mFCB4B565207854F3D0514
 	{
 		// DisableButton();
 		Transitions_DisableButton_m96C3A92775B892A4FC8FFDCD2ACA892DCE0A8819(__this, /*hidden argument*/NULL);
-		// Invoke("EnableButton", 5f);
-		MonoBehaviour_Invoke_m4AAB759653B1C6FB0653527F4DDC72D1E9162CC4(__this, _stringLiteralAB782883D90193A8164077ABDAC1F8E27AC48F65, (5.0f), /*hidden argument*/NULL);
-		// }
-		return;
-	}
-}
-// System.Void InsertStudioLostLights.Transitions::New_Game()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_New_Game_mDD74501FCE2B9C65749DC15C9B94A1B72FCBEA69 (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD5E9CE6314DC53A3591AD529AEDB4A65D21BD667);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
-		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70(_stringLiteralD5E9CE6314DC53A3591AD529AEDB4A65D21BD667, 0, /*hidden argument*/NULL);
+		// Invoke("EnableButton", 2.5f);
+		MonoBehaviour_Invoke_m4AAB759653B1C6FB0653527F4DDC72D1E9162CC4(__this, _stringLiteralAB782883D90193A8164077ABDAC1F8E27AC48F65, (2.5f), /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -19864,6 +19867,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_New_Game_mDD74501FCE2B9C6574
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Continue_m124C6845FEC08C14A893C70BD24C6A2A97E2524A (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
 {
 	{
+		// }
+		return;
+	}
+}
+// System.Void InsertStudioLostLights.Transitions::New_Game(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_New_Game_m791E1DA5AAE2B2F384ED4D01CD6C343A98CAA706 (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, String_t* ___startGameJSON0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD5E9CE6314DC53A3591AD529AEDB4A65D21BD667);
+		s_Il2CppMethodInitialized = true;
+	}
+	JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * V_0 = NULL;
+	{
+		// if (string.IsNullOrEmpty(startGameJSON))
+		String_t* L_0 = ___startGameJSON0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// JSONNode startGamePayload = JSON.Parse(startGameJSON);
+		String_t* L_2 = ___startGameJSON0;
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_3;
+		L_3 = JSON_Parse_m16D30620CC0C91402567BDF83A090D16365C03BF(L_2, /*hidden argument*/NULL);
+		V_0 = L_3;
+		// _langCode = startGamePayload["languageCode"];
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_4 = V_0;
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_5;
+		L_5 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_4, _stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
+		String_t* L_6;
+		L_6 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_5, /*hidden argument*/NULL);
+		__this->set__langCode_6(L_6);
+		// SceneManager.LoadScene("StoryScene", LoadSceneMode.Single);
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70(_stringLiteralD5E9CE6314DC53A3591AD529AEDB4A65D21BD667, 0, /*hidden argument*/NULL);
+		// }
+		return;
+	}
+}
+// System.Void InsertStudioLostLights.Transitions::LanguageUpdate(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_LanguageUpdate_m542063D104314940D1D1D618B4B3330085E3B52B (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, String_t* ___langJSON0, const RuntimeMethod* method)
+{
+	{
+		// if (string.IsNullOrEmpty(langJSON))
+		String_t* L_0 = ___langJSON0;
+		bool L_1;
+		L_1 = String_IsNullOrEmpty_m9AFBB5335B441B94E884B8A9D4A27AD60E3D7F7C(L_0, /*hidden argument*/NULL);
+		if (!L_1)
+		{
+			goto IL_0009;
+		}
+	}
+	{
+		// return;
+		return;
+	}
+
+IL_0009:
+	{
+		// _langNode = JSON.Parse(langJSON);
+		String_t* L_2 = ___langJSON0;
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_3;
+		L_3 = JSON_Parse_m16D30620CC0C91402567BDF83A090D16365C03BF(L_2, /*hidden argument*/NULL);
+		__this->set__langNode_5(L_3);
 		// }
 		return;
 	}
@@ -20037,13 +20117,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Next_Scene_mC2A6A7955357F6C8
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00533FFAEA4FBEFD27ACC8567697D3E0D65F1B97);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// SceneManager.LoadScene("");
+		// SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
-		SceneManager_LoadScene_m7DAF30213E99396ECBDB1BD40CC34CCF36902092(_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709, /*hidden argument*/NULL);
+		SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70(_stringLiteral00533FFAEA4FBEFD27ACC8567697D3E0D65F1B97, 0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
@@ -20073,7 +20153,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_DisableButton_m96C3A92775B89
 // System.Void InsertStudioLostLights.Transitions::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions__ctor_m3ED4FE7D21B4924DF32B61D9A0C5B691FC969DB7 (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		// string _langCode = "en";
+		__this->set__langCode_6(_stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096);
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
 		return;
 	}

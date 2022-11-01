@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using LoLSDK;
+using SimpleJSON;
 
 public class NewQuestions : MonoBehaviour
 {
@@ -12,10 +14,7 @@ public class NewQuestions : MonoBehaviour
 
     public Transform starritePosition;
 
-    //public string SaveToString()
-    //{
-    //    return JsonUtility.ToJson(this);
-    //}
+   
     private void Awake()
     {
         RandomQuestion();

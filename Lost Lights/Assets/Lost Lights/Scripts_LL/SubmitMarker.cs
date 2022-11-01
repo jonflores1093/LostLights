@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using LoLSDK;
+using SimpleJSON;
 
 namespace InsertStudioLostLights
 {
@@ -35,10 +37,8 @@ namespace InsertStudioLostLights
 
         public GameObject answerText;
 
-        //public string SaveToString()
-        //{
-        //    return JsonUtility.ToJson(this);
-        //}
+        
+        
         private void Awake()
         {
             // AUDIO
@@ -181,7 +181,6 @@ namespace InsertStudioLostLights
         {
             answerText.gameObject.SetActive(false);
         }
+
     }
-
 }
-

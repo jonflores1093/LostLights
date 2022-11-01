@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using TMPro;
+using LoLSDK;
+using SimpleJSON;
 
 
 namespace InsertStudioLostLights
@@ -21,10 +23,7 @@ namespace InsertStudioLostLights
         public float rot_Speed = 50;
         bool rotate = false;
 
-        //public string SaveToString()
-        //{
-        //    return JsonUtility.ToJson(this);
-        //}
+        
 
         void FixedUpdate()
         {

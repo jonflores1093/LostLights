@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using LoLSDK;
+using SimpleJSON;
 
 
 namespace InsertStudioLostLights
@@ -20,10 +22,7 @@ namespace InsertStudioLostLights
 
         public float rot_Speed = 50;
         bool rotate = false;
-        //public string SaveToString()
-        //{
-        //    return JsonUtility.ToJson(this);
-        //}
+        
         void FixedUpdate()
         {
             if (rotate == false)
