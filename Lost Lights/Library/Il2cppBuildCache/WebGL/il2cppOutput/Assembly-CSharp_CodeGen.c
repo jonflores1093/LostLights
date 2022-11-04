@@ -54,258 +54,258 @@ extern void U3C_WaitForDataU3Ed__6_System_Collections_Generic_IEnumeratorU3CSyst
 extern void U3C_WaitForDataU3Ed__6_System_Collections_IEnumerator_Reset_m031F9E750230DEB9753F013147E89BF91F321239 (void);
 // 0x00000015 System.Object LoaderLL/<_WaitForData>d__6::System.Collections.IEnumerator.get_Current()
 extern void U3C_WaitForDataU3Ed__6_System_Collections_IEnumerator_get_Current_m095464A2D4A3C834A4F701C4F4A84BAFE59A7E8D (void);
-// 0x00000016 System.Void LoadingData::Start()
-extern void LoadingData_Start_m3B75D2AFB84EB8924131984B50FBC9754E3641BA (void);
-// 0x00000017 System.Void LoadingData::LoadMockData()
-extern void LoadingData_LoadMockData_mD8E5055F3D59EAF4D7495CC2ECC34B0507C16EE5 (void);
-// 0x00000018 System.Void LoadingData::StartGame(System.String)
-extern void LoadingData_StartGame_m9060FD1FF5CF65E50C12863C97F944DE46A55C28 (void);
-// 0x00000019 System.Void LoadingData::LanguageUpdate(System.String)
-extern void LoadingData_LanguageUpdate_mF4F1758BD1718DA3812604F48B6F5810BF497AF9 (void);
-// 0x0000001A System.Void LoadingData::TextDisplayUpdate()
-extern void LoadingData_TextDisplayUpdate_m33949466527D6CC24785A91FF52ABDC2837FC427 (void);
-// 0x0000001B System.String LoadingData::GetText(System.String)
-extern void LoadingData_GetText_m8AD10D3417E6B32B8F41165938C994D75E64840F (void);
-// 0x0000001C System.Void LoadingData::.ctor()
-extern void LoadingData__ctor_m05436A03FD002849854CF34A34591022EA5C39A8 (void);
-// 0x0000001D System.String MoonType::SaveToString()
+// 0x00000016 System.String MoonType::SaveToString()
 extern void MoonType_SaveToString_mE4110819BAABADBEC45B302201E55080C51D4FD8 (void);
-// 0x0000001E System.Void MoonType::.ctor()
+// 0x00000017 System.Void MoonType::.ctor()
 extern void MoonType__ctor_mA4600EB3799F0881081F84EA89A1DF50AB8D0DB1 (void);
-// 0x0000001F System.Void MoonTypeMarker::.ctor()
+// 0x00000018 System.Void MoonTypeMarker::.ctor()
 extern void MoonTypeMarker__ctor_m396FE1357D7C39B0602F6F858B706FC5ED72560E (void);
-// 0x00000020 System.Void NewQuestions::Awake()
+// 0x00000019 System.Void NewQuestions::Awake()
 extern void NewQuestions_Awake_m44726CF23D3BE4E544C10C9817D0F87EEF92FD66 (void);
-// 0x00000021 System.Void NewQuestions::RandomQuestion()
+// 0x0000001A System.Void NewQuestions::RandomQuestion()
 extern void NewQuestions_RandomQuestion_m8F4F3904152D9643B0F07FE685E6E89D02F63BDE (void);
-// 0x00000022 System.Void NewQuestions::.ctor()
+// 0x0000001B System.Void NewQuestions::.ctor()
 extern void NewQuestions__ctor_m3AD3B4414F608D421CDA289D9867857E78014707 (void);
-// 0x00000023 SimpleJSON.JSONNode SharedStateLL::get_StartGameData_LL()
+// 0x0000001C SimpleJSON.JSONNode SharedStateLL::get_StartGameData_LL()
 extern void SharedStateLL_get_StartGameData_LL_m74D1DF52C9F6B9FF3ABBDA72854DD0F3F3EC9656 (void);
-// 0x00000024 System.Void SharedStateLL::set_StartGameData_LL(SimpleJSON.JSONNode)
+// 0x0000001D System.Void SharedStateLL::set_StartGameData_LL(SimpleJSON.JSONNode)
 extern void SharedStateLL_set_StartGameData_LL_m7ECF41AAE96DDC6FFBEFB366B03E7B2A0F4E2619 (void);
-// 0x00000025 SimpleJSON.JSONNode SharedStateLL::get_LanguageDefs_LL()
+// 0x0000001E SimpleJSON.JSONNode SharedStateLL::get_LanguageDefs_LL()
 extern void SharedStateLL_get_LanguageDefs_LL_mB6772E16EAA127AC188B227658A02F4622321987 (void);
-// 0x00000026 System.Void SharedStateLL::set_LanguageDefs_LL(SimpleJSON.JSONNode)
+// 0x0000001F System.Void SharedStateLL::set_LanguageDefs_LL(SimpleJSON.JSONNode)
 extern void SharedStateLL_set_LanguageDefs_LL_m42446BB4AE9CA89F148E7AD50A84079C97B03F64 (void);
-// 0x00000027 System.Void Starite::Start()
+// 0x00000020 System.Void Starite::Start()
 extern void Starite_Start_m54F9CB2FC52D9883D5FCC7252F1B12296D03AB1E (void);
-// 0x00000028 System.Void Starite::Update()
+// 0x00000021 System.Void Starite::Update()
 extern void Starite_Update_m49890FD83F7902F5A176B058E7CFE48C2DBD62CD (void);
-// 0x00000029 System.Void Starite::.ctor()
+// 0x00000022 System.Void Starite::.ctor()
 extern void Starite__ctor_mF4C2791B07126ECE299FAE936D09141FAC18059B (void);
-// 0x0000002A System.Void Startup::Start()
+// 0x00000023 System.Void Startup::Start()
 extern void Startup_Start_m7EDFBEC4B71584A228E725F7CDDF58D853B4C1A6 (void);
-// 0x0000002B System.Void Startup::.ctor()
+// 0x00000024 System.Void Startup::.ctor()
 extern void Startup__ctor_m8221968FC8CB3BDC7F286627AE8AF24DF5C3E097 (void);
-// 0x0000002C System.Void Timer::Start()
+// 0x00000025 System.Void Timer::Start()
 extern void Timer_Start_mF356578A412E0D4BE318BC567718C7DBD90E05F0 (void);
-// 0x0000002D System.Void Timer::DisplayTimeForward()
+// 0x00000026 System.Void Timer::DisplayTimeForward()
 extern void Timer_DisplayTimeForward_m08F4D4C5043A9435154436BE254768270BDC8099 (void);
-// 0x0000002E System.Void Timer::DisplayTimeBackwards()
+// 0x00000027 System.Void Timer::DisplayTimeBackwards()
 extern void Timer_DisplayTimeBackwards_mEE76F948B62FDF42C240DFAE60F24EADB8B1E490 (void);
-// 0x0000002F System.Void Timer::IncreaseTime()
+// 0x00000028 System.Void Timer::IncreaseTime()
 extern void Timer_IncreaseTime_mABC4EC8D1A8F780260341D7B55A03C5A0F2F293C (void);
-// 0x00000030 System.Void Timer::PauseTime()
+// 0x00000029 System.Void Timer::PauseTime()
 extern void Timer_PauseTime_mF21E5B1656E55A2E3D5E71416AE23E52D9685B2A (void);
-// 0x00000031 System.Void Timer::DecreaseTime()
+// 0x0000002A System.Void Timer::DecreaseTime()
 extern void Timer_DecreaseTime_m6FDD2B23C19D0DF0829225EC4EE556CC23AAE88E (void);
-// 0x00000032 System.Void Timer::.ctor()
+// 0x0000002B System.Void Timer::.ctor()
 extern void Timer__ctor_m74709038BC88FE71F7D6C06D0FF352FBE17410E8 (void);
-// 0x00000033 System.Void CompleteGame::Start()
+// 0x0000002C System.Void CompleteGame::Start()
 extern void CompleteGame_Start_mC4DECB295001B502C9336B0B8676FBB680336BB5 (void);
-// 0x00000034 System.Void CompleteGame::OnClick()
+// 0x0000002D System.Void CompleteGame::OnClick()
 extern void CompleteGame_OnClick_m79539631BF3D7A8BC1EC5F796A1268645D3E2122 (void);
-// 0x00000035 System.Void CompleteGame::.ctor()
+// 0x0000002E System.Void CompleteGame::.ctor()
 extern void CompleteGame__ctor_mEF50474FD4BBFA3F7668604DB92EAA96ACECC759 (void);
-// 0x00000036 System.Void PlaySound::Start()
+// 0x0000002F System.Void PlaySound::Start()
 extern void PlaySound_Start_mC24405FAFFCEF904ADC70B96DF3ED720D10D777C (void);
-// 0x00000037 System.Void PlaySound::OnClick()
+// 0x00000030 System.Void PlaySound::OnClick()
 extern void PlaySound_OnClick_m06FA5914847A9A214D1795662CD73E0FF5D223A8 (void);
-// 0x00000038 System.Void PlaySound::.ctor()
+// 0x00000031 System.Void PlaySound::.ctor()
 extern void PlaySound__ctor_mD84B5603F249464351FB66489B1AABAC559F2F82 (void);
-// 0x00000039 System.Void SpeakQuestion::Start()
+// 0x00000032 System.Void SpeakQuestion::Start()
 extern void SpeakQuestion_Start_m92D2F7E76890D7892D5B4AE04A570227D82677D8 (void);
-// 0x0000003A System.Void SpeakQuestion::OnClick()
+// 0x00000033 System.Void SpeakQuestion::OnClick()
 extern void SpeakQuestion_OnClick_m1938455C963173AA4762DB842D6897CEB190C5AC (void);
-// 0x0000003B System.Void SpeakQuestion::.ctor()
+// 0x00000034 System.Void SpeakQuestion::.ctor()
 extern void SpeakQuestion__ctor_m8CAA17EB972D6F1B62A87E4CC529FFE1C1ABABAE (void);
-// 0x0000003C System.Void SpeakText::Start()
+// 0x00000035 System.Void SpeakText::Start()
 extern void SpeakText_Start_mFF0CE14E7BE7EFE423835895850AA380E26D2A15 (void);
-// 0x0000003D System.Void SpeakText::OnClick()
+// 0x00000036 System.Void SpeakText::OnClick()
 extern void SpeakText_OnClick_mF8D3225F180F5B23307A6D8DE5F077811C15F860 (void);
-// 0x0000003E System.Void SpeakText::.ctor()
+// 0x00000037 System.Void SpeakText::.ctor()
 extern void SpeakText__ctor_m7226CC565D39B1403DC86A06A358C06774C4EC74 (void);
-// 0x0000003F System.Void SubmitAnswer::Start()
+// 0x00000038 System.Void SubmitAnswer::Start()
 extern void SubmitAnswer_Start_m793D5AF395EEFE7B12243B2AA4B965C50DDB6565 (void);
-// 0x00000040 System.Void SubmitAnswer::OnClick()
+// 0x00000039 System.Void SubmitAnswer::OnClick()
 extern void SubmitAnswer_OnClick_m6FC80EF4A4BC453E171B9259330936823E1E8BA3 (void);
-// 0x00000041 System.Void SubmitAnswer::.ctor()
+// 0x0000003A System.Void SubmitAnswer::.ctor()
 extern void SubmitAnswer__ctor_mA7136555824CC8A05DFD8657460E32825D0ABB0A (void);
-// 0x00000042 System.Void SubmitProgress::Start()
+// 0x0000003B System.Void SubmitProgress::Start()
 extern void SubmitProgress_Start_mD5D4E5FF624E21AE6EEC75AE0DBEED783E1C6AB7 (void);
-// 0x00000043 System.Void SubmitProgress::OnClick()
+// 0x0000003C System.Void SubmitProgress::OnClick()
 extern void SubmitProgress_OnClick_m0C3A11BCEE4298EA4749730C6D58DF888351408A (void);
-// 0x00000044 System.Void SubmitProgress::.ctor()
+// 0x0000003D System.Void SubmitProgress::.ctor()
 extern void SubmitProgress__ctor_m0E89D60018957F8B9C3FA42AF24F1E1F2003A376 (void);
-// 0x00000045 System.Void Cube::Start()
+// 0x0000003E System.Void Cube::Start()
 extern void Cube_Start_m7F0D8234146CEF017DE64B936C24DA85B1443B62 (void);
-// 0x00000046 System.Void Cube::Update()
+// 0x0000003F System.Void Cube::Update()
 extern void Cube_Update_m7A81C6F3625ACAB2DEBA548F1A765383F060CFEC (void);
-// 0x00000047 System.Void Cube::.ctor()
+// 0x00000040 System.Void Cube::.ctor()
 extern void Cube__ctor_m6544EEAA5C47298B0E2AF77CE54857E6D4549A4D (void);
-// 0x00000048 System.Void DDOL::Awake()
+// 0x00000041 System.Void DDOL::Awake()
 extern void DDOL_Awake_mA885D822A561E552D6BD2A844C0B41EE40914D44 (void);
-// 0x00000049 System.Void DDOL::.ctor()
+// 0x00000042 System.Void DDOL::.ctor()
 extern void DDOL__ctor_mFD3226A38F8325C80E75EE4384780B1D324BB17F (void);
-// 0x0000004A System.Void Loader::Awake()
+// 0x00000043 System.Void Loader::Awake()
 extern void Loader_Awake_mE57C5BB0D9E4488680DA44DE586C1C1710006748 (void);
-// 0x0000004B System.Collections.IEnumerator Loader::_WaitForData()
+// 0x00000044 System.Collections.IEnumerator Loader::_WaitForData()
 extern void Loader__WaitForData_mA1FED6DBB6E2EC1F43A88E93443C55E28DAAB078 (void);
-// 0x0000004C System.Void Loader::HandleStartGame(System.String)
+// 0x00000045 System.Void Loader::HandleStartGame(System.String)
 extern void Loader_HandleStartGame_mFEE431B9BB9E582172291EBE90F1A410C0F92B19 (void);
-// 0x0000004D System.Void Loader::HandleLanguageDefs(System.String)
+// 0x00000046 System.Void Loader::HandleLanguageDefs(System.String)
 extern void Loader_HandleLanguageDefs_m7F6E234B681A08C5E371A45BAE01C1A0E5BA8292 (void);
-// 0x0000004E System.Void Loader::HandleQuestions(LoLSDK.MultipleChoiceQuestionList)
+// 0x00000047 System.Void Loader::HandleQuestions(LoLSDK.MultipleChoiceQuestionList)
 extern void Loader_HandleQuestions_m3CE36669AB71CE47B4CAF7A82E8AB5396D0FB46C (void);
-// 0x0000004F System.Void Loader::HandleGameStateChange(LoLSDK.GameState)
+// 0x00000048 System.Void Loader::HandleGameStateChange(LoLSDK.GameState)
 extern void Loader_HandleGameStateChange_m9B3F31BB5EDDDE05AD4129796DE4E521A58DF031 (void);
-// 0x00000050 System.Void Loader::LoadMockData()
+// 0x00000049 System.Void Loader::LoadMockData()
 extern void Loader_LoadMockData_mD9C26F448969A59055DF4D9FE284A04CEB3549AC (void);
-// 0x00000051 System.Void Loader::.ctor()
+// 0x0000004A System.Void Loader::.ctor()
 extern void Loader__ctor_m15D78DFE09D5A9C562B7E58B0D4C392427D1E674 (void);
-// 0x00000052 System.Boolean Loader::<_WaitForData>b__7_0()
+// 0x0000004B System.Boolean Loader::<_WaitForData>b__7_0()
 extern void Loader_U3C_WaitForDataU3Eb__7_0_m171A83B11464B85ABF411CFF5991C81205DA7368 (void);
-// 0x00000053 System.Void Loader/<_WaitForData>d__7::.ctor(System.Int32)
+// 0x0000004C System.Void Loader/<_WaitForData>d__7::.ctor(System.Int32)
 extern void U3C_WaitForDataU3Ed__7__ctor_m43526AC39F462F4346577F63B9425D7118482773 (void);
-// 0x00000054 System.Void Loader/<_WaitForData>d__7::System.IDisposable.Dispose()
+// 0x0000004D System.Void Loader/<_WaitForData>d__7::System.IDisposable.Dispose()
 extern void U3C_WaitForDataU3Ed__7_System_IDisposable_Dispose_m7276938DEFB1183E9356387E0FB369265FE8B49F (void);
-// 0x00000055 System.Boolean Loader/<_WaitForData>d__7::MoveNext()
+// 0x0000004E System.Boolean Loader/<_WaitForData>d__7::MoveNext()
 extern void U3C_WaitForDataU3Ed__7_MoveNext_m230D4CBE8386A1315EC7B05F4DD27D43ECC4A970 (void);
-// 0x00000056 System.Object Loader/<_WaitForData>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000004F System.Object Loader/<_WaitForData>d__7::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3C_WaitForDataU3Ed__7_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB9DAA81AFF08467B3A2E2C0FA76AA4B19C91FA6C (void);
-// 0x00000057 System.Void Loader/<_WaitForData>d__7::System.Collections.IEnumerator.Reset()
+// 0x00000050 System.Void Loader/<_WaitForData>d__7::System.Collections.IEnumerator.Reset()
 extern void U3C_WaitForDataU3Ed__7_System_Collections_IEnumerator_Reset_m03B97B3CA990D57C5B8B0D40690538F60C7D01C2 (void);
-// 0x00000058 System.Object Loader/<_WaitForData>d__7::System.Collections.IEnumerator.get_Current()
+// 0x00000051 System.Object Loader/<_WaitForData>d__7::System.Collections.IEnumerator.get_Current()
 extern void U3C_WaitForDataU3Ed__7_System_Collections_IEnumerator_get_Current_m05D126767D3AE4A78AC09C712A323CA7B09E1F16 (void);
-// 0x00000059 System.Void CommandsSceneManager::Start()
+// 0x00000052 System.Void CommandsSceneManager::Start()
 extern void CommandsSceneManager_Start_mCC6E8561F2C64B30DFC01C7C8624CC82C190FDE1 (void);
-// 0x0000005A System.Void CommandsSceneManager::OnClickBack()
+// 0x00000053 System.Void CommandsSceneManager::OnClickBack()
 extern void CommandsSceneManager_OnClickBack_mB7DD97EB459D6394048875B1009BBF40485F3492 (void);
-// 0x0000005B System.Void CommandsSceneManager::.ctor()
+// 0x00000054 System.Void CommandsSceneManager::.ctor()
 extern void CommandsSceneManager__ctor_m321324C9B2326E9668A6965DFCDB897FA515F847 (void);
-// 0x0000005C System.Void LanguageSceneManager::Awake()
+// 0x00000055 System.Void LanguageSceneManager::Awake()
 extern void LanguageSceneManager_Awake_m9B7ED9C52254E339681B25E0E00086D8938A1BEA (void);
-// 0x0000005D System.Void LanguageSceneManager::OnClickBack()
+// 0x00000056 System.Void LanguageSceneManager::OnClickBack()
 extern void LanguageSceneManager_OnClickBack_mBC6F8CDE319C0B04B8AA2886FB4A522A3E35499B (void);
-// 0x0000005E System.Void LanguageSceneManager::.ctor()
+// 0x00000057 System.Void LanguageSceneManager::.ctor()
 extern void LanguageSceneManager__ctor_m3BB8070173BE6F3401A619D74DC3F0589BFC23FC (void);
-// 0x0000005F System.Void MainMenuManager::Awake()
+// 0x00000058 System.Void MainMenuManager::Awake()
 extern void MainMenuManager_Awake_m0970FEE6313F2B1A153093D83499887D99931F5B (void);
-// 0x00000060 System.Void MainMenuManager::OnClickLanguage()
+// 0x00000059 System.Void MainMenuManager::OnClickLanguage()
 extern void MainMenuManager_OnClickLanguage_m74EE2440770B5ADF970432A7FB45F4E09EF3F93A (void);
-// 0x00000061 System.Void MainMenuManager::OnClickCommands()
+// 0x0000005A System.Void MainMenuManager::OnClickCommands()
 extern void MainMenuManager_OnClickCommands_m28C43C6AE10D09A71D23FFA4AB89BAAB4537B099 (void);
-// 0x00000062 System.Void MainMenuManager::OnClickQuestions()
+// 0x0000005B System.Void MainMenuManager::OnClickQuestions()
 extern void MainMenuManager_OnClickQuestions_m06BBD4713D534F82A58AD4B0A535F4E7DDE2BA32 (void);
-// 0x00000063 System.Void MainMenuManager::OnClickSound()
+// 0x0000005C System.Void MainMenuManager::OnClickSound()
 extern void MainMenuManager_OnClickSound_mA2B068E2D35F5EB0C572413E1A91B2AFC9EBF9F4 (void);
-// 0x00000064 System.Void MainMenuManager::OnClickSpeech()
+// 0x0000005D System.Void MainMenuManager::OnClickSpeech()
 extern void MainMenuManager_OnClickSpeech_mFE4CB0EC0704BA295A3C370A6E17BFF3E0BADDFC (void);
-// 0x00000065 System.Void MainMenuManager::OnClickShowQuestion()
+// 0x0000005E System.Void MainMenuManager::OnClickShowQuestion()
 extern void MainMenuManager_OnClickShowQuestion_m06818BDC4CCDF111A4791A20A3EBF6E58EE803AD (void);
-// 0x00000066 System.Void MainMenuManager::HandleAnswerResult(System.String)
+// 0x0000005F System.Void MainMenuManager::HandleAnswerResult(System.String)
 extern void MainMenuManager_HandleAnswerResult_mAA9EB3C63B05BDC9507546E1038BF2EF26FC6F90 (void);
-// 0x00000067 System.Void MainMenuManager::.ctor()
+// 0x00000060 System.Void MainMenuManager::.ctor()
 extern void MainMenuManager__ctor_m39846598ADB8889025A11166F08497A1E99D13BF (void);
-// 0x00000068 System.Void QuestionsController::Start()
+// 0x00000061 System.Void QuestionsController::Start()
 extern void QuestionsController_Start_m518072A1D9FDA4F77492541E4673380810BC8E47 (void);
-// 0x00000069 System.Void QuestionsController::nextOnClick()
+// 0x00000062 System.Void QuestionsController::nextOnClick()
 extern void QuestionsController_nextOnClick_m1F32BE28236B2802D80C65AEED0F53F2BD0314F0 (void);
-// 0x0000006A System.Void QuestionsController::updatePagination(System.Int32,System.Int32)
+// 0x00000063 System.Void QuestionsController::updatePagination(System.Int32,System.Int32)
 extern void QuestionsController_updatePagination_m6497D90DBAD68D314A1238BDDDC2D353E01D3609 (void);
-// 0x0000006B System.Void QuestionsController::prevOnClick()
+// 0x00000064 System.Void QuestionsController::prevOnClick()
 extern void QuestionsController_prevOnClick_m008F6E7435766ED71300A52D5BFAC263287E636C (void);
-// 0x0000006C System.Void QuestionsController::renderQuestion(System.Int32)
+// 0x00000065 System.Void QuestionsController::renderQuestion(System.Int32)
 extern void QuestionsController_renderQuestion_m1D190590752E858AA26FD246E231552F65A5B6A8 (void);
-// 0x0000006D System.Collections.IEnumerator QuestionsController::SetImage(System.String)
+// 0x00000066 System.Collections.IEnumerator QuestionsController::SetImage(System.String)
 extern void QuestionsController_SetImage_m208E0C8CA6D8A70DDF7F7AC6B022971A068181F1 (void);
-// 0x0000006E System.Void QuestionsController::SetFieldText(System.String,System.String)
+// 0x00000067 System.Void QuestionsController::SetFieldText(System.String,System.String)
 extern void QuestionsController_SetFieldText_mD4ADF450DCA5E787566CB6F562B17D76DFAEA121 (void);
-// 0x0000006F System.Void QuestionsController::SetFieldFont(System.String,System.String)
+// 0x00000068 System.Void QuestionsController::SetFieldFont(System.String,System.String)
 extern void QuestionsController_SetFieldFont_mE053F207FE6AAFC96C693F8CA7D742F3FFFB2957 (void);
-// 0x00000070 System.Void QuestionsController::OnClickBack()
+// 0x00000069 System.Void QuestionsController::OnClickBack()
 extern void QuestionsController_OnClickBack_m7079914744C0CE22FE8C902FC28527ABBEF0D059 (void);
-// 0x00000071 System.Void QuestionsController::.ctor()
+// 0x0000006A System.Void QuestionsController::.ctor()
 extern void QuestionsController__ctor_mDE98BB03903CA4C353ACB02246069C429EFE970F (void);
-// 0x00000072 System.Void QuestionsController/<SetImage>d__11::.ctor(System.Int32)
+// 0x0000006B System.Void QuestionsController/<SetImage>d__11::.ctor(System.Int32)
 extern void U3CSetImageU3Ed__11__ctor_mDBD772882CAB457BBAA455362C8E1BD34CF7C36D (void);
-// 0x00000073 System.Void QuestionsController/<SetImage>d__11::System.IDisposable.Dispose()
+// 0x0000006C System.Void QuestionsController/<SetImage>d__11::System.IDisposable.Dispose()
 extern void U3CSetImageU3Ed__11_System_IDisposable_Dispose_mF62ED8E9D81F06B1D55D9CA4273F40F7B1E4EC6D (void);
-// 0x00000074 System.Boolean QuestionsController/<SetImage>d__11::MoveNext()
+// 0x0000006D System.Boolean QuestionsController/<SetImage>d__11::MoveNext()
 extern void U3CSetImageU3Ed__11_MoveNext_m935513C6762244EEEF4578EEEEEF14FCAB6E1C55 (void);
-// 0x00000075 System.Void QuestionsController/<SetImage>d__11::<>m__Finally1()
+// 0x0000006E System.Void QuestionsController/<SetImage>d__11::<>m__Finally1()
 extern void U3CSetImageU3Ed__11_U3CU3Em__Finally1_m7E52CB1F5A4CB25B75CD851B87B4117BD283AB49 (void);
-// 0x00000076 System.Object QuestionsController/<SetImage>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000006F System.Object QuestionsController/<SetImage>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CSetImageU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mC90394C82DBE4B6279FCBFAA64261B4FBA7423F1 (void);
-// 0x00000077 System.Void QuestionsController/<SetImage>d__11::System.Collections.IEnumerator.Reset()
+// 0x00000070 System.Void QuestionsController/<SetImage>d__11::System.Collections.IEnumerator.Reset()
 extern void U3CSetImageU3Ed__11_System_Collections_IEnumerator_Reset_m70D14187482FE030167B8DB078342FC0BB9F481E (void);
-// 0x00000078 System.Object QuestionsController/<SetImage>d__11::System.Collections.IEnumerator.get_Current()
+// 0x00000071 System.Object QuestionsController/<SetImage>d__11::System.Collections.IEnumerator.get_Current()
 extern void U3CSetImageU3Ed__11_System_Collections_IEnumerator_get_Current_m4649C2A7557E46D89EF963C7908E5A59B9AD4C39 (void);
-// 0x00000079 System.Void SoundSceneManager::Start()
+// 0x00000072 System.Void SoundSceneManager::Start()
 extern void SoundSceneManager_Start_mCC892E596E9F372A38A1D83299ADDDD2CC488E80 (void);
-// 0x0000007A System.Void SoundSceneManager::Update()
+// 0x00000073 System.Void SoundSceneManager::Update()
 extern void SoundSceneManager_Update_m8062C0B57BA950D4C90EBB55CB902C993C1FD9C6 (void);
-// 0x0000007B System.Void SoundSceneManager::OnClickBack()
+// 0x00000074 System.Void SoundSceneManager::OnClickBack()
 extern void SoundSceneManager_OnClickBack_mF16C153D9020B0EB407F209EEBB0D534EEA20498 (void);
-// 0x0000007C System.Void SoundSceneManager::OnClickConfigure1()
+// 0x00000075 System.Void SoundSceneManager::OnClickConfigure1()
 extern void SoundSceneManager_OnClickConfigure1_m50875A5A1FDAC8ED83AEE6F015A6F30737B62DC3 (void);
-// 0x0000007D System.Void SoundSceneManager::OnClickConfigure2()
+// 0x00000076 System.Void SoundSceneManager::OnClickConfigure2()
 extern void SoundSceneManager_OnClickConfigure2_mC99872EE06C186C532F7F6D9510051CB844C1E8B (void);
-// 0x0000007E System.Void SoundSceneManager::OnClickPlaySound1()
+// 0x00000077 System.Void SoundSceneManager::OnClickPlaySound1()
 extern void SoundSceneManager_OnClickPlaySound1_m855FF6D6EFE4EE0995F32DF04033A608F1925AEA (void);
-// 0x0000007F System.Void SoundSceneManager::OnClickPlaySound2()
+// 0x00000078 System.Void SoundSceneManager::OnClickPlaySound2()
 extern void SoundSceneManager_OnClickPlaySound2_m0DC7BF5D2C233AB01A8BE6D306F0384441FC1B26 (void);
-// 0x00000080 System.Void SoundSceneManager::OnClickPlaySound3()
+// 0x00000079 System.Void SoundSceneManager::OnClickPlaySound3()
 extern void SoundSceneManager_OnClickPlaySound3_mB7751426FAA967E8A58EF4C73715B2A350A6FC3D (void);
-// 0x00000081 System.Void SoundSceneManager::OnClickPlayCustomSound()
+// 0x0000007A System.Void SoundSceneManager::OnClickPlayCustomSound()
 extern void SoundSceneManager_OnClickPlayCustomSound_mEAAB91E2E14C3A54870AE58D8507A701B8BB2793 (void);
-// 0x00000082 System.Void SoundSceneManager::OnClickStopSound1()
+// 0x0000007B System.Void SoundSceneManager::OnClickStopSound1()
 extern void SoundSceneManager_OnClickStopSound1_m8769113FF42CB516CC56296C78176442E6A1E17E (void);
-// 0x00000083 System.Void SoundSceneManager::OnClickStopSound2()
+// 0x0000007C System.Void SoundSceneManager::OnClickStopSound2()
 extern void SoundSceneManager_OnClickStopSound2_mA011302D8362C046C64EC5A332130C96F9DCF74B (void);
-// 0x00000084 System.Void SoundSceneManager::OnClickStopSound3()
+// 0x0000007D System.Void SoundSceneManager::OnClickStopSound3()
 extern void SoundSceneManager_OnClickStopSound3_mA332A100D4B326A55559E5189675589080EBE296 (void);
-// 0x00000085 System.Void SoundSceneManager::OnClickStopCustomSound()
+// 0x0000007E System.Void SoundSceneManager::OnClickStopCustomSound()
 extern void SoundSceneManager_OnClickStopCustomSound_mD09892D9E6D8BD9F11FBCD1295C099234B179754 (void);
-// 0x00000086 System.Void SoundSceneManager::.ctor()
+// 0x0000007F System.Void SoundSceneManager::.ctor()
 extern void SoundSceneManager__ctor_m734110112F41715181393E833F7AB29F603EB2E1 (void);
-// 0x00000087 System.Void SpeechSceneManager::Start()
+// 0x00000080 System.Void SpeechSceneManager::Start()
 extern void SpeechSceneManager_Start_m62976906DF6927041E58D68293F544B87B511562 (void);
-// 0x00000088 System.Void SpeechSceneManager::OnClickSpeakText()
+// 0x00000081 System.Void SpeechSceneManager::OnClickSpeakText()
 extern void SpeechSceneManager_OnClickSpeakText_mE3637D374D1E88B85E2935BE18EFDD0FA133882B (void);
-// 0x00000089 System.Void SpeechSceneManager::CancelText()
+// 0x00000082 System.Void SpeechSceneManager::CancelText()
 extern void SpeechSceneManager_CancelText_mCD4D6A5D47C9D7D578480D4D4E88EF6C1C07FD58 (void);
-// 0x0000008A System.Void SpeechSceneManager::OnClickBackButton()
+// 0x00000083 System.Void SpeechSceneManager::OnClickBackButton()
 extern void SpeechSceneManager_OnClickBackButton_mE8DAD7814355BC26F54593E113988DCE985D9074 (void);
-// 0x0000008B System.Void SpeechSceneManager::.ctor()
+// 0x00000084 System.Void SpeechSceneManager::.ctor()
 extern void SpeechSceneManager__ctor_m938B0D247ABB57ECB26F254BC3DED04F2D65A5C4 (void);
-// 0x0000008C SimpleJSON.JSONNode SharedState::get_StartGameData()
+// 0x00000085 SimpleJSON.JSONNode SharedState::get_StartGameData()
 extern void SharedState_get_StartGameData_mB3DAA99C15EBB10CD14BA2560AD914862CDD1495 (void);
-// 0x0000008D System.Void SharedState::set_StartGameData(SimpleJSON.JSONNode)
+// 0x00000086 System.Void SharedState::set_StartGameData(SimpleJSON.JSONNode)
 extern void SharedState_set_StartGameData_m1139266F870CD5446EA4BED5D4DB5B86089400A9 (void);
-// 0x0000008E SimpleJSON.JSONNode SharedState::get_LanguageDefs()
+// 0x00000087 SimpleJSON.JSONNode SharedState::get_LanguageDefs()
 extern void SharedState_get_LanguageDefs_m09644033553A46FB18BC269C302DCC6B618C2AD6 (void);
-// 0x0000008F System.Void SharedState::set_LanguageDefs(SimpleJSON.JSONNode)
+// 0x00000088 System.Void SharedState::set_LanguageDefs(SimpleJSON.JSONNode)
 extern void SharedState_set_LanguageDefs_m0BD0B4C41F5E2E851B14F1B63F33E18A46D4BAE4 (void);
-// 0x00000090 LoLSDK.MultipleChoiceQuestionList SharedState::get_QuestionList()
+// 0x00000089 LoLSDK.MultipleChoiceQuestionList SharedState::get_QuestionList()
 extern void SharedState_get_QuestionList_m181BD86D5BB64EA8ABABB7DFEA65E51DFC46DF26 (void);
-// 0x00000091 System.Void SharedState::set_QuestionList(LoLSDK.MultipleChoiceQuestionList)
+// 0x0000008A System.Void SharedState::set_QuestionList(LoLSDK.MultipleChoiceQuestionList)
 extern void SharedState_set_QuestionList_mBA376D2161DDF51CC3E93945B5225D2037E5722A (void);
-// 0x00000092 LoLSDK.MultipleChoiceQuestion SharedState::GetQuestion()
+// 0x0000008B LoLSDK.MultipleChoiceQuestion SharedState::GetQuestion()
 extern void SharedState_GetQuestion_mFE151F6224A7D046449ED9D4D09F4F867547191C (void);
-// 0x00000093 System.Void SharedState::.cctor()
+// 0x0000008C System.Void SharedState::.cctor()
 extern void SharedState__cctor_mEFD33F9EC18373E03475BFFC1E53C899210EF6DA (void);
+// 0x0000008D System.Void InsertStudioLostLights.LoadingData::Start()
+extern void LoadingData_Start_m15D10C4E051091C425DA0B4DEC1703B68FB44087 (void);
+// 0x0000008E System.Void InsertStudioLostLights.LoadingData::LoadMockData()
+extern void LoadingData_LoadMockData_m855CA7C3A1AE26EE47EDEE227A0628F2456A8FB2 (void);
+// 0x0000008F System.Void InsertStudioLostLights.LoadingData::StartGame(System.String)
+extern void LoadingData_StartGame_m57CB5F65246330788E4DD68D9811DCFADBBB6A67 (void);
+// 0x00000090 System.Void InsertStudioLostLights.LoadingData::LanguageUpdate(System.String)
+extern void LoadingData_LanguageUpdate_m2D5932590CE801F47E18717B890663EC04F698CD (void);
+// 0x00000091 System.Void InsertStudioLostLights.LoadingData::TextDisplayUpdate()
+extern void LoadingData_TextDisplayUpdate_m79FF4A2F792A649FFC6400738C9EBA8FB6960990 (void);
+// 0x00000092 System.String InsertStudioLostLights.LoadingData::GetText(System.String)
+extern void LoadingData_GetText_m22C45B21ABCAB2DABD97A8687B45845F1BEB2BC9 (void);
+// 0x00000093 System.Void InsertStudioLostLights.LoadingData::.ctor()
+extern void LoadingData__ctor_m0ABFDC64234385369798F62DEB52CB83BD365B7D (void);
 // 0x00000094 System.Void InsertStudioLostLights.MechanicScreen::Start()
 extern void MechanicScreen_Start_m67CF2AF1348EB0A57B8EC304F3D468991D482095 (void);
 // 0x00000095 System.Void InsertStudioLostLights.MechanicScreen::StartGame()
@@ -499,13 +499,6 @@ static Il2CppMethodPointer s_methodPointers[238] =
 	U3C_WaitForDataU3Ed__6_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m39954F93495BC9F9BB845E35A4FFAADDEB15F73C,
 	U3C_WaitForDataU3Ed__6_System_Collections_IEnumerator_Reset_m031F9E750230DEB9753F013147E89BF91F321239,
 	U3C_WaitForDataU3Ed__6_System_Collections_IEnumerator_get_Current_m095464A2D4A3C834A4F701C4F4A84BAFE59A7E8D,
-	LoadingData_Start_m3B75D2AFB84EB8924131984B50FBC9754E3641BA,
-	LoadingData_LoadMockData_mD8E5055F3D59EAF4D7495CC2ECC34B0507C16EE5,
-	LoadingData_StartGame_m9060FD1FF5CF65E50C12863C97F944DE46A55C28,
-	LoadingData_LanguageUpdate_mF4F1758BD1718DA3812604F48B6F5810BF497AF9,
-	LoadingData_TextDisplayUpdate_m33949466527D6CC24785A91FF52ABDC2837FC427,
-	LoadingData_GetText_m8AD10D3417E6B32B8F41165938C994D75E64840F,
-	LoadingData__ctor_m05436A03FD002849854CF34A34591022EA5C39A8,
 	MoonType_SaveToString_mE4110819BAABADBEC45B302201E55080C51D4FD8,
 	MoonType__ctor_mA4600EB3799F0881081F84EA89A1DF50AB8D0DB1,
 	MoonTypeMarker__ctor_m396FE1357D7C39B0602F6F858B706FC5ED72560E,
@@ -625,6 +618,13 @@ static Il2CppMethodPointer s_methodPointers[238] =
 	SharedState_set_QuestionList_mBA376D2161DDF51CC3E93945B5225D2037E5722A,
 	SharedState_GetQuestion_mFE151F6224A7D046449ED9D4D09F4F867547191C,
 	SharedState__cctor_mEFD33F9EC18373E03475BFFC1E53C899210EF6DA,
+	LoadingData_Start_m15D10C4E051091C425DA0B4DEC1703B68FB44087,
+	LoadingData_LoadMockData_m855CA7C3A1AE26EE47EDEE227A0628F2456A8FB2,
+	LoadingData_StartGame_m57CB5F65246330788E4DD68D9811DCFADBBB6A67,
+	LoadingData_LanguageUpdate_m2D5932590CE801F47E18717B890663EC04F698CD,
+	LoadingData_TextDisplayUpdate_m79FF4A2F792A649FFC6400738C9EBA8FB6960990,
+	LoadingData_GetText_m22C45B21ABCAB2DABD97A8687B45845F1BEB2BC9,
+	LoadingData__ctor_m0ABFDC64234385369798F62DEB52CB83BD365B7D,
 	MechanicScreen_Start_m67CF2AF1348EB0A57B8EC304F3D468991D482095,
 	MechanicScreen_StartGame_m9C1BA2C7B5A70377F9B165D93DC0304542BA562F,
 	MechanicScreen_DisableButton_m25EF100853A7A3F0CD51BA8E9FB874EA078E7380,
@@ -740,13 +740,6 @@ static const int32_t s_InvokerIndices[238] =
 	1550,
 	1595,
 	1550,
-	1595,
-	1595,
-	1335,
-	1335,
-	1595,
-	1180,
-	1595,
 	1550,
 	1595,
 	1595,
@@ -866,6 +859,13 @@ static const int32_t s_InvokerIndices[238] =
 	2503,
 	2527,
 	2543,
+	1595,
+	1595,
+	1335,
+	1335,
+	1595,
+	1180,
+	1595,
 	1595,
 	1595,
 	1595,

@@ -12,7 +12,7 @@ namespace InsertStudioLostLights
 
     public class SubmitMarker : MonoBehaviour
     {
-
+        
         public Button submitButton;
         public TMP_Text counter, correct, tryagain;
         public float staritesRemaining = 8;
