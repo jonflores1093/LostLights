@@ -325,9 +325,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: {fileID: 646189712}
-  newGameText: {fileID: 740367408}
-  continueText: {fileID: 1502279023}
-  stageSelectText: {fileID: 322742587}
 --- !u!114 &230768468
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -374,7 +371,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 230768467}
         m_TargetAssemblyTypeName: InsertStudioLostLights.Transitions, Assembly-CSharp
-        m_MethodName: New_Game
+        m_MethodName: NewGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -610,9 +607,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: {fileID: 646189712}
-  newGameText: {fileID: 0}
-  continueText: {fileID: 0}
-  stageSelectText: {fileID: 0}
 --- !u!114 &601433813
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1245,6 +1239,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1065168179}
+  - component: {fileID: 1065168180}
+  - component: {fileID: 1065168181}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1266,6 +1262,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1065168180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065168178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80210c330c1f2294eb6ddb792ca0c395, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1065168181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1065168178}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432bf2acb211f5949806b4f677862588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameText: {fileID: 740367408}
 --- !u!1 &1378808068
 GameObject:
   m_ObjectHideFlags: 0
@@ -1413,9 +1434,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextScene: {fileID: 646189712}
-  newGameText: {fileID: 0}
-  continueText: {fileID: 0}
-  stageSelectText: {fileID: 0}
 --- !u!1 &1468271136
 GameObject:
   m_ObjectHideFlags: 0
