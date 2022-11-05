@@ -134,7 +134,7 @@ namespace InsertStudioLostLights
                     Continue.gameObject.SetActive(false);
                     callback(state.data);
                     // Broadcast saved progress back to the teacher app.
-                    LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);
+                    LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);//change
                 });
 
                 Continue.gameObject.SetActive(true);
