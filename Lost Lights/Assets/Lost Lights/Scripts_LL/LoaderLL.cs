@@ -26,7 +26,7 @@ public class LoaderLL : MonoBehaviour
     {
         START = 0,
         LANGUAGE = 1 << 0,
-        QUESTIONS = 1 << 1
+        //QUESTIONS = 1 << 1
     }
 
     void Awake()
@@ -39,12 +39,12 @@ public class LoaderLL : MonoBehaviour
 #endif
 
         // Initialize the object, passing in the WebGL
-        LOLSDK.Init(webGL, "Lost Lights");
+        LOLSDK.Init(webGL, "com.Insert-Studio.Lost-Lights");
 
         // Register event handlers
         LOLSDK.Instance.StartGameReceived += new StartGameReceivedHandler(HandleStartGame);
         LOLSDK.Instance.LanguageDefsReceived += new LanguageDefsReceivedHandler(HandleLanguageDefs);
-        LOLSDK.Instance.QuestionsReceived += new QuestionListReceivedHandler(HandleQuestions);
+        //LOLSDK.Instance.QuestionsReceived += new QuestionListReceivedHandler(HandleQuestions);
         LOLSDK.Instance.GameStateChanged += new GameStateChangedHandler(HandleGameStateChange);
 
         // Mock the platform-to-game messages when in the Unity editor.
@@ -81,12 +81,12 @@ public class LoaderLL : MonoBehaviour
     }
 
     // Store the questions and show them in order based on your game flow.
-    void HandleQuestions(MultipleChoiceQuestionList questionList)
-    {
-        Debug.Log("HandleQuestions");
-        SharedState.QuestionList = questionList;
-        _receivedData |= LoLDataType.QUESTIONS;
-    }
+    //void HandleQuestions(MultipleChoiceQuestionList questionList)
+    //{
+    //    Debug.Log("HandleQuestions");
+    //    SharedState.QuestionList = questionList;
+    //    _receivedData |= LoLDataType.QUESTIONS;
+    //}
 
     // Handle pause / resume
     void HandleGameStateChange(GameState gameState)
