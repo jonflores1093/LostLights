@@ -15,7 +15,7 @@ namespace InsertStudioLostLights
         public GameObject rotatedObjectMain, rotationlightButton, rotatedObjectMini, orbit;
         public RawImage bgMovement;
         public float xbg;
-        public Timer clock;
+        //public Timer clock;
 
         public AudioSource earthMove;
 
@@ -33,11 +33,11 @@ namespace InsertStudioLostLights
             rotationlightButton.transform.Rotate(Vector3.down * rot_Speed * Time.deltaTime);
             bgMovement.uvRect = new Rect(bgMovement.uvRect.position + new Vector2(xbg,0) * Time.deltaTime, bgMovement.uvRect.size);
 
-            if (clock.isClock)
-            {
-                clock.time += Time.deltaTime * clock.ClockSpeedMultiplier;
-                clock.DisplayTimeBackwards();
-            }
+            //if (clock.isClock)
+            //{
+            //    clock.time += Time.deltaTime * clock.ClockSpeedMultiplier;
+            //    clock.DisplayTimeBackwards();
+            //}
 
 
         }
@@ -47,14 +47,14 @@ namespace InsertStudioLostLights
         {
             rotate = true;
             earthMove.Play();
-            clock.DecreaseTime();
+            //clock.DecreaseTime();
         }
 
         public void OnPointerUp(PointerEventData pointerEventData)
         {
             rotate = false;
             earthMove.Stop();
-            clock.PauseTime();
+            //clock.PauseTime();
 
         }
 
