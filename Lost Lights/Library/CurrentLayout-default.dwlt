@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 7}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 445
     height: 505
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 880, y: 492}
-  m_MaxSize: {x: 16005, y: 14042}
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 136
+  controlID: 167
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 239
     height: 505
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -249,10 +249,10 @@ MonoBehaviour:
     y: 0
     width: 1314
     height: 947
-  m_MinSize: {x: 604, y: 492}
-  m_MaxSize: {x: 12004, y: 14042}
+  m_MinSize: {x: 605, y: 492}
+  m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 4287
+  controlID: 36
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -275,10 +275,10 @@ MonoBehaviour:
     y: 0
     width: 1314
     height: 505
-  m_MinSize: {x: 604, y: 221}
-  m_MaxSize: {x: 12004, y: 4021}
+  m_MinSize: {x: 605, y: 221}
+  m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 4288
+  controlID: 37
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Lost Lights/Prefabs/UI
+    - Assets/LegendsOfLearning-Example/Art/Textures
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Lost Lights/Prefabs/UI
+  - Assets/LegendsOfLearning-Example/Art/Textures
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Unity_Projects\Lost Lights\LostLights\Lost Lights
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 167}
-    m_SelectedIDs: d4510000
-    m_LastClickedID: 20948
-    m_ExpandedIDs: 00000000dc430000de430000e0430000e2430000e4430000e6430000e8430000ea430000ec430000ee430000f0430000f2430000f44300000044000004440000d253000000ca9a3b
+    scrollPos: {x: 0, y: 23}
+    m_SelectedIDs: 0e470000
+    m_LastClickedID: 18190
+    m_ExpandedIDs: 000000000a4700000c4700000e47000010470000124700001447000016470000184700001a4700001c4700001e470000204700002247000032470000344700007247000074470000784700008648000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000dc430000de430000e0430000e2430000e4430000e6430000e8430000ea430000ec430000ee430000f0430000f2430000f4430000
+    m_ExpandedIDs: 000000000a4700000c4700000e47000010470000124700001447000016470000184700001a4700001c4700001e4700002047000022470000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,9 +533,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 0e470000
       m_LastClickedID: 0
-      m_ExpandedIDs: a8b2ffff84b6ffff6cb7ffff24b8ffff98b8ffff28baffff2ebaffff80baffff38bbffff9ebcffffa8bcffff6cbeffff72beffffccbeffffaabfffffb0bfffffb6bfffffe4bfffffacc2ffffe8c2ffffaac4ffff5ec5ffff64c5ffffb0c5ffffe4c6ffffeac6ffff40c7ffff64c7ffff9ec7ffffdcc7ffff72c9ffff78c9ffff80c9ffff32cdffffcad0ffff04d1fffff2f3ffffe2f4ffffd2f5ffff14f6ffff0cf7ffff36f7ffff4af7ffff6cf7ffff86f7ffff62fbffff98430000b25b00008c5d0000225e0000785e00006673000058750000fe7a0000547d0000cc8700002c8a0000908c00001c8d0000208d0000fc8e000034900000669a0000c89a0000
+      m_ExpandedIDs: 62fbffffce440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 13.489081, y: 13.682558, z: 78.24999}
+    m_Target: {x: 2.173007, y: 3.662743, z: 78.4991}
     speed: 2
-    m_Value: {x: 13.373299, y: 13.0615425, z: 76.820885}
+    m_Value: {x: 2.804102, y: 3.1030087, z: 77.1744}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -648,9 +648,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 22.53644
+    m_Target: 23.873316
     speed: 2
-    m_Value: 21.565971
+    m_Value: 22.845278
   m_Ortho:
     m_Target: 1
     speed: 2
