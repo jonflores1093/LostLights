@@ -8,31 +8,24 @@ public class Seasons : MonoBehaviour
     public GameObject Fall, Winter, Spring, Summer,Marker;
     public TMP_Text seasons;
 
-    void Start()
-    {
-        Fall = GetComponent<GameObject>();
-        Winter = GetComponent<GameObject>();
-        Spring = GetComponent<GameObject>();
-        Summer = GetComponent<GameObject>();
-        Marker = GetComponent<GameObject>();
-    }
+  
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Fall")
+        if (other.gameObject.name == "Fall")
         {
             seasons.text = "Fall";
 
         }
-        else if (other.gameObject.tag == "Winter")
+        else if (other.gameObject.name == "Winter")
         {
             seasons.text = "Winter";
 
         }
-        else if (other.gameObject.tag == "Spring")
+        else if (other.gameObject.name == "Spring")
         {
             seasons.text = "Spring";
         }
-        else if (other.gameObject.tag == "Summer")
+        else if (other.gameObject.name == "Summer")
         {
             seasons.text = "Summer";
         }
