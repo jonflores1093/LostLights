@@ -8,6 +8,10 @@ TagManager:
   - Moon
   - background
   - Starrite
+  - Fall
+  - Winter
+  - Spring
+  - Summer
   layers:
   - Default
   - TransparentFX

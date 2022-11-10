@@ -18,10 +18,23 @@ public class Seasons : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject == Marker)
+        if (other.gameObject.tag == "Fall")
         {
-            Debug.Log("Fall");
+            seasons.text = "Fall";
 
+        }
+        else if (other.gameObject.tag == "Winter")
+        {
+            seasons.text = "Winter";
+
+        }
+        else if (other.gameObject.tag == "Spring")
+        {
+            seasons.text = "Spring";
+        }
+        else if (other.gameObject.tag == "Summer")
+        {
+            seasons.text = "Summer";
         }
 
 

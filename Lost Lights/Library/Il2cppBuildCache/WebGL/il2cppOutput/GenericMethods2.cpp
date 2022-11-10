@@ -31722,7 +31722,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_StateButtonInitialize_TisRun
 		//             Continue.gameObject.SetActive(false);
 		//             callback(state.data);
 		//             // Broadcast saved progress back to the teacher app.
-		//             LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);
+		//             LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);//change
 		//         });
 		// 
 		//         Continue.gameObject.SetActive(true);

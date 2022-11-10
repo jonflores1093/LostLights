@@ -9734,7 +9734,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_0_1_U3CStateButt
 		//     Continue.gameObject.SetActive(false);
 		//     callback(state.data);
 		//     // Broadcast saved progress back to the teacher app.
-		//     LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);
+		//     LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);//change
 		// });
 		Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D * L_6 = (Button_tA893FC15AB26E1439AC25BDCA7079530587BB65D *)__this->get_Continue_1();
 		ButtonClickedEvent_tE6D6D94ED8100451CF00D2BED1FB2253F37BB14F * L_7;
@@ -9806,7 +9806,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass17_1_1_U3CStateButt
 		State_1_t8750D8A917196A30058CDDEE480464B6C3640391 * L_8 = (State_1_t8750D8A917196A30058CDDEE480464B6C3640391 *)__this->get_state_0();
 		RuntimeObject * L_9 = (RuntimeObject *)L_8->get_data_3();
 		((  void (*) (Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC *, RuntimeObject *, const RuntimeMethod*))IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0)->methodPointer)((Action_1_tD9663D9715FAA4E62035CFCF1AD4D094EE7872DC *)L_7, (RuntimeObject *)L_9, /*hidden argument*/IL2CPP_RGCTX_METHOD_INFO(method->klass->rgctx_data, 0));
-		// LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);
+		// LOLSDK.Instance.SubmitProgress(state.score, state.currentProgress, state.maximumProgress);//change
 		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * L_10;
 		L_10 = Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829(/*hidden argument*/Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
