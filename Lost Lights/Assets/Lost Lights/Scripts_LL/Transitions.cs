@@ -28,7 +28,7 @@ namespace InsertStudioLostLights
 
         }
 
-        
+
         public void Continue()
         {
             //tempText.text = "Coming Soon!";
@@ -58,7 +58,7 @@ namespace InsertStudioLostLights
 
         public void TutorialLevel()
         {
-            SceneManager.LoadScene("Star falls?", LoadSceneMode.Single);
+            SceneManager.LoadScene("Tutorial", LoadSceneMode.Single);
         }
 
         public void StageLunar1()
@@ -96,6 +96,10 @@ namespace InsertStudioLostLights
             SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
         }
 
+        public void Back_Btn() 
+        {
+            SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+        }
         void EnableButton()
         {
             nextScene.interactable = true;

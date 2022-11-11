@@ -1114,7 +1114,6 @@ GameObject:
   - component: {fileID: 487982545}
   - component: {fileID: 487982546}
   - component: {fileID: 487982547}
-  - component: {fileID: 487982548}
   m_Layer: 0
   m_Name: SubmitMarker
   m_TagString: Untagged
@@ -1229,10 +1228,15 @@ MonoBehaviour:
   counter: {fileID: 305697044}
   correct: {fileID: 1861149841}
   tryagain: {fileID: 1861149841}
+  seasons: {fileID: 1189524153}
   staritesRemaining: 8
   markerNumber: 0
   correctAnswer: 0
   moon: {fileID: 0}
+  Fall: {fileID: 2008103554}
+  Winter: {fileID: 1257616137}
+  Spring: {fileID: 133058913}
+  Summer: {fileID: 249534080}
   starrite: {fileID: 0}
   moonNumber: 0
   audioCorrect: {fileID: 8300000, guid: f32a5b15519c00f4bbc10b9e8728c05d, type: 3}
@@ -1262,24 +1266,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &487982548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487982542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 678c6582cd9a1164b8c2a99698f71cc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Fall: {fileID: 2008103554}
-  Winter: {fileID: 1257616137}
-  Spring: {fileID: 133058913}
-  Summer: {fileID: 249534080}
-  Marker: {fileID: 487982542}
-  seasons: {fileID: 1189524153}
 --- !u!1 &506073602
 GameObject:
   m_ObjectHideFlags: 0
