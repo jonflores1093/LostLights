@@ -126,42 +126,34 @@ namespace InsertStudioLostLights
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            if (other.gameObject.tag == "TriggerMarker" && other.gameObject.name == "Fall")
+            if (other.gameObject.tag == "TriggerMarker")
             {
                 submitButton.interactable = true;
                 //Debug.Log("true");
                 // Get component on collision to get the number.
                 MoonTypeMarker number = other.GetComponent<MoonTypeMarker>();
                 markerNumber = number.moonNumberMarker;
-                seasons.text = "Fall";
                 
             }
-            else if (other.gameObject.tag == "TriggerMarker" && other.gameObject.name == "Winter")
+            if (other.gameObject.name == "Fall")
             {
-                submitButton.interactable = true;
-                //Debug.Log("true");
-                // Get component on collision to get the number.
-                MoonTypeMarker number = other.GetComponent<MoonTypeMarker>();
-                markerNumber = number.moonNumberMarker;
+                seasons.text = "Fall";
+
+            }
+            else if (other.gameObject.name == "Winter")
+            {
+               
                 seasons.text = "Winter";
 
             }
-            else if (other.gameObject.tag == "TriggerMarker" && other.gameObject.name == "Spring")
+            else if (other.gameObject.name == "Spring")
             {
-                submitButton.interactable = true;
-                //Debug.Log("true");
-                // Get component on collision to get the number.
-                MoonTypeMarker number = other.GetComponent<MoonTypeMarker>();
-                markerNumber = number.moonNumberMarker;
+               
                 seasons.text = "Spring";
             }
-            else if (other.gameObject.tag == "TriggerMarker" && other.gameObject.name == "Summer")
+            else if (other.gameObject.name == "Summer")
             {
-                submitButton.interactable = true;
-                //Debug.Log("true");
-                // Get component on collision to get the number.
-                MoonTypeMarker number = other.GetComponent<MoonTypeMarker>();
-                markerNumber = number.moonNumberMarker;
+                
                 seasons.text = "Summer";
             }
 

@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
     guid: 6e8eb3c254ee0c748b00baa97d59e638
+  - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
+    guid: e671a0cd9b47d4d49b4ce6e9aa0fe380
   m_configObjects: {}

@@ -1205,7 +1205,6 @@ GameObject:
   - component: {fileID: 487982545}
   - component: {fileID: 487982546}
   - component: {fileID: 487982547}
-  - component: {fileID: 487982548}
   m_Layer: 0
   m_Name: SubmitMarker
   m_TagString: Untagged
@@ -1320,10 +1319,15 @@ MonoBehaviour:
   counter: {fileID: 305697044}
   correct: {fileID: 1861149841}
   tryagain: {fileID: 1861149841}
+  seasons: {fileID: 210939423}
   staritesRemaining: 10
   markerNumber: 0
   correctAnswer: 0
   moon: {fileID: 0}
+  Fall: {fileID: 1450337559}
+  Winter: {fileID: 1697245856}
+  Spring: {fileID: 820403490}
+  Summer: {fileID: 818326892}
   starrite: {fileID: 0}
   moonNumber: 0
   audioCorrect: {fileID: 8300000, guid: f32a5b15519c00f4bbc10b9e8728c05d, type: 3}
@@ -1353,24 +1357,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &487982548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 487982542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 678c6582cd9a1164b8c2a99698f71cc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Fall: {fileID: 1450337559}
-  Winter: {fileID: 1697245856}
-  Spring: {fileID: 820403490}
-  Summer: {fileID: 818326892}
-  Marker: {fileID: 487982542}
-  seasons: {fileID: 210939423}
 --- !u!1 &506073602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2035,7 +2021,7 @@ GameObject:
   - component: {fileID: 818326894}
   m_Layer: 0
   m_Name: Summer
-  m_TagString: TriggerMarker
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2087,7 +2073,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818326892}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2144,7 +2130,7 @@ GameObject:
   - component: {fileID: 820403492}
   m_Layer: 0
   m_Name: Spring
-  m_TagString: TriggerMarker
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2196,7 +2182,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820403490}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -3303,7 +3289,7 @@ GameObject:
   - component: {fileID: 1450337561}
   m_Layer: 0
   m_Name: Fall
-  m_TagString: TriggerMarker
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3355,7 +3341,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450337559}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4094,7 +4080,7 @@ GameObject:
   - component: {fileID: 1697245858}
   m_Layer: 0
   m_Name: Winter
-  m_TagString: TriggerMarker
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4146,7 +4132,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697245856}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1

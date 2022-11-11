@@ -830,7 +830,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 870895554}
         m_TargetAssemblyTypeName: InsertStudioLostLights.Transitions, Assembly-CSharp
-        m_MethodName: StageSolar3
+        m_MethodName: TutorialLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
