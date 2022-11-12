@@ -1,21 +1,22 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - AudioButton
-    - EarthAutoMove
+    - DDOL
+    - InsertStudioLostLights.AudioButton
+    - InsertStudioLostLights.EarthAutoMove
+    - InsertStudioLostLights.LanguagePath
+    - InsertStudioLostLights.LoaderLL
     - InsertStudioLostLights.LoadingData
     - InsertStudioLostLights.MechanicScreen
+    - InsertStudioLostLights.MoonType
+    - InsertStudioLostLights.MoonTypeMarker
+    - InsertStudioLostLights.NewQuestions
     - InsertStudioLostLights.RotationLeft
     - InsertStudioLostLights.RotationRight
     - InsertStudioLostLights.ScrollingBackground
+    - InsertStudioLostLights.Starite
     - InsertStudioLostLights.SubmitMarker
     - InsertStudioLostLights.Transitions
-    - LanguagePath
-    - MoonType
-    - MoonTypeMarker
-    - NewQuestions
-    - Starite
-    - Timer
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -51,6 +52,45 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.RawImage
     - UnityEngine.UI.Text
   sceneClasses:
+    Assets/Lost Lights/Scenes_LL/Loading.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1894}
+    - Class: 114
+      Script: {instanceID: 2324}
+    - Class: 114
+      Script: {instanceID: 3546}
+    - Class: 114
+      Script: {instanceID: 3970}
+    - Class: 114
+      Script: {instanceID: 4974}
+    - Class: 114
+      Script: {instanceID: 5374}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
     Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -89,33 +129,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
@@ -180,33 +220,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4786}
     - Class: 114
@@ -269,33 +309,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
@@ -335,8 +375,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 83
@@ -348,39 +386,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 2108}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2322}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3240}
+      Script: {instanceID: 3242}
     - Class: 114
-      Script: {instanceID: 3434}
-    - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4786}
-    - Class: 114
-      Script: {instanceID: 4974}
-    - Class: 114
-      Script: {instanceID: 5374}
     - Class: 114
       Script: {instanceID: 5648}
     - Class: 115
@@ -439,33 +471,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
@@ -530,33 +562,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
@@ -621,33 +653,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 2202}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2262}
+      Script: {instanceID: 2204}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2264}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 2592}
+      Script: {instanceID: 2594}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3278}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3280}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4148}
     - Class: 114
@@ -698,27 +730,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 2108}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2330}
+      Script: {instanceID: 2112}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 2332}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
     - Class: 114
       Script: {instanceID: 4786}
     - Class: 114
@@ -765,23 +797,112 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1560}
+      Script: {instanceID: 1490}
     - Class: 114
-      Script: {instanceID: 1890}
+      Script: {instanceID: 1564}
     - Class: 114
-      Script: {instanceID: 2450}
+      Script: {instanceID: 1894}
     - Class: 114
-      Script: {instanceID: 2770}
+      Script: {instanceID: 2452}
     - Class: 114
-      Script: {instanceID: 2944}
+      Script: {instanceID: 2772}
     - Class: 114
-      Script: {instanceID: 2994}
+      Script: {instanceID: 2946}
     - Class: 114
-      Script: {instanceID: 3142}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 3434}
+      Script: {instanceID: 3144}
     - Class: 114
-      Script: {instanceID: 3556}
+      Script: {instanceID: 3436}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Lost Lights/Scenes_LL/Tutorial.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 50
+      Script: {instanceID: 0}
+    - Class: 61
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1486}
+    - Class: 114
+      Script: {instanceID: 1488}
+    - Class: 114
+      Script: {instanceID: 1490}
+    - Class: 114
+      Script: {instanceID: 1564}
+    - Class: 114
+      Script: {instanceID: 1802}
+    - Class: 114
+      Script: {instanceID: 1894}
+    - Class: 114
+      Script: {instanceID: 2204}
+    - Class: 114
+      Script: {instanceID: 2264}
+    - Class: 114
+      Script: {instanceID: 2348}
+    - Class: 114
+      Script: {instanceID: 2594}
+    - Class: 114
+      Script: {instanceID: 2772}
+    - Class: 114
+      Script: {instanceID: 2946}
+    - Class: 114
+      Script: {instanceID: 2996}
+    - Class: 114
+      Script: {instanceID: 3280}
+    - Class: 114
+      Script: {instanceID: 3436}
+    - Class: 114
+      Script: {instanceID: 4148}
+    - Class: 114
+      Script: {instanceID: 4786}
+    - Class: 114
+      Script: {instanceID: 5102}
+    - Class: 114
+      Script: {instanceID: 5648}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -803,16 +924,22 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
+      Hash: 69415240821be7986b27e72bf9609a30
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 1daa1c6e51a0543f867189cbfe078594
@@ -837,12 +964,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
   - hash:
       serializedVersion: 2
       Hash: 77aaaaa51f7a8d8ff333a879741e47d2
@@ -913,7 +1034,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 3511731ca3f7697e608783ab7529c8bb
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: MoonType
   - hash:
       serializedVersion: 2
@@ -955,19 +1076,13 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 2da73018bdd7f5d8335c04da6c504daf
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: EarthAutoMove
-  - hash:
-      serializedVersion: 2
-      Hash: dffe091ab070f55f6b1289f176008a1f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Seasons
   - hash:
       serializedVersion: 2
       Hash: a77efe9793f40ff697fd7c78655e3d3a
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: MoonTypeMarker
   - hash:
       serializedVersion: 2
@@ -995,12 +1110,6 @@ ScriptsOnlyBuild:
     className: RotationLeft
   - hash:
       serializedVersion: 2
-      Hash: 586c853ee3223b12adf7e1db44476872
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Timer
-  - hash:
-      serializedVersion: 2
       Hash: 800c50acba124432abb4cf0d47202e06
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -1015,7 +1124,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 2cdfb05f53b9a53bcd2a46f9b8c695d1
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: NewQuestions
   - hash:
       serializedVersion: 2
@@ -1129,7 +1238,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: LanguagePath
   - hash:
       serializedVersion: 2
@@ -1145,7 +1254,7 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: d6aa33018bb9e82cdb6c2471034c7656
+      Hash: f9df3ec54f82a7ff20a07853ea998d6d
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: SubmitMarker
@@ -1205,12 +1314,6 @@ ScriptsOnlyBuild:
     className: DDOL
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: 349d08daa6108b9a28f8c38fd40ce96f
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
@@ -1255,7 +1358,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: LoaderLL
   - hash:
       serializedVersion: 2
@@ -1269,12 +1372,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Startup
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -1387,7 +1484,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: b3b356b0bff89420f5eda1d94dfe9c93
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: AudioButton
   - hash:
       serializedVersion: 2
@@ -1501,7 +1598,7 @@ ScriptsOnlyBuild:
       serializedVersion: 2
       Hash: 66653749758cd90ce0d34929c5d8d251
     assemblyName: Assembly-CSharp.dll
-    namespaceName: 
+    namespaceName: InsertStudioLostLights
     className: Starite
   - hash:
       serializedVersion: 2
@@ -1541,6 +1638,7 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   platform: 20
   scenePathNames:
+  - Assets/Lost Lights/Scenes_LL/Loading.unity
   - Assets/Lost Lights/Scenes_LL/MainMenu.unity
   - Assets/Lost Lights/Scenes_LL/StoryScene.unity
   - Assets/Lost Lights/Scenes_LL/Stage Select.unity
@@ -1550,4 +1648,5 @@ ScriptsOnlyBuild:
   - Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity
   - Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
   - Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
+  - Assets/Lost Lights/Scenes_LL/Tutorial.unity
   playerPath: E:/Unity/Unity_Projects/TestBuildsLoL

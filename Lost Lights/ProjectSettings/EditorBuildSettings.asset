@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Lost Lights/Scenes_LL/Loading.unity
+    guid: bab0b51558e1a5e45ac31da94b275590
+  - enabled: 1
     path: Assets/Lost Lights/Scenes_LL/MainMenu.unity
     guid: 974d6ba135c32794aa9e28ab0c1dd35b
   - enabled: 1

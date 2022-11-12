@@ -4,19 +4,22 @@ using UnityEngine;
 using LoLSDK;
 using SimpleJSON;
 
-public class Starite : MonoBehaviour
+namespace InsertStudioLostLights
 {
-    public float altitude;
-    public float frequency;
-    Vector3 startPos;
-    
-    void Start()
+    public class Starite : MonoBehaviour
     {
-        startPos = transform.position;
-    }
+        public float altitude;
+        public float frequency;
+        Vector3 startPos;
 
-    void Update()
-    {
-        transform.position = new Vector3(startPos.x, Mathf.Sin(Time.time * frequency) * altitude + startPos.y, 0);
+        void Start()
+        {
+            startPos = transform.position;
+        }
+
+        void Update()
+        {
+            transform.position = new Vector3(startPos.x, Mathf.Sin(Time.time * frequency) * altitude + startPos.y, 0);
+        }
     }
 }

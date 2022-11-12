@@ -2,16 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EarthAutoMove : MonoBehaviour
+namespace InsertStudioLostLights
 {
-    public GameObject rotatedObject;
-
-    public int rot_Speed;
-   
-
-    
-    void FixedUpdate()
+    public class EarthAutoMove : MonoBehaviour
     {
-        rotatedObject.transform.Rotate(Vector3.back * rot_Speed * Time.deltaTime);
+        public GameObject rotatedObject;
+
+        public int rot_Speed;
+
+
+
+        void FixedUpdate()
+        {
+            rotatedObject.transform.Rotate(Vector3.back * rot_Speed * Time.deltaTime);
+        }
     }
 }

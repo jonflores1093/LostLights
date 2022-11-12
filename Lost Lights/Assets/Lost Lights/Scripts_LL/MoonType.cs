@@ -4,11 +4,14 @@ using UnityEngine;
 using LoLSDK;
 using SimpleJSON;
 
-public class MoonType : MonoBehaviour
+namespace InsertStudioLostLights
 {
-    public int moonNumber;
-    public string SaveToString()
+    public class MoonType : MonoBehaviour
     {
-        return JsonUtility.ToJson(this);
+        public int moonNumber;
+        public string SaveToString()
+        {
+            return JsonUtility.ToJson(this);
+        }
     }
 }
