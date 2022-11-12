@@ -49,7 +49,7 @@ public class LoaderLL : MonoBehaviour
 
         // Mock the platform-to-game messages when in the Unity editor.
 #if UNITY_EDITOR
-        LoadMockData();
+        LoadData();
 #endif
 
         // Then, tell the platform the game is ready.
@@ -66,7 +66,7 @@ public class LoaderLL : MonoBehaviour
     // Start the game here
     void HandleStartGame(string json)
     {
-        SharedState.StartGameData = JSON.Parse(json);
+        SharedStateLL.StartGameData_LL = JSON.Parse(json);
         _receivedData |= LoLDataType.START;
     }
 
@@ -76,7 +76,7 @@ public class LoaderLL : MonoBehaviour
     {
         JSONNode langDefs = JSON.Parse(json);
 
-        SharedState.LanguageDefs = langDefs;
+        SharedStateLL.LanguageDefs_LL = langDefs;
         _receivedData |= LoLDataType.LANGUAGE;
     }
 
@@ -95,7 +95,7 @@ public class LoaderLL : MonoBehaviour
         Debug.Log("HandleGameStateChange");
     }
 
-    private void LoadMockData()
+    private void LoadData()
     {
 #if UNITY_EDITOR
         // Load Dev Language File from StreamingAssets
