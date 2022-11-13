@@ -34,10 +34,11 @@ namespace InsertStudioLostLights
         //Canvas Mechanics
         public MechanicScreen endScreen;
 
-        public GameObject answerText;
+        public GameObject answerCorrect;
+        public GameObject answerWrong;
 
-        
-        
+
+
         private void Awake()
         {
             // AUDIO
@@ -172,35 +173,45 @@ namespace InsertStudioLostLights
             Debug.Log("Matching");
             if (markerNumber == moonNumber)
             {
-                setTextActive();
+                setWrongTextInactive();
+                setCorrectTextActive();
                 Debug.Log("correctanswer");
                 correctAnswer = true;
-                correct.text = "Correct!";
                 Invoke("setTextInactive", 3);
                 audioSourceCorrect.Play();
             }
             else
             {
-                setTextActive();
+                setCorrectTextInactive();
+                setWrongTextActive();
                 Debug.Log("wronganswer");
                 correctAnswer = false;
-                tryagain.text = "Try Again!";
                 Invoke("setTextInactive", 3);
                 audioSourceWrong.Play();
 
             }
         }
 
-        void setTextActive()
+        void setCorrectTextActive()
         {
-            answerText.gameObject.SetActive(true);
+            answerCorrect.gameObject.SetActive(true);
         }
 
 
-        void setTextInactive()
+        void setCorrectTextInactive()
         {
-            answerText.gameObject.SetActive(false);
+            answerCorrect.gameObject.SetActive(false);
         }
 
+
+        void setWrongTextActive()
+        {
+            answerWrong.gameObject.SetActive(true);
+        }
+
+        void setWrongTextInactive()
+        {
+            answerWrong.gameObject.SetActive(false);
+        }
     }
 }

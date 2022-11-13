@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 563363567}
   - component: {fileID: 563363566}
   - component: {fileID: 563363568}
+  - component: {fileID: 563363569}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -262,3 +263,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa00d53a9165446128f5a63f11ec4ea5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &563363569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432bf2acb211f5949806b4f677862588, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newGameText: {fileID: 8809815506253043195, guid: 8f1b267a44946d644aa804ba11a5e8a0, type: 3}
+  continueButton: {fileID: 3380468754029050464, guid: ab2d66259180f0649a6d44d8c6897e7f, type: 3}
+  stageSelect: {fileID: 8809815506253043195, guid: 8f1b267a44946d644aa804ba11a5e8a0, type: 3}
+  fall: {fileID: 5172930296831151218, guid: 3621d088f9980f94da7e2fc7a458fa80, type: 3}
+  winter: {fileID: 5172930296831151218, guid: 24cd410a69422644c8a3454c7d65cadd, type: 3}
+  spring: {fileID: 5172930296831151218, guid: 7e4fe900181aadd468aeaaaf259ae52d, type: 3}
+  summer: {fileID: 5172930296831151218, guid: 2b524d3e881506c44b23e605a2d31f81, type: 3}
