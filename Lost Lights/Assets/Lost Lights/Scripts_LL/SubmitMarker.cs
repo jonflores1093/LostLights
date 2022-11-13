@@ -19,10 +19,11 @@ namespace InsertStudioLostLights
       
         public int markerNumber;
         public bool correctAnswer;
-        public GameObject moon, Fall, Winter, Spring, Summer, starrite;
+        public GameObject moon, Fall, Winter, Spring, Summer, starrite, fact;
         public int moonNumber;
 
         NewQuestions changeQuestion;
+        FactsManager changeFacts;
 
         [SerializeField] AudioClip audioCorrect;
         [SerializeField] AudioClip audioWrong;
@@ -71,8 +72,13 @@ namespace InsertStudioLostLights
             {
                 starrite = GameObject.FindWithTag("Starrite");
             }
-
-                changeQuestion = FindObjectOfType<NewQuestions>();
+            if (fact == null)
+            {
+                fact = GameObject.FindWithTag("Fact");
+            }
+            // Find the script to use
+            changeQuestion = FindObjectOfType<NewQuestions>();
+            changeFacts = FindObjectOfType<FactsManager>();
 
             
         }
@@ -88,7 +94,9 @@ namespace InsertStudioLostLights
                 counter.text = "Starites remaining: " + staritesRemaining;
                 Object.Destroy(moon);
                 Object.Destroy(starrite);
+                Object.Destroy(fact);
                 changeQuestion.RandomQuestion();
+                changeFacts.RandomFact();
                 Invoke("UpdateMoon", .05f);
                 DisableButton();
                 Invoke("EnableButton", 1.5f);
@@ -110,6 +118,7 @@ namespace InsertStudioLostLights
         {
             moon = GameObject.FindWithTag("Moon");
             starrite = GameObject.FindWithTag("Starrite");
+            fact = GameObject.FindWithTag("Fact");
             moonNumber = moon.GetComponent<MoonType>().moonNumber;    
         }
 

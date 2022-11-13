@@ -13,6 +13,7 @@ namespace InsertStudioLostLights
 
         public int randomQuestion;
         public int randomStarrite;
+        
 
         public Transform starritePosition;
 

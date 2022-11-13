@@ -189,10 +189,6 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2314196967907951032, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
       propertyPath: m_Name
-      value: Partial Eclipse
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314196967907951035, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
-      propertyPath: m_text
       value: Maximum Partial Eclipse
       objectReference: {fileID: 0}
     - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
@@ -230,14 +226,6 @@ PrefabInstance:
     - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
       propertyPath: m_SizeDelta.y
       value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.4999999
-      objectReference: {fileID: 0}
-    - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.4999999
       objectReference: {fileID: 0}
     - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
       propertyPath: m_LocalPosition.x
