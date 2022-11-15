@@ -152,7 +152,7 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 
                 Debug.Log("Set to true");
-                //lunarStage1 = true;
+                lunarStage1 = true;
             }
             else if (scene.name == "Lunar Landing Level 1")
             {

@@ -80,7 +80,7 @@ namespace InsertStudioLostLights
             // Find the script to use
             changeQuestion = FindObjectOfType<NewQuestions>();
             changeFacts = FindObjectOfType<FactsManager>();
-
+            load = FindObjectOfType<LoaderLL>();
             
         }
 
@@ -110,7 +110,7 @@ namespace InsertStudioLostLights
             {
                 //endScreen.gameObject.SetActive(true);
                 load.changeClickable();
-                //Debug.Log("Game Over!");
+                Debug.Log("Game Over!");
             }
            
         }
