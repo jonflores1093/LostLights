@@ -24,6 +24,7 @@ namespace InsertStudioLostLights
 
         NewQuestions changeQuestion;
         FactsManager changeFacts;
+        LoaderLL load;
 
         [SerializeField] AudioClip audioCorrect;
         [SerializeField] AudioClip audioWrong;
@@ -108,8 +109,8 @@ namespace InsertStudioLostLights
             if (staritesRemaining == 0) 
             {
                 //endScreen.gameObject.SetActive(true);
-                SceneManager.LoadScene("Stage Select",LoadSceneMode.Single);
-                Debug.Log("Game Over!");
+                load.changeClickable();
+                //Debug.Log("Game Over!");
             }
            
         }

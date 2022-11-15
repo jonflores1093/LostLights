@@ -6,10 +6,18 @@ using LoLSDK;
 using SimpleJSON;
 using System.IO;
 
+
 namespace InsertStudioLostLights
 {
     public class LoaderLL : MonoBehaviour
     {
+        public bool tutorial = true;
+        public bool lunarStage1 = false;
+        public bool lunarStage2 = false;
+        public bool lunarStage3 = false;
+        public bool solarStage1 = false;
+        public bool solarStage2 = false;
+        public bool solarStage3 = false;
 
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
@@ -33,6 +41,8 @@ namespace InsertStudioLostLights
 
         void Awake()
         {
+            
+
             // Create the WebGL (or mock) object
 #if UNITY_EDITOR
             ILOLSDK webGL = new LoLSDK.MockWebGL();
@@ -57,6 +67,7 @@ namespace InsertStudioLostLights
             // Then, tell the platform the game is ready.
             LOLSDK.Instance.GameIsReady();
             StartCoroutine(_WaitForData());
+
         }
 
         IEnumerator _WaitForData()
@@ -129,6 +140,56 @@ namespace InsertStudioLostLights
                 HandleLanguageDefs(langDefs[langCode].ToString());
             }
 #endif
+        }
+
+       
+        public void changeClickable()
+        {
+            Scene scene = SceneManager.GetActiveScene();
+
+            if (scene.name == ("Tutorial"))
+            {
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+
+                Debug.Log("Set to true");
+                //lunarStage1 = true;
+            }
+            else if (scene.name == "Lunar Landing Level 1")
+            {
+
+                Debug.Log("Set to true1");
+
+                //lunarStage2 = true;
+            }
+            else if (scene.name == "Lunar Landing Level 2")
+            {
+
+                Debug.Log("Set to true2");
+
+                //lunarStage3 = true;
+            }
+            else if (scene.name == "Lunar Landing Level 3")
+            {
+
+                Debug.Log("Set to true3");
+
+                //solarStage1 = true;
+            }
+            else if (scene.name == "Solar Salute 1")
+            {
+
+                Debug.Log("Set to true4");
+
+                //solarStage2 = true;
+            }
+            else if (scene.name == "Solar Salute 2")
+            {
+
+                Debug.Log("Set to true5");
+
+                //solarStage3 = true;
+            }
+
         }
     }
 }
