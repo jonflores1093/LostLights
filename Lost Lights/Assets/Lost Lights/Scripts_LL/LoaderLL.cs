@@ -10,7 +10,7 @@ using UnityEngine.UI;
 
 namespace InsertStudioLostLights
 {
-    public class LoaderLL : MonoBehaviour
+    public class Stages
     {
         public bool tutorial = true;
         public bool lunarStage1 = false;
@@ -19,7 +19,11 @@ namespace InsertStudioLostLights
         public bool solarStage1 = false;
         public bool solarStage2 = false;
         public bool solarStage3 = false;
-
+    }
+    public class LoaderLL : MonoBehaviour
+    {
+        Stages stages;
+        Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
         private const string startGameJSONFilePath = "startGame.json";
@@ -142,8 +146,21 @@ namespace InsertStudioLostLights
             }
 #endif
         }
+        void Start()
+        {
+            HelperLL.StateButtonInitialize<Stages>(New_Game, Continue, OnLoad);
 
-       
+        }
+        void Save()
+        {
+            LOLSDK.Instance.SaveState(stages);
+        }
+         void OnLoad(Stages stagesSave)
+        {
+            if (stagesSave != null)
+                stages = stagesSave;
+        }
+        
         public void changeClickable()
         {
             Scene scene = SceneManager.GetActiveScene();
@@ -153,43 +170,48 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 
                 Debug.Log("Set to true");
-                lunarStage1 = true;
+                stages.lunarStage1 = true;
+                Save();
                 
             }
             else if (scene.name == "Lunar Landing Level 1")
             {
 
                 Debug.Log("Set to true1");
+                stages.lunarStage2 = true;
+                Save();
 
-                //lunarStage2 = true;
             }
             else if (scene.name == "Lunar Landing Level 2")
             {
 
                 Debug.Log("Set to true2");
-
-                //lunarStage3 = true;
+                stages.lunarStage3 = true;
+                Save();
             }
             else if (scene.name == "Lunar Landing Level 3")
             {
 
                 Debug.Log("Set to true3");
+                stages.solarStage1 = true;
+                Save();
 
-                //solarStage1 = true;
             }
             else if (scene.name == "Solar Salute 1")
             {
 
                 Debug.Log("Set to true4");
+                stages.solarStage2 = true;
+                Save();
 
-                //solarStage2 = true;
             }
             else if (scene.name == "Solar Salute 2")
             {
 
                 Debug.Log("Set to true5");
+                stages.solarStage3 = true;
+                Save();
 
-                //solarStage3 = true;
             }
 
         }
