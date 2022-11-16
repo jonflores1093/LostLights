@@ -23,7 +23,7 @@ namespace InsertStudioLostLights
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
-        Button New_Game, Continue;
+        [SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
         private const string startGameJSONFilePath = "startGame.json";
@@ -149,6 +149,7 @@ namespace InsertStudioLostLights
         void Start()
         {
             HelperLL.StateButtonInitialize<Stages>(New_Game, Continue, OnLoad);
+
 
         }
         void Save()

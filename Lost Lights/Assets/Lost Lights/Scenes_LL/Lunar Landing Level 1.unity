@@ -2549,7 +2549,6 @@ MonoBehaviour:
   - {fileID: 7269690664918006329, guid: bd9373f9b11e77d46adf2f2ee7cc97ae, type: 3}
   - {fileID: 3387716478081449549, guid: 82f0849eac866c942b4a886f61a0187e, type: 3}
   - {fileID: 1587500422395746345, guid: a923784c0be22cb4ea791f4dc9b0c1c6, type: 3}
-  facts: []
   randomQuestion: 0
   randomStarrite: 0
   starritePosition: {fileID: 68294031}
@@ -3220,6 +3219,18 @@ PrefabInstance:
     - target: {fileID: 7788446900847619681, guid: 10633c5eacd39fc4a8ae0cb17dfb97ae, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7788446900847619683, guid: 10633c5eacd39fc4a8ae0cb17dfb97ae, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7788446900847619683, guid: 10633c5eacd39fc4a8ae0cb17dfb97ae, type: 3}
+      propertyPath: m_fontSize
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 7788446900847619683, guid: 10633c5eacd39fc4a8ae0cb17dfb97ae, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 7788446900847619684, guid: 10633c5eacd39fc4a8ae0cb17dfb97ae, type: 3}
       propertyPath: m_Name

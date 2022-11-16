@@ -11,37 +11,36 @@ namespace InsertStudioLostLights
     {
         public Button lunar1, lunar2, lunar3, solar1, solar2, solar3;
 
-        LoaderLL loadData;
+        Stages stage;
 
         void Start()
         {
-            loadData = FindObjectOfType<LoaderLL>();
             checkStages();
         }
 
         void checkStages()
         {
-            if(loadData.lunarStage1 == true)
+            if(stage.lunarStage1 == true)
             {
                 lunar1.interactable = true;
             }
-            else if (loadData.lunarStage2 == true)
+            else if (stage.lunarStage2 == true)
             {
                 lunar2.interactable = true;
             }
-            else if (loadData.lunarStage3 == true)
+            else if (stage.lunarStage3 == true)
             {
                 lunar3.interactable = true;
             }
-            else if (loadData.solarStage1 == true)
+            else if (stage.solarStage1 == true)
             {
                 solar1.interactable = true;
             }
-            else if (loadData.solarStage2 == true)
+            else if (stage.solarStage2 == true)
             {
                 solar2.interactable = true;
             }
-            else if (loadData.solarStage3 == true)
+            else if (stage.solarStage3 == true)
             {
                 solar3.interactable = true;
             }
