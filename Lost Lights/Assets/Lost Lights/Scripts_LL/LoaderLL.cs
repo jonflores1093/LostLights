@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 using LoLSDK;
 using SimpleJSON;
 using System.IO;
+using UnityEngine.UI;
 
 
 namespace InsertStudioLostLights
@@ -153,6 +154,7 @@ namespace InsertStudioLostLights
 
                 Debug.Log("Set to true");
                 lunarStage1 = true;
+                
             }
             else if (scene.name == "Lunar Landing Level 1")
             {
