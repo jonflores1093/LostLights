@@ -13,11 +13,18 @@ namespace InsertStudioLostLights
 
         Stages stage;
 
-        void Start()
+        private void Awake()
         {
-            checkStages();
+            stage = FindObjectOfType<Stages>();
         }
 
+        void Start()
+        {
+            
+            checkStages();
+            
+        }
+        
         void checkStages()
         {
             if(stage.lunarStage1 == true)

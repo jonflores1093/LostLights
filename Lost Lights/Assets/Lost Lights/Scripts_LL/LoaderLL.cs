@@ -10,16 +10,6 @@ using UnityEngine.UI;
 
 namespace InsertStudioLostLights
 {
-    public class Stages
-    {
-        public bool tutorial = true;
-        public bool lunarStage1 = false;
-        public bool lunarStage2 = false;
-        public bool lunarStage3 = false;
-        public bool solarStage1 = false;
-        public bool solarStage2 = false;
-        public bool solarStage3 = false;
-    }
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
@@ -149,7 +139,7 @@ namespace InsertStudioLostLights
         void Start()
         {
 
-            
+            stages = FindObjectOfType<Stages>();
             HelperLL.StateButtonInitialize<Stages>(New_Game, Continue, OnLoad);
 
 

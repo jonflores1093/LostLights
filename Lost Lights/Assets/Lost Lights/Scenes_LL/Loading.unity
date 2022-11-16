@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 563363567}
   - component: {fileID: 563363566}
   - component: {fileID: 563363568}
+  - component: {fileID: 563363570}
   - component: {fileID: 563363569}
   m_Layer: 0
   m_Name: GameObject
@@ -336,3 +337,22 @@ MonoBehaviour:
   facts23: {fileID: 7152572238850243418, guid: 5dedc03857dce6b45a838215024d5f77, type: 3}
   facts24: {fileID: 7742764978389473780, guid: e28f6ed0a01a56841a99a2b2cf4e2204, type: 3}
   facts25: {fileID: 6081860453346219249, guid: 81becdf4ec73d024fbe02fd1878a3647, type: 3}
+--- !u!114 &563363570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563363565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d74da0f6ee99be8489f4423a5cc01284, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tutorial: 1
+  lunarStage1: 0
+  lunarStage2: 0
+  lunarStage3: 0
+  solarStage1: 0
+  solarStage2: 0
+  solarStage3: 0
