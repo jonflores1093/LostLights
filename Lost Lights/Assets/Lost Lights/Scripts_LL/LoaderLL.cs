@@ -148,6 +148,8 @@ namespace InsertStudioLostLights
         }
         void Start()
         {
+
+            
             HelperLL.StateButtonInitialize<Stages>(New_Game, Continue, OnLoad);
 
 
