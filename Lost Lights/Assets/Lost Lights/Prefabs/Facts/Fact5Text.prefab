@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6489947552743611843}
   m_Layer: 5
   m_Name: Fact5Text
-  m_TagString: Fact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: As Earth rotates, one hemisphere will experience longer days with shorter
+    nights while the other experiences shorter days and longer nights.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}

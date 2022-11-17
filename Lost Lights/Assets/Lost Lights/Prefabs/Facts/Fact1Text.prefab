@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5540404281602137460}
   m_Layer: 5
   m_Name: Fact1Text
-  m_TagString: Fact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: The Earth is on a 23.5 degree tilt.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}

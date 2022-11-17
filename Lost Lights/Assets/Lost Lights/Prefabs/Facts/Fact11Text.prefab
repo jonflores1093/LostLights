@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1127244200267953574}
   m_Layer: 5
   m_Name: Fact11Text
-  m_TagString: Fact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: The area that Earth doesnt cover the moon fully is called the Penumbra.
+    When the moon isn't red in color, it is in the Penumbra.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}

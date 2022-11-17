@@ -104,10 +104,6 @@ namespace InsertStudioLostLights
                 solarEclipseAnnular3.text = GetText("solarEclipseAnnular3");
                 solarEclipseAnnular4.text = GetText("solarEclipseAnnular4");
                 solarEclipseAnnular5.text = GetText("solarEclipseAnnular5");
-                //solarEclipseTotal1.text = GetText("First Contact");           // Duplicate with previous ones
-                //solarEclipseTotal2.text = GetText("Second Contact");
-                //solarEclipseTotal3.text = GetText("Third Contact");
-                //solarEclipseTotal4.text = GetText("Fourth Contact");
                 solarEclipseTotal5.text = GetText("solarEclipseTotal5");
                 facts1.text = GetText("facts1");
                 facts2.text = GetText("facts2");

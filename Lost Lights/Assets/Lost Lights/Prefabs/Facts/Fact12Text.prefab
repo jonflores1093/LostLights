@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2747430194665001031}
   m_Layer: 5
   m_Name: Fact12Text
-  m_TagString: Fact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Total Lunar Eclipses are less common. As of Nov. 8th 2022, there was a
+    total lunar eclipse. The next one to happen will be March 14th 2025!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}

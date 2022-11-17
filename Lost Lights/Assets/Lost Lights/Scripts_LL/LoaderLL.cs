@@ -29,6 +29,8 @@ namespace InsertStudioLostLights
         Stages stages;
         DefaultStages defaultStages;
 
+        public bool lunar1, lunar2, lunar3, solar1, solar2, solar3;
+
         [SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
@@ -154,9 +156,10 @@ namespace InsertStudioLostLights
         }
         void Start()
         {
-
+            
             stages = FindObjectOfType<Stages>();
             HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
+            
 
 
         }
@@ -179,10 +182,11 @@ namespace InsertStudioLostLights
             if (scene.name == ("Tutorial"))
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
-
                 Debug.Log("Set to true");
-                //defaultStages.lunarStage1 = true;
+
                 stages.lunarStage1 = true;
+                //lunar1 = stages.lunarStage1;
+
                 Save();
                 
             }
@@ -191,7 +195,10 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true1");
                 //defaultStages.lunarStage2 = true;
+                
                 stages.lunarStage2 = true;
+                //defaultStages.lunarStage2 = stages.lunarStage2;
+
                 Save();
 
             }
@@ -200,7 +207,10 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true2");
                 //defaultStages.lunarStage3 = true;
+                
                 stages.lunarStage3 = true;
+                //defaultStages.lunarStage3 = stages.lunarStage3;
+
                 Save();
             }
             else if (scene.name == "Lunar Landing Level 3")
@@ -208,7 +218,10 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true3");
                 //defaultStages.solarStage1 = true;
+                
                 stages.solarStage1 = true;
+                //defaultStages.solarStage1 = stages.solarStage1;
+
                 Save();
 
             }
@@ -217,7 +230,10 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true4");
                 //defaultStages.solarStage2 = true;
+                
                 stages.solarStage2 = true;
+                //defaultStages.solarStage2 = stages.solarStage2;
+
                 Save();
 
             }
@@ -226,7 +242,10 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true5");
                 //defaultStages.solarStage3 = true;
+                
                 stages.solarStage3 = true;
+                //defaultStages.solarStage3 = stages.solarStage3;
+
                 Save();
 
             }

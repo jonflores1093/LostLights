@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6795643805240521532}
   m_Layer: 5
   m_Name: Fact22Text
-  m_TagString: Fact
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,7 +65,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Total solar eclipse is when the sun is completely blocked by the moon.
+    Those inside the path of a total solar eclipse will experience 'daytime darkness'
+    and be able to observe the Sun's corona.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
