@@ -31,23 +31,23 @@ namespace InsertStudioLostLights
             {
                 lunar1.interactable = true;
             }
-            else if (stage.lunarStage2 == true)
+            if (stage.lunarStage2 == true)
             {
                 lunar2.interactable = true;
             }
-            else if (stage.lunarStage3 == true)
+            if (stage.lunarStage3 == true)
             {
                 lunar3.interactable = true;
             }
-            else if (stage.solarStage1 == true)
+            if (stage.solarStage1 == true)
             {
                 solar1.interactable = true;
             }
-            else if (stage.solarStage2 == true)
+            if (stage.solarStage2 == true)
             {
                 solar2.interactable = true;
             }
-            else if (stage.solarStage3 == true)
+            if (stage.solarStage3 == true)
             {
                 solar3.interactable = true;
             }

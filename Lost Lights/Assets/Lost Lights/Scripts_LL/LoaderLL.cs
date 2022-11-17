@@ -10,9 +10,25 @@ using UnityEngine.UI;
 
 namespace InsertStudioLostLights
 {
+
+    public class DefaultStages 
+    {
+
+        public bool tutorial = true;
+        public bool lunarStage1 = false;
+        public bool lunarStage2 = false;
+        public bool lunarStage3 = false;
+        public bool solarStage1 = false;
+        public bool solarStage2 = false;
+        public bool solarStage3 = false;
+
+
+    }
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
+        DefaultStages defaultStages;
+
         [SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
@@ -140,18 +156,20 @@ namespace InsertStudioLostLights
         {
 
             stages = FindObjectOfType<Stages>();
-            HelperLL.StateButtonInitialize<Stages>(New_Game, Continue, OnLoad);
+            HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
 
 
         }
         void Save()
         {
-            LOLSDK.Instance.SaveState(stages);
+            LOLSDK.Instance.SaveState(defaultStages);
         }
-         void OnLoad(Stages stagesSave)
+         void OnLoad(DefaultStages stagesSave)
         {
             if (stagesSave != null)
-                stages = stagesSave;
+                defaultStages = stagesSave;
+
+            
         }
         
         public void changeClickable()
@@ -163,6 +181,7 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 
                 Debug.Log("Set to true");
+                defaultStages.lunarStage1 = true;
                 stages.lunarStage1 = true;
                 Save();
                 
@@ -171,6 +190,7 @@ namespace InsertStudioLostLights
             {
 
                 Debug.Log("Set to true1");
+                defaultStages.lunarStage2 = true;
                 stages.lunarStage2 = true;
                 Save();
 
@@ -179,6 +199,7 @@ namespace InsertStudioLostLights
             {
 
                 Debug.Log("Set to true2");
+                defaultStages.lunarStage3 = true;
                 stages.lunarStage3 = true;
                 Save();
             }
@@ -186,6 +207,7 @@ namespace InsertStudioLostLights
             {
 
                 Debug.Log("Set to true3");
+                defaultStages.solarStage1 = true;
                 stages.solarStage1 = true;
                 Save();
 
@@ -194,6 +216,7 @@ namespace InsertStudioLostLights
             {
 
                 Debug.Log("Set to true4");
+                defaultStages.solarStage2 = true;
                 stages.solarStage2 = true;
                 Save();
 
@@ -202,6 +225,7 @@ namespace InsertStudioLostLights
             {
 
                 Debug.Log("Set to true5");
+                defaultStages.solarStage3 = true;
                 stages.solarStage3 = true;
                 Save();
 
