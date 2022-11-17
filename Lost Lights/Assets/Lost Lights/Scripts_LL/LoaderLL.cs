@@ -181,51 +181,51 @@ namespace InsertStudioLostLights
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 
                 Debug.Log("Set to true");
-                defaultStages.lunarStage1 = true;
+                //defaultStages.lunarStage1 = true;
                 stages.lunarStage1 = true;
                 Save();
                 
             }
             else if (scene.name == "Lunar Landing Level 1")
             {
-
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true1");
-                defaultStages.lunarStage2 = true;
+                //defaultStages.lunarStage2 = true;
                 stages.lunarStage2 = true;
                 Save();
 
             }
             else if (scene.name == "Lunar Landing Level 2")
             {
-
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true2");
-                defaultStages.lunarStage3 = true;
+                //defaultStages.lunarStage3 = true;
                 stages.lunarStage3 = true;
                 Save();
             }
             else if (scene.name == "Lunar Landing Level 3")
             {
-
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true3");
-                defaultStages.solarStage1 = true;
+                //defaultStages.solarStage1 = true;
                 stages.solarStage1 = true;
                 Save();
 
             }
             else if (scene.name == "Solar Salute 1")
             {
-
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true4");
-                defaultStages.solarStage2 = true;
+                //defaultStages.solarStage2 = true;
                 stages.solarStage2 = true;
                 Save();
 
             }
             else if (scene.name == "Solar Salute 2")
             {
-
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true5");
-                defaultStages.solarStage3 = true;
+                //defaultStages.solarStage3 = true;
                 stages.solarStage3 = true;
                 Save();
 
