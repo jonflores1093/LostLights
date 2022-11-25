@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
+- path: Assets/Lost Lights/Scenes_LL/StoryScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
