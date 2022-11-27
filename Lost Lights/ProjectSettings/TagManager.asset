@@ -12,6 +12,7 @@ TagManager:
   - Winter
   - Spring
   - Summer
+  - Fact
   layers:
   - Default
   - TransparentFX
