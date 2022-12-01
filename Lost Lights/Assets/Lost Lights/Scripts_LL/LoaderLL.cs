@@ -22,12 +22,22 @@ namespace InsertStudioLostLights
         public bool solarStage2 = false;
         public bool solarStage3 = false;
 
+        
+
 
     }
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
         DefaultStages defaultStages;
+
+        public bool tutorialFT = true;
+        public bool lunarStage1FT = false;
+        public bool lunarStage2FT = false;
+        public bool lunarStage3FT = false;
+        public bool solarStage1FT = false;
+        public bool solarStage2FT = false;
+        public bool solarStage3FT = false;
 
         public bool lunar1, lunar2, lunar3, solar1, solar2, solar3;
 
@@ -185,7 +195,15 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true");
 
                 stages.lunarStage1 = true;
-                //lunar1 = stages.lunarStage1;
+                if (tutorialFT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(10, 10, 100);
+                    tutorialFT = true;
+                }
+                else
+                {
+
+                }
 
                 Save();
                 
@@ -197,7 +215,16 @@ namespace InsertStudioLostLights
                 //defaultStages.lunarStage2 = true;
                 
                 stages.lunarStage2 = true;
-                //defaultStages.lunarStage2 = stages.lunarStage2;
+                if (lunarStage1FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(25, 25, 100);
+                    lunarStage1FT = true;
+                }
+                else
+                {
+
+                }
+
 
                 Save();
 
@@ -209,7 +236,16 @@ namespace InsertStudioLostLights
                 //defaultStages.lunarStage3 = true;
                 
                 stages.lunarStage3 = true;
-                //defaultStages.lunarStage3 = stages.lunarStage3;
+                if (lunarStage2FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(40, 40, 100);
+                    lunarStage2FT = true;
+                }
+                else
+                {
+
+                }
+
 
                 Save();
             }
@@ -220,7 +256,15 @@ namespace InsertStudioLostLights
                 //defaultStages.solarStage1 = true;
                 
                 stages.solarStage1 = true;
-                //defaultStages.solarStage1 = stages.solarStage1;
+                if (lunarStage1FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(50, 50, 100);
+                    lunarStage1FT = true;
+                }
+                else
+                {
+
+                }
 
                 Save();
 
@@ -232,7 +276,16 @@ namespace InsertStudioLostLights
                 //defaultStages.solarStage2 = true;
                 
                 stages.solarStage2 = true;
-                //defaultStages.solarStage2 = stages.solarStage2;
+
+                if (solarStage1FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(65, 65, 100);
+                    solarStage1FT = true;
+                }
+                else
+                {
+                    
+                }
 
                 Save();
 
@@ -244,7 +297,36 @@ namespace InsertStudioLostLights
                 //defaultStages.solarStage3 = true;
                 
                 stages.solarStage3 = true;
-                //defaultStages.solarStage3 = stages.solarStage3;
+                if (solarStage2FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(80, 80, 100);
+                    solarStage2FT = true;
+                }
+                else
+                {
+                    
+                }
+
+                Save();
+
+            }
+            else if (scene.name == "Solar Salute 3")
+            {
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+                Debug.Log("Set to true5");
+                //defaultStages.solarStage3 = true;
+
+                stages.solarStage3 = true;
+
+                if (solarStage3FT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(100, 100, 100);
+                    solarStage3FT = true;
+                }
+                else
+                {
+                    
+                }
 
                 Save();
 
