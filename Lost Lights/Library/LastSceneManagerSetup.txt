@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/LegendsOfLearning-Example/Scenes/example-cooking-game.unity
-=======
-- path: Assets/Lost Lights/Scenes_LL/StoryScene.unity
->>>>>>> Jon
+- path: Assets/Lost Lights/Scenes_LL/Loading.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
