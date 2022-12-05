@@ -24,7 +24,7 @@ namespace InsertStudioLostLights
         void Start()
         {
             DisableButton();
-            Invoke("EnableButton", 2.5f);
+            Invoke("EnableButton", 10.5f);
 
         }
 
