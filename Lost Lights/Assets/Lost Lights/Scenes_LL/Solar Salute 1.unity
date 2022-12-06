@@ -1548,6 +1548,7 @@ MonoBehaviour:
   Spring: {fileID: 568428805}
   Summer: {fileID: 835619940}
   starrite: {fileID: 0}
+  fact: {fileID: 0}
   moonNumber: 0
   audioCorrect: {fileID: 8300000, guid: f32a5b15519c00f4bbc10b9e8728c05d, type: 3}
   audioWrong: {fileID: 8300000, guid: 04b76efcd687994408d86b2c4834cf3f, type: 3}

@@ -358,11 +358,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 164733674}
   m_CullTransparentMesh: 1
---- !u!1 &563015580 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3007314636877529934, guid: 83ecab67f2ca0214cbf8e85390311ea9, type: 3}
-  m_PrefabInstance: {fileID: 1357387353}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &593947066
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,7 +667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96fe969003cdb6f429253de9a5d1c62b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollRight: {fileID: 563015580}
+  scrollRight: {fileID: 1901851545}
   rot_Speed: 20
 --- !u!114 &1143346761
 MonoBehaviour:
@@ -1012,7 +1007,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384f35df07ec04944a468edd89d9da97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollLeft: {fileID: 563015580}
+  scrollLeft: {fileID: 1901851545}
   rot_Speed: 20
 --- !u!114 &1373525756
 MonoBehaviour:
