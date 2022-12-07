@@ -1332,7 +1332,7 @@ GameObject:
   - component: {fileID: 1905541042}
   - component: {fileID: 1905541041}
   m_Layer: 5
-  m_Name: Continue
+  m_Name: Direction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click the next arrow to continue!
+  m_text: Click the Next arrow to continue!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}

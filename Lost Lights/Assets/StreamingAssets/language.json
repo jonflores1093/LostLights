@@ -65,7 +65,9 @@
     "facts22" : "Total solar eclipse is when the sun is completely blocked by the moon. Those inside the path of a total solar eclipse will experience 'daytime darkness' and be able to observe the Sun's corona.",
     "facts23" : "Partial solar eclipse is when the moon doesn't completely cover the sun.",
     "facts24" : "Annular solar eclipse is when the moon is centered in front of the Sun but does not fully cover the Sun's disk.",
-    "facts25" : "When the Sun is bigger than the moon it is an annular solar eclipse. When the moon and sun look like the same size, it is a total solar eclipse."
+    "facts25" : "When the Sun is bigger than the moon it is an annular solar eclipse. When the moon and sun look like the same size, it is a total solar eclipse.",
+    "next":"Next",
+    "direction":"Click the Next arrow to continue!"
 
   }
 }
