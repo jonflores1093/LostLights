@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using LoLSDK;
+using System;
+using UnityEngine.SceneManagement;
+using TMPro;
+
+namespace InsertStudioLostLights
+{
+    public class InvokeTextToSpeech : MonoBehaviour
+    {
+
+        AudioSource _ttsAudioSource;
+
+        public string textKey;
+
+        private void Awake()
+        {
+            //textKey = gameObject.GetComponentInParent<TextMeshProUGUI>();
+            textKey = this.name;
+            _ttsAudioSource = gameObject.AddComponent<AudioSource>();
+        }
+        void Start()
+        {
+            string languageCode = SharedStateLL.StartGameData_LL["languageCode"];
+            string text = SharedStateLL.LanguageDefs_LL[textKey];
+            // Stop any current tts.
+            _ttsAudioSource.Stop();
+            // Speak the clip of text requested from using this MonoBehaviour as the coroutine owner.
+            ((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
+                clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
+                this,
+                languageCode);
+
+
+        }
+
+
+
+    }
+}

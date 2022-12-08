@@ -238,6 +238,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9b6f52adfa998a43a2d5b0afe0421f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tutorialFT: 1
+  lunarStage1FT: 0
+  lunarStage2FT: 0
+  lunarStage3FT: 0
+  solarStage1FT: 0
+  solarStage2FT: 0
+  solarStage3FT: 0
+  lunar1: 0
+  lunar2: 0
+  lunar3: 0
+  solar1: 0
+  solar2: 0
+  solar3: 0
   New_Game: {fileID: 6980188226478189953, guid: c4348cabd3ea6ef4bb2bf62be0337370, type: 3}
   Continue: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
 --- !u!4 &563363567
@@ -337,6 +350,8 @@ MonoBehaviour:
   facts23: {fileID: 7152572238850243418, guid: 5dedc03857dce6b45a838215024d5f77, type: 3}
   facts24: {fileID: 7742764978389473780, guid: e28f6ed0a01a56841a99a2b2cf4e2204, type: 3}
   facts25: {fileID: 6081860453346219249, guid: 81becdf4ec73d024fbe02fd1878a3647, type: 3}
+  next: {fileID: 4218474965441257552, guid: 6ddba927b272cd7418d9dc29818edfb5, type: 3}
+  direction: {fileID: 5351690668078723024, guid: cd2a8d3f4d1f39e44a3804f6d42144f1, type: 3}
 --- !u!114 &563363570
 MonoBehaviour:
   m_ObjectHideFlags: 0

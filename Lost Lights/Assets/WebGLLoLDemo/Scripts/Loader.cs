@@ -61,7 +61,7 @@ public class Loader : MonoBehaviour
     IEnumerator _WaitForData()
     {
         yield return new WaitUntil(() => (_receivedData & _expectedData) != 0);
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        SceneManager.LoadScene("MainMenu1", LoadSceneMode.Single);
     }
 
     // Start the game here
