@@ -14,12 +14,12 @@ Version 2.0.0 RC-10
 */
 namespace LoLSDK
 {
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
     public interface ILOLSDK_EDITOR : ILOLSDK_EXTENSION
     {
         void SpeakText (string text, Action<AudioClip> onDownloaded, MonoBehaviour owner, string currentLang = "en", string currentTTSLangKey = "en-US");
     }
-#endif
+//#endif
 
     // Needed because original source for V5 dll is missing... 
     public interface ILOLSDK_EXTENSION : ILOLSDK

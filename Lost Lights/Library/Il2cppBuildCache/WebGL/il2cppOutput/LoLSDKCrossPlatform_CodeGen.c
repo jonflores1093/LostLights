@@ -1587,17 +1587,17 @@ static const Il2CppTokenRangePair s_rgctxIndices[4] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[12] = 
 {
-	{ (Il2CppRGCTXDataType)2, 1544 },
+	{ (Il2CppRGCTXDataType)2, 1545 },
 	{ (Il2CppRGCTXDataType)2, 254 },
 	{ (Il2CppRGCTXDataType)1, 254 },
-	{ (Il2CppRGCTXDataType)3, 8834 },
-	{ (Il2CppRGCTXDataType)2, 1574 },
-	{ (Il2CppRGCTXDataType)3, 6643 },
+	{ (Il2CppRGCTXDataType)3, 8835 },
+	{ (Il2CppRGCTXDataType)2, 1575 },
+	{ (Il2CppRGCTXDataType)3, 6644 },
 	{ (Il2CppRGCTXDataType)2, 428 },
 	{ (Il2CppRGCTXDataType)3, 39 },
 	{ (Il2CppRGCTXDataType)3, 40 },
-	{ (Il2CppRGCTXDataType)1, 1579 },
-	{ (Il2CppRGCTXDataType)2, 1579 },
+	{ (Il2CppRGCTXDataType)1, 1580 },
+	{ (Il2CppRGCTXDataType)2, 1580 },
 	{ (Il2CppRGCTXDataType)3, 89 },
 };
 extern const CustomAttributesCacheGenerator g_LoLSDKCrossPlatform_AttributeGenerators[];

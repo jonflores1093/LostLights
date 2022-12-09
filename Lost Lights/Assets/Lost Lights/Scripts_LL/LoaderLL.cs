@@ -41,6 +41,8 @@ namespace InsertStudioLostLights
 
         public bool lunar1, lunar2, lunar3, solar1, solar2, solar3;
 
+        public bool textToSpeech = false;
+
         [SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
