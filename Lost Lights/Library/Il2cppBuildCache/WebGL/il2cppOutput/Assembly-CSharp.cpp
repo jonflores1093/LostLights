@@ -23751,14 +23751,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Start_mFCB4B565207854F3D0514
 		return;
 	}
 }
-// System.Void InsertStudioLostLights.Transitions::Continue()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_Continue_m124C6845FEC08C14A893C70BD24C6A2A97E2524A (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, const RuntimeMethod* method)
-{
-	{
-		// }
-		return;
-	}
-}
 // System.Void InsertStudioLostLights.Transitions::HandleLanguageDefs(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transitions_HandleLanguageDefs_mAF2850D424580458C47AB8A809B0F9A1BAB06CF9 (Transitions_t220327C1F7303A932745B68472D05D4C506AC82F * __this, String_t* ___json0, const RuntimeMethod* method)
 {

@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352d567bbfe18694686c522b56ef817b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moonNumberMarker: 3
+  moonNumberMarker: 2
 --- !u!61 &169220455
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1169,7 +1169,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352d567bbfe18694686c522b56ef817b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moonNumberMarker: 2
+  moonNumberMarker: 3
 --- !u!61 &381444808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3370,7 +3370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352d567bbfe18694686c522b56ef817b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moonNumberMarker: 2
+  moonNumberMarker: 3
 --- !u!61 &1202083081
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3852,7 +3852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 352d567bbfe18694686c522b56ef817b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moonNumberMarker: 3
+  moonNumberMarker: 2
 --- !u!61 &1305163744
 BoxCollider2D:
   m_ObjectHideFlags: 0
