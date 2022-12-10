@@ -20,7 +20,8 @@ namespace InsertStudioLostLights
         
         public string textKey;
 
-        LoaderLL ttsBool;
+        public LoaderLL ttsBool;
+        
 
         private void Awake()
         {

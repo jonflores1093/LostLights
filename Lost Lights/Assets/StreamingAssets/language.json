@@ -68,7 +68,8 @@
     "facts25": "When the Sun is bigger than the moon it is an annular solar eclipse. When the moon and sun look like the same size, it is a total solar eclipse.",
     "next": "Next",
     "direction": "Click the Next arrow to continue!",
-    "textToSpeechEnable": "Text to speech enabled"
+    "textToSpeechEnable": "Text to speech enabled",
+    "textToSpeechDisable": "Text to speech disabled"
 
   }
 }

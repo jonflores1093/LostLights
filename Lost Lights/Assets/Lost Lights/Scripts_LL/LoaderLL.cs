@@ -21,15 +21,16 @@ namespace InsertStudioLostLights
         public bool solarStage1 = false;
         public bool solarStage2 = false;
         public bool solarStage3 = false;
+        public bool textToSpeechSaved = false;
 
-        
+
 
 
     }
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
-        DefaultStages defaultStages;
+        DefaultStages defaultStages = new DefaultStages();
 
         public bool tutorialFT = true;
         public bool lunarStage1FT = false;
@@ -42,6 +43,8 @@ namespace InsertStudioLostLights
         public bool lunar1, lunar2, lunar3, solar1, solar2, solar3;
 
         public bool textToSpeech = false;
+
+
 
         [SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
@@ -69,11 +72,11 @@ namespace InsertStudioLostLights
             
 
             // Create the WebGL (or mock) object
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
             ILOLSDK webGL = new LoLSDK.MockWebGL();
-#elif UNITY_WEBGL
-        ILOLSDK webGL = new LoLSDK.WebGL();
-#endif
+//#elif UNITY_WEBGL
+//        ILOLSDK webGL = new LoLSDK.WebGL();
+//#endif
 
             // Initialize the object, passing in the WebGL
             LOLSDK.Init(webGL, "com.Insert-Studio.Lost-Lights");
@@ -85,9 +88,9 @@ namespace InsertStudioLostLights
             LOLSDK.Instance.GameStateChanged += new GameStateChangedHandler(HandleGameStateChange);
 
             // Mock the platform-to-game messages when in the Unity editor.
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
             LoadData();
-#endif
+//#endif
 
             // Then, tell the platform the game is ready.
             LOLSDK.Instance.GameIsReady();
@@ -135,7 +138,7 @@ namespace InsertStudioLostLights
 
         private void LoadData()
         {
-#if UNITY_EDITOR
+//#if UNITY_EDITOR
             // Load Dev Language File from StreamingAssets
 
             string startDataFilePath = Path.Combine(Application.streamingAssetsPath, startGameJSONFilePath);
@@ -164,7 +167,7 @@ namespace InsertStudioLostLights
                 // use the languageCode from startGame.json captured above
                 HandleLanguageDefs(langDefs[langCode].ToString());
             }
-#endif
+//#endif
         }
         void Start()
         {
@@ -175,15 +178,23 @@ namespace InsertStudioLostLights
 
 
         }
-        void Save()
+         void Save()
         {
             LOLSDK.Instance.SaveState(defaultStages);
+            Debug.Log("Saved");
+        }
+
+         public void ttsSave()
+        {
+            defaultStages.textToSpeechSaved = textToSpeech;
+            LOLSDK.Instance.SaveState(defaultStages);
+            Debug.Log("Saved");
         }
          void OnLoad(DefaultStages stagesSave)
         {
             if (stagesSave != null)
                 defaultStages = stagesSave;
-
+            
             
         }
         
@@ -195,6 +206,7 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true");
+                defaultStages.lunarStage1 = true;
 
                 stages.lunarStage1 = true;
                 if (tutorialFT == false)
@@ -204,7 +216,7 @@ namespace InsertStudioLostLights
                 }
                 else
                 {
-
+                    LOLSDK.Instance.SubmitProgress(10, 10, 100);
                 }
 
                 Save();
@@ -214,7 +226,7 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true1");
-                //defaultStages.lunarStage2 = true;
+                defaultStages.lunarStage2 = true;
                 
                 stages.lunarStage2 = true;
                 if (lunarStage1FT == false)
@@ -235,7 +247,7 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true2");
-                //defaultStages.lunarStage3 = true;
+                defaultStages.lunarStage3 = true;
                 
                 stages.lunarStage3 = true;
                 if (lunarStage2FT == false)
@@ -255,13 +267,13 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true3");
-                //defaultStages.solarStage1 = true;
+                defaultStages.solarStage1 = true;
                 
                 stages.solarStage1 = true;
-                if (lunarStage1FT == false)
+                if (lunarStage3FT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(50, 50, 100);
-                    lunarStage1FT = true;
+                    lunarStage3FT = true;
                 }
                 else
                 {
@@ -275,7 +287,7 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true4");
-                //defaultStages.solarStage2 = true;
+                defaultStages.solarStage2 = true;
                 
                 stages.solarStage2 = true;
 
@@ -296,7 +308,7 @@ namespace InsertStudioLostLights
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
                 Debug.Log("Set to true5");
-                //defaultStages.solarStage3 = true;
+                defaultStages.solarStage3 = true;
                 
                 stages.solarStage3 = true;
                 if (solarStage2FT == false)
@@ -327,7 +339,8 @@ namespace InsertStudioLostLights
                 }
                 else
                 {
-                    
+                    LOLSDK.Instance.SubmitProgress(100, 100, 100);
+                    //solarStage3FT = true;
                 }
 
                 Save();

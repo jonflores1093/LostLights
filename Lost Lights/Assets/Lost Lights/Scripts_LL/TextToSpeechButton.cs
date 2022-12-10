@@ -11,8 +11,10 @@ namespace InsertStudioLostLights
 { 
 public class TextToSpeechButton : MonoBehaviour
 {
-        public GameObject audioScript;
-        LoaderLL textTS;
+        public GameObject enableAudioScript;
+        public GameObject disableAudioScript;
+        public LoaderLL textTS;
+        
 
         private void Start()
 
@@ -26,11 +28,19 @@ public class TextToSpeechButton : MonoBehaviour
             textTS.textToSpeech = !textTS.textToSpeech;
             if(textTS.textToSpeech == true)
             {
-                audioScript.SetActive(true);
+                enableAudioScript.SetActive(true);
+                disableAudioScript.SetActive(false);
+                textTS.ttsSave();
+
+
+
             }
-            else
+            else if(textTS.textToSpeech == false)
             {
-                audioScript.SetActive(false);
+                enableAudioScript.SetActive(false);
+                disableAudioScript.SetActive(true);
+                textTS.ttsSave();
+
             }
         }
 

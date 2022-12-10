@@ -108,6 +108,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Quarter
       objectReference: {fileID: 0}
+    - target: {fileID: 5294980215470920449, guid: 81b7fb7cd69b0db42b5667954a0af4d0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5294980215470920452, guid: 81b7fb7cd69b0db42b5667954a0af4d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

@@ -228,7 +228,7 @@ namespace LoLSDK
         }
     }
 
-#if UNITY_EDITOR
+//if UNITY_EDITOR
     public class MockWebGL : ILOLSDK_EDITOR
     {
 
@@ -442,5 +442,5 @@ namespace LoLSDK
             Debug.Log("GetPlayerActivityId");
         }
     }
-#endif
+//#endif
 }

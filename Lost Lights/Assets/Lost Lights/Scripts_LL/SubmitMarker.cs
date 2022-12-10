@@ -98,7 +98,7 @@ namespace InsertStudioLostLights
                 Object.Destroy(fact);
                 changeQuestion.RandomQuestion();
                 changeFacts.RandomFact();
-                Invoke("UpdateMoon", .05f);
+                Invoke("UpdateMoon", 1.5f);
                 DisableButton();
                 Invoke("EnableButton", 1.5f);
 
@@ -187,7 +187,7 @@ namespace InsertStudioLostLights
                 setCorrectTextActive();
                 Debug.Log("correctanswer");
                 correctAnswer = true;
-                Invoke("setTextInactive", 3);
+                Invoke("setCorrectTextInactive", 3);
                 audioSourceCorrect.Play();
             }
             else
@@ -196,7 +196,7 @@ namespace InsertStudioLostLights
                 setWrongTextActive();
                 Debug.Log("wronganswer");
                 correctAnswer = false;
-                Invoke("setTextInactive", 3);
+                Invoke("setWrongTextInactive", 3);
                 audioSourceWrong.Play();
 
             }
