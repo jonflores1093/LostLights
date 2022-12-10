@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7584193788043855067}
   m_Layer: 0
   m_Name: Annularity Solar Eclipse
-  m_TagString: Moon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

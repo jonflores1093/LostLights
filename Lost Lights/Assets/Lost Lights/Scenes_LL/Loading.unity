@@ -213,18 +213,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9186491289830430725, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
-      propertyPath: solarStage1
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9186491289830430725, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
-      propertyPath: solarStage2
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9186491289830430725, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
-      propertyPath: solarStage3
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9186491289830430744, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
       propertyPath: m_RootOrder
       value: 1

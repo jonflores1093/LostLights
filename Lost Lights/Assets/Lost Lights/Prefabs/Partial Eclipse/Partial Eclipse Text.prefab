@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6759342144218925477}
   m_Layer: 0
   m_Name: Partial Eclipse Text
-  m_TagString: Moon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
