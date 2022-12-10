@@ -418,115 +418,113 @@ extern void TextToSpeechButton_ToggleTTS_m57463F76F6052939EF245391F7863F5CA03DC5
 extern void TextToSpeechButton__ctor_m191995CC899B6D57C76B6A6A53CEC82E02A44D9A (void);
 // 0x000000CE System.Void InsertStudioLostLights.Transitions::Start()
 extern void Transitions_Start_mFCB4B565207854F3D0514AB98DA43D2DD7ACE281 (void);
-// 0x000000CF System.Void InsertStudioLostLights.Transitions::Continue()
-extern void Transitions_Continue_m124C6845FEC08C14A893C70BD24C6A2A97E2524A (void);
-// 0x000000D0 System.Void InsertStudioLostLights.Transitions::HandleLanguageDefs(System.String)
+// 0x000000CF System.Void InsertStudioLostLights.Transitions::HandleLanguageDefs(System.String)
 extern void Transitions_HandleLanguageDefs_mAF2850D424580458C47AB8A809B0F9A1BAB06CF9 (void);
-// 0x000000D1 System.Void InsertStudioLostLights.Transitions::NewGame()
+// 0x000000D0 System.Void InsertStudioLostLights.Transitions::NewGame()
 extern void Transitions_NewGame_m3E88FCF829A257DD225E2620FD636136B744722F (void);
-// 0x000000D2 System.Void InsertStudioLostLights.Transitions::StageSelect()
+// 0x000000D1 System.Void InsertStudioLostLights.Transitions::StageSelect()
 extern void Transitions_StageSelect_m78A632959DB0B321DB2DF686567E9E5E270578F5 (void);
-// 0x000000D3 System.Void InsertStudioLostLights.Transitions::MainMenu()
+// 0x000000D2 System.Void InsertStudioLostLights.Transitions::MainMenu()
 extern void Transitions_MainMenu_mFBD7C87582EDF56F48CB8D0F4EF83F026DB88EEC (void);
-// 0x000000D4 System.Void InsertStudioLostLights.Transitions::TutorialLevel()
+// 0x000000D3 System.Void InsertStudioLostLights.Transitions::TutorialLevel()
 extern void Transitions_TutorialLevel_m9AA18ED68DF943DA651DEC6EF9FE33FE73BA367B (void);
-// 0x000000D5 System.Void InsertStudioLostLights.Transitions::StageLunar1()
+// 0x000000D4 System.Void InsertStudioLostLights.Transitions::StageLunar1()
 extern void Transitions_StageLunar1_mA6189C9EB697E1587BE06801AF4408E96283C991 (void);
-// 0x000000D6 System.Void InsertStudioLostLights.Transitions::StageLunar2()
+// 0x000000D5 System.Void InsertStudioLostLights.Transitions::StageLunar2()
 extern void Transitions_StageLunar2_mC284C6BC8FFC9C4B93C0595CF3F2C98B910BCBDC (void);
-// 0x000000D7 System.Void InsertStudioLostLights.Transitions::StageLunar3()
+// 0x000000D6 System.Void InsertStudioLostLights.Transitions::StageLunar3()
 extern void Transitions_StageLunar3_m7778EA220119EE208141065D8F84E34BAE361D55 (void);
-// 0x000000D8 System.Void InsertStudioLostLights.Transitions::StageSolar1()
+// 0x000000D7 System.Void InsertStudioLostLights.Transitions::StageSolar1()
 extern void Transitions_StageSolar1_m90D5E4F3417ADEEBF6FE91FA95CF78072787FE8E (void);
-// 0x000000D9 System.Void InsertStudioLostLights.Transitions::StageSolar2()
+// 0x000000D8 System.Void InsertStudioLostLights.Transitions::StageSolar2()
 extern void Transitions_StageSolar2_m1A73BBA98005F82B22B6FB1B87A90F4A1D140237 (void);
-// 0x000000DA System.Void InsertStudioLostLights.Transitions::StageSolar3()
+// 0x000000D9 System.Void InsertStudioLostLights.Transitions::StageSolar3()
 extern void Transitions_StageSolar3_m36F9181725D76127C4CF1455BD567CADCC06992E (void);
-// 0x000000DB System.Void InsertStudioLostLights.Transitions::Next_Scene()
+// 0x000000DA System.Void InsertStudioLostLights.Transitions::Next_Scene()
 extern void Transitions_Next_Scene_mC2A6A7955357F6C8134873C5C02B05A72D786759 (void);
-// 0x000000DC System.Void InsertStudioLostLights.Transitions::Back_Btn()
+// 0x000000DB System.Void InsertStudioLostLights.Transitions::Back_Btn()
 extern void Transitions_Back_Btn_m721022B0412FD5AB58B14C94F77CC73362DF7D7F (void);
-// 0x000000DD System.Void InsertStudioLostLights.Transitions::EnableButton()
+// 0x000000DC System.Void InsertStudioLostLights.Transitions::EnableButton()
 extern void Transitions_EnableButton_m914A9A53ECA24C42A90D3709D32CB2B0A63D6939 (void);
-// 0x000000DE System.Void InsertStudioLostLights.Transitions::DisableButton()
+// 0x000000DD System.Void InsertStudioLostLights.Transitions::DisableButton()
 extern void Transitions_DisableButton_m96C3A92775B892A4FC8FFDCD2ACA892DCE0A8819 (void);
-// 0x000000DF System.Void InsertStudioLostLights.Transitions::.ctor()
+// 0x000000DE System.Void InsertStudioLostLights.Transitions::.ctor()
 extern void Transitions__ctor_m3ED4FE7D21B4924DF32B61D9A0C5B691FC969DB7 (void);
-// 0x000000E0 System.Void LoLSDK.Helper::StateButtonInitialize(UnityEngine.UI.Button,UnityEngine.UI.Button,System.Action`1<T>)
-// 0x000000E1 System.Void LoLSDK.Helper::.ctor()
+// 0x000000DF System.Void LoLSDK.Helper::StateButtonInitialize(UnityEngine.UI.Button,UnityEngine.UI.Button,System.Action`1<T>)
+// 0x000000E0 System.Void LoLSDK.Helper::.ctor()
 extern void Helper__ctor_m6E3C9134289309B9AE7C4123F247C20A87359819 (void);
-// 0x000000E2 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::.ctor()
-// 0x000000E3 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::<StateButtonInitialize>b__0()
-// 0x000000E4 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::<StateButtonInitialize>b__1(LoLSDK.State`1<T>)
-// 0x000000E5 System.Void LoLSDK.Helper/<>c__DisplayClass0_1`1::.ctor()
-// 0x000000E6 System.Void LoLSDK.Helper/<>c__DisplayClass0_1`1::<StateButtonInitialize>b__2()
-// 0x000000E7 System.Void LoL.Examples.Cooking.CookingData::.ctor()
+// 0x000000E1 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::.ctor()
+// 0x000000E2 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::<StateButtonInitialize>b__0()
+// 0x000000E3 System.Void LoLSDK.Helper/<>c__DisplayClass0_0`1::<StateButtonInitialize>b__1(LoLSDK.State`1<T>)
+// 0x000000E4 System.Void LoLSDK.Helper/<>c__DisplayClass0_1`1::.ctor()
+// 0x000000E5 System.Void LoLSDK.Helper/<>c__DisplayClass0_1`1::<StateButtonInitialize>b__2()
+// 0x000000E6 System.Void LoL.Examples.Cooking.CookingData::.ctor()
 extern void CookingData__ctor_mBC064A34577F48E06D986DEECD4DF72D7A2AD43D (void);
-// 0x000000E8 System.Void LoL.Examples.Cooking.FoodData::.ctor()
+// 0x000000E7 System.Void LoL.Examples.Cooking.FoodData::.ctor()
 extern void FoodData__ctor_m2BF20AB446BC695273F63779C4A2F936CFC6DA33 (void);
-// 0x000000E9 System.Void LoL.Examples.Cooking.ExampleCookingGame::Start()
+// 0x000000E8 System.Void LoL.Examples.Cooking.ExampleCookingGame::Start()
 extern void ExampleCookingGame_Start_m71D8C40EB7D2250BAE001AFBDA7F077C6ED0B614 (void);
-// 0x000000EA System.Void LoL.Examples.Cooking.ExampleCookingGame::OnDestroy()
+// 0x000000E9 System.Void LoL.Examples.Cooking.ExampleCookingGame::OnDestroy()
 extern void ExampleCookingGame_OnDestroy_mE364C4C8FA5EA04A4143ACA56644277958569E5A (void);
-// 0x000000EB System.Void LoL.Examples.Cooking.ExampleCookingGame::Save()
+// 0x000000EA System.Void LoL.Examples.Cooking.ExampleCookingGame::Save()
 extern void ExampleCookingGame_Save_mDFAD7FBE0E53759F9153228F95404F07B02157E2 (void);
-// 0x000000EC System.Void LoL.Examples.Cooking.ExampleCookingGame::OnSaveResult(System.Boolean)
+// 0x000000EB System.Void LoL.Examples.Cooking.ExampleCookingGame::OnSaveResult(System.Boolean)
 extern void ExampleCookingGame_OnSaveResult_mC7EE5597092BF10185EB6B2901DD9DFEA6D4C252 (void);
-// 0x000000ED System.Void LoL.Examples.Cooking.ExampleCookingGame::StartGame(System.String)
+// 0x000000EC System.Void LoL.Examples.Cooking.ExampleCookingGame::StartGame(System.String)
 extern void ExampleCookingGame_StartGame_m28406377B0D851B298876CAB5CC57BADAFE6CBE9 (void);
-// 0x000000EE System.Void LoL.Examples.Cooking.ExampleCookingGame::LanguageUpdate(System.String)
+// 0x000000ED System.Void LoL.Examples.Cooking.ExampleCookingGame::LanguageUpdate(System.String)
 extern void ExampleCookingGame_LanguageUpdate_m0BA9EDF6850343D8826F4D28FAD2B03BACD60500 (void);
-// 0x000000EF System.String LoL.Examples.Cooking.ExampleCookingGame::GetText(System.String)
+// 0x000000EE System.String LoL.Examples.Cooking.ExampleCookingGame::GetText(System.String)
 extern void ExampleCookingGame_GetText_mECED3DF2A389E5494BDDDA469E461B033FC45EA7 (void);
-// 0x000000F0 System.Void LoL.Examples.Cooking.ExampleCookingGame::TextDisplayUpdate()
+// 0x000000EF System.Void LoL.Examples.Cooking.ExampleCookingGame::TextDisplayUpdate()
 extern void ExampleCookingGame_TextDisplayUpdate_m7CEBAA2703D4885376F234F71A8F0F4432832915 (void);
-// 0x000000F1 System.Void LoL.Examples.Cooking.ExampleCookingGame::OnLoad(LoL.Examples.Cooking.CookingData)
+// 0x000000F0 System.Void LoL.Examples.Cooking.ExampleCookingGame::OnLoad(LoL.Examples.Cooking.CookingData)
 extern void ExampleCookingGame_OnLoad_m3FC13A6FA69D746BB32CCD6B46263A7E2B8519C6 (void);
-// 0x000000F2 System.Void LoL.Examples.Cooking.ExampleCookingGame::AddPan()
+// 0x000000F1 System.Void LoL.Examples.Cooking.ExampleCookingGame::AddPan()
 extern void ExampleCookingGame_AddPan_m611FD11F0C69D727B05E5D6AEB238BFCA611FD66 (void);
-// 0x000000F3 System.Void LoL.Examples.Cooking.ExampleCookingGame::AddFoodToPantry()
+// 0x000000F2 System.Void LoL.Examples.Cooking.ExampleCookingGame::AddFoodToPantry()
 extern void ExampleCookingGame_AddFoodToPantry_m98583E74E4171A17C10D7A3F23245FBE1A2C1FCC (void);
-// 0x000000F4 System.Void LoL.Examples.Cooking.ExampleCookingGame::CreatePan()
+// 0x000000F3 System.Void LoL.Examples.Cooking.ExampleCookingGame::CreatePan()
 extern void ExampleCookingGame_CreatePan_mBC8F48655E228F6C6F03F77B6BA0BA365F299335 (void);
-// 0x000000F5 System.Void LoL.Examples.Cooking.ExampleCookingGame::AssignFood(UnityEngine.Transform)
+// 0x000000F4 System.Void LoL.Examples.Cooking.ExampleCookingGame::AssignFood(UnityEngine.Transform)
 extern void ExampleCookingGame_AssignFood_mFE2586D889F8AE99DF95409417F3D7232C8F5DDB (void);
-// 0x000000F6 System.Void LoL.Examples.Cooking.ExampleCookingGame::CreateFood(LoL.Examples.Cooking.FoodData)
+// 0x000000F5 System.Void LoL.Examples.Cooking.ExampleCookingGame::CreateFood(LoL.Examples.Cooking.FoodData)
 extern void ExampleCookingGame_CreateFood_mFB339A2C2F86EEED60CBA1AA16396D766EC41FF0 (void);
-// 0x000000F7 UnityEngine.Sprite LoL.Examples.Cooking.ExampleCookingGame::GetFoodSprite(System.String)
+// 0x000000F6 UnityEngine.Sprite LoL.Examples.Cooking.ExampleCookingGame::GetFoodSprite(System.String)
 extern void ExampleCookingGame_GetFoodSprite_mE59F30B391833EFE907862EC42052B0DF9A3FA4D (void);
-// 0x000000F8 System.Collections.IEnumerator LoL.Examples.Cooking.ExampleCookingGame::_Feedback(System.String)
+// 0x000000F7 System.Collections.IEnumerator LoL.Examples.Cooking.ExampleCookingGame::_Feedback(System.String)
 extern void ExampleCookingGame__Feedback_mA1932A7C5E64F406CA2185961D04CD066542A8EC (void);
-// 0x000000F9 System.Void LoL.Examples.Cooking.ExampleCookingGame::.ctor()
+// 0x000000F8 System.Void LoL.Examples.Cooking.ExampleCookingGame::.ctor()
 extern void ExampleCookingGame__ctor_m6C29C6E71C8AA997AB53D205348B3DF7B38A3067 (void);
-// 0x000000FA System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::.cctor()
+// 0x000000F9 System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::.cctor()
 extern void U3CU3Ec__cctor_m7E9A074A3BC09C157B5667AD379891DCEA841256 (void);
-// 0x000000FB System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::.ctor()
+// 0x000000FA System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::.ctor()
 extern void U3CU3Ec__ctor_m2204FCBA78FBE1DC7C7708253632CE0B82AA9858 (void);
-// 0x000000FC System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::<Start>b__24_0(LoLSDK.GameState)
+// 0x000000FB System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::<Start>b__24_0(LoLSDK.GameState)
 extern void U3CU3Ec_U3CStartU3Eb__24_0_m844A189FB8C4120DD2EA22059D2124D4817D906C (void);
-// 0x000000FD System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::<Start>b__24_1(LoLSDK.MultipleChoiceQuestionList)
+// 0x000000FC System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c::<Start>b__24_1(LoLSDK.MultipleChoiceQuestionList)
 extern void U3CU3Ec_U3CStartU3Eb__24_1_mCA5CE138F52BC59E3677BAA0AD076FDF280EC5BC (void);
-// 0x000000FE System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass35_0::.ctor()
+// 0x000000FD System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass35_0::.ctor()
 extern void U3CU3Ec__DisplayClass35_0__ctor_mD09A62E470AAB01E3C009F4336D497632C94E11F (void);
-// 0x000000FF System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass35_0::<CreatePan>b__0()
+// 0x000000FE System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass35_0::<CreatePan>b__0()
 extern void U3CU3Ec__DisplayClass35_0_U3CCreatePanU3Eb__0_m24E2FE976B85A0E3AD38746EC7837FA8C6882D3C (void);
-// 0x00000100 System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass37_0::.ctor()
+// 0x000000FF System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass37_0::.ctor()
 extern void U3CU3Ec__DisplayClass37_0__ctor_mB5B1BE4CC185A5F4BBCABBBBFEBD4D27EB8D6343 (void);
-// 0x00000101 System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass37_0::<CreateFood>b__0()
+// 0x00000100 System.Void LoL.Examples.Cooking.ExampleCookingGame/<>c__DisplayClass37_0::<CreateFood>b__0()
 extern void U3CU3Ec__DisplayClass37_0_U3CCreateFoodU3Eb__0_m1224BA61CCFA699A3317FA51E9A3AF2ED190738A (void);
-// 0x00000102 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::.ctor(System.Int32)
+// 0x00000101 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::.ctor(System.Int32)
 extern void U3C_FeedbackU3Ed__39__ctor_mC5E60DF9809DE5C6EA7EA43EF2E616ACC58F968B (void);
-// 0x00000103 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.IDisposable.Dispose()
+// 0x00000102 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.IDisposable.Dispose()
 extern void U3C_FeedbackU3Ed__39_System_IDisposable_Dispose_m022CEAA304F8AC8E727B3B95013FA2F0FACD2F68 (void);
-// 0x00000104 System.Boolean LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::MoveNext()
+// 0x00000103 System.Boolean LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::MoveNext()
 extern void U3C_FeedbackU3Ed__39_MoveNext_mEFFF0150BA4D674DD4464674C06ADB16D91FEE86 (void);
-// 0x00000105 System.Object LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000104 System.Object LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3C_FeedbackU3Ed__39_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mB0048C9E5C20164F9BE719D3D8B775D56816249A (void);
-// 0x00000106 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.IEnumerator.Reset()
+// 0x00000105 System.Void LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.IEnumerator.Reset()
 extern void U3C_FeedbackU3Ed__39_System_Collections_IEnumerator_Reset_m48C4FFC426D53AAADA0350C892CD09BCAF85E8E3 (void);
-// 0x00000107 System.Object LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.IEnumerator.get_Current()
+// 0x00000106 System.Object LoL.Examples.Cooking.ExampleCookingGame/<_Feedback>d__39::System.Collections.IEnumerator.get_Current()
 extern void U3C_FeedbackU3Ed__39_System_Collections_IEnumerator_get_Current_mBF2C9D0D8A98D129033992EF1667910D8CAAC45A (void);
-static Il2CppMethodPointer s_methodPointers[263] = 
+static Il2CppMethodPointer s_methodPointers[262] = 
 {
 	FactsManager_Awake_m210618F10B7317FCE3044261CCEEDE137AF782F3,
 	FactsManager_RandomFact_m65AA306F3BD2BCFB4222D50BD64247C5A1B27C0F,
@@ -734,7 +732,6 @@ static Il2CppMethodPointer s_methodPointers[263] =
 	TextToSpeechButton_ToggleTTS_m57463F76F6052939EF245391F7863F5CA03DC5D7,
 	TextToSpeechButton__ctor_m191995CC899B6D57C76B6A6A53CEC82E02A44D9A,
 	Transitions_Start_mFCB4B565207854F3D0514AB98DA43D2DD7ACE281,
-	Transitions_Continue_m124C6845FEC08C14A893C70BD24C6A2A97E2524A,
 	Transitions_HandleLanguageDefs_mAF2850D424580458C47AB8A809B0F9A1BAB06CF9,
 	Transitions_NewGame_m3E88FCF829A257DD225E2620FD636136B744722F,
 	Transitions_StageSelect_m78A632959DB0B321DB2DF686567E9E5E270578F5,
@@ -792,7 +789,7 @@ static Il2CppMethodPointer s_methodPointers[263] =
 	U3C_FeedbackU3Ed__39_System_Collections_IEnumerator_Reset_m48C4FFC426D53AAADA0350C892CD09BCAF85E8E3,
 	U3C_FeedbackU3Ed__39_System_Collections_IEnumerator_get_Current_mBF2C9D0D8A98D129033992EF1667910D8CAAC45A,
 };
-static const int32_t s_InvokerIndices[263] = 
+static const int32_t s_InvokerIndices[262] = 
 {
 	1595,
 	1595,
@@ -1000,7 +997,6 @@ static const int32_t s_InvokerIndices[263] =
 	1595,
 	1595,
 	1595,
-	1595,
 	1335,
 	1595,
 	1595,
@@ -1065,7 +1061,7 @@ static const Il2CppTokenRangePair s_rgctxIndices[6] =
 	{ 0x02000034, { 19, 4 } },
 	{ 0x02000035, { 23, 1 } },
 	{ 0x06000004, { 0, 7 } },
-	{ 0x060000E0, { 12, 7 } },
+	{ 0x060000DF, { 12, 7 } },
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[24] = 
 {
@@ -1099,7 +1095,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	263,
+	262,
 	s_methodPointers,
 	0,
 	NULL,

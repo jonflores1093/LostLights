@@ -28,10 +28,6 @@ namespace InsertStudioLostLights
         }
 
 
-        public void Continue()
-        {
-            
-        }
 
         void HandleLanguageDefs(string json)
         {
