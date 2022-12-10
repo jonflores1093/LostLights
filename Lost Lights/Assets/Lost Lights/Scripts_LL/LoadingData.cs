@@ -17,7 +17,7 @@ namespace InsertStudioLostLights
             , correct, tryagain, lunarLV1, lunarLV2, lunarLV3, solarLV1, solarLV2, solarLV3, displayScreen, tutorial
             , tutorialLevel, lunarEclipse1, lunarEclipse2, lunarEclipse3, lunarEclipse4, solarEclipsePartial1, solarEclipsePartial2
             , solarEclipsePartial3, solarEclipsePartial4, solarEclipsePartial5, solarEclipseAnnular1, solarEclipseAnnular2, solarEclipseAnnular3
-            , solarEclipseAnnular4, solarEclipseAnnular5, solarEclipseTotal5, facts1, facts2, facts3, facts4, facts5, facts6, facts7, facts8
+            , solarEclipseAnnular4, solarEclipseAnnular5, solarEclipseTotal1, solarEclipseTotal2, solarEclipseTotal3, solarEclipseTotal4, solarEclipseTotal5, facts1, facts2, facts3, facts4, facts5, facts6, facts7, facts8
             , facts9, facts10, facts11, facts12, facts13, facts14, facts15, facts16, facts17, facts18, facts19, facts20, facts21, facts22, facts23
             , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable;
 
@@ -104,6 +104,10 @@ namespace InsertStudioLostLights
                 solarEclipseAnnular3.text = GetText("solarEclipseAnnular3");
                 solarEclipseAnnular4.text = GetText("solarEclipseAnnular4");
                 solarEclipseAnnular5.text = GetText("solarEclipseAnnular5");
+                solarEclipseTotal1.text = GetText("solarEclipseAnnular2");
+                solarEclipseTotal2.text = GetText("solarEclipseAnnular3");
+                solarEclipseTotal3.text = GetText("solarEclipseAnnular4");
+                solarEclipseTotal4.text = GetText("solarEclipseAnnular5");
                 solarEclipseTotal5.text = GetText("solarEclipseTotal5");
                 facts1.text = GetText("facts1");
                 facts2.text = GetText("facts2");

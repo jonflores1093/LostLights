@@ -93,25 +93,35 @@ namespace InsertStudioLostLights
             {
                 staritesRemaining--;
                 counter.text = "Starites remaining: " + staritesRemaining;
-                Object.Destroy(moon);
-                Object.Destroy(starrite);
-                Object.Destroy(fact);
-                changeQuestion.RandomQuestion();
-                changeFacts.RandomFact();
-                Invoke("UpdateMoon", 1.5f);
-                DisableButton();
-                Invoke("EnableButton", 1.5f);
+                if (staritesRemaining == 0)
+                {
+                    //endScreen.gameObject.SetActive(true);
+                    load.changeClickable();
+                    Debug.Log("Game Over!");
+                }
+                else
+                {
+                    Object.Destroy(moon);
+                    Object.Destroy(starrite);
+                    Object.Destroy(fact);
+                    changeQuestion.RandomQuestion();
+                    changeFacts.RandomFact();
+                    Invoke("UpdateMoon", 1.5f);
+                    DisableButton();
+                    Invoke("EnableButton", 1.5f);
+                }
+                
 
 
                 // Add animation or good job box
 
             }
-            if (staritesRemaining == 0) 
-            {
-                //endScreen.gameObject.SetActive(true);
-                load.changeClickable();
-                Debug.Log("Game Over!");
-            }
+            //if (staritesRemaining == 0) 
+            //{
+            //    //endScreen.gameObject.SetActive(true);
+            //    load.changeClickable();
+            //    Debug.Log("Game Over!");
+            //}
            
         }
 

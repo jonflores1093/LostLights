@@ -33,13 +33,14 @@ namespace InsertStudioLostLights
             Instantiate(moonTypes[randomQuestion], transform.position, transform.rotation);
             Instantiate(Starrites[randomStarrite], starritePosition.position, starritePosition.rotation);
 
-            if (randomQuestion < moonTypes.Count - 1)
-            {
-                // Never come back
-                moonTypes.RemoveAt(randomQuestion);
-                Starrites.RemoveAt(randomStarrite);
-            }
-
+            //if (randomQuestion < moonTypes.Count)
+            //{
+            //    // Never come back
+            //    moonTypes.RemoveAt(randomQuestion);
+            //    Starrites.RemoveAt(randomStarrite);
+            //}
+            moonTypes.RemoveAt(randomQuestion);
+            Starrites.RemoveAt(randomStarrite);
 
         }
 

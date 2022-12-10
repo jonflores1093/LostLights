@@ -59,6 +59,7 @@ MonoBehaviour:
   solar1: 0
   solar2: 0
   solar3: 0
+  textToSpeech: 0
   New_Game: {fileID: 6980188226478189953, guid: c4348cabd3ea6ef4bb2bf62be0337370, type: 3}
   Continue: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
 --- !u!114 &9186491289830430727
@@ -132,11 +133,15 @@ MonoBehaviour:
   solarEclipsePartial3: {fileID: 2314196967907951035, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
   solarEclipsePartial4: {fileID: 6023375039329228297, guid: 15587cb2c46a88a428d99db9f1122ec0, type: 3}
   solarEclipsePartial5: {fileID: 3185306409100754252, guid: 9507492e7d833c340a2d6b2755a71f4e, type: 3}
-  solarEclipseAnnular1: {fileID: 5294980215470920450, guid: 81b7fb7cd69b0db42b5667954a0af4d0, type: 3}
+  solarEclipseAnnular1: {fileID: 7429015653090548599, guid: d7326a05314485e44a76dfcb32eef10a, type: 3}
   solarEclipseAnnular2: {fileID: 9175675141401364690, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
   solarEclipseAnnular3: {fileID: 1229746763120882202, guid: 6f386db55ad0afe4a8d6066307ec5dcb, type: 3}
   solarEclipseAnnular4: {fileID: 2114879888443377499, guid: f9c1c2233a5867b4eb83c107fa05bded, type: 3}
   solarEclipseAnnular5: {fileID: 2412887489854323911, guid: 6ebea31262ed5744e843e0659884ec9c, type: 3}
+  solarEclipseTotal1: {fileID: 1655791866134393690, guid: 25916c64afea1a34fbd381158272748c, type: 3}
+  solarEclipseTotal2: {fileID: 7130433062776421636, guid: a1c927a9cf87e3b4bac60befc0c12230, type: 3}
+  solarEclipseTotal3: {fileID: 4903242014001605425, guid: 9b8a8424436047e4caff1386aff5e3c3, type: 3}
+  solarEclipseTotal4: {fileID: 374113900131410938, guid: 568ab1039d457024ab3f68dd7f0c3a8b, type: 3}
   solarEclipseTotal5: {fileID: 3514453275492606808, guid: e9b06f4dde1a00d4484113778bdd5554, type: 3}
   facts1: {fileID: 5540404281602137460, guid: 8023ae2c99b13cc46bea0125aca2134a, type: 3}
   facts2: {fileID: 3459273634560243271, guid: 314e97fef9586ca4197364ebc0540de4, type: 3}

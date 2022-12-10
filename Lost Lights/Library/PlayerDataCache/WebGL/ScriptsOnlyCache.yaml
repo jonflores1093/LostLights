@@ -27,6 +27,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -1226,7 +1227,7 @@ ScriptsOnlyBuild:
     className: ScrollingBackground
   - hash:
       serializedVersion: 2
-      Hash: bd17c88fd4c152ca4561ab93065e0ee8
+      Hash: 8965d52f46e0b8a4370c078bc6b84d87
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: LoadingData
@@ -1771,4 +1772,4 @@ ScriptsOnlyBuild:
   - Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
   - Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
   - Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  playerPath: C:/Users/Owner/Desktop/Projects/NEW
+  playerPath: C:/Users/Owner/Desktop/Projects/New folder
