@@ -13,7 +13,6 @@ namespace InsertStudioLostLights
 {
     public class Transitions : MonoBehaviour
     {
-
         public Button nextScene;
         //JSONNode _langNode;
         //string _langCode = "en";
@@ -31,7 +30,7 @@ namespace InsertStudioLostLights
 
         public void Continue()
         {
-            //tempText.text = "Coming Soon!";
+            
         }
 
         void HandleLanguageDefs(string json)

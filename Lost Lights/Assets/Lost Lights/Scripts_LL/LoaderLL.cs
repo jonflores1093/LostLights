@@ -190,11 +190,11 @@ namespace InsertStudioLostLights
             LOLSDK.Instance.SaveState(defaultStages);
             Debug.Log("Saved");
         }
-         void OnLoad(DefaultStages stagesSave)
+        public void OnLoad(DefaultStages stagesSave)
         {
             if (stagesSave != null)
                 defaultStages = stagesSave;
-            
+            SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
             
         }
         
