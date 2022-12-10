@@ -72,11 +72,11 @@ namespace InsertStudioLostLights
             
 
             // Create the WebGL (or mock) object
-//#if UNITY_EDITOR
+#if UNITY_EDITOR
             ILOLSDK webGL = new LoLSDK.MockWebGL();
-//#elif UNITY_WEBGL
-//        ILOLSDK webGL = new LoLSDK.WebGL();
-//#endif
+#elif UNITY_WEBGL
+        ILOLSDK webGL = new LoLSDK.WebGL();
+#endif
 
             // Initialize the object, passing in the WebGL
             LOLSDK.Init(webGL, "com.Insert-Studio.Lost-Lights");
@@ -88,9 +88,9 @@ namespace InsertStudioLostLights
             LOLSDK.Instance.GameStateChanged += new GameStateChangedHandler(HandleGameStateChange);
 
             // Mock the platform-to-game messages when in the Unity editor.
-//#if UNITY_EDITOR
+#if UNITY_EDITOR
             LoadData();
-//#endif
+#endif
 
             // Then, tell the platform the game is ready.
             LOLSDK.Instance.GameIsReady();
@@ -138,7 +138,7 @@ namespace InsertStudioLostLights
 
         private void LoadData()
         {
-//#if UNITY_EDITOR
+#if UNITY_EDITOR
             // Load Dev Language File from StreamingAssets
 
             string startDataFilePath = Path.Combine(Application.streamingAssetsPath, startGameJSONFilePath);
@@ -167,7 +167,7 @@ namespace InsertStudioLostLights
                 // use the languageCode from startGame.json captured above
                 HandleLanguageDefs(langDefs[langCode].ToString());
             }
-//#endif
+#endif
         }
         void Start()
         {

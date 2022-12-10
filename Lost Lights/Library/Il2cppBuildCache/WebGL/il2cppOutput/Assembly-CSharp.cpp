@@ -44,17 +44,6 @@ struct VirtFuncInvoker0
 		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
 	}
 };
-template <typename T1, typename T2, typename T3, typename T4, typename T5>
-struct InterfaceActionInvoker5
-{
-	typedef void (*Action)(void*, T1, T2, T3, T4, T5, const RuntimeMethod*);
-
-	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1, T2 p2, T3 p3, T4 p4, T5 p5)
-	{
-		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
-		((Action)invokeData.methodPtr)(obj, p1, p2, p3, p4, p5, invokeData.method);
-	}
-};
 struct InterfaceActionInvoker0
 {
 	typedef void (*Action)(void*, const RuntimeMethod*);
@@ -68,8 +57,6 @@ struct InterfaceActionInvoker0
 
 // System.Action`1<UnityEngine.AsyncOperation>
 struct Action_1_tC1348BEB2C677FD60E4B65764CA3A1CAFF6DFB31;
-// System.Action`1<UnityEngine.AudioClip>
-struct Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08;
 // System.Action`1<LoL.Examples.Cooking.CookingData>
 struct Action_1_t550F3C45DF524F4E6A17188A3005827CE12331A2;
 // System.Action`1<InsertStudioLostLights.DefaultStages>
@@ -310,8 +297,6 @@ struct MechanicScreen_t8F4209CF5BD516BCCAFABD0F6BF7B0C4BC0F572D;
 struct Mesh_t2F5992DBA650D5862B43D3823ACD997132A57DA6;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
-// LoLSDK.MockWebGL
-struct MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A;
 // InsertStudioLostLights.MoonType
@@ -482,7 +467,6 @@ struct U3CSetImageU3Ed__11_tB0583F3F6794F4EED986543A9CF1805C5F2F5291;
 struct ReapplyDrivenProperties_t1441259DADA8FE33A95334AC24C017DFA3DEB4CE;
 
 IL2CPP_EXTERN_C RuntimeClass* Action_1_t550F3C45DF524F4E6A17188A3005827CE12331A2_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_1_tB82BC4BC8FE37E42BADBE652433B84169B469ED9_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* AnswerResultReceivedHandler_tFF58C35A560D8563831CF10E62FF2E1D5EC4EB67_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var;
@@ -495,11 +479,9 @@ IL2CPP_EXTERN_C RuntimeClass* Func_1_t76FCDA5C58178ED310C472967481FDE5F47DCF0F_i
 IL2CPP_EXTERN_C RuntimeClass* GameStateChangedHandler_t7E56640EC85BB7DE69FBB6CC4F556F9E28022005_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameState_tBDB2E919F8C69FAA4140C592E5066ADB33204E75_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* IDisposable_t099785737FC6A1E3699919A94109383715A8D807_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* ILOLSDK_EDITOR_tBFBDDAEB4F53CF9D80B73DD02DC655AEE896A86F_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ILOLSDK_EXTENSION_t9A6910A6DF3CDA13A3F5915E42D2B69D23AEEAFE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Int32_tFDE5F8CD43D10453F6A2E0C77FE48C6CC7009046_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* LanguageDefsReceivedHandler_t4ED3CB8236FEE73CE072FE89AA35E56623344634_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* MultipleChoiceAnswer_tD8D34D83CB1F13BF05C3F5EF3125B5B3E64E40CA_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_tB9D89F0E9470A2C423D239D7C68EE0CFD77F9339_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var;
@@ -558,7 +540,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteral36CC72749C870D7AF15F0C02D885E538E76EA120
 IL2CPP_EXTERN_C String_t* _stringLiteral379BE64E0E6D7D3FCB96E59F720C474A04A14320;
 IL2CPP_EXTERN_C String_t* _stringLiteral38B0CEE1D60CA557840F2276CF57D96D79284CC3;
 IL2CPP_EXTERN_C String_t* _stringLiteral39C06AEBC36EA5164F7A0DC28C6B6C740C048BD2;
-IL2CPP_EXTERN_C String_t* _stringLiteral3A971881AF6B7B211E34707E857DEC5F36487877;
 IL2CPP_EXTERN_C String_t* _stringLiteral3AFD10FC0D39D2FC0D402047CE6CC1D8F977D8D0;
 IL2CPP_EXTERN_C String_t* _stringLiteral3B2F27A0B87E1369C48DA8B2EACD83114D2F3B48;
 IL2CPP_EXTERN_C String_t* _stringLiteral3FD536E8F200BFCB9834A01C46A131CCB80A8F64;
@@ -661,7 +642,6 @@ IL2CPP_EXTERN_C String_t* _stringLiteralFC72FEE5A2B29E4B083CDF7453319F71BF56F473
 IL2CPP_EXTERN_C String_t* _stringLiteralFE4A38EC5B4789C597211AA07C887914BEE4818C;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m43CFA46A4222AD5F190E8C6AB01633FC48E641DB_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_m82DC02526D2DED0B0E2E18F81284FC9AEBB431D8_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mD8980119C024B269D32FA0D77DE158AA2A60B682_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Array_IndexOf_TisAlternative_t79462BEBA9291F78F821C5495750050E2537498E_mA9314095BB1AA7C99E474BDE7598A331DFF96877_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* AudioButton_U3CAwakeU3Eb__3_0_mBA8281EF0FD749AB22F1BA9D999536AAE076C53A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CommandsSceneManager_OnClickBack_mB7DD97EB459D6394048875B1009BBF40485F3492_RuntimeMethod_var;
@@ -694,7 +674,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisMoonType_tCEE54D
 IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisText_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1_mD98876EFC776CB8D02A1394AE6A72DC47F271C65_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* HelperLL_StateButtonInitialize_TisDefaultStages_t8CD11EAB33780712A03F928370315DE47CA29F55_m5C773C38171D717746D82388EFF55C46259B263B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Helper_StateButtonInitialize_TisCookingData_tE6558B4FC103D0DEF98BCDE0F6455F0FBE8A2BFA_m220E8A68497A3733B2538EAE0056F7C326D684C2_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* InvokeTextToSpeech_U3CStartU3Eb__4_0_m620EA7B13C20A4CBD8553D85A1C9C70CE57AE0D1_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Key_mB287B48215BE56388FF4D6FCA1AF06B5D57BDCB7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* KeyValuePair_2_get_Value_mB72FF23A94103D3721C1E775E65D8F408791FD09_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* LOLSDK_SaveState_TisCookingData_tE6558B4FC103D0DEF98BCDE0F6455F0FBE8A2BFA_mAA5B7FB8A9CBFE0468CB04B2077D80FFC293E2F0_RuntimeMethod_var;
@@ -1499,36 +1478,6 @@ struct Helper_t20C3BB15258BC49438D40E6387F9DB9362309108  : public RuntimeObject
 public:
 
 public:
-};
-
-
-// LoLSDK.MockWebGL
-struct MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5  : public RuntimeObject
-{
-public:
-	// System.String LoLSDK.MockWebGL::_gameName
-	String_t* ____gameName_0;
-	// UnityEngine.Coroutine LoLSDK.MockWebGL::pollyTTSRequest
-	Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * ___pollyTTSRequest_1;
-
-public:
-	inline static int32_t get_offset_of__gameName_0() { return static_cast<int32_t>(offsetof(MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5, ____gameName_0)); }
-	inline String_t* get__gameName_0() const { return ____gameName_0; }
-	inline String_t** get_address_of__gameName_0() { return &____gameName_0; }
-	inline void set__gameName_0(String_t* value)
-	{
-		____gameName_0 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____gameName_0), (void*)value);
-	}
-
-	inline static int32_t get_offset_of_pollyTTSRequest_1() { return static_cast<int32_t>(offsetof(MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5, ___pollyTTSRequest_1)); }
-	inline Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * get_pollyTTSRequest_1() const { return ___pollyTTSRequest_1; }
-	inline Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 ** get_address_of_pollyTTSRequest_1() { return &___pollyTTSRequest_1; }
-	inline void set_pollyTTSRequest_1(Coroutine_t899D5232EF542CB8BA70AF9ECEECA494FAA9CCB7 * value)
-	{
-		___pollyTTSRequest_1 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&___pollyTTSRequest_1), (void*)value);
-	}
 };
 
 
@@ -6977,15 +6926,6 @@ struct UnityWebRequestAsyncOperation_tDCAC6B6C7D51563F8DFD4963E3BE362470125396_m
 {
 	UnityWebRequest_tB75B39F6951CA0DBA2D5BEDF85FDCAAC6026A37E_marshaled_com* ___U3CwebRequestU3Ek__BackingField_2;
 };
-
-// System.Action`1<UnityEngine.AudioClip>
-struct Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08  : public MulticastDelegate_t
-{
-public:
-
-public:
-};
-
 
 // System.Action`1<LoL.Examples.Cooking.CookingData>
 struct Action_1_t550F3C45DF524F4E6A17188A3005827CE12331A2  : public MulticastDelegate_t
@@ -16650,13 +16590,8 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONNode_t40A7A2D6236071944DA1037
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * SharedStateLL_get_LanguageDefs_LL_mFBD6A4A798C5554746F43CDF57E9A60E69459322_inline (const RuntimeMethod* method);
 // System.Void UnityEngine.AudioSource::Stop()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_Stop_mADA564D223832A64F8CF3EFBDEB534C0D658810F (AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * __this, const RuntimeMethod* method);
-// LoLSDK.ILOLSDK LoLSDK.LOLSDK::get_PostMessage()
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LOLSDK_get_PostMessage_mC095002B66ECFEA1043CB27B592FBFAF74D7F50F_inline (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, const RuntimeMethod* method);
-// System.Void System.Action`1<UnityEngine.AudioClip>::.ctor(System.Object,System.IntPtr)
-inline void Action_1__ctor_mD8980119C024B269D32FA0D77DE158AA2A60B682 (Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08 * __this, RuntimeObject * ___object0, intptr_t ___method1, const RuntimeMethod* method)
-{
-	((  void (*) (Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08 *, RuntimeObject *, intptr_t, const RuntimeMethod*))Action_1__ctor_mA671E933C9D3DAE4E3F71D34FDDA971739618158_gshared)(__this, ___object0, ___method1, method);
-}
+// System.Void LoLSDK.LOLSDK::SpeakText(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_SpeakText_mB5CCC2035BB3E9D7A20703EABB896A2F6D019841 (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, String_t* ___key0, const RuntimeMethod* method);
 // SimpleJSON.JSONNode SharedState::get_LanguageDefs()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * SharedState_get_LanguageDefs_m09644033553A46FB18BC269C302DCC6B618C2AD6_inline (const RuntimeMethod* method);
 // System.Collections.IEnumerator Loader::_WaitForData()
@@ -16669,10 +16604,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedState_set_StartGameDat
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedState_set_LanguageDefs_m0BD0B4C41F5E2E851B14F1B63F33E18A46D4BAE4_inline (JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * ___value0, const RuntimeMethod* method);
 // System.Void SharedState::set_QuestionList(LoLSDK.MultipleChoiceQuestionList)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedState_set_QuestionList_mBA376D2161DDF51CC3E93945B5225D2037E5722A_inline (MultipleChoiceQuestionList_tC349F01C19CFB0956B2F5D1A4DF9BD2F333EEED0 * ___value0, const RuntimeMethod* method);
-// System.Void LoLSDK.MockWebGL::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MockWebGL__ctor_mB877BB1BBBC42919F2F4448C1541252497358BF9 (MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5 * __this, const RuntimeMethod* method);
-// System.Void InsertStudioLostLights.LoaderLL::LoadData()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_LoadData_mF28D3E3657040431887FDF8A78AAC21F0D6A97F8 (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, const RuntimeMethod* method);
 // System.Collections.IEnumerator InsertStudioLostLights.LoaderLL::_WaitForData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LoaderLL__WaitForData_m7254C6B15590C9A5C6E3657ECEE469E85442B651 (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.LoaderLL/<_WaitForData>d__24::.ctor(System.Int32)
@@ -16681,18 +16612,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3C_WaitForDataU3Ed__24__ctor_m58A06FDB6
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStateLL_set_StartGameData_LL_m888D1424E1BE0009423F2BEA54BE12B2923FFD4F_inline (JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * ___value0, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.SharedStateLL::set_LanguageDefs_LL(SimpleJSON.JSONNode)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SharedStateLL_set_LanguageDefs_LL_m03F8686E6C1FBB343F5079BB7F2D384E23D42A3F_inline (JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * ___value0, const RuntimeMethod* method);
-// System.String UnityEngine.Application::get_streamingAssetsPath()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1 (const RuntimeMethod* method);
-// System.String System.IO.Path::Combine(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method);
-// System.Boolean System.IO.File::Exists(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_mDAEBF2732BC830270FD98346F069B04E97BB1D5B (String_t* ___path0, const RuntimeMethod* method);
-// System.String System.IO.File::ReadAllText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_m8C621C34562CAE1435A2221B3E369BEF1D0ED8BC (String_t* ___path0, const RuntimeMethod* method);
-// System.Void InsertStudioLostLights.LoaderLL::HandleStartGame(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_HandleStartGame_mB1280C352D0692A0D82F1EF10D125DB5F114FF9D (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, String_t* ___json0, const RuntimeMethod* method);
-// System.Void InsertStudioLostLights.LoaderLL::HandleLanguageDefs(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_HandleLanguageDefs_m85D3878949E878C681087812A1B3C414245648F2 (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, String_t* ___json0, const RuntimeMethod* method);
 // !!0 UnityEngine.Object::FindObjectOfType<Stages>()
 inline Stages_tDC0B0CFEE4EFB7BBEF15E06755CF95CF2D0D8E40 * Object_FindObjectOfType_TisStages_tDC0B0CFEE4EFB7BBEF15E06755CF95CF2D0D8E40_m468F9F9BD8150BF3F1FC1B45F61A62BD32D80738 (const RuntimeMethod* method)
 {
@@ -16725,6 +16644,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_Save_m8F6AC61A3D26CB1C6562D716D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DefaultStages__ctor_m39D3D4A72E3AA1F3B9B93E3009F9CE6519810B05 (DefaultStages_t8CD11EAB33780712A03F928370315DE47CA29F55 * __this, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.LoadingData::LoadMockData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingData_LoadMockData_m855CA7C3A1AE26EE47EDEE227A0628F2456A8FB2 (LoadingData_tDE6170C54B91B41A0B7A1DAFD57529596D3FD184 * __this, const RuntimeMethod* method);
+// System.String UnityEngine.Application::get_streamingAssetsPath()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1 (const RuntimeMethod* method);
+// System.String System.IO.Path::Combine(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF (String_t* ___path10, String_t* ___path21, const RuntimeMethod* method);
+// System.Boolean System.IO.File::Exists(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool File_Exists_mDAEBF2732BC830270FD98346F069B04E97BB1D5B (String_t* ___path0, const RuntimeMethod* method);
+// System.String System.IO.File::ReadAllText(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* File_ReadAllText_m8C621C34562CAE1435A2221B3E369BEF1D0ED8BC (String_t* ___path0, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.LoadingData::StartGame(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoadingData_StartGame_m57CB5F65246330788E4DD68D9811DCFADBBB6A67 (LoadingData_tDE6170C54B91B41A0B7A1DAFD57529596D3FD184 * __this, String_t* ___startGameJSON0, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.LoadingData::LanguageUpdate(System.String)
@@ -16821,10 +16748,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_ConfigureSound_mAC674F6EF554596DD
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_StopSound_m20322B51A051E57B9DDD9CFC69949318D36AD6D9 (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, String_t* ___filePath0, const RuntimeMethod* method);
 // System.Void LoLSDK.LOLSDK::SpeakQuestion(System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_SpeakQuestion_m12581A9B47C7049228005337C1E791CC809C67AF (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, int32_t ___questionId0, const RuntimeMethod* method);
-// System.Void LoLSDK.LOLSDK::SpeakText(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LOLSDK_SpeakText_mB5CCC2035BB3E9D7A20703EABB896A2F6D019841 (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, String_t* ___key0, const RuntimeMethod* method);
 // System.String UnityEngine.UI.InputField::get_text()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15D0C784A4A104390610325B02216FC2A6F1077C_inline (InputField_tB41A2814F31A3E9373D443EDEBBB2856006324D0 * __this, const RuntimeMethod* method);
+// LoLSDK.ILOLSDK LoLSDK.LOLSDK::get_PostMessage()
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LOLSDK_get_PostMessage_mC095002B66ECFEA1043CB27B592FBFAF74D7F50F_inline (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, const RuntimeMethod* method);
 // System.Void InsertStudioLostLights.StageSelectButton::checkStages()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StageSelectButton_checkStages_m1EEECB9D23BFAC16D8C29D5E6FFEE0292A128138 (StageSelectButton_t5F08D0E790D1BFF5268D0113691DE126EEAF045C * __this, const RuntimeMethod* method);
 // System.Single UnityEngine.Time::get_time()
@@ -18744,25 +18671,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_Start_m2E5FCA6E4972DD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1__ctor_mD8980119C024B269D32FA0D77DE158AA2A60B682_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ILOLSDK_EDITOR_tBFBDDAEB4F53CF9D80B73DD02DC655AEE896A86F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InvokeTextToSpeech_U3CStartU3Eb__4_0_m620EA7B13C20A4CBD8553D85A1C9C70CE57AE0D1_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral3A971881AF6B7B211E34707E857DEC5F36487877);
 		s_Il2CppMethodInitialized = true;
 	}
 	String_t* V_0 = NULL;
-	String_t* V_1 = NULL;
 	{
 		// if(ttsBool.textToSpeech == true)
 		LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * L_0 = __this->get_ttsBool_6();
 		bool L_1 = L_0->get_textToSpeech_19();
 		if (!L_1)
 		{
-			goto IL_006b;
+			goto IL_004e;
 		}
 	}
 	{
@@ -18773,7 +18694,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_Start_m2E5FCA6E4972DD
 		L_3 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_2, _stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
 		String_t* L_4;
 		L_4 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_3, /*hidden argument*/NULL);
-		V_0 = L_4;
 		// string text = SharedStateLL.LanguageDefs_LL[textKey];
 		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_5;
 		L_5 = SharedStateLL_get_LanguageDefs_LL_mFBD6A4A798C5554746F43CDF57E9A60E69459322_inline(/*hidden argument*/NULL);
@@ -18782,27 +18702,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_Start_m2E5FCA6E4972DD
 		L_7 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_5, L_6);
 		String_t* L_8;
 		L_8 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_7, /*hidden argument*/NULL);
-		V_1 = L_8;
+		V_0 = L_8;
 		// _ttsAudioSource.Stop();
 		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_9 = __this->get__ttsAudioSource_4();
 		AudioSource_Stop_mADA564D223832A64F8CF3EFBDEB534C0D658810F(L_9, /*hidden argument*/NULL);
-		// ((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
-		//     clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-		//     this,
-		//     languageCode);
+		// LOLSDK.Instance.SpeakText(text);
 		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * L_10;
 		L_10 = Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829(/*hidden argument*/Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
-		RuntimeObject* L_11;
-		L_11 = LOLSDK_get_PostMessage_mC095002B66ECFEA1043CB27B592FBFAF74D7F50F_inline(L_10, /*hidden argument*/NULL);
-		String_t* L_12 = V_1;
-		Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08 * L_13 = (Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08 *)il2cpp_codegen_object_new(Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08_il2cpp_TypeInfo_var);
-		Action_1__ctor_mD8980119C024B269D32FA0D77DE158AA2A60B682(L_13, __this, (intptr_t)((intptr_t)InvokeTextToSpeech_U3CStartU3Eb__4_0_m620EA7B13C20A4CBD8553D85A1C9C70CE57AE0D1_RuntimeMethod_var), /*hidden argument*/Action_1__ctor_mD8980119C024B269D32FA0D77DE158AA2A60B682_RuntimeMethod_var);
-		String_t* L_14 = V_0;
-		InterfaceActionInvoker5< String_t*, Action_1_tA9E4CB98D1FC43CD57330AB7BF9ECF6EFB5F1B08 *, MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A *, String_t*, String_t* >::Invoke(0 /* System.Void LoLSDK.ILOLSDK_EDITOR::SpeakText(System.String,System.Action`1<UnityEngine.AudioClip>,UnityEngine.MonoBehaviour,System.String,System.String) */, ILOLSDK_EDITOR_tBFBDDAEB4F53CF9D80B73DD02DC655AEE896A86F_il2cpp_TypeInfo_var, ((RuntimeObject*)Castclass((RuntimeObject*)L_11, ILOLSDK_EDITOR_tBFBDDAEB4F53CF9D80B73DD02DC655AEE896A86F_il2cpp_TypeInfo_var)), L_12, L_13, __this, L_14, _stringLiteral3A971881AF6B7B211E34707E857DEC5F36487877);
+		String_t* L_11 = V_0;
+		LOLSDK_SpeakText_mB5CCC2035BB3E9D7A20703EABB896A2F6D019841(L_10, L_11, /*hidden argument*/NULL);
 	}
 
-IL_006b:
+IL_004e:
 	{
 		// }
 		return;
@@ -18813,21 +18725,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech__ctor_mA0606DA7E8E2A7
 {
 	{
 		MonoBehaviour__ctor_mC0995D847F6A95B1A553652636C38A2AA8B13BED(__this, /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void InsertStudioLostLights.InvokeTextToSpeech::<Start>b__4_0(UnityEngine.AudioClip)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_U3CStartU3Eb__4_0_m620EA7B13C20A4CBD8553D85A1C9C70CE57AE0D1 (InvokeTextToSpeech_tC0D53083D90639E6044BA6312659D88356B25621 * __this, AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * ___clip0, const RuntimeMethod* method)
-{
-	{
-		// clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_0 = __this->get__ttsAudioSource_4();
-		AudioClip_t16D2E573E7CC1C5118D8EE0F0692D46866A1C0EE * L_1 = ___clip0;
-		AudioSource_set_clip_mD1F50F7BA6EA3AF25B4922473352C5180CFF7B2B(L_0, L_1, /*hidden argument*/NULL);
-		// clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_2 = __this->get__ttsAudioSource_4();
-		AudioSource_Play_mED16664B8F8F3E4D68785C8C00FC96C4DF053AE1(L_2, /*hidden argument*/NULL);
-		// clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
 		return;
 	}
 }
@@ -19182,17 +19079,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_Awake_mD206546E2E41C74E79A4CBA3
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoaderLL_HandleGameStateChange_mAA89183B15FADF9742FE2B498CDDDFAE548E0467_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoaderLL_HandleLanguageDefs_m85D3878949E878C681087812A1B3C414245648F2_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LoaderLL_HandleStartGame_mB1280C352D0692A0D82F1EF10D125DB5F114FF9D_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StartGameReceivedHandler_t0011B7C610B42B40FE0174785178541615F31D3C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WebGL_t079834AC1D72B13BDA75D00689504B3C525363F9_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7BADAFACF8E9AF2CF65A8CE166A1B5F0650FED97);
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// ILOLSDK webGL = new LoLSDK.MockWebGL();
-		MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5 * L_0 = (MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5 *)il2cpp_codegen_object_new(MockWebGL_t4E2B18A42B7668C03A8D9A6F2E4735BDAC8189E5_il2cpp_TypeInfo_var);
-		MockWebGL__ctor_mB877BB1BBBC42919F2F4448C1541252497358BF9(L_0, /*hidden argument*/NULL);
+		// ILOLSDK webGL = new LoLSDK.WebGL();
+		WebGL_t079834AC1D72B13BDA75D00689504B3C525363F9 * L_0 = (WebGL_t079834AC1D72B13BDA75D00689504B3C525363F9 *)il2cpp_codegen_object_new(WebGL_t079834AC1D72B13BDA75D00689504B3C525363F9_il2cpp_TypeInfo_var);
+		WebGL__ctor_m43E4262FCA1A4CB9D1A44DB2846B6BA1F646E2D1(L_0, /*hidden argument*/NULL);
 		// LOLSDK.Init(webGL, "com.Insert-Studio.Lost-Lights");
 		LOLSDK_Init_mA6ECE9D27814A8EE5EDC52C2EE90B222F92731A2(L_0, _stringLiteral7BADAFACF8E9AF2CF65A8CE166A1B5F0650FED97, /*hidden argument*/NULL);
 		// LOLSDK.Instance.StartGameReceived += new StartGameReceivedHandler(HandleStartGame);
@@ -19214,8 +19111,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_Awake_mD206546E2E41C74E79A4CBA3
 		GameStateChangedHandler_t7E56640EC85BB7DE69FBB6CC4F556F9E28022005 * L_6 = (GameStateChangedHandler_t7E56640EC85BB7DE69FBB6CC4F556F9E28022005 *)il2cpp_codegen_object_new(GameStateChangedHandler_t7E56640EC85BB7DE69FBB6CC4F556F9E28022005_il2cpp_TypeInfo_var);
 		GameStateChangedHandler__ctor_m5854AF8F75E82FEA306076B7BA79D066B246D0D0(L_6, __this, (intptr_t)((intptr_t)LoaderLL_HandleGameStateChange_mAA89183B15FADF9742FE2B498CDDDFAE548E0467_RuntimeMethod_var), /*hidden argument*/NULL);
 		LOLSDK_add_GameStateChanged_mFB60D048F21E69015C7724984963A4A1CB33E08E(L_5, L_6, /*hidden argument*/NULL);
-		// LoadData();
-		LoaderLL_LoadData_mF28D3E3657040431887FDF8A78AAC21F0D6A97F8(__this, /*hidden argument*/NULL);
 		// LOLSDK.Instance.GameIsReady();
 		LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * L_7;
 		L_7 = Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829(/*hidden argument*/Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
@@ -19300,109 +19195,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_HandleGameStateChange_mAA89183B
 // System.Void InsertStudioLostLights.LoaderLL::LoadData()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_LoadData_mF28D3E3657040431887FDF8A78AAC21F0D6A97F8 (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, const RuntimeMethod* method)
 {
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F0C3B0B10ABED60A34ACAABD626B13CE0B84DE7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB58D616C54FB59E2419882851D63A9EC95F742C4);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096);
-		s_Il2CppMethodInitialized = true;
-	}
-	String_t* V_0 = NULL;
-	String_t* V_1 = NULL;
-	String_t* V_2 = NULL;
-	String_t* V_3 = NULL;
-	JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * V_4 = NULL;
-	{
-		// string startDataFilePath = Path.Combine(Application.streamingAssetsPath, startGameJSONFilePath);
-		String_t* L_0;
-		L_0 = Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1(/*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
-		String_t* L_1;
-		L_1 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_0, _stringLiteralB58D616C54FB59E2419882851D63A9EC95F742C4, /*hidden argument*/NULL);
-		V_0 = L_1;
-		// string langCode = "en";
-		V_1 = _stringLiteralC6DE535D828F30C374EB3BE3FFDE520228FC3096;
-		// Debug.Log(File.Exists(startDataFilePath));
-		String_t* L_2 = V_0;
-		bool L_3;
-		L_3 = File_Exists_mDAEBF2732BC830270FD98346F069B04E97BB1D5B(L_2, /*hidden argument*/NULL);
-		bool L_4 = L_3;
-		RuntimeObject * L_5 = Box(Boolean_t07D1E3F34E4813023D64F584DFF7B34C9D922F37_il2cpp_TypeInfo_var, &L_4);
-		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(L_5, /*hidden argument*/NULL);
-		// if (File.Exists(startDataFilePath))
-		String_t* L_6 = V_0;
-		bool L_7;
-		L_7 = File_Exists_mDAEBF2732BC830270FD98346F069B04E97BB1D5B(L_6, /*hidden argument*/NULL);
-		if (!L_7)
-		{
-			goto IL_0052;
-		}
-	}
-	{
-		// string startDataAsJSON = File.ReadAllText(startDataFilePath);
-		String_t* L_8 = V_0;
-		String_t* L_9;
-		L_9 = File_ReadAllText_m8C621C34562CAE1435A2221B3E369BEF1D0ED8BC(L_8, /*hidden argument*/NULL);
-		V_3 = L_9;
-		// JSONNode startGamePayload = JSON.Parse(startDataAsJSON);
-		String_t* L_10 = V_3;
-		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_11;
-		L_11 = JSON_Parse_m16D30620CC0C91402567BDF83A090D16365C03BF(L_10, /*hidden argument*/NULL);
-		// langCode = startGamePayload["languageCode"];
-		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_12;
-		L_12 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_11, _stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
-		String_t* L_13;
-		L_13 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_12, /*hidden argument*/NULL);
-		V_1 = L_13;
-		// HandleStartGame(startDataAsJSON);
-		String_t* L_14 = V_3;
-		LoaderLL_HandleStartGame_mB1280C352D0692A0D82F1EF10D125DB5F114FF9D(__this, L_14, /*hidden argument*/NULL);
-	}
-
-IL_0052:
-	{
-		// string langFilePath = Path.Combine(Application.streamingAssetsPath, languageJSONFilePath);
-		String_t* L_15;
-		L_15 = Application_get_streamingAssetsPath_mA1FBABB08D7A4590A468C7CD940CD442B58C91E1(/*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(Path_tF1D95B78D57C1C1211BA6633FF2AC22FD6C48921_il2cpp_TypeInfo_var);
-		String_t* L_16;
-		L_16 = Path_Combine_mC22E47A9BB232F02ED3B6B5F6DD53338D37782EF(L_15, _stringLiteral0F0C3B0B10ABED60A34ACAABD626B13CE0B84DE7, /*hidden argument*/NULL);
-		V_2 = L_16;
-		// if (File.Exists(langFilePath))
-		String_t* L_17 = V_2;
-		bool L_18;
-		L_18 = File_Exists_mDAEBF2732BC830270FD98346F069B04E97BB1D5B(L_17, /*hidden argument*/NULL);
-		if (!L_18)
-		{
-			goto IL_008a;
-		}
-	}
-	{
-		// string langDataAsJson = File.ReadAllText(langFilePath);
-		String_t* L_19 = V_2;
-		String_t* L_20;
-		L_20 = File_ReadAllText_m8C621C34562CAE1435A2221B3E369BEF1D0ED8BC(L_19, /*hidden argument*/NULL);
-		// JSONNode langDefs = JSON.Parse(langDataAsJson);
-		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_21;
-		L_21 = JSON_Parse_m16D30620CC0C91402567BDF83A090D16365C03BF(L_20, /*hidden argument*/NULL);
-		V_4 = L_21;
-		// HandleLanguageDefs(langDefs[langCode].ToString());
-		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_22 = V_4;
-		String_t* L_23 = V_1;
-		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_24;
-		L_24 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_22, L_23);
-		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_24);
-		LoaderLL_HandleLanguageDefs_m85D3878949E878C681087812A1B3C414245648F2(__this, L_25, /*hidden argument*/NULL);
-	}
-
-IL_008a:
 	{
 		// }
 		return;
@@ -25128,13 +24920,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONNode_t40A7A2D6236071944DA1037
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LOLSDK_get_PostMessage_mC095002B66ECFEA1043CB27B592FBFAF74D7F50F_inline (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, const RuntimeMethod* method)
-{
-	{
-		RuntimeObject* L_0 = __this->get_postMessage_7();
-		return L_0;
-	}
-}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * SharedState_get_LanguageDefs_m09644033553A46FB18BC269C302DCC6B618C2AD6_inline (const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
@@ -25311,6 +25096,13 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR String_t* InputField_get_text_m15
 	{
 		// return m_Text;
 		String_t* L_0 = __this->get_m_Text_38();
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* LOLSDK_get_PostMessage_mC095002B66ECFEA1043CB27B592FBFAF74D7F50F_inline (LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * __this, const RuntimeMethod* method)
+{
+	{
+		RuntimeObject* L_0 = __this->get_postMessage_7();
 		return L_0;
 	}
 }

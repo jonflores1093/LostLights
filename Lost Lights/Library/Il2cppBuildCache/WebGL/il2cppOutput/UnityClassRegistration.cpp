@@ -45,9 +45,6 @@ extern "C" void RegisterStaticallyLinkedModulesGranular()
 	void RegisterModule_UnityWebRequest();
 	RegisterModule_UnityWebRequest();
 
-	void RegisterModule_UnityWebRequestAudio();
-	RegisterModule_UnityWebRequestAudio();
-
 	void RegisterModule_UnityWebRequestTexture();
 	RegisterModule_UnityWebRequestTexture();
 

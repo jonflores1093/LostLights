@@ -39,10 +39,15 @@ namespace InsertStudioLostLights
                 // Stop any current tts.
                 _ttsAudioSource.Stop();
                 // Speak the clip of text requested from using this MonoBehaviour as the coroutine owner.
-                ((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
-                    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-                    this,
-                    languageCode);
+
+
+                LOLSDK.Instance.SpeakText(text);
+                   
+
+                //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
+                //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
+                //    this,
+                //    languageCode);
             }
             else
             {
