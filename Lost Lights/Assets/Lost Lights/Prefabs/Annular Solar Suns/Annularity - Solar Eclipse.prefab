@@ -104,8 +104,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8517719428526221153}
     m_Modifications:
+    - target: {fileID: 1244519328356591640, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.6
+      objectReference: {fileID: 0}
     - target: {fileID: 9175675141401364689, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
       propertyPath: m_Name
+      value: Annularity
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175675141401364690, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
+      propertyPath: m_text
       value: Annularity
       objectReference: {fileID: 0}
     - target: {fileID: 9175675141401364692, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}

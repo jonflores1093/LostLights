@@ -104,6 +104,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1277830259357335461}
     m_Modifications:
+    - target: {fileID: 3514453275492606808, guid: e9b06f4dde1a00d4484113778bdd5554, type: 3}
+      propertyPath: m_text
+      value: Third Contact
+      objectReference: {fileID: 0}
     - target: {fileID: 3514453275492606811, guid: e9b06f4dde1a00d4484113778bdd5554, type: 3}
       propertyPath: m_Name
       value: Third Contact
