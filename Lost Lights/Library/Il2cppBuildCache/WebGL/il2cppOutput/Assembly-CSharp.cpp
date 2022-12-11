@@ -19335,6 +19335,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_ttsSave_m6A679C75A27B57210CD9A4
 // System.Void InsertStudioLostLights.LoaderLL::OnLoad(InsertStudioLostLights.DefaultStages)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_OnLoad_mAC3FC2C7950508580023A492CF1500FC77774C47 (LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * __this, DefaultStages_t8CD11EAB33780712A03F928370315DE47CA29F55 * ___stagesSave0, const RuntimeMethod* method)
 {
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral00533FFAEA4FBEFD27ACC8567697D3E0D65F1B97);
+		s_Il2CppMethodInitialized = true;
+	}
 	{
 		// if (stagesSave != null)
 		DefaultStages_t8CD11EAB33780712A03F928370315DE47CA29F55 * L_0 = ___stagesSave0;
@@ -19351,6 +19358,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoaderLL_OnLoad_mAC3FC2C7950508580023A49
 
 IL_000a:
 	{
+		// SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+		IL2CPP_RUNTIME_CLASS_INIT(SceneManager_tEC9D10ECC0377F8AE5AEEB5A789FFD24364440FA_il2cpp_TypeInfo_var);
+		SceneManager_LoadScene_m6B3C9B5DDE6CDE2A041D05C4F3BE4A3D3D745B70(_stringLiteral00533FFAEA4FBEFD27ACC8567697D3E0D65F1B97, 0, /*hidden argument*/NULL);
 		// }
 		return;
 	}
