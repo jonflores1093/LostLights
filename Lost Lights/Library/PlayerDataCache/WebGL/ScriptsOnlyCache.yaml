@@ -27,7 +27,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -1772,4 +1771,4 @@ ScriptsOnlyBuild:
   - Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
   - Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
   - Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  playerPath: C:/Users/Owner/Desktop/Projects/New folder
+  playerPath: C:/Users/Owner/Desktop/Projects/123
