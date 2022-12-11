@@ -1579,6 +1579,18 @@ PrefabInstance:
       propertyPath: nextScene
       value: 
       objectReference: {fileID: 646189712}
+    - target: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7523693864745604270, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

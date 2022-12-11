@@ -195,7 +195,7 @@ namespace InsertStudioLostLights
             if (stagesSave != null)
                 defaultStages = stagesSave;
             //SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
-            
+            //
         }
         
         public void changeClickable()
