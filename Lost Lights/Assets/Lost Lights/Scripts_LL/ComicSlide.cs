@@ -9,41 +9,23 @@ using SimpleJSON;
 
 namespace InsertStudioLostLights
 {
-    public class ComicSlide : MonoBehaviour,IPointerDownHandler, IPointerUpHandler
+    public class ComicSlide : MonoBehaviour
     {
 
         public GameObject scrollLeft;
-        
 
+     
+       
 
-        public float rot_Speed = 20;
-        bool rotate = false;
-
-
-
-        void FixedUpdate()
+        public void ClickNext()
         {
-            if (rotate == false)
-                return;
-            scrollLeft.transform.position += Vector3.left * rot_Speed * Time.deltaTime;
+       
 
-
-           
-        }
-
-        public void OnPointerDown(PointerEventData pointerEventData)
-        {
-            rotate = true;
-         
+            scrollLeft.transform.Translate(12.8f, 0.38f, 0);
 
 
         }
 
-        public void OnPointerUp(PointerEventData pointerEventData)
-        {
-            rotate = false;
-        
-
-        }
+     
     }
 }
