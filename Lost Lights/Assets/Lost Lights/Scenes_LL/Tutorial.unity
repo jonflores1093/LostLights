@@ -1095,7 +1095,7 @@ MonoBehaviour:
   correct: {fileID: 584907742}
   tryagain: {fileID: 1821162710}
   seasons: {fileID: 1189524153}
-  staritesRemaining: 8
+  staritesRemaining: 6
   markerNumber: 0
   correctAnswer: 0
   moon: {fileID: 0}
@@ -1191,10 +1191,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Starites are trapped on Earth and must return to the moon!\n Match
-    the Starite's desired eclipse by clicking and holding the arrows to rotate the
-    Earth.\n Once the desired eclipse is made, click the shooting star!\n Help send
-    8 starites back home!\n Click this screen to continue!
+  m_text: 'Hint: The season'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2563,7 +2560,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1331687723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3507,6 +3504,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}
 --- !u!1 &1861149839
 GameObject:
   m_ObjectHideFlags: 0

@@ -3698,7 +3698,7 @@ MonoBehaviour:
   correct: {fileID: 50701575}
   tryagain: {fileID: 50701574}
   seasons: {fileID: 1394197119}
-  staritesRemaining: 8
+  staritesRemaining: 6
   markerNumber: 0
   correctAnswer: 0
   moon: {fileID: 0}

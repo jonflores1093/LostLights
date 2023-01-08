@@ -1488,7 +1488,7 @@ MonoBehaviour:
   correct: {fileID: 1726569007}
   tryagain: {fileID: 1726569006}
   seasons: {fileID: 1146795289}
-  staritesRemaining: 10
+  staritesRemaining: 7
   markerNumber: 0
   correctAnswer: 0
   moon: {fileID: 0}
@@ -1497,6 +1497,7 @@ MonoBehaviour:
   Spring: {fileID: 897786722}
   Summer: {fileID: 398170438}
   starrite: {fileID: 0}
+  fact: {fileID: 0}
   moonNumber: 0
   audioCorrect: {fileID: 8300000, guid: f32a5b15519c00f4bbc10b9e8728c05d, type: 3}
   audioWrong: {fileID: 8300000, guid: 04b76efcd687994408d86b2c4834cf3f, type: 3}
