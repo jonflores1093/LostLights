@@ -6,6 +6,12 @@ using UnityEngine.UI;
 
 public class HelperLL : MonoBehaviour
 {
+
+    /// <typeparam name="T"></typeparam>
+    /// <param name="newGameButton"></param>
+    /// <param name="continueButton"></param>
+    /// <param name="callback"></param>
+    /// 
     public static void StateButtonInitialize<T>(Button New_Game, Button Continue, System.Action<T> callback)
              where T : class
     {

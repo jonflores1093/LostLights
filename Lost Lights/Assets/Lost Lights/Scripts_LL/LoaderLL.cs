@@ -93,6 +93,7 @@ namespace InsertStudioLostLights
 #endif
 
             // Then, tell the platform the game is ready.
+            LoadData();
             LOLSDK.Instance.GameIsReady();
             StartCoroutine(_WaitForData());
 
@@ -194,6 +195,7 @@ namespace InsertStudioLostLights
         {
             if (stagesSave != null)
                 defaultStages = stagesSave;
+           
             SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
 
         }
