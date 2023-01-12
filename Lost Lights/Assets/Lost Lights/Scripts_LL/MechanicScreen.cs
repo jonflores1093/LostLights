@@ -30,23 +30,22 @@ namespace InsertStudioLostLights
         }
         void DisableButton()
         {
-            //demoBtn.interactable = false;
+            demoBtn.interactable = false;
             demoBtn.gameObject.SetActive(false);
             
         }
 
         public void EnableButton()
         {
-            //demoButton.gameObject.SetActive(true);
 
-            //demoBtn.interactable = true;
-            //demoBtn.gameObject.SetActive(true);
+            demoBtn.interactable = true;
+            demoBtn.gameObject.SetActive(true);
 
         }
 
-        public void ThankScreen() 
+        public void RetryGame() 
         {
-            SceneManager.LoadScene("EndDemo");
+            SceneManager.LoadScene("Stage Select");
         }
 
     }

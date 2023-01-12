@@ -13,11 +13,11 @@ namespace InsertStudioLostLights
     public class SubmitMarker : MonoBehaviour
     {
         
-        public Button submitButton;
+        public Button submitButton, hintBtn, retryBtn;
         public TMP_Text counter, correct, tryagain, seasons;
         public float staritesRemaining = 8;
       
-        public int markerNumber;
+        public int markerNumber, count;
         public bool correctAnswer;
         public GameObject moon, Fall, Winter, Spring, Summer, starrite, fact;
         public int moonNumber;
@@ -143,7 +143,27 @@ namespace InsertStudioLostLights
             submitButton.interactable = false;
             
         }
+        void EnableHint() 
+        {
+            hintBtn.gameObject.SetActive(true);
+        }
 
+       public void DisableHint() 
+        {
+            hintBtn.gameObject.SetActive(false);
+        }
+
+        void EnableRetry() 
+        {
+            retryBtn.gameObject.SetActive(true);
+        }
+
+        public void Retry() 
+        {
+            SceneManager.LoadScene("Stage Select");
+
+
+        }
 
         public void OnTriggerEnter2D(Collider2D other)
         {
@@ -208,7 +228,15 @@ namespace InsertStudioLostLights
                 correctAnswer = false;
                 Invoke("setWrongTextInactive", 3);
                 audioSourceWrong.Play();
-
+                count++;
+                if (count == 3)
+                {
+                    EnableHint();
+                }
+                if(count == 6)
+                {
+                    EnableRetry();
+                }
             }
         }
 

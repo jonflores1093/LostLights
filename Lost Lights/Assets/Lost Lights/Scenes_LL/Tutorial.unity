@@ -784,18 +784,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Congratulations!\nThanks for playing!\n If you have any feed back please
-    comment below on the itch page or through the google doc form in the description!
+  m_text: "OH NO! You werent able to send the Starites home! You will have to try
+    again. \nClick me!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
+  m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -812,8 +812,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 22
+  m_fontSizeBase: 22
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -822,9 +822,9 @@ MonoBehaviour:
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: -1
+  m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 200
+  m_lineSpacing: 100
   m_lineSpacingMax: 0
   m_paragraphSpacing: 1
   m_charWidthMaxAdj: 0
@@ -1091,12 +1091,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   submitButton: {fileID: 1530400860}
+  hintBtn: {fileID: 1806075844}
+  retryBtn: {fileID: 1616968000}
   counter: {fileID: 1147568828}
   correct: {fileID: 584907742}
   tryagain: {fileID: 1821162710}
   seasons: {fileID: 1189524153}
   staritesRemaining: 6
   markerNumber: 0
+  count: 0
   correctAnswer: 0
   moon: {fileID: 0}
   Fall: {fileID: 2008103554}
@@ -1110,7 +1113,7 @@ MonoBehaviour:
   audioWrong: {fileID: 8300000, guid: 04b76efcd687994408d86b2c4834cf3f, type: 3}
   audioCorrectVolume: 0.5
   audioWrongVolume: 0.3
-  endScreen: {fileID: 1616967999}
+  endScreen: {fileID: 0}
   answerCorrect: {fileID: 584907739}
   answerWrong: {fileID: 1821162707}
 --- !u!50 &487982547
@@ -1191,21 +1194,24 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hint: The season'
+  m_text: 'Hint: The season is displayed at the top corner! Use the arrows to get
+    the correct season!
+
+    Click me!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
+  m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topLeft: {r: 0.5471698, g: 0.21422213, b: 0.21422213, a: 1}
     topRight: {r: 1, g: 1, b: 1, a: 1}
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
@@ -1218,19 +1224,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18
-  m_fontSizeBase: 18
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
-  m_characterSpacing: -1
+  m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 200
+  m_lineSpacing: 50
   m_lineSpacingMax: 0
   m_paragraphSpacing: 1
   m_charWidthMaxAdj: 0
@@ -3060,10 +3066,9 @@ GameObject:
   - component: {fileID: 1616967997}
   - component: {fileID: 1616968001}
   - component: {fileID: 1616968000}
-  - component: {fileID: 1616967999}
   - component: {fileID: 1616967998}
   m_Layer: 5
-  m_Name: EndButton
+  m_Name: RetryBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3086,8 +3091,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8}
-  m_SizeDelta: {x: 776.565, y: 495.702}
+  m_AnchoredPosition: {x: 12, y: 56.007}
+  m_SizeDelta: {x: 583.046, y: 372.173}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1616967998
 MonoBehaviour:
@@ -3109,7 +3114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9619e5188bddc2641a1b1aa14c4f4a66, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c24e5dc7edea17f41bf0b5aabd494983, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3119,20 +3124,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1616967999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1616967996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57266122324325b4cb275ff638de72df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mechanic: {fileID: 472784683}
-  demoBtn: {fileID: 1616968000}
 --- !u!114 &1616968000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3177,9 +3168,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1616967999}
-        m_TargetAssemblyTypeName: InsertStudioLostLights.MechanicScreen, Assembly-CSharp
-        m_MethodName: ThankScreen
+      - m_Target: {fileID: 487982546}
+        m_TargetAssemblyTypeName: InsertStudioLostLights.SubmitMarker, Assembly-CSharp
+        m_MethodName: Retry
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3208,15 +3199,14 @@ GameObject:
   - component: {fileID: 1806075843}
   - component: {fileID: 1806075846}
   - component: {fileID: 1806075844}
-  - component: {fileID: 1806075847}
   - component: {fileID: 1806075845}
   m_Layer: 5
-  m_Name: IntroButton
+  m_Name: HintBtn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1806075843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3234,8 +3224,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 8}
-  m_SizeDelta: {x: 776.565, y: 495.702}
+  m_AnchoredPosition: {x: 0.0000076294, y: 83}
+  m_SizeDelta: {x: 498.471, y: 318.187}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1806075844
 MonoBehaviour:
@@ -3281,9 +3271,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1806075847}
-        m_TargetAssemblyTypeName: InsertStudioLostLights.MechanicScreen, Assembly-CSharp
-        m_MethodName: StartGame
+      - m_Target: {fileID: 487982546}
+        m_TargetAssemblyTypeName: InsertStudioLostLights.SubmitMarker, Assembly-CSharp
+        m_MethodName: DisableHint
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3313,7 +3303,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9619e5188bddc2641a1b1aa14c4f4a66, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c24e5dc7edea17f41bf0b5aabd494983, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3331,20 +3321,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806075842}
   m_CullTransparentMesh: 1
---- !u!114 &1806075847
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1806075842}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57266122324325b4cb275ff638de72df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mechanic: {fileID: 506073604}
-  demoBtn: {fileID: 1806075844}
 --- !u!1 &1821162707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3220585327547761278, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}

@@ -12,38 +12,18 @@ using SimpleJSON;
 
 namespace InsertStudioLostLights
 {
-    public class ComicSlideReverse : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
+    public class ComicSlideReverse : MonoBehaviour
     {
-        public GameObject scrollRight;
+        public Camera MainCamera;
 
 
 
-        public float rot_Speed = 20;
-        bool rotate = false;
 
-
-
-        void FixedUpdate()
+        public void ClickBack()
         {
-            if (rotate == false)
-                return;
-            scrollRight.transform.position += Vector3.right * rot_Speed * Time.deltaTime;
 
+            MainCamera.transform.Translate(-15f, 0, 0);
 
-
-        }
-
-        public void OnPointerDown(PointerEventData pointerEventData)
-        {
-            rotate = true;
-
-
-
-        }
-
-        public void OnPointerUp(PointerEventData pointerEventData)
-        {
-            rotate = false;
 
 
         }
