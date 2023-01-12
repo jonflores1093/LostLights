@@ -19,7 +19,7 @@ namespace InsertStudioLostLights
             , solarEclipsePartial3, solarEclipsePartial4, solarEclipsePartial5, solarEclipseAnnular1, solarEclipseAnnular2, solarEclipseAnnular3
             , solarEclipseAnnular4, solarEclipseAnnular5, solarEclipseTotal1, solarEclipseTotal2, solarEclipseTotal3, solarEclipseTotal4, solarEclipseTotal5, facts1, facts2, facts3, facts4, facts5, facts6, facts7, facts8
             , facts9, facts10, facts11, facts12, facts13, facts14, facts15, facts16, facts17, facts18, facts19, facts20, facts21, facts22, facts23
-            , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable;
+            , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable, hintSolar, hintLunar, retry;
 
 
         private void Start()
@@ -136,7 +136,9 @@ namespace InsertStudioLostLights
                 facts25.text = GetText("facts25");
                 next.text = GetText("next");
                 direction.text = GetText("direction");
-
+                hintSolar.text = GetText("hintSolar");
+                hintLunar.text = GetText("hintLunar");
+                retry.text = GetText("retry");
         }
         string GetText(string key)
         {
