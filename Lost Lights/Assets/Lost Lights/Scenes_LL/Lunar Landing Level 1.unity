@@ -5028,7 +5028,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 487982546}
         m_TargetAssemblyTypeName: InsertStudioLostLights.SubmitMarker, Assembly-CSharp
         m_MethodName: Retry
         m_Mode: 1
