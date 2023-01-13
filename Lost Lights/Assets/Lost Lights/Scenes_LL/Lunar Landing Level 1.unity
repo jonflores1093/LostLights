@@ -2716,8 +2716,8 @@ MonoBehaviour:
 
     Click me!'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
-  m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+  m_sharedMaterial: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2780,7 +2780,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -23.773956}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1362931185
@@ -4145,7 +4145,7 @@ MonoBehaviour:
   m_text: "OH NO! You werent able to send the Starites home! You will have to try
     again. \nClick me!"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4209,7 +4209,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: -23.773956}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1677016744
