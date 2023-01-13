@@ -14,6 +14,7 @@ namespace InsertStudioLostLights
     public class Transitions : MonoBehaviour
     {
         public Button nextScene;
+        LoaderLL load;
         //JSONNode _langNode;
         //string _langCode = "en";
 
@@ -24,7 +25,7 @@ namespace InsertStudioLostLights
         {
             DisableButton();
             Invoke("EnableButton", 10.5f);
-
+            load = FindObjectOfType<LoaderLL>();
         }
 
 
@@ -88,6 +89,7 @@ namespace InsertStudioLostLights
 
         public void Next_Scene()
         {
+            load.changeClickable();
             SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
         }
 

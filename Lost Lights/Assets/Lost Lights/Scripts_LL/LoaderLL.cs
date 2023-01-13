@@ -204,6 +204,25 @@ namespace InsertStudioLostLights
         {
             Scene scene = SceneManager.GetActiveScene();
 
+            if (scene.name == ("StoryScene"))
+            {
+                SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+                //defaultStages.lunarStage1 = true;
+
+                //stages.lunarStage1 = true;
+                if (tutorialFT == false)
+                {
+                    LOLSDK.Instance.SubmitProgress(1, 1, 8);
+                    tutorialFT = true;
+                }
+                else
+                {
+                    
+                }
+
+                Save();
+
+            }
             if (scene.name == ("Tutorial"))
             {
                 SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
@@ -213,12 +232,12 @@ namespace InsertStudioLostLights
                 stages.lunarStage1 = true;
                 if (tutorialFT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(1, 1, 8);
+                    LOLSDK.Instance.SubmitProgress(2, 2, 8);
                     tutorialFT = true;
                 }
                 else
                 {
-                    LOLSDK.Instance.SubmitProgress(1, 1, 8);
+                    LOLSDK.Instance.SubmitProgress(2, 2, 8);
                 }
 
                 Save();
@@ -233,7 +252,7 @@ namespace InsertStudioLostLights
                 stages.lunarStage2 = true;
                 if (lunarStage1FT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(2, 2, 8);
+                    LOLSDK.Instance.SubmitProgress(3, 3, 8);
                     lunarStage1FT = true;
                 }
                 else
@@ -254,7 +273,7 @@ namespace InsertStudioLostLights
                 stages.lunarStage3 = true;
                 if (lunarStage2FT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(3, 3, 8);
+                    LOLSDK.Instance.SubmitProgress(4, 4, 8);
                     lunarStage2FT = true;
                 }
                 else
@@ -274,7 +293,7 @@ namespace InsertStudioLostLights
                 stages.solarStage1 = true;
                 if (lunarStage3FT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(4, 4, 8);
+                    LOLSDK.Instance.SubmitProgress(5, 5, 8);
                     lunarStage3FT = true;
                 }
                 else
@@ -295,7 +314,7 @@ namespace InsertStudioLostLights
 
                 if (solarStage1FT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(5, 5, 8);
+                    LOLSDK.Instance.SubmitProgress(6, 6, 8);
                     solarStage1FT = true;
                 }
                 else
@@ -315,7 +334,7 @@ namespace InsertStudioLostLights
                 stages.solarStage3 = true;
                 if (solarStage2FT == false)
                 {
-                    LOLSDK.Instance.SubmitProgress(6, 6, 8);
+                    LOLSDK.Instance.SubmitProgress(7, 7, 8);
                     solarStage2FT = true;
                 }
                 else
