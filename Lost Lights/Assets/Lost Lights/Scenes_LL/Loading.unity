@@ -213,6 +213,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: retry
+      value: 
+      objectReference: {fileID: 7789976565231145472, guid: c5f5a412ba14c504cb6bf82964b512dd, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: hintLunar
+      value: 
+      objectReference: {fileID: 3245126563657379832, guid: 986cc26d505d64c438dd5b8950f2f754, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: hintSolar
+      value: 
+      objectReference: {fileID: 7348190393610360976, guid: 4bd2daa57e675d44b9c0c279d785f523, type: 3}
     - target: {fileID: 9186491289830430744, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
       propertyPath: m_RootOrder
       value: 1

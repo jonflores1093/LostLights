@@ -42,7 +42,10 @@ namespace InsertStudioLostLights
 
 
                 LOLSDK.Instance.SpeakText(text);
-                   
+
+                // this might fix the text to speech issue, will try this later.
+                //LOLSDK.Instance.SpeakText(SharedStateLL.LanguageDefs_LL[textKey]);
+
 
                 //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
                 //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },

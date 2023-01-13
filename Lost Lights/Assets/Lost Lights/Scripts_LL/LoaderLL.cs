@@ -30,7 +30,7 @@ namespace InsertStudioLostLights
     public class LoaderLL : MonoBehaviour
     {
         Stages stages;
-        DefaultStages defaultStages = new DefaultStages();
+        public DefaultStages defaultStages = new DefaultStages();
 
         public bool tutorialFT = true;
         public bool lunarStage1FT = false;
@@ -46,7 +46,7 @@ namespace InsertStudioLostLights
 
 
 
-        [SerializeField] Button New_Game, Continue;
+        //[SerializeField] Button New_Game, Continue;
         // Relative to Assets /StreamingAssets/
         private const string languageJSONFilePath = "language.json";
         private const string startGameJSONFilePath = "startGame.json";
@@ -174,8 +174,8 @@ namespace InsertStudioLostLights
         {
             
             stages = FindObjectOfType<Stages>();
-            HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
-            
+            //HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
+
 
 
         }
@@ -191,14 +191,14 @@ namespace InsertStudioLostLights
             LOLSDK.Instance.SaveState(defaultStages);
             Debug.Log("Saved");
         }
-        void OnLoad(DefaultStages stagesSave)
-        {
-            if (stagesSave != null)
-                defaultStages = stagesSave;
-           
-            SceneManager.LoadScene("Stage Select", LoadSceneMode.Single);
+        //void OnLoad(DefaultStages stagesSave)
+        //{
+        //    if (stagesSave != null)
+        //        defaultStages = stagesSave;
 
-        }
+        //    Debug.Log("Loaded");
+        //}
+
 
         public void changeClickable()
         {
