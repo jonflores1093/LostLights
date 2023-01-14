@@ -41,16 +41,18 @@ namespace InsertStudioLostLights
                 // Speak the clip of text requested from using this MonoBehaviour as the coroutine owner.
 
 
-                LOLSDK.Instance.SpeakText(text);
+                //LOLSDK.Instance.SpeakText(text);
 
                 // this might fix the text to speech issue, will try this later.
-                //LOLSDK.Instance.SpeakText(SharedStateLL.LanguageDefs_LL[textKey]);
+                LOLSDK.Instance.SpeakText(SharedStateLL.LanguageDefs_LL[textKey]);
 
 
-                //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
-                //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-                //    this,
-                //    languageCode);
+                Debug.Log("text to speech working");
+
+                ((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
+                    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
+                    this,
+                    languageCode);
             }
             else
             {
