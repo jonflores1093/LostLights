@@ -21,7 +21,10 @@ namespace InsertStudioLostLights
 
             MainCamera.transform.Translate(15f,0,0);
 
-            
+            //remove this
+
+            //keep this
+
 
         }
 
