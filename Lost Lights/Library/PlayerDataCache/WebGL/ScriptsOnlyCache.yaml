@@ -7,10 +7,10 @@ ScriptsOnlyBuild:
     - InsertStudioLostLights.ComicSlide
     - InsertStudioLostLights.ComicSlideReverse
     - InsertStudioLostLights.EarthAutoMove
+    - InsertStudioLostLights.InitializeLoad
     - InsertStudioLostLights.InvokeTextToSpeech
     - InsertStudioLostLights.LoaderLL
     - InsertStudioLostLights.LoadingData
-    - InsertStudioLostLights.MechanicScreen
     - InsertStudioLostLights.MoonType
     - InsertStudioLostLights.MoonTypeMarker
     - InsertStudioLostLights.NewQuestions
@@ -77,14 +77,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 83
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 1486}
-    - Class: 114
-      Script: {instanceID: 1490}
     - Class: 114
       Script: {instanceID: 1796}
     - Class: 114
@@ -98,8 +92,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2994}
     - Class: 114
-      Script: {instanceID: 3142}
-    - Class: 114
       Script: {instanceID: 3482}
     - Class: 114
       Script: {instanceID: 3554}
@@ -108,11 +100,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 4982}
-    - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5384}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -120,8 +110,6 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -199,14 +187,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -292,14 +276,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -387,14 +367,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -458,11 +434,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3482}
     - Class: 114
-      Script: {instanceID: 4612}
+      Script: {instanceID: 4472}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4614}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 4796}
+    - Class: 114
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -553,11 +531,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -648,11 +624,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -743,11 +717,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -814,9 +786,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3478}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -966,14 +938,10 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4154}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4796}
     - Class: 114
-      Script: {instanceID: 5110}
-    - Class: 114
-      Script: {instanceID: 5656}
+      Script: {instanceID: 5658}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1226,7 +1194,7 @@ ScriptsOnlyBuild:
     className: ScrollingBackground
   - hash:
       serializedVersion: 2
-      Hash: 8965d52f46e0b8a4370c078bc6b84d87
+      Hash: 484f42d97c41df6ce520cf9ee6332e92
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: LoadingData
@@ -1244,7 +1212,7 @@ ScriptsOnlyBuild:
     className: RotationRight
   - hash:
       serializedVersion: 2
-      Hash: 071506d421d0c900e927f87d8f7bdb62
+      Hash: a2d4f8a2ac979089923687e6f4ed4b7c
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: ComicSlide
@@ -1352,7 +1320,7 @@ ScriptsOnlyBuild:
     className: FactsManager
   - hash:
       serializedVersion: 2
-      Hash: 771743dff21baa83028d1e292b0196e8
+      Hash: 6b73da988cf0ae6389345862c6ec7016
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: SubmitMarker
@@ -1370,7 +1338,7 @@ ScriptsOnlyBuild:
     className: Loader
   - hash:
       serializedVersion: 2
-      Hash: 1dcf142f279bf949acc0820aade8a6fd
+      Hash: a2d4f8a2ac979089923687e6f4ed4b7c
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: ComicSlideReverse
@@ -1472,7 +1440,7 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
-      Hash: 3da29e253d14d48320d14213662f4ba6
+      Hash: f4ef614cd97c09f43c5d4e4fec759862
     assemblyName: Assembly-CSharp.dll
     namespaceName: InsertStudioLostLights
     className: LoaderLL
@@ -1554,6 +1522,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 93df1c0f3e0dce5bfbf10086fec32218
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: InsertStudioLostLights
+    className: InitializeLoad
   - hash:
       serializedVersion: 2
       Hash: 0edeba255bdbade25edc357f1412ba38
@@ -1771,4 +1745,4 @@ ScriptsOnlyBuild:
   - Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
   - Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
   - Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  playerPath: C:/Users/Owner/Desktop/Projects/New folder
+  playerPath: E:/Unity/Unity_Projects/TestBuildItch
