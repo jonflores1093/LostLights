@@ -191,6 +191,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: First Contact Text
       objectReference: {fileID: 0}
+    - target: {fileID: 9175675141401364690, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 9175675141401364690, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 9175675141401364691, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 9175675141401364692, guid: f50a0627fafc6eb48aeef7d381bc328a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

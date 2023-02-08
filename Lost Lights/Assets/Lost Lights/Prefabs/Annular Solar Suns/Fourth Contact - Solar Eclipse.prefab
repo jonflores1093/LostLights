@@ -275,6 +275,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fourth Contact
       objectReference: {fileID: 0}
+    - target: {fileID: 2412887489854323910, guid: 6ebea31262ed5744e843e0659884ec9c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 2412887489854323911, guid: 6ebea31262ed5744e843e0659884ec9c, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 2412887489854323911, guid: 6ebea31262ed5744e843e0659884ec9c, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ebea31262ed5744e843e0659884ec9c, type: 3}
 --- !u!224 &2964477226920153808 stripped

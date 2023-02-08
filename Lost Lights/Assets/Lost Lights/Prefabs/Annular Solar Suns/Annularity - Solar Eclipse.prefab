@@ -275,6 +275,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Annularity Solar Eclipse
       objectReference: {fileID: 0}
+    - target: {fileID: 7429015653090548598, guid: d7326a05314485e44a76dfcb32eef10a, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 7429015653090548599, guid: d7326a05314485e44a76dfcb32eef10a, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 7429015653090548599, guid: d7326a05314485e44a76dfcb32eef10a, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d7326a05314485e44a76dfcb32eef10a, type: 3}
 --- !u!224 &7141305847364011517 stripped

@@ -49,10 +49,10 @@ namespace InsertStudioLostLights
 
                 Debug.Log("text to speech working");
 
-                ((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
-                    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
-                    this,
-                    languageCode);
+                //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
+                //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
+                //    this,
+                //    languageCode);
             }
             else
             {

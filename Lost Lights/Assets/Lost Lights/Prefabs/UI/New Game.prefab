@@ -169,6 +169,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6980188226478189956}
     m_Modifications:
+    - target: {fileID: 8541596978199495044, guid: 77388c0d3711d30428b96e3465b87560, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 8541596978199495044, guid: 77388c0d3711d30428b96e3465b87560, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 8541596978199495066, guid: 77388c0d3711d30428b96e3465b87560, type: 3}
       propertyPath: m_Name
       value: NewGameText

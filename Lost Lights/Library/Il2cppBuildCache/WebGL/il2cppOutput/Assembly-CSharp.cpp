@@ -583,6 +583,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral8C0F4B28E095AFBC2D11B837EEE188F0A83F1E96
 IL2CPP_EXTERN_C String_t* _stringLiteral90FF86A5E8DA863E9F035F5C0DD11D74B0050A78;
 IL2CPP_EXTERN_C String_t* _stringLiteral916DE95929A54ACC43713FF02F2F2A08F18A7E4D;
 IL2CPP_EXTERN_C String_t* _stringLiteral929CEAB4768A8BA7700AD13424FD6D43A49E44CF;
+IL2CPP_EXTERN_C String_t* _stringLiteral957D7D85EB19C5A91207681B18C222D185FCA1B4;
 IL2CPP_EXTERN_C String_t* _stringLiteral9717C2D81596EDBD11552B8BC6FF29B5F79C012F;
 IL2CPP_EXTERN_C String_t* _stringLiteral979517D92166962D816A7DD4DACF9006BF594286;
 IL2CPP_EXTERN_C String_t* _stringLiteral9C10C2BC10D66440E5223563C5E8A02DC132D8C2;
@@ -18812,19 +18813,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_Start_m2E5FCA6E4972DD
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F68D735CA14E02BEC4909241E8F34C3715ECE25);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral957D7D85EB19C5A91207681B18C222D185FCA1B4);
 		s_Il2CppMethodInitialized = true;
 	}
-	String_t* V_0 = NULL;
 	{
 		// if(ttsBool.textToSpeech == true)
 		LoaderLL_t21D397F5B1D7AC0428AFD04331021DBB25CCCB57 * L_0 = __this->get_ttsBool_6();
 		bool L_1 = L_0->get_textToSpeech_19();
 		if (!L_1)
 		{
-			goto IL_004e;
+			goto IL_006c;
 		}
 	}
 	{
@@ -18843,19 +18845,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvokeTextToSpeech_Start_m2E5FCA6E4972DD
 		L_7 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_5, L_6);
 		String_t* L_8;
 		L_8 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_7, /*hidden argument*/NULL);
-		V_0 = L_8;
 		// _ttsAudioSource.Stop();
 		AudioSource_tC4BF65AF8CDCAA63724BB3CA59A7A29249269E6B * L_9 = __this->get__ttsAudioSource_4();
 		AudioSource_Stop_mADA564D223832A64F8CF3EFBDEB534C0D658810F(L_9, /*hidden argument*/NULL);
-		// LOLSDK.Instance.SpeakText(text);
+		// LOLSDK.Instance.SpeakText(SharedStateLL.LanguageDefs_LL[textKey]);
 		IL2CPP_RUNTIME_CLASS_INIT(Singleton_1_t1582564B0F23B86ACC894AF0F4D7579DFE83BA30_il2cpp_TypeInfo_var);
 		LOLSDK_tFD4638952EEB439F0904D932D3A53DC6E957FD7A * L_10;
 		L_10 = Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829(/*hidden argument*/Singleton_1_get_Instance_m4BFC72DA7B593E115DB3BA052119567E45F5E829_RuntimeMethod_var);
-		String_t* L_11 = V_0;
-		LOLSDK_SpeakText_mB5CCC2035BB3E9D7A20703EABB896A2F6D019841(L_10, L_11, /*hidden argument*/NULL);
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_11;
+		L_11 = SharedStateLL_get_LanguageDefs_LL_mFBD6A4A798C5554746F43CDF57E9A60E69459322_inline(/*hidden argument*/NULL);
+		String_t* L_12 = __this->get_textKey_5();
+		JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD * L_13;
+		L_13 = VirtFuncInvoker1< JSONNode_t40A7A2D6236071944DA1037155928119E223FEFD *, String_t* >::Invoke(4 /* SimpleJSON.JSONNode SimpleJSON.JSONNode::get_Item(System.String) */, L_11, L_12);
+		String_t* L_14;
+		L_14 = JSONNode_op_Implicit_m0B0794613B6C0CC8F37926CBEF29B48EB491A12F(L_13, /*hidden argument*/NULL);
+		LOLSDK_SpeakText_mB5CCC2035BB3E9D7A20703EABB896A2F6D019841(L_10, L_14, /*hidden argument*/NULL);
+		// Debug.Log("text to speech working");
+		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
+		Debug_Log_mC26E5AD0D8D156C7FFD173AA15827F69225E9DB8(_stringLiteral957D7D85EB19C5A91207681B18C222D185FCA1B4, /*hidden argument*/NULL);
 	}
 
-IL_004e:
+IL_006c:
 	{
 		// }
 		return;

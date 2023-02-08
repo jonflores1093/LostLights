@@ -128,6 +128,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7523693864745604270}
     m_Modifications:
+    - target: {fileID: 3380468754029050464, guid: ab2d66259180f0649a6d44d8c6897e7f, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 3380468754029050464, guid: ab2d66259180f0649a6d44d8c6897e7f, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 3380468754029050465, guid: ab2d66259180f0649a6d44d8c6897e7f, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

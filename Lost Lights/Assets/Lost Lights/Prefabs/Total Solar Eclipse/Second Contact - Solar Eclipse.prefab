@@ -271,6 +271,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7130433062776421636, guid: a1c927a9cf87e3b4bac60befc0c12230, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 7130433062776421636, guid: a1c927a9cf87e3b4bac60befc0c12230, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 7130433062776421637, guid: a1c927a9cf87e3b4bac60befc0c12230, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 7130433062776421639, guid: a1c927a9cf87e3b4bac60befc0c12230, type: 3}
       propertyPath: m_Name
       value: 'Total Second Contact '

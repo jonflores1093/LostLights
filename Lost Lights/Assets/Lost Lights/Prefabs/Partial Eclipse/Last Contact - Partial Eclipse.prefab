@@ -275,6 +275,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Last Contact
       objectReference: {fileID: 0}
+    - target: {fileID: 4413745698959479190, guid: e05608ae2877bfc44932ba5b98f09bf5, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 4413745698959479190, guid: e05608ae2877bfc44932ba5b98f09bf5, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 4413745698959479191, guid: e05608ae2877bfc44932ba5b98f09bf5, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e05608ae2877bfc44932ba5b98f09bf5, type: 3}
 --- !u!224 &6548187802113952083 stripped

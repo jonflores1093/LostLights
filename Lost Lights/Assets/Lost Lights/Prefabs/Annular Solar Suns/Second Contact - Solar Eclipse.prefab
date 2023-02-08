@@ -191,6 +191,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Second Contact
       objectReference: {fileID: 0}
+    - target: {fileID: 1229746763120882202, guid: 6f386db55ad0afe4a8d6066307ec5dcb, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 1229746763120882202, guid: 6f386db55ad0afe4a8d6066307ec5dcb, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 1229746763120882203, guid: 6f386db55ad0afe4a8d6066307ec5dcb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 1229746763120882204, guid: 6f386db55ad0afe4a8d6066307ec5dcb, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

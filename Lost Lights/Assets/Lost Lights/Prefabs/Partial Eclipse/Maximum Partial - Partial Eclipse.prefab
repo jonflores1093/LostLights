@@ -191,6 +191,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maximum Partial Eclipse
       objectReference: {fileID: 0}
+    - target: {fileID: 2314196967907951034, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 2314196967907951035, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 2314196967907951035, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 2314196967907951037, guid: 6aa438cba77e5e8438d29133cd61490b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
