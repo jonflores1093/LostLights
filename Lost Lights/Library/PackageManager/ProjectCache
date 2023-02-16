@@ -776,6 +776,7 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -796,6 +797,7 @@ m_PackageAssets:
         - 2.0.0-preview.20
         - 2.0.0-preview.21
         - 2.0.0-preview.22
+        - 2.0.0
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
@@ -3496,6 +3498,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.6.0
         - 1.7.0
+        - 1.7.1
         compatible:
         - 1.0.1
         - 1.1.0-pre.7
@@ -3515,6 +3518,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.6.0
         - 1.7.0
+        - 1.7.1
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest

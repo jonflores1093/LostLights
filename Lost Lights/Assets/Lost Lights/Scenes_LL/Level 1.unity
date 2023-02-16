@@ -1349,21 +1349,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   submitButton: {fileID: 1530400860}
+  hintBtn: {fileID: 0}
+  retryBtn: {fileID: 0}
   counter: {fileID: 305697044}
   correct: {fileID: 1861149841}
   tryagain: {fileID: 1861149841}
-  num: 8
+  seasons: {fileID: 0}
+  staritesRemaining: 8
   markerNumber: 0
+  count: 0
   correctAnswer: 0
   moon: {fileID: 0}
+  Fall: {fileID: 0}
+  Winter: {fileID: 0}
+  Spring: {fileID: 0}
+  Summer: {fileID: 0}
   starrite: {fileID: 0}
+  fact: {fileID: 0}
   moonNumber: 0
   audioCorrect: {fileID: 8300000, guid: f32a5b15519c00f4bbc10b9e8728c05d, type: 3}
   audioWrong: {fileID: 8300000, guid: 04b76efcd687994408d86b2c4834cf3f, type: 3}
   audioCorrectVolume: 0.5
   audioWrongVolume: 0.3
   endScreen: {fileID: 1616967999}
-  answerText: {fileID: 1861149839}
+  answerCorrect: {fileID: 0}
+  answerWrong: {fileID: 0}
 --- !u!50 &487982547
 Rigidbody2D:
   serializedVersion: 4
@@ -2698,11 +2708,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d89d231267065cd4bb2c8ba416064e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clocktxt: {fileID: 0}
-  time: 0
-  isClock: 0
-  ClockSpeedMultiplier: 62
-  ClockAMPM: AM
 --- !u!1 &1189664934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,11 +2841,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4324f57f93826f4bb274a4bf49aaff5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotatedObject: {fileID: 1466322785}
+  rotatedObjectMain: {fileID: 0}
   rotationlightButton: {fileID: 962476898}
+  rotatedObjectMini: {fileID: 0}
+  orbit: {fileID: 0}
   bgMovement: {fileID: 290401700}
   xbg: 0.01
-  clock: {fileID: 1189524155}
   earthMove: {fileID: 347291928}
   rot_Speed: 40
 --- !u!1 &1255462656
@@ -3360,11 +3366,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2d276e2f9b06314cbc8dd94e82f719c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotatedObject: {fileID: 1466322785}
+  rotatedObjectMain: {fileID: 0}
   rotationlightButton: {fileID: 962476898}
+  rotatedObjectMini: {fileID: 0}
+  orbit: {fileID: 0}
   bgMovement: {fileID: 290401700}
   xbg: -0.01
-  clock: {fileID: 1189524155}
   earthMove: {fileID: 347291928}
   rot_Speed: 40
 --- !u!1 &1530400858
@@ -3835,7 +3842,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1806075843
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3863,7 +3870,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806075842}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
