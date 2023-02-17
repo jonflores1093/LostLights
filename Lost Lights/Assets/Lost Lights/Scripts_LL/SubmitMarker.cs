@@ -13,7 +13,7 @@ namespace InsertStudioLostLights
     public class SubmitMarker : MonoBehaviour
     {
         
-        public Button submitButton, hintBtn, retryBtn;
+        public Button submitButton, hintBtn, retryBtn, beginBtn, speechBtn, displayBtn, factBtn, arrowBtn, subBtn, endingBtn;
         public TMP_Text counter, correct, tryagain, seasons;
         public float staritesRemaining = 8;
       
@@ -96,7 +96,7 @@ namespace InsertStudioLostLights
                 if (staritesRemaining == 0)
                 {
                     //endScreen.gameObject.SetActive(true);
-                    load.changeClickable();
+                    EnableEndBtn();
                     Debug.Log("Game Over!");
                 }
                 else
@@ -163,6 +163,59 @@ namespace InsertStudioLostLights
             SceneManager.LoadScene("Stage Select");
 
 
+        }
+        public void DisableBeginBtn()
+        {
+            beginBtn.gameObject.SetActive(false);
+        }
+        public void EnableSpeechBtn()
+        {
+            speechBtn.gameObject.SetActive(true);
+        }
+        public void DisableSpeechBtn()
+        {
+            speechBtn.gameObject.SetActive(false);
+        }
+        public void EnableDisplayBtn()
+        {
+            displayBtn.gameObject.SetActive(true);
+        }
+        public void DisableDisplayBtn()
+        {
+            displayBtn.gameObject.SetActive(false);
+        }
+        public void EnableFactBtn()
+        {
+            factBtn.gameObject.SetActive(true);
+        }
+        public void DisableFactBtn()
+        {
+            factBtn.gameObject.SetActive(false);
+        }
+        public void EnableArrowBtn()
+        {
+            arrowBtn.gameObject.SetActive(true);
+        }
+        public void DisableArrowBtn()
+        {
+            arrowBtn.gameObject.SetActive(false);
+        }
+        public void EnableSubmitBtn()
+        {
+            subBtn.gameObject.SetActive(true);
+        }
+        public void DisableSubmitBtn()
+        {
+            subBtn.gameObject.SetActive(false);
+        }
+        public void EnableEndBtn()
+        {
+            endingBtn.gameObject.SetActive(true);
+        }
+
+        public void EndendBtn()
+        {
+            load.changeClickable();
         }
 
         public void OnTriggerEnter2D(Collider2D other)

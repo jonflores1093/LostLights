@@ -17,11 +17,11 @@ namespace InsertStudioLostLights
     {
 
         AudioSource _ttsAudioSource;
-        
+
         public string textKey;
 
         public LoaderLL ttsBool;
-        
+
 
         private void Awake()
         {
@@ -32,24 +32,15 @@ namespace InsertStudioLostLights
         }
         void Start()
         {
-            if(ttsBool.textToSpeech == true)
+            if (ttsBool.textToSpeech == true)
             {
                 string languageCode = SharedStateLL.StartGameData_LL["languageCode"];
                 string text = SharedStateLL.LanguageDefs_LL[textKey];
-                // Stop any current tts.
-                _ttsAudioSource.Stop();
-                // Speak the clip of text requested from using this MonoBehaviour as the coroutine owner.
 
 
-                //LOLSDK.Instance.SpeakText(text);
+                LOLSDK.Instance.SpeakText(textKey);
 
-                // this might fix the text to speech issue, will try this later.
-                LOLSDK.Instance.SpeakText(SharedStateLL.LanguageDefs_LL[textKey]);
-
-
-                Debug.Log("text to speech working");
-
-                //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(text,
+                //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(SharedStateLL.LanguageDefs_LL[textKey],
                 //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
                 //    this,
                 //    languageCode);
@@ -58,7 +49,7 @@ namespace InsertStudioLostLights
             {
 
             }
-            
+
 
 
         }
