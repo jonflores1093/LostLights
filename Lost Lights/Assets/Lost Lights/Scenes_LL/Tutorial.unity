@@ -3177,8 +3177,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Congrats! You finished the tutorial! \nAfter each level you will get a
-    recap on what was learned!\n\nClick me to progress to the stage select!"
+  m_text: "Congrats! You finished the tutorial! \n\nIt's difficult to see, but the
+    Earth here is at a tilt. The Earth being on a tilt causes different seasons to
+    occur when the Earth faces the Sun at various positions! Remeber, approximately
+    every 3 months a new season occurs!\n\nClick me to progress to the stage select!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3205,8 +3207,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 20
+  m_fontSizeBase: 20
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6247,7 +6249,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8010209287967461163, guid: 2e0daf040c3522a4dbc48a1b06b60faf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010209287967461165, guid: 2e0daf040c3522a4dbc48a1b06b60faf, type: 3}
+      propertyPath: m_text
+      value: "Click and hold the arrows to orbit\n the moon around the earth \nto
+        match the Starite's request!\nRemember that Earth is always on\na 23.5 degree
+        tilt!"
       objectReference: {fileID: 0}
     - target: {fileID: 8010209287967461165, guid: 2e0daf040c3522a4dbc48a1b06b60faf, type: 3}
       propertyPath: m_fontSize
@@ -6840,6 +6848,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8010209287304461745, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 15.425693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010209287304461745, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 15.425693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010209287304461745, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 15.425693
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010209287304461745, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 346.922
+      objectReference: {fileID: 0}
+    - target: {fileID: 8010209287304461745, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 86.982
+      objectReference: {fileID: 0}
     - target: {fileID: 8010209287380081184, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
       propertyPath: m_Camera
       value: 
