@@ -4324,8 +4324,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotatedObjectMain: {fileID: 1466322785}
   rotationlightButton: {fileID: 962476898}
-  rotatedObjectMini: {fileID: 0}
-  orbit: {fileID: 0}
+  rotatedObjectMini: {fileID: 209002018}
+  orbit: {fileID: 209002018}
   bgMovement: {fileID: 290401700}
   xbg: 0.01
   earthMove: {fileID: 347291928}
@@ -5220,8 +5220,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotatedObjectMain: {fileID: 1466322785}
   rotationlightButton: {fileID: 962476898}
-  rotatedObjectMini: {fileID: 0}
-  orbit: {fileID: 0}
+  rotatedObjectMini: {fileID: 209002018}
+  orbit: {fileID: 209002018}
   bgMovement: {fileID: 290401700}
   xbg: -0.01
   earthMove: {fileID: 347291928}
