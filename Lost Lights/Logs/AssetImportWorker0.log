@@ -1,127 +1,197 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 32718 MB
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16308 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-E:\Unity\2020.3.33f1\Editor\Unity.exe
+F:\Unity\2020.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-E:/Unity/Unity_Projects/LostLights/Lost Lights
+C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50036
-Successfully changed project path to: E:/Unity/Unity_Projects/LostLights/Lost Lights
-E:/Unity/Unity_Projects/LostLights/Lost Lights
+59293
+Successfully changed project path to: C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
+C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
-[Subsystems] Discovering subsystems at path E:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/Unity/Unity_Projects/LostLights/Lost Lights/Assets
+[Subsystems] Discovering subsystems at path F:/Unity/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Owner/Desktop/Projects/LostLights/Lost Lights/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
     Vendor:   
-    VRAM:     4043 MB
-    Driver:   31.0.15.1694
+    VRAM:     10067 MB
+    Driver:   31.0.15.2737
 Initialize mono
-Mono path[0] = 'E:/Unity/2020.3.33f1/Editor/Data/Managed'
-Mono path[1] = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'E:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
+Mono path[0] = 'F:/Unity/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/Unity/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: E:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003827 seconds.
+Register platform support module: F:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: F:/Unity/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001083 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
+- Completed reload, in  0.495 seconds
 Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (136ms)
+	ReloadAssembly (496ms)
+		BeginReloadAssembly (47ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (600ms)
-			LoadAssemblies (137ms)
+		EndReloadAssembly (392ms)
+			LoadAssemblies (46ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (219ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (162ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (60ms)
-				BeforeProcessingInitializeOnLoad (20ms)
-				ProcessInitializeOnLoadAttributes (98ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (16ms)
+				ProcessInitializeOnLoadAttributes (70ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006767 seconds.
+Registered in 0.003516 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file data-000002CC8B634E30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B7FE1F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86AE9630 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B80ECB0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA68A40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B81E200 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B1DB820 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C25C230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B831610 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B246640 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8BF7F490 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8BF7F490 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC871D6010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC876FAC70 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC871FD220 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B831610 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AE91360 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C5A64C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B831610 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B02A020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C004470 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B075040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AEAB010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC876FAC70 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C004470 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B075040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B78C630 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B7F3AA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87056C90 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF01230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC873A2760 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C64AE50 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8777A640 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86F0B190 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B07CA50 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 61.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.486 seconds
+- Completed reload, in  0.925 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1487ms)
-		BeginReloadAssembly (226ms)
+	ReloadAssembly (926ms)
+		BeginReloadAssembly (124ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1192ms)
-			LoadAssemblies (183ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (752ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
+			SetupTypeCache (244ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (449ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (62ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2265 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 100.9 MB.
 System memory in use after: 101.1 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2705.
-Total: 3.397600 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.134000 ms MarkObjects: 2.854600 ms  DeleteObjects: 0.089900 ms)
+Total: 4.354100 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.086700 ms MarkObjects: 3.806000 ms  DeleteObjects: 0.101000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -135,56 +205,132 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  artifactKey: Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Tutorial.unity using Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b240eb38b85ecc7826e9b393c5f0d7') in 0.011700 seconds 
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity
+  artifactKey: Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity using Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857859dd525ce8352f83e6735d97c2b7') in 0.011261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
+  artifactKey: Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bec0f6caba74cae46191e46de8f0693') in 0.006905 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007669 seconds.
+Registered in 0.003127 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file data-000002CC8F012540 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E619050 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86AEBF70 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B807A80 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F7BD7D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF9BA00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C13F010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E650260 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87785020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E279850 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA60C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA60C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CF2E430 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC877AC230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E38E030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B3C4700 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870BF390 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B3C4700 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870BF390 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FA25010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B0176F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FDDD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F1F0080 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC911F4E10 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA60C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.484 seconds
+- Completed reload, in  0.837 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1485ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (838ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1199ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (690ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (434ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (420ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (278ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.0 MB.
 System memory in use after: 99.1 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2708.
-Total: 4.252200 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.226900 ms MarkObjects: 3.693100 ms  DeleteObjects: 0.024900 ms)
+Total: 4.156900 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.075900 ms MarkObjects: 3.752700 ms  DeleteObjects: 0.034800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -197,64 +343,122 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 1008.736248 seconds.
-  path: Assets/StreamingAssets/language.json
-  artifactKey: Guid(259872cdfc39b4f38a0b1ada7341f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/language.json using Guid(259872cdfc39b4f38a0b1ada7341f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab08d308418b50024c2caa32e8bc93cc') in 0.066004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.479919 seconds.
-  path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  artifactKey: Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Tutorial.unity using Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9c53ea8049ba158834fc737c787ed1') in 0.002441 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005834 seconds.
+Registered in 0.003380 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file data-000002CC8B62BA50 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B536710 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86AE6520 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87555680 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8BA0E020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C01C020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86DCF010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8719F220 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8776F040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91A450D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA3C020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E66B020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B565F20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC875DC010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FE6AB20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8719F220 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B84A020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA63230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87796C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CA63230 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87796C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B183030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC910D2490 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FDDD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91A450D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C212130 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91976330 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B565F20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91A450D0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.430 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1431ms)
-		BeginReloadAssembly (206ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (94ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (1156ms)
-			LoadAssemblies (195ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (678ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (442ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (387ms)
+			SetupTypeCache (238ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (114ms)
-				ProcessInitializeOnLoadAttributes (248ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (16ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.0 MB.
 System memory in use after: 99.1 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2711.
-Total: 3.270100 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.087200 ms MarkObjects: 2.960100 ms  DeleteObjects: 0.050100 ms)
+Total: 4.101400 ms (FindLiveObjects: 0.367900 ms CreateObjectMapping: 0.072300 ms MarkObjects: 3.629100 ms  DeleteObjects: 0.030700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -267,70 +471,274 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 217.376678 seconds.
-  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
-  artifactKey: Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0bdb9327f0dbde6c0674f95b4c7fd7') in 0.018974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.245243 seconds.
-  path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  artifactKey: Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Tutorial.unity using Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e0a76e783d5dbd6e83a0fc23b6a285') in 0.002540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 90.997931 seconds.
-  path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
-  artifactKey: Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Tutorial.unity using Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f39b20ff01850e6f5a453554c5d9cc75') in 0.003498 seconds 
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006267 seconds.
+Registered in 0.003427 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file data-000002CC8B627060 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E38E030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC86AEBF70 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC875660F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B783180 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C01C020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B765020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CB8B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87785020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B06C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC872ECCF0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B8B6040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B8B6040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC919EFF20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B8B6040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B536710 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF9BA00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC872ECCF0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF9BA00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8767AC40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91F03070 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC46EF0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B783180 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FE128A0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B8B6040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.329 seconds
+- Completed reload, in  0.811 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1330ms)
-		BeginReloadAssembly (195ms)
+	ReloadAssembly (811ms)
+		BeginReloadAssembly (92ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1063ms)
-			LoadAssemblies (202ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (375ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (377ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (243ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (103ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.2 MB.
-System memory in use after: 99.4 MB.
+System memory in use before: 99.1 MB.
+System memory in use after: 99.2 MB.
 
 Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2714.
-Total: 3.317200 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.088800 ms MarkObjects: 3.004100 ms  DeleteObjects: 0.034100 ms)
+Total: 3.044400 ms (FindLiveObjects: 0.223400 ms CreateObjectMapping: 0.054600 ms MarkObjects: 2.740600 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 152.202447 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity
+  artifactKey: Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity using Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4d3fda7da6cf72f4253de1aac57f999') in 0.009774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.584434 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
+  artifactKey: Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51053db13e12e6fcbc3d0d0f02145bfa') in 0.002058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.229558 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity
+  artifactKey: Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity using Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41701c5ffe647d3650270dc61f90de6') in 0.002468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.964609 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity
+  artifactKey: Guid(ca48014d2d9b8534ca552531fffc8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity using Guid(ca48014d2d9b8534ca552531fffc8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88329a7fa5f920dec3de1e5a7e6a07a9') in 0.005774 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003353 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002CC8CE144E0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CDCD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2B79D00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8755EEC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F2F72F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FA6B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E22A020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91B68020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC58010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B06C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC877A9C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CB8B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC919EFF20 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B536710 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FB81010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87178020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E650260 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8BB07010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC872B4010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91B75A40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC871D5FC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91B68020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FB85820 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB296BF00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CB8B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC877A9C30 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.824 seconds
+Domain Reload Profiling:
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (94ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (681ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (233ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (160ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.1 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2717.
+Total: 3.276700 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.936300 ms  DeleteObjects: 0.028700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -345,50 +753,278 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.006036 seconds.
+Registered in 0.003300 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\Unity\Unity_Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file data-000002CC8CE18ED0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CDCD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2B7A0C0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EB08C90 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB29BE2E0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FA6B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F039020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E855030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC58010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B06C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E821020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC919EF410 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91682010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2666030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87807AF0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AC22010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8BB07010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF9BA00 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91C56700 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E98E030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E855030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8780C300 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2F18B60 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E821020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC870B9CC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.456 seconds
+- Completed reload, in  0.806 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1457ms)
-		BeginReloadAssembly (172ms)
+	ReloadAssembly (806ms)
+		BeginReloadAssembly (91ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (1183ms)
-			LoadAssemblies (183ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (667ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (383ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (454ms)
+			SetupTypeCache (231ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (296ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.0 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2720.
+Total: 2.968100 ms (FindLiveObjects: 0.167000 ms CreateObjectMapping: 0.061500 ms MarkObjects: 2.717200 ms  DeleteObjects: 0.021300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 147.914354 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity
+  artifactKey: Guid(c1b5ba91f204c5d4baeee2cc33abd748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Solar Salute 2.unity using Guid(c1b5ba91f204c5d4baeee2cc33abd748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50ea9e338b3226b195d091dcd40292a') in 0.010030 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.113919 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity
+  artifactKey: Guid(ca48014d2d9b8534ca552531fffc8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Solar Salute 1.unity using Guid(ca48014d2d9b8534ca552531fffc8a45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09d59a14eef4c8e43c0e5e888d68c6d') in 0.002289 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.239644 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
+  artifactKey: Guid(6e8eb3c254ee0c748b00baa97d59e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity using Guid(6e8eb3c254ee0c748b00baa97d59e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f465974b5f8b4bec274f37b5c6900115') in 0.007148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.696618 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity
+  artifactKey: Guid(6e8eb3c254ee0c748b00baa97d59e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Solar Salute 3.unity using Guid(6e8eb3c254ee0c748b00baa97d59e638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630f2d0adedf093778605aa1a527a406') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.615705 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Tutorial.unity
+  artifactKey: Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Tutorial.unity using Guid(e671a0cd9b47d4d49b4ce6e9aa0fe380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0111bc27ee61d95a1534e538e108272') in 0.006327 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003216 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002CC8CE1AE80 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CDCD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2B7C640 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E950C90 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED9B0F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C01C020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E498020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C01C020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91DD6100 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B85C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B06C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F064E40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED39310 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED39310 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC919EBCC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED39310 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB36BD010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED39310 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E9B0010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F064E40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED39310 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E3BBC40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C025040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87340E80 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8ED9B0F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2F21C60 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF5C440 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF63E50 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91F03EC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (688ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (257ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 99.2 MB.
 System memory in use after: 99.5 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2717.
-Total: 3.911300 ms (FindLiveObjects: 0.311500 ms CreateObjectMapping: 0.259900 ms MarkObjects: 3.306000 ms  DeleteObjects: 0.032800 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2723.
+Total: 3.061800 ms (FindLiveObjects: 0.175400 ms CreateObjectMapping: 0.056700 ms MarkObjects: 2.802200 ms  DeleteObjects: 0.026400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -402,8 +1038,172 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.058621 seconds.
+  Time since last request: 48.747352 seconds.
   path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
   artifactKey: Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15aa128a92e536e346eb441b264feef') in 0.007051 seconds 
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8687e9d7af2f2c7cb5228ad0caf86ea') in 0.005756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.996812 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity
+  artifactKey: Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity using Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '945cc3ef841415f18d4f5df64c86cb04') in 0.002021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.367190 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity
+  artifactKey: Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity using Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebcbc9e66c2a08adc2589a9db6ece5f') in 0.002893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.741915 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Loading.unity
+  artifactKey: Guid(bab0b51558e1a5e45ac31da94b275590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Loading.unity using Guid(bab0b51558e1a5e45ac31da94b275590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9fe558d2ff141d22bf85aa8cb86f802') in 0.006424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.182103 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
+  artifactKey: Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity using Guid(0ae7ce7325d7ade4f8b49d11e03b385e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462edc2b9db36e25478490005329b7a7') in 0.002007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003403 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002CC8CE144E0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Assembly-CSharp-firstpass.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8CDCD020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2B7C280 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8C26E290 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB29BE2E0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FA6B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB36E5030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E242040 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91DD6100 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B5085F0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B85C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8B06C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91686020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EFE8020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EFE8020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC919EBCC0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EFE8020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2666030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB3166030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E9B0010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87066CA0 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91686020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EFE8020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8EC99030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8E3BBC40 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC87314030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB2767010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8F05B010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB316A840 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CCB3889060 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8AF7C010 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC91686020 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002CC8FF57030 doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image C:\Users\Owner\Desktop\Projects\LostLights\Lost Lights\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.825 seconds
+Domain Reload Profiling:
+	ReloadAssembly (826ms)
+		BeginReloadAssembly (92ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (684ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (163ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2241 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2726.
+Total: 4.459000 ms (FindLiveObjects: 0.254200 ms CreateObjectMapping: 0.057100 ms MarkObjects: 4.115200 ms  DeleteObjects: 0.031300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.837778 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity
+  artifactKey: Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 2.unity using Guid(d519c556a79243c49865b7e948806653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75c70bbc8db4b8ac29ad79b87d7f560f') in 0.006443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.320390 seconds.
+  path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity
+  artifactKey: Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Lost Lights/Scenes_LL/Lunar Landing Level 3.unity using Guid(70dc9817f3c426141baf378f26e7ef08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99466554bf79644e5841cb45a0b00523') in 0.002518 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

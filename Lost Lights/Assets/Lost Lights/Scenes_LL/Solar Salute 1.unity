@@ -226,7 +226,7 @@ Transform:
   m_GameObject: {fileID: 58193166}
   m_LocalRotation: {x: -0, y: -0, z: 0.790509, w: -0.61245054}
   m_LocalPosition: {x: -0.8103, y: -4.0498, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.84803045, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.75560474, z: 1}
   m_Children: []
   m_Father: {fileID: 1466322787}
   m_RootOrder: 2
@@ -3230,9 +3230,6 @@ MonoBehaviour:
   - {fileID: 2556378195690980419, guid: 77d36898450a0c748a119823eeca4e61, type: 3}
   - {fileID: 8517719428526221155, guid: ed259369fc634204882389925b29d9b4, type: 3}
   - {fileID: 8197601534294258888, guid: b4606d38ac98b0140add87bd86933cc3, type: 3}
-  - {fileID: 7172068057229726416, guid: 1b7378613c39d2143acea621268d10f3, type: 3}
-  - {fileID: 5925120291562322653, guid: afa113e60a2f8cc49ba7c3cac339222e, type: 3}
-  - {fileID: 2556378195690980419, guid: 77d36898450a0c748a119823eeca4e61, type: 3}
   Starrites:
   - {fileID: 2073562528612406274, guid: f4c71066a424f7b439d3724926ee62d7, type: 3}
   - {fileID: 5068977423748267486, guid: 72d1698e0b841574186c4ada1eca6a82, type: 3}
@@ -3241,9 +3238,6 @@ MonoBehaviour:
   - {fileID: 5329355356368889392, guid: 62a9c98f966d45e40b857b61c1d6fde9, type: 3}
   - {fileID: 7269690664918006329, guid: bd9373f9b11e77d46adf2f2ee7cc97ae, type: 3}
   - {fileID: 3387716478081449549, guid: 82f0849eac866c942b4a886f61a0187e, type: 3}
-  - {fileID: 1587500422395746345, guid: a923784c0be22cb4ea791f4dc9b0c1c6, type: 3}
-  - {fileID: 2073562528612406274, guid: f4c71066a424f7b439d3724926ee62d7, type: 3}
-  - {fileID: 1719922149432765243, guid: 3962be5582046b349b4abdbf6610e4a0, type: 3}
   randomQuestion: 0
   randomStarrite: 0
   starritePosition: {fileID: 68294031}
@@ -4260,7 +4254,7 @@ Transform:
   m_GameObject: {fileID: 1572177810}
   m_LocalRotation: {x: -0, y: -0, z: -0.99702144, w: 0.07712542}
   m_LocalPosition: {x: 0.6742, y: -4.1068, z: 0}
-  m_LocalScale: {x: 0.88864005, y: 0.7709367, z: 1}
+  m_LocalScale: {x: 0.79912734, y: 0.7709367, z: 1}
   m_Children: []
   m_Father: {fileID: 1466322787}
   m_RootOrder: 3
