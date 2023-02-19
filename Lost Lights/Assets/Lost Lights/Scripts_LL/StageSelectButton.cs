@@ -11,11 +11,13 @@ namespace InsertStudioLostLights
     {
         public Button lunar1, lunar2, lunar3, solar1, solar2, solar3;
 
-        Stages stage;
+        LoaderLL loader;
+        DefaultStages stages;
 
         private void Awake()
         {
-            stage = FindObjectOfType<Stages>();
+            loader = FindObjectOfType<LoaderLL>();
+            stages = loader.defaultStages; 
         }
 
         void Start()
@@ -27,27 +29,27 @@ namespace InsertStudioLostLights
         
         void checkStages()
         {
-            if(stage.lunarStage1 == true)
+            if(stages.lunarStage1 == true)
             {
                 lunar1.interactable = true;
             }
-            if (stage.lunarStage2 == true)
+            if (stages.lunarStage2 == true)
             {
                 lunar2.interactable = true;
             }
-            if (stage.lunarStage3 == true)
+            if (stages.lunarStage3 == true)
             {
                 lunar3.interactable = true;
             }
-            if (stage.solarStage1 == true)
+            if (stages.solarStage1 == true)
             {
                 solar1.interactable = true;
             }
-            if (stage.solarStage2 == true)
+            if (stages.solarStage2 == true)
             {
                 solar2.interactable = true;
             }
-            if (stage.solarStage3 == true)
+            if (stages.solarStage3 == true)
             {
                 solar3.interactable = true;
             }

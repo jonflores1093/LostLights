@@ -29,7 +29,7 @@ namespace InsertStudioLostLights
     }
     public class LoaderLL : MonoBehaviour
     {
-        Stages stages;
+        //Stages stages;
         public DefaultStages defaultStages = new DefaultStages();
 
         public bool tutorialFT = true;
@@ -173,7 +173,7 @@ namespace InsertStudioLostLights
         void Start()
         {
             
-            stages = FindObjectOfType<Stages>();
+            //stages = FindObjectOfType<Stages>();
             //HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
 
 
@@ -229,7 +229,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true");
                 defaultStages.lunarStage1 = true;
 
-                stages.lunarStage1 = true;
+                //stages.lunarStage1 = true;
                 if (tutorialFT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(2, 2, 8);
@@ -249,7 +249,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true1");
                 defaultStages.lunarStage2 = true;
                 
-                stages.lunarStage2 = true;
+                //stages.lunarStage2 = true;
                 if (lunarStage1FT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(3, 3, 8);
@@ -270,7 +270,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true2");
                 defaultStages.lunarStage3 = true;
                 
-                stages.lunarStage3 = true;
+                //stages.lunarStage3 = true;
                 if (lunarStage2FT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(4, 4, 8);
@@ -290,7 +290,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true3");
                 defaultStages.solarStage1 = true;
                 
-                stages.solarStage1 = true;
+                //stages.solarStage1 = true;
                 if (lunarStage3FT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(5, 5, 8);
@@ -310,7 +310,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true4");
                 defaultStages.solarStage2 = true;
                 
-                stages.solarStage2 = true;
+                //stages.solarStage2 = true;
 
                 if (solarStage1FT == false)
                 {
@@ -331,7 +331,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true5");
                 defaultStages.solarStage3 = true;
                 
-                stages.solarStage3 = true;
+                //stages.solarStage3 = true;
                 if (solarStage2FT == false)
                 {
                     LOLSDK.Instance.SubmitProgress(7, 7, 8);
@@ -351,7 +351,7 @@ namespace InsertStudioLostLights
                 Debug.Log("Set to true5");
                 //defaultStages.solarStage3 = true;
 
-                stages.solarStage3 = true;
+                //stages.solarStage3 = true;
 
                 if (solarStage3FT == false)
                 {

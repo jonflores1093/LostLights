@@ -25,6 +25,7 @@ public class InitializeLoad : MonoBehaviour
 
         void Start()
         {
+            loader = FindObjectOfType<LoaderLL>();
         HelperLL.StateButtonInitialize<DefaultStages>(New_Game, Continue, OnLoad);
         }
 
