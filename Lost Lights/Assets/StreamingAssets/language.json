@@ -80,18 +80,18 @@
     "tutorialButton5":"These arrows rotates the Earth, Moon or the Sun in order to match the Starites requirement! Click me!",
     "tutorialButton6":"Match the Star's  bubble with the correct eclipse then click on the shooting star to see if you are correct! Click me!",
     "tutorialButton7":"Congrats! You finished the tutorial! It's difficult to see, but the Earth here is at a tilt. The Earth being on a tilt causes different seasons to occur when the Earth faces the Sun at various positions! Remeber, approximately every 3 months a new season occurs! Click me to progress to the stage select!",
-    "lunarbutton1":"Lunar Eclipses occurs when the Earth passes between the Sun and moon, causing it to cast a shadow on the Moon. Keep this in mind when navigating each stars requirement! Click me to continue!",
-    "lunarbutton2":"Yay! You got them all home! Remember the 3 types of eclipse and what they look like. Might help you on the next level! Click me to progress!",
-    "lunarbutton3":"Hopefully you remebered what each eclipse looked like! If you get stuck make sure to click the hint button for help. Click me to continue!",
-    "lunarbutton4":"Good Job! Next level will really challenge your memory so get ready! Click me to progress!",
-    "lunarbutton5":"No images this time! Hopefully you memerized the name of each eclipse. Otherwise you'll have a tough time. Good Luck! Click me to continue!",
-    "lunarbutton6":"Nice Job! If you need a refresher, you can replay the levels to help you. Click me to progress!",
-    "solarbutton1":"Solar Eclipses are rare to see! They occur when the Moon passes between Earth and the Sun. Keep an eye on the hints and facts! It might help you! Click me to continue!",
-    "solarbutton2":"Nice Job! This is one variation of Solar eclipse that can occur. The next levels will show you the two other types of eclipse when the Moon is positioned differently. Click me to progress!",
-    "solarbutton3":"The last level you learned about a Annular Eclipse. Here you will learn about Partial Eclipse. Take note of the differences in position of the Moon between the Earth and Sun! Click me to continue!",
-    "solarbutton4":"Great Job! If you had noticed, the position of the Moon is slightly different from the previous level which causes the shadow casted to be shifted down! Click me to progress!",
-    "solarbutton5":"Last level you got this! Total eclipses occur every 18 months so you might not be able to see one anytime soon, but you will get to know what they look like! Click me to continue!",
-    "solarbutton6":"Awesome Job! You sent all the Starites home! You can go back to any level if you wish to refresh your mind on all the Eclipses! Click me to progress!"
+    "lunarButton1":"Lunar Eclipses occurs when the Earth passes between the Sun and moon, causing it to cast a shadow on the Moon. Keep this in mind when navigating each stars requirement! Click me to continue!",
+    "lunarButton2":"Yay! You got them all home! Remember the 3 types of eclipse and what they look like. Might help you on the next level! Click me to progress!",
+    "lunarButton3":"Hopefully you remebered what each eclipse looked like! If you get stuck make sure to click the hint button for help. Click me to continue!",
+    "lunarButton4":"Good Job! Next level will really challenge your memory so get ready! Click me to progress!",
+    "lunarButton5":"No images this time! Hopefully you memerized the name of each eclipse. Otherwise you'll have a tough time. Good Luck! Click me to continue!",
+    "lunarButton6":"Nice Job! If you need a refresher, you can replay the levels to help you. Click me to progress!",
+    "solarButton1":"Solar Eclipses are rare to see! They occur when the Moon passes between Earth and the Sun. Keep an eye on the hints and facts! It might help you! Click me to continue!",
+    "solarButton2":"Nice Job! This is one variation of Solar eclipse that can occur. The next levels will show you the two other types of eclipse when the Moon is positioned differently. Click me to progress!",
+    "solarButton3":"The last level you learned about a Annular Eclipse. Here you will learn about Partial Eclipse. Take note of the differences in position of the Moon between the Earth and Sun! Click me to continue!",
+    "solarButton4":"Great Job! If you had noticed, the position of the Moon is slightly different from the previous level which causes the shadow casted to be shifted down! Click me to progress!",
+    "solarButton5":"Last level you got this! Total eclipses occur every 18 months so you might not be able to see one anytime soon, but you will get to know what they look like! Click me to continue!",
+    "solarButton6":"Awesome Job! You sent all the Starites home! You can go back to any level if you wish to refresh your mind on all the Eclipses! Click me to progress!"
 
 
   }

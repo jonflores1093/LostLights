@@ -4292,7 +4292,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 487982546}
         m_TargetAssemblyTypeName: InsertStudioLostLights.SubmitMarker, Assembly-CSharp
-        m_MethodName: DisableSubmitBtn
+        m_MethodName: EnableEndBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6756,6 +6756,19 @@ PrefabInstance:
     - target: {fileID: 5785184951164141718, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
+      propertyPath: m_text
+      value: "Here you will learn how to help us get home! \nClick each of the screens
+        that appear to learn more about what each component does! \nClick me to continue!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
+      propertyPath: m_fontSize
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
