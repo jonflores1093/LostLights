@@ -4292,7 +4292,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 487982546}
         m_TargetAssemblyTypeName: InsertStudioLostLights.SubmitMarker, Assembly-CSharp
-        m_MethodName: EnableEndBtn
+        m_MethodName: DisableSubmitBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
