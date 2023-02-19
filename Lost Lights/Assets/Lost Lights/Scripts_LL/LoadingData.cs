@@ -19,7 +19,8 @@ namespace InsertStudioLostLights
             , solarEclipsePartial3, solarEclipsePartial4, solarEclipsePartial5, solarEclipseAnnular1, solarEclipseAnnular2, solarEclipseAnnular3
             , solarEclipseAnnular4, solarEclipseAnnular5, solarEclipseTotal1, solarEclipseTotal2, solarEclipseTotal3, solarEclipseTotal4, solarEclipseTotal5, facts1, facts2, facts3, facts4, facts5, facts6, facts7, facts8
             , facts9, facts10, facts11, facts12, facts13, facts14, facts15, facts16, facts17, facts18, facts19, facts20, facts21, facts22, facts23
-            , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable, hintSolar, hintLunar, retry;
+            , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable, hintSolar, hintLunar, retry, tutorialButton1, tutorialButton2, tutorialButton3, tutorialButton4, tutorialButton5, tutorialButton6, tutorialButton7
+            , lunarButton1, lunarButton2, lunarButton3, lunarButton4, lunarButton5, lunarButton6,solarButton1, solarButton2, solarButton3, solarButton4, solarButton5, solarButton6;
 
 
         private void Start()
@@ -139,6 +140,27 @@ namespace InsertStudioLostLights
                 hintSolar.text = GetText("hintSolar");
                 hintLunar.text = GetText("hintLunar");
                 retry.text = GetText("retry");
+                tutorialButton1.text = GetText("tutorialButton1");
+                tutorialButton2.text = GetText("tutorialButton2");
+                tutorialButton3.text = GetText("tutorialButton3");
+                tutorialButton4.text = GetText("tutorialButton4");
+                tutorialButton5.text = GetText("tutorialButton5");
+                tutorialButton6.text = GetText("tutorialButton6");
+                tutorialButton7.text = GetText("tutorialButton7");
+                lunarButton1.text = GetText("lunarButton1");
+                lunarButton2.text = GetText("lunarButton2");
+                lunarButton3.text = GetText("lunarButton3");
+                lunarButton4.text = GetText("lunarButton4");
+                lunarButton5.text = GetText("lunarButton5");
+                lunarButton6.text = GetText("lunarButton6");
+                solarButton1.text = GetText("solarButton1");
+                solarButton2.text = GetText("solarButton2");
+                solarButton3.text = GetText("solarButton3");
+                solarButton4.text = GetText("solarButton4");
+                solarButton5.text = GetText("solarButton5");
+                solarButton6.text = GetText("solarButton6");
+
+
         }
         string GetText(string key)
         {
