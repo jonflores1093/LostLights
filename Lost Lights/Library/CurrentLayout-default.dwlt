@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 881, y: 492}
   m_MaxSize: {x: 16006, y: 14042}
   vertical: 0
-  controlID: 38
+  controlID: 37
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 12005, y: 14042}
   vertical: 1
-  controlID: 138
+  controlID: 46
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 139
+  controlID: 47
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/LegendsOfLearning-Example/Scripts
+    - Assets/Lost Lights/Scenes_LL
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/LegendsOfLearning-Example/Scripts
+  - Assets/Lost Lights/Scenes_LL
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity\Unity_Projects\LostLights\Lost Lights
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 180}
-    m_SelectedIDs: 18540000
-    m_LastClickedID: 21528
-    m_ExpandedIDs: 000000005e4c0000604c0000624c0000644c00006e4c000000ca9a3b
+    m_SelectedIDs: 80490000
+    m_LastClickedID: 18816
+    m_ExpandedIDs: 00000000524900005449000056490000584900005a49000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e4c0000604c0000624c0000644c0000
+    m_ExpandedIDs: 00000000524900005449000056490000584900005a490000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -533,9 +533,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 0cedffff6ef0ffffcef0ffffe6f0ffffc8f1ffff3ef2ffffb4f2ffff2af3ffffa6f3ffff22f4ffff9ef4fffff6f4ffff5af5ffffb2f5ffffc2f5ffffd8f6ffff9ef7fffffe4d0000427b0000567c0000
+      m_SelectedIDs: eef9ffff
+      m_LastClickedID: -1554
+      m_ExpandedIDs: 40faffff62fbffffc4490000f8490000aa4a0000024b0000144b0000884b00009a4b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: 0.5707346, y: -2.2234516, z: -10.769987}
     speed: 2
-    m_Value: {x: 0.5468548, y: -2.4759986, z: -10.733588}
+    m_Value: {x: 0.5707346, y: -2.2234516, z: -10.769987}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -650,7 +650,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 8.452556
     speed: 2
-    m_Value: 8.08857
+    m_Value: 8.452556
   m_Ortho:
     m_Target: 1
     speed: 2
