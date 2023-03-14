@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Lost Lights/Scenes_LL/Lunar Landing Level 1.unity
+- path: Assets/Lost Lights/Scenes_LL/Lunar Learning.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

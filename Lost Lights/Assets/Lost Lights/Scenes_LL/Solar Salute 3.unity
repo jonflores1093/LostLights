@@ -370,18 +370,6 @@ PrefabInstance:
       value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4869360879612272925, guid: 77ca8bf66ea040042a7f8fdbe015e9a4, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.7831
-      objectReference: {fileID: 0}
-    - target: {fileID: 4869360879612272925, guid: 77ca8bf66ea040042a7f8fdbe015e9a4, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.7831
-      objectReference: {fileID: 0}
-    - target: {fileID: 4869360879612272925, guid: 77ca8bf66ea040042a7f8fdbe015e9a4, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.7831
-      objectReference: {fileID: 0}
-    - target: {fileID: 4869360879612272925, guid: 77ca8bf66ea040042a7f8fdbe015e9a4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.75
       objectReference: {fileID: 0}
@@ -2896,6 +2884,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fact Display
       objectReference: {fileID: 0}
+    - target: {fileID: 8010209287380081197, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4f5dbaba072b52418fc06b4c7a6a486, type: 3}
 --- !u!1 &1085646985
@@ -4739,6 +4731,10 @@ PrefabInstance:
     - target: {fileID: 428367859289475405, guid: 9c6808b8026941244b65e2691b2ef946, type: 3}
       propertyPath: m_Name
       value: solarButton5
+      objectReference: {fileID: 0}
+    - target: {fileID: 428367859289475405, guid: 9c6808b8026941244b65e2691b2ef946, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 428367859289475406, guid: 9c6808b8026941244b65e2691b2ef946, type: 3}
       propertyPath: m_Pivot.x
