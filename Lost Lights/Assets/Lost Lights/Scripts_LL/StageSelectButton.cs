@@ -9,7 +9,7 @@ namespace InsertStudioLostLights
 {
     public class StageSelectButton : MonoBehaviour
     {
-        public Button lunar1, lunar2, lunar3, solar1, solar2, solar3;
+        public Button lunar1, lunar2, lunar3, solar1, solar2, solar3, lunarLearning, solarLearning ;
 
         LoaderLL loader;
         DefaultStages stages;
@@ -52,6 +52,14 @@ namespace InsertStudioLostLights
             if (stages.solarStage3 == true)
             {
                 solar3.interactable = true;
+            }
+            if (stages.lunarLearning == true)
+            {
+                lunarLearning.interactable = true;
+            }
+            if (stages.solarLearning == true)
+            {
+                solarLearning.interactable = true;
             }
 
         }

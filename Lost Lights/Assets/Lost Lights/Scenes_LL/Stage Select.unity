@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -77, y: -206}
+  m_AnchoredPosition: {x: 84, y: -206}
   m_SizeDelta: {x: 100, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &847116514
@@ -704,7 +704,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 847116517}
   m_OnClick:
     m_PersistentCalls:
@@ -797,7 +797,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: -206}
+  m_AnchoredPosition: {x: -238, y: -206}
   m_SizeDelta: {x: 100, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &870895553
@@ -1349,6 +1349,8 @@ MonoBehaviour:
   solar1: {fileID: 1508061034}
   solar2: {fileID: 1277029250}
   solar3: {fileID: 1032259294}
+  lunarLearning: {fileID: 1560753822}
+  solarLearning: {fileID: 847116516}
 --- !u!4 &1230323345
 Transform:
   m_ObjectHideFlags: 0
@@ -2069,7 +2071,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -204.3, y: -206}
+  m_AnchoredPosition: {x: -77, y: -206}
   m_SizeDelta: {x: 100, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560753820
@@ -2138,7 +2140,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1560753823}
   m_OnClick:
     m_PersistentCalls:
@@ -3554,6 +3556,14 @@ PrefabInstance:
     - target: {fileID: 4858689878514220534, guid: abfe9de36aa318448a604694b7e36055, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5000449385923848813, guid: abfe9de36aa318448a604694b7e36055, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
+    - target: {fileID: 5000449385923848813, guid: abfe9de36aa318448a604694b7e36055, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7359521456263180954, guid: abfe9de36aa318448a604694b7e36055, type: 3}
       propertyPath: m_Pivot.x
