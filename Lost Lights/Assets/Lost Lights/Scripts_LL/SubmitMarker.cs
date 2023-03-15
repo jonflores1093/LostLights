@@ -13,8 +13,8 @@ namespace InsertStudioLostLights
     public class SubmitMarker : MonoBehaviour
     {
         
-        public Button submitButton, hintBtn, retryBtn, beginBtn, speechBtn, displayBtn, factBtn, arrowBtn, subBtn, endingBtn;
-        public TMP_Text counter, correct, tryagain, seasons;
+        public Button submitButton, hintBtn, retryBtn, beginBtn, speechBtn, displayBtn, factBtn, arrowBtn, subBtn, endingBtn;      
+        public TMP_Text counter, correct, tryagain, seasons, displayScreenText;
         public float staritesRemaining = 8;
       
         public int markerNumber, count;
@@ -217,6 +217,12 @@ namespace InsertStudioLostLights
         {
             load.changeClickable();
         }
+
+        public void EnableDisplayText()
+        {
+            displayScreenText.gameObject.SetActive(true);
+        }
+
 
         public void OnTriggerEnter2D(Collider2D other)
         {
