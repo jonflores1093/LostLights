@@ -40,10 +40,16 @@ namespace InsertStudioLostLights
 
                 LOLSDK.Instance.SpeakText(textKey);
 
+
+                // KEEP THIS CODE FOR TESTING
+
                 //((ILOLSDK_EDITOR)LOLSDK.Instance.PostMessage).SpeakText(SharedStateLL.LanguageDefs_LL[textKey],
                 //    clip => { _ttsAudioSource.clip = clip; _ttsAudioSource.Play(); },
                 //    this,
                 //    languageCode);
+
+                //
+
             }
             else
             {
