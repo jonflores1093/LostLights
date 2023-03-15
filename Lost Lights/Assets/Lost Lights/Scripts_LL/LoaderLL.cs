@@ -13,7 +13,8 @@ namespace InsertStudioLostLights
 
     public class DefaultStages 
     {
-
+        //public bool lunarLearning = true;
+        //public bool solarLearning = false;
         public bool tutorial = true;
         public bool lunarStage1 = false;
         public bool lunarStage2 = false;

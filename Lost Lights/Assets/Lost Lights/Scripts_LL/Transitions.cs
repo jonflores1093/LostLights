@@ -107,6 +107,16 @@ namespace InsertStudioLostLights
             nextScene.interactable = false;
 
         }
+
+        public void Lunar_Learning()
+        {
+            SceneManager.LoadScene("Lunar Learning",LoadSceneMode.Single);
+        }
+
+        public void Solar_Learning()
+        {
+            SceneManager.LoadScene("Solar Learning",LoadSceneMode.Single);
+        }
       
         
         

@@ -71,8 +71,8 @@
     "textToSpeechEnable":"Text to speech enabled",
     "textToSpeechDisable":"Text to speech disabled",
     "hintSolar":"Hint: Pay attention to the Sun's position! Click me!",
-    "retry":"OH NO! You weren't able to send the Starites home! You will have to try again. Click me!",
-    "hintLunar":"Hint: Make sure to get the shadow close as possible to the Starite's wish! Click me!",
+    "retry":"OH NO! You weren't able to send the Starites home! You will have to try again. If you need to, go back to tutorial Learning Concepts for help! Click me!",
+    "hintLunar":"Hint: Make sure to get the image as close as possible to the Starite's wish! Click me!",
     "tutorialButton1":"Here you will learn how to help us get home! Click each of the screens that appear to learn more about what each component does! Click me to continue!",
     "tutorialButton2":"Here the Starites will let you know what is needed to send them home! Click me!",
     "tutorialButton3":"This screen will show you the Earth and Moon's rotation! (In the tutorial, it will show directions to progress) Click me!",
@@ -99,7 +99,9 @@
     "solarlearning1":"Solar eclipses happen when the Moon is between the Earth and the Sun. During a solar eclipse, the Moon casts a shadow on Earth and blocks or partially blocks the view of the Sun. Click to Continue . . .",
     "solarlearning2":"A Total Solar Eclipse happens when the Moon is in the center of the Umbra thus blocking the face of the Sun. Click to Continue . . .",
     "solarlearning3":"A Partial Solar Eclipse is not in the center of the Umbra, but partly in the Penumbra. Click to Continue . . .",
-    "solarlearning4":"An Annular Solar Eclipse is a bit more complicated. It is when the Moon is in the center of the Umbra, but it's further away from the Earth thus appearing smaller than the Sun."
+    "solarlearning4":"An Annular Solar Eclipse is a bit more complicated. It is when the Moon is in the center of the Umbra, but it's further away from the Earth thus appearing smaller than the Sun.",
+    "lunarlearningText":"Lunar Concept",
+    "solarlearningText":"Solar Concept"
 
 
   }
