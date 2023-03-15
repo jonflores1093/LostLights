@@ -274,6 +274,38 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7339238344222413693, guid: 8598836b1fe43d24ca2f07c756be0fbf, type: 3}
     - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: lunarlearning1
+      value: 
+      objectReference: {fileID: 6729142019421898803, guid: 3cb5cdd3ef74e8548ac323bf8486bd9f, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: lunarlearning2
+      value: 
+      objectReference: {fileID: 393625618865981825, guid: aa850150e242ae54fb56be7f02237a0d, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: lunarlearning3
+      value: 
+      objectReference: {fileID: 4475432523770596412, guid: 6cdcb5f671a47dc4785f3af7db0d7b02, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: lunarlearning4
+      value: 
+      objectReference: {fileID: 928117710769724362, guid: fc650a21108fb75479a4aa9ae4cad38e, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: solarlearning1
+      value: 
+      objectReference: {fileID: 12848991648454982, guid: ef3576e3794e897478d00a059220a31a, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: solarlearning2
+      value: 
+      objectReference: {fileID: 6503725733217171149, guid: 0b57d03b5790b3a40a744210305877b1, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: solarlearning3
+      value: 
+      objectReference: {fileID: 7737455622637709711, guid: 3dbfbec784971bf44b2115adfd5a96e3, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: solarlearning4
+      value: 
+      objectReference: {fileID: 698377129741708422, guid: 8c2bdc043dcc6c44c8f545b97787ed69, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
       propertyPath: tutorialButton1
       value: 
       objectReference: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
