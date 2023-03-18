@@ -1434,6 +1434,7 @@ MonoBehaviour:
   correct: {fileID: 1726569007}
   tryagain: {fileID: 1726569006}
   seasons: {fileID: 1146795289}
+  displayScreenText: {fileID: 0}
   staritesRemaining: 7
   markerNumber: 0
   count: 0
@@ -5092,6 +5093,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2acd593ab358fb45830bb1d44a3f4d7, type: 3}
+--- !u!1 &5662040543608657558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5662040544849659307, guid: e2acd593ab358fb45830bb1d44a3f4d7, type: 3}
+  m_PrefabInstance: {fileID: 5662040543608657557}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5662040543608657559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5662040543608657558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}
 --- !u!1001 &5932568111371455596
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5250,3 +5270,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fd4cdee67e95d544b585f99cdda70e1, type: 3}
+--- !u!1 &6825455386616702739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6825455386476581770, guid: 3fd4cdee67e95d544b585f99cdda70e1, type: 3}
+  m_PrefabInstance: {fileID: 6825455386616702738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6825455386616702740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6825455386616702739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}

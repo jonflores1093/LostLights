@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7789976565231145475}
   - component: {fileID: 7789976565231145473}
   - component: {fileID: 7789976565231145472}
+  - component: {fileID: 2143289629326604226}
   m_Layer: 5
   m_Name: retry
   m_TagString: Untagged
@@ -65,8 +66,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "OH NO! You werent able to send the Starites home! You will have to try
-    again. \nClick me!"
+  m_text: OH NO! You weren't able to send the Starites home! You will have to try
+    again. If you need to, go back to tutorial Learning Concepts for help! Click
+    me!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
   m_sharedMaterial: {fileID: 1072351632981147674, guid: 2f942ad9597826a4eb0487a2fbfc4bff, type: 2}
@@ -135,3 +137,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &2143289629326604226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7789976565231145474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}

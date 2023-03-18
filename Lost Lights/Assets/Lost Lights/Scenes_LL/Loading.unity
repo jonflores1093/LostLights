@@ -226,6 +226,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 7348190393610360976, guid: 4bd2daa57e675d44b9c0c279d785f523, type: 3}
     - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: umbraText
+      value: 
+      objectReference: {fileID: 6001871105601636101, guid: c8fb3e52d09a1f648b1c42fb9cc72317, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
       propertyPath: lunarButton1
       value: 
       objectReference: {fileID: 1855299661576123338, guid: ebb4310956b5f8445b680721eba42d7d, type: 3}
@@ -249,6 +253,10 @@ PrefabInstance:
       propertyPath: lunarButton6
       value: 
       objectReference: {fileID: 4450321532475863349, guid: 7e3a79e6334ba414e801b23f2fa7e464, type: 3}
+    - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
+      propertyPath: penumbraText
+      value: 
+      objectReference: {fileID: 7948547694363351437, guid: 0e4f6f68e83cfc0438c73db7f2ad8c62, type: 3}
     - target: {fileID: 9186491289830430726, guid: 694c89592ea2bed488ca8c7b3a23d088, type: 3}
       propertyPath: solarButton1
       value: 

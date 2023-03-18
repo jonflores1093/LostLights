@@ -21,7 +21,7 @@ namespace InsertStudioLostLights
             , facts9, facts10, facts11, facts12, facts13, facts14, facts15, facts16, facts17, facts18, facts19, facts20, facts21, facts22, facts23
             , facts24, facts25, next, direction, textToSpeechEnable, textToSpeechDisable, hintSolar, hintLunar, retry, tutorialButton1, tutorialButton2, tutorialButton3, tutorialButton4, tutorialButton5, tutorialButton6, tutorialButton7
             , lunarButton1, lunarButton2, lunarButton3, lunarButton4, lunarButton5, lunarButton6,solarButton1, solarButton2, solarButton3, solarButton4, solarButton5, solarButton6,lunarlearning1, lunarlearning2
-            , lunarlearning3, lunarlearning4, solarlearning1, solarlearning2, solarlearning3, solarlearning4, solarlearningText, lunarlearningText;
+            , lunarlearning3, lunarlearning4, solarlearning1, solarlearning2, solarlearning3, solarlearning4, solarlearningText, lunarlearningText, umbraText, penumbraText;
 
 
         private void Start()
@@ -170,6 +170,9 @@ namespace InsertStudioLostLights
                 solarlearning4.text = GetText("solarlearning4");
                 solarlearningText.text = GetText("solarlearningText");
                 lunarlearningText.text = GetText("lunarlearningText");
+                umbraText.text = GetText("umbraText");
+                penumbraText.text = GetText("penumbraText");
+
 
 
 

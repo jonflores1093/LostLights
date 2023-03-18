@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3245126563657379815}
   - component: {fileID: 3245126563657379833}
   - component: {fileID: 3245126563657379832}
+  - component: {fileID: 6344589253670242727}
   m_Layer: 5
   m_Name: hintLunar
   m_TagString: Untagged
@@ -65,10 +66,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hint: Make sure to get the shadow close as possible to the Starite''s
-    wish!
-
-    Click me!'
+  m_text: 'Hint: Make sure to get the image as close as possible to the Starite''s
+    wish! Click me!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
   m_sharedMaterial: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
@@ -137,3 +136,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &6344589253670242727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3245126563657379814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}

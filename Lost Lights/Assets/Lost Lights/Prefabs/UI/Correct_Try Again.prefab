@@ -138,12 +138,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3220585327547761275, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
+      propertyPath: m_text
+      value: Try Again!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3220585327547761275, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
     - target: {fileID: 3220585327547761278, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
       propertyPath: m_Name
-      value: WrongText
+      value: tryAgain
       objectReference: {fileID: 0}
     - target: {fileID: 3220585327547761278, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
       propertyPath: m_IsActive
@@ -151,11 +155,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
+--- !u!1 &1045719273838227362 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3220585327547761278, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
+  m_PrefabInstance: {fileID: 2464301778967588316}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1045719273838227365 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3220585327547761273, guid: b73393e5bc6888245acea75b6d9bd5dc, type: 3}
   m_PrefabInstance: {fileID: 2464301778967588316}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3457840815312839712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045719273838227362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}
 --- !u!1001 &6510058479325947111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -165,7 +188,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2560076394620053763, guid: aee3ce091c0053b4cb0296e1ae080db5, type: 3}
       propertyPath: m_Name
-      value: CorrectText
+      value: correct
       objectReference: {fileID: 0}
     - target: {fileID: 2560076394620053763, guid: aee3ce091c0053b4cb0296e1ae080db5, type: 3}
       propertyPath: m_IsActive

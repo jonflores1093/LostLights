@@ -101,7 +101,9 @@
     "solarlearning3":"A Partial Solar Eclipse is not in the center of the Umbra, but partly in the Penumbra. Click to Continue . . .",
     "solarlearning4":"An Annular Solar Eclipse is a bit more complicated. It is when the Moon is in the center of the Umbra, but it's further away from the Earth thus appearing smaller than the Sun.",
     "lunarlearningText":"Lunar Concept",
-    "solarlearningText":"Solar Concept"
+    "solarlearningText":"Solar Concept",
+    "umbraText":"Umbra",
+    "penumbraText":"Penumbra"
 
 
   }

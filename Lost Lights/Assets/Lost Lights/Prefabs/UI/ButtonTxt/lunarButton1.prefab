@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1855299661576123339}
   - component: {fileID: 1855299661576123337}
   - component: {fileID: 1855299661576123338}
+  - component: {fileID: 8037858495706008419}
   m_Layer: 5
   m_Name: lunarButton1
   m_TagString: Untagged
@@ -65,9 +66,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Lunar Eclipses occurs when the Earth passes between the Sun and moon,
-    causing it to cast a shadow on the Moon. Keep this in mind when navigating each
-    stars requirement! \n\nClick me to continue!"
+  m_text: Lunar Eclipses occurs when the Earth passes between the Sun and moon, causing
+    it to cast a shadow on the Moon. Keep this in mind when navigating each stars
+    requirement! Click me to continue!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
   m_sharedMaterial: {fileID: -4218974358394803297, guid: 5f9e9fe6061a8124ca23348a238d7b43, type: 2}
@@ -136,3 +137,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &8037858495706008419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1855299661576123340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}
