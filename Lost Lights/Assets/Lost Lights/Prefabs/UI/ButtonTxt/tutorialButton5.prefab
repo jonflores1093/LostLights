@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.9, y: -1.5}
+  m_AnchoredPosition: {x: 4.9000244, y: -1.5}
   m_SizeDelta: {x: -88.091, y: -127.81799}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8888457283028373545
@@ -65,11 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'These arrows rotates the Earth, Moon or the Sun in order to match the
-    Starites requirement!
-
-
-    Click me!'
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

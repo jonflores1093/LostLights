@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 4.899994, y: -1.5000153}
+  m_AnchoredPosition: {x: 4.9000244, y: -1.5}
   m_SizeDelta: {x: -88.091, y: -127.81799}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5945804977605378420
@@ -65,10 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Congrats! You finished the tutorial! \n\nIt's difficult to see, but the
-    Earth here is at a tilt. The Earth being on a tilt causes different seasons to
-    occur when the Earth faces the Sun at various positions! Remeber, approximately
-    every 3 months a new season occurs!\n\nClick me to progress to the stage select!"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
