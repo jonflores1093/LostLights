@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5785184951164141718}
   - component: {fileID: 5785184951164141712}
   - component: {fileID: 5785184951164141719}
+  - component: {fileID: -2932062328411245079}
   m_Layer: 5
   m_Name: tutorialButton1
   m_TagString: Untagged
@@ -134,3 +135,17 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &-2932062328411245079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785184951164141717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textKey: 
+  ttsBool: {fileID: 0}

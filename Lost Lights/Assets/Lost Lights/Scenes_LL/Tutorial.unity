@@ -123,25 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &50112476 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8732307234498297817, guid: 737d09e65ef757141800d1e450ce9d8f, type: 3}
-  m_PrefabInstance: {fileID: 8732307233569145567}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &50112477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 50112476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &68294030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,25 +1046,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moonNumberMarker: 3
---- !u!1 &267538374 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2401277969577830124, guid: 0aff72b0d9922d842ba383f3b6f2d254, type: 3}
-  m_PrefabInstance: {fileID: 2401277969950005817}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &267538375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 267538374}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &290401699
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,25 +1791,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &496930981 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8960138420378585804, guid: 3801669c86c1fc84a88d78fad0408fb1, type: 3}
-  m_PrefabInstance: {fileID: 8960138421486281958}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &496930982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496930981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &506073602
 GameObject:
   m_ObjectHideFlags: 0
@@ -2511,25 +2454,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 656414969}
   m_CullTransparentMesh: 1
---- !u!1 &667496399 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5785184951164141717, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-  m_PrefabInstance: {fileID: 5785184951060149924}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &667496400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 667496399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &684845528
 GameObject:
   m_ObjectHideFlags: 0
@@ -2685,25 +2609,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 749129556}
   m_CullTransparentMesh: 1
---- !u!1 &910984157 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5945804977605378419, guid: ec6c94158f8d1f94d868d25e1e371d0e, type: 3}
-  m_PrefabInstance: {fileID: 5945804976674979977}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &910984158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 910984157}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &962476898
 GameObject:
   m_ObjectHideFlags: 0
@@ -3768,25 +3673,6 @@ MonoBehaviour:
   xbg: 0.01
   earthMove: {fileID: 347291928}
   rot_Speed: 40
---- !u!1 &1218479425 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8888457283028373548, guid: 6f4495b5e81fe6d4f958ea460cfe52a9, type: 3}
-  m_PrefabInstance: {fileID: 8888457283480225565}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1218479426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1218479425}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &1255439891
 GameObject:
   m_ObjectHideFlags: 0
@@ -5069,25 +4955,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1658886700}
   m_CullTransparentMesh: 1
---- !u!1 &1667483737 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5134078898239741490, guid: be983902ecc9566429625c055af60e52, type: 3}
-  m_PrefabInstance: {fileID: 5134078896538969100}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1667483738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1667483737}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e45e1e1eafc0c0c4fbcbbc6939357b18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textKey: 
-  ttsBool: {fileID: 0}
 --- !u!1 &1716972545
 GameObject:
   m_ObjectHideFlags: 0
@@ -6922,27 +6789,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-      propertyPath: m_text
-      value: "Here you will learn how to help us get home! \nClick each of the screens
-        that appear to learn more about what each component does! \nClick me to continue!"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-      propertyPath: m_fontSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
-      propertyPath: m_isRightToLeft
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
 --- !u!1001 &5932568111371455596
@@ -7100,14 +6946,6 @@ PrefabInstance:
     - target: {fileID: 5945804977605378419, guid: ec6c94158f8d1f94d868d25e1e371d0e, type: 3}
       propertyPath: m_Name
       value: tutorialButton7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5945804977605378421, guid: ec6c94158f8d1f94d868d25e1e371d0e, type: 3}
-      propertyPath: m_text
-      value: "Congrats! You finished the tutorial! \n\nIt's difficult to see, but
-        the Earth here is at a tilt. The Earth being on a tilt causes different seasons
-        to occur when the Earth faces the Sun at various positions! Remember, approximately
-        every 3 months a new season occurs!\n\nClick me to progress to the stage
-        select!"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec6c94158f8d1f94d868d25e1e371d0e, type: 3}
