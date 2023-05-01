@@ -1889,4 +1889,4 @@ ScriptsOnlyBuild:
   - Assets/Lost Lights/Scenes_LL/Tutorial.unity
   - Assets/Lost Lights/Scenes_LL/Lunar Learning.unity
   - Assets/Lost Lights/Scenes_LL/Solar Learning.unity
-  playerPath: E:/Unity/Unity_Projects/TestBuildsLoL
+  playerPath: E:/Unity/Unity_Projects/LostLightsGameV2
