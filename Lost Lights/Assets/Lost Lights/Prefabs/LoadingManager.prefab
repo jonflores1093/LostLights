@@ -53,6 +53,8 @@ MonoBehaviour:
   solarStage1FT: 0
   solarStage2FT: 0
   solarStage3FT: 0
+  lunarLearningFT: 0
+  solarLearningFT: 0
   lunar1: 0
   lunar2: 0
   lunar3: 0
@@ -60,8 +62,6 @@ MonoBehaviour:
   solar2: 0
   solar3: 0
   textToSpeech: 0
-  New_Game: {fileID: 6980188226478189953, guid: c4348cabd3ea6ef4bb2bf62be0337370, type: 3}
-  Continue: {fileID: 7523693864745604269, guid: e317e89f3f6e30d4f8c0f154df9962f1, type: 3}
 --- !u!114 &9186491289830430727
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,6 +93,8 @@ MonoBehaviour:
   solarStage1: 0
   solarStage2: 0
   solarStage3: 0
+  lunarLearning: 0
+  solarLearning: 0
 --- !u!114 &9186491289830430726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -172,3 +174,37 @@ MonoBehaviour:
   direction: {fileID: 5351690668078723024, guid: cd2a8d3f4d1f39e44a3804f6d42144f1, type: 3}
   textToSpeechEnable: {fileID: 8002689265278757582, guid: 132f08f557711064cbea2c4606c4cd54, type: 3}
   textToSpeechDisable: {fileID: 8002689265278757582, guid: 132f08f557711064cbea2c4606c4cd54, type: 3}
+  hintSolar: {fileID: 7348190393610360976, guid: 4bd2daa57e675d44b9c0c279d785f523, type: 3}
+  hintLunar: {fileID: 3245126563657379832, guid: 986cc26d505d64c438dd5b8950f2f754, type: 3}
+  retry: {fileID: 7789976565231145472, guid: c5f5a412ba14c504cb6bf82964b512dd, type: 3}
+  tutorialButton1: {fileID: 5785184951164141719, guid: a38ea1b51b18c7442a2750771b96f657, type: 3}
+  tutorialButton2: {fileID: 2401277969577830126, guid: 0aff72b0d9922d842ba383f3b6f2d254, type: 3}
+  tutorialButton3: {fileID: 8732307234498297815, guid: 737d09e65ef757141800d1e450ce9d8f, type: 3}
+  tutorialButton4: {fileID: 8960138420378585802, guid: 3801669c86c1fc84a88d78fad0408fb1, type: 3}
+  tutorialButton5: {fileID: 8888457283028373550, guid: 6f4495b5e81fe6d4f958ea460cfe52a9, type: 3}
+  tutorialButton6: {fileID: 5134078898239741516, guid: be983902ecc9566429625c055af60e52, type: 3}
+  tutorialButton7: {fileID: 5945804977605378421, guid: ec6c94158f8d1f94d868d25e1e371d0e, type: 3}
+  lunarButton1: {fileID: 1855299661576123338, guid: ebb4310956b5f8445b680721eba42d7d, type: 3}
+  lunarButton2: {fileID: 8740485135522662294, guid: f5dcbe5776b9d9842bab707fb539e3b3, type: 3}
+  lunarButton3: {fileID: 526063624132663540, guid: d0049cdfc303b7347945d39fb52d9ed6, type: 3}
+  lunarButton4: {fileID: 7911127106687914990, guid: 8acd77a9c8a6d4649b8e1a9e282af38e, type: 3}
+  lunarButton5: {fileID: 1915681208385748567, guid: 602d09c6c9e472a4ab1454820d52b998, type: 3}
+  lunarButton6: {fileID: 4450321532475863349, guid: 7e3a79e6334ba414e801b23f2fa7e464, type: 3}
+  solarButton1: {fileID: 8204235958603912781, guid: 215b9747f273e084b8f649feab1b3b62, type: 3}
+  solarButton2: {fileID: 6501013433608825793, guid: 7a51082f031774e488229e64665886c5, type: 3}
+  solarButton3: {fileID: 5662040544849659349, guid: e2acd593ab358fb45830bb1d44a3f4d7, type: 3}
+  solarButton4: {fileID: 6825455386476581768, guid: 3fd4cdee67e95d544b585f99cdda70e1, type: 3}
+  solarButton5: {fileID: 428367859289475407, guid: 9c6808b8026941244b65e2691b2ef946, type: 3}
+  solarButton6: {fileID: 7339238344222413693, guid: 8598836b1fe43d24ca2f07c756be0fbf, type: 3}
+  lunarlearning1: {fileID: 6729142019421898803, guid: 3cb5cdd3ef74e8548ac323bf8486bd9f, type: 3}
+  lunarlearning2: {fileID: 393625618865981825, guid: aa850150e242ae54fb56be7f02237a0d, type: 3}
+  lunarlearning3: {fileID: 4475432523770596412, guid: 6cdcb5f671a47dc4785f3af7db0d7b02, type: 3}
+  lunarlearning4: {fileID: 928117710769724362, guid: fc650a21108fb75479a4aa9ae4cad38e, type: 3}
+  solarlearning1: {fileID: 12848991648454982, guid: ef3576e3794e897478d00a059220a31a, type: 3}
+  solarlearning2: {fileID: 6503725733217171149, guid: 0b57d03b5790b3a40a744210305877b1, type: 3}
+  solarlearning3: {fileID: 7737455622637709711, guid: 3dbfbec784971bf44b2115adfd5a96e3, type: 3}
+  solarlearning4: {fileID: 698377129741708422, guid: 8c2bdc043dcc6c44c8f545b97787ed69, type: 3}
+  solarlearningText: {fileID: 590220551067371117, guid: 6904cb1e846d22e4ba03a87705024b33, type: 3}
+  lunarlearningText: {fileID: 3913810469385722912, guid: c212b2a5bc639eb4cb61fb58ca1b5951, type: 3}
+  umbraText: {fileID: 6001871105601636101, guid: c8fb3e52d09a1f648b1c42fb9cc72317, type: 3}
+  penumbraText: {fileID: 7948547694363351437, guid: 0e4f6f68e83cfc0438c73db7f2ad8c62, type: 3}
